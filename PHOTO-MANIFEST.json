@@ -1,0 +1,109 @@
+[
+  {
+    "source": "g8-7.jpg",
+    "slug": "campus-forest",
+    "width": 1024,
+    "height": 576,
+    "sizes": [
+      480,
+      800,
+      1024
+    ],
+    "alt": "University buildings surrounded by dense green woodland."
+  },
+  {
+    "source": "5-2.jpg",
+    "slug": "library-study",
+    "width": 1024,
+    "height": 465,
+    "sizes": [
+      480,
+      800,
+      1024
+    ],
+    "alt": "Students reading and studying at tables between library bookshelves."
+  },
+  {
+    "source": "cs5-3.jpg",
+    "slug": "classroom-learning",
+    "width": 1024,
+    "height": 681,
+    "sizes": [
+      480,
+      800,
+      1024
+    ],
+    "alt": "Students seated at desks in a bright classroom."
+  },
+  {
+    "source": "2.jpg",
+    "slug": "outdoor-sport",
+    "width": 1600,
+    "height": 1068,
+    "sizes": [
+      480,
+      800,
+      1600
+    ],
+    "alt": "Students playing an outdoor ball game on a red-earth court."
+  },
+  {
+    "source": "1-5.jpg",
+    "slug": "indoor-badminton",
+    "width": 1600,
+    "height": 724,
+    "sizes": [
+      480,
+      800,
+      1600
+    ],
+    "alt": "Students playing badminton in an indoor sports hall."
+  },
+  {
+    "source": "s7-4.jpg",
+    "slug": "student-procession",
+    "width": 800,
+    "height": 432,
+    "sizes": [
+      480,
+      800
+    ],
+    "alt": "Students taking part in an outdoor procession with a flag."
+  },
+  {
+    "source": "g2-6.jpg",
+    "slug": "campus-building",
+    "width": 1024,
+    "height": 576,
+    "sizes": [
+      480,
+      800,
+      1024
+    ],
+    "alt": "An aerial view of a curved university building surrounded by trees."
+  },
+  {
+    "source": "g13-copy-8.jpg",
+    "slug": "campus-pond",
+    "width": 1024,
+    "height": 576,
+    "sizes": [
+      480,
+      800,
+      1024
+    ],
+    "alt": "An overhead view of a pond and paths surrounded by trees."
+  },
+  {
+    "source": "9.jpg",
+    "slug": "volleyball",
+    "width": 1600,
+    "height": 728,
+    "sizes": [
+      480,
+      800,
+      1600
+    ],
+    "alt": "Students playing volleyball on an outdoor court."
+  }
+]

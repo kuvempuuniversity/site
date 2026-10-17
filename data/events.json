@@ -1,0 +1,83 @@
+[
+  {
+    "id": "demo-botany-seminar",
+    "title": "Plant science research seminar",
+    "departments": [
+      "applied-botany"
+    ],
+    "type": "Seminar",
+    "audience": "Students and researchers",
+    "start": "2026-11-12T14:00:00+05:30",
+    "end": "2026-11-12T16:00:00+05:30",
+    "venue": "Illustrative venue — not confirmed",
+    "summary": "A sample departmental research seminar demonstrating the shared feed.",
+    "description": "This is fictional content for testing the events interface. It is not an invitation or a scheduled university event.",
+    "status": "scheduled",
+    "featured": true
+  },
+  {
+    "id": "demo-joint-workshop",
+    "title": "Ecology and environmental methods workshop",
+    "departments": [
+      "applied-botany",
+      "environmental-science"
+    ],
+    "type": "Workshop",
+    "audience": "Students and researchers",
+    "start": "2026-11-19T10:00:00+05:30",
+    "end": "2026-11-19T17:00:00+05:30",
+    "venue": "Illustrative venue — not confirmed",
+    "summary": "One fictional workshop, shared by two departments and maintained as a single record.",
+    "description": "This fictional example demonstrates multi-department tagging. Changing this record updates both departmental views.",
+    "status": "scheduled",
+    "featured": true
+  },
+  {
+    "id": "demo-english-lecture",
+    "title": "Reading, language and public life",
+    "departments": [
+      "english"
+    ],
+    "type": "Lecture",
+    "audience": "Everyone",
+    "start": "2026-11-25T11:00:00+05:30",
+    "end": "2026-11-25T12:30:00+05:30",
+    "venue": "To be confirmed (fictional sample)",
+    "summary": "A sample lecture demonstrating a postponed event.",
+    "description": "Fictional demonstration only. The displayed date is the original sample date; no revised date has been announced.",
+    "status": "postponed",
+    "featured": false
+  },
+  {
+    "id": "demo-past-seminar",
+    "title": "Student research conversations",
+    "departments": [
+      "applied-botany"
+    ],
+    "type": "Seminar",
+    "audience": "Students",
+    "start": "2026-09-15T14:00:00+05:30",
+    "end": "2026-09-15T16:00:00+05:30",
+    "venue": "Illustrative venue",
+    "summary": "A fictional past event for testing the archive.",
+    "description": "No real event is represented by this sample archive entry.",
+    "status": "scheduled",
+    "featured": false
+  },
+  {
+    "id": "demo-cancelled-talk",
+    "title": "Campus ecology discussion",
+    "departments": [
+      "environmental-science"
+    ],
+    "type": "Lecture",
+    "audience": "Everyone",
+    "start": "2026-12-02T15:00:00+05:30",
+    "end": "2026-12-02T16:00:00+05:30",
+    "venue": "Illustrative venue",
+    "summary": "A fictional cancellation example, retained with a visible status.",
+    "description": "This sample event demonstrates cancellation labelling. It is not an actual university announcement.",
+    "status": "cancelled",
+    "featured": false
+  }
+]

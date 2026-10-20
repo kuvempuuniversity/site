@@ -15,4 +15,4 @@ body>main>.hero .hero-copy>p:not(.eyebrow){max-width:560px}
 body>main>.hero .hero-copy>.actions{margin-top:22px}
 @media(max-width:760px){body>main>.hero{aspect-ratio:auto;display:block;background:var(--paper)}body>main>.hero>.hero-grid{display:flex;flex-direction:column;align-items:stretch;max-width:none;padding:0}body>main>.hero .landscape{display:block;order:-1;width:100%;min-height:0;aspect-ratio:16/9}body>main>.hero .hero-copy{width:calc(100% - 32px);margin:16px;padding:24px}body>main>.hero h1{font-size:clamp(38px,9vw,54px)}}
 /* Decorative discovery background; existing spacing and opaque cards stay unchanged. */
-#discovery{background-color:var(--paper);background-image:linear-gradient(rgba(248,245,237,.82),rgba(248,245,237,.82)),url("../img/placeholders/home-research-background.svg");background-position:center;background-size:cover;background-repeat:no-repeat}
+#discovery{background-color:var(--paper);background-image:linear-gradient(rgba(248,245,237,.82),rgba(248,245,237,.82)),url("../img/placeholders/home-research-background.png");background-position:center;background-size:cover;background-repeat:no-repeat}

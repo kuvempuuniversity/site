@@ -7,7 +7,10 @@
 /* Homepage hero: full-width photo with an inset text panel. */
 body>main>.hero{width:100%;aspect-ratio:16/9;display:flex;align-items:center;background:var(--paper) url("../img/placeholders/home-hero.png") center/cover no-repeat;overflow:visible}
 body>main>.hero>.hero-grid{display:flex;align-items:center;width:100%;min-height:0;padding-top:32px;padding-bottom:32px}
-body>main>.hero .hero-copy{flex:none;width:min(580px,100%);padding:clamp(24px,3vw,44px);background:var(--green);margin:0;min-width:0}
+body>main>.hero .hero-copy{flex:none;width:min(700px,100%);padding:28px 36px;background:var(--green);margin:0;min-width:0}
 body>main>.hero .landscape{display:none}
-body>main>.hero h1{font-size:clamp(50px,6vw,84px)}
-@media(max-width:760px){body>main>.hero{aspect-ratio:auto;display:block;background:var(--paper)}body>main>.hero>.hero-grid{display:flex;flex-direction:column;align-items:stretch;max-width:none;padding:0}body>main>.hero .landscape{display:block;order:-1;width:100%;min-height:0;aspect-ratio:16/9}body>main>.hero .hero-copy{width:calc(100% - 32px);margin:16px;padding:24px}body>main>.hero h1{font-size:clamp(42px,10vw,64px)}}
+body>main>.hero h1{font-size:clamp(46px,5vw,72px);margin-bottom:20px}
+body>main>.hero .hero-copy>.eyebrow{margin-bottom:14px}
+body>main>.hero .hero-copy>p:not(.eyebrow){max-width:560px}
+body>main>.hero .hero-copy>.actions{margin-top:22px}
+@media(max-width:760px){body>main>.hero{aspect-ratio:auto;display:block;background:var(--paper)}body>main>.hero>.hero-grid{display:flex;flex-direction:column;align-items:stretch;max-width:none;padding:0}body>main>.hero .landscape{display:block;order:-1;width:100%;min-height:0;aspect-ratio:16/9}body>main>.hero .hero-copy{width:calc(100% - 32px);margin:16px;padding:24px}body>main>.hero h1{font-size:clamp(38px,9vw,54px)}}

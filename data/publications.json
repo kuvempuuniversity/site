@@ -1,0 +1,33 @@
+{
+  "last_reviewed": "2026-10-21",
+  "automatic_refresh": false,
+  "coverage": "Partial initial import: two 2025 publications retrieved from Rakesh Tiwari’s Google Scholar profile. Other faculty records are pending. This is not a complete departmental bibliography or a faculty-selected ranking.",
+  "publications": [
+    {
+      "id": "tiwari-2025-seasonal-photosynthesis",
+      "title": "Contrasting Seasonal Variation of Photosynthesis in Evergreen and Deciduous Tree Species From a Tropical Forest",
+      "year": 2025,
+      "authors_display": "R Tiwari, B Hegde, S Hegde, P Bandaru, M Ramesh Babu, …",
+      "authors_truncated": true,
+      "journal": "Physiologia Plantarum",
+      "reference": "177 (4), e70410",
+      "faculty_ids": ["rakesh-tiwari"],
+      "departments": ["environmental-science"],
+      "source_name": "Google Scholar",
+      "source_url": "https://scholar.google.com/citations?user=MTpM3HwAAAAJ&hl=en"
+    },
+    {
+      "id": "javad-2025-leaf-temperatures",
+      "title": "Leaf temperatures in an indian tropical forest exceed physiological limits but durations of exposures are currently not sufficient to cause lasting damage",
+      "year": 2025,
+      "authors_display": "A Javad, V Premugh, R Tiwari, P Bandaru, R Sunny, B Hegde, S Clerici, …",
+      "authors_truncated": true,
+      "journal": "Global Change Biology",
+      "reference": "31 (2), e70069",
+      "faculty_ids": ["rakesh-tiwari"],
+      "departments": ["environmental-science"],
+      "source_name": "Google Scholar",
+      "source_url": "https://scholar.google.com/citations?user=MTpM3HwAAAAJ&hl=en"
+    }
+  ]
+}

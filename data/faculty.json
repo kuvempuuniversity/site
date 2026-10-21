@@ -1,0 +1,11 @@
+{
+  "source": "User-supplied faculty.xlsx and portrait filenames",
+  "updated": "2026-10-21",
+  "faculty": [
+    {"id":"yogendra-kambalagere","name":"Prof. Yogendra Kambalagere","designation":"Professor","department":"Environmental Science","department_id":"environmental-science","email":"yogendraku@gmail.com","research_interests":"Climate impacts and ecophysiology","orcid":"0000-0001-8652-8444","scholar_url":"https://scholar.google.com/citations?user=-TcIYBUAAAAJ&hl=en","photo":"es-yogendra-kambalagere.png"},
+    {"id":"madhusudhana-n","name":"Dr. Madhusudhana N","designation":"Lecturer","department":"Environmental Science","department_id":"environmental-science","email":"","research_interests":"","orcid":"0000-0002-8804-6294","scholar_url":"https://scholar.google.com/citations?user=yHgEzXMAAAAJ&hl=en","photo":"es-madhusudhana-n.png"},
+    {"id":"krishnamurthy-sv","name":"Prof. S V Krishnamurthy","designation":"Professor","department":"Environmental Science","department_id":"environmental-science","email":"","research_interests":"Amphibian ecology, ecotoxicology, environmental contaminants","orcid":"0000-0002-0129-2709","scholar_url":"https://scholar.google.com/citations?user=c5GkfzIAAAAJ&hl=en","photo":"es-krishnamurthy-sv.png"},
+    {"id":"rakesh-tiwari","name":"Prof. Rakesh Tiwari","designation":"Professor of practice","department":"Environmental Science","department_id":"environmental-science","email":"shimogarakesh@gmail.com","research_interests":"Forest ecology, Photosynthesis, Photorespiration, agricultural greenhouse gas mitigation","orcid":"0000-0002-2191-769X","scholar_url":"https://scholar.google.com/citations?user=MTpM3HwAAAAJ&hl=en","photo":"es-rakesh-tiwari.png"},
+    {"id":"nanda-appaji","name":"Dr. Nanda Appaji","designation":"Visiting Scientist","department":"Environmental Science","department_id":"environmental-science","email":"nandabotany@gmail.com","research_interests":"Forest ecology, Phenology, Wildlife biology","orcid":"0000-0003-1592-0937","scholar_url":"https://scholar.google.com/citations?hl=en&user=ZEPvDEUAAAAJ","photo":"es-nanda-appaji.png"}
+  ]
+}

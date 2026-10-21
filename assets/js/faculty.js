@@ -1,0 +1,24 @@
+"use strict";
+(()=>{
+const base=document.body.dataset.base||'./';
+const directory=document.querySelector('#people');
+const profile=document.querySelector('#faculty-profile');
+if(!directory&&!profile)return;
+const el=(tag,text,cls)=>{const node=document.createElement(tag);if(text)node.textContent=text;if(cls)node.className=cls;return node};
+const link=(text,url,external=false)=>{const a=el('a',text);a.href=url;if(external){a.target='_blank';a.rel='noopener noreferrer'}return a};
+const photo=f=>{const img=el('img');img.src=base+'assets/img/faculty/'+f.photo;img.alt='Portrait of '+f.name;img.width=160;img.height=160;img.loading='lazy';img.style.cssText='width:160px;height:160px;object-fit:cover;border-radius:8px;max-width:100%';img.addEventListener('error',()=>{img.replaceWith(el('p','Photograph unavailable.','hint'))},{once:true});return img};
+const scholarly=f=>{const links=el('div',undefined,'actions');links.append(link('Google Scholar ↗',f.scholar_url,true),link('ORCID ↗','https://orcid.org/'+f.orcid,true));return links};
+const target=profile||directory;target.setAttribute('aria-busy','true');
+fetch(base+'data/faculty.json').then(r=>{if(!r.ok)throw Error('Faculty HTTP '+r.status);return r.json()}).then(data=>{
+if(!Array.isArray(data.faculty))throw Error('Invalid faculty dataset');
+if(directory&&!profile){
+const heading=el('h2','Faculty & research interests');const intro=el('p','Meet the faculty listed in the department information supplied for this prototype.');const grid=el('div',undefined,'event-grid');grid.style.cssText='display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:24px';
+data.faculty.filter(f=>f.department_id==='environmental-science').forEach(f=>{const card=el('article',undefined,'panel');const h=el('h3');h.append(link(f.name,base+'faculty/profile.html?id='+encodeURIComponent(f.id)));card.append(photo(f),h,el('p',f.designation));if(f.research_interests)card.append(el('p',f.research_interests));card.append(scholarly(f));const more=el('p');more.append(link('View profile →',base+'faculty/profile.html?id='+encodeURIComponent(f.id)));card.append(more);grid.append(card)});directory.replaceChildren(heading,intro,grid);
+}else if(profile){
+const id=new URLSearchParams(location.search).get('id');const f=data.faculty.find(item=>item.id===id);if(!f){document.title='Faculty profile not found — Kuvempu University';profile.replaceChildren(el('h1','Faculty profile not found'),link('Return to Environmental Science faculty →',base+'departments/environmental-science.html#people'));return}
+document.title=f.name+' — Kuvempu University';const back=el('p',undefined,'breadcrumb');back.append(link('Home',base+'index.html'),document.createTextNode(' / '),link(f.department,base+'departments/'+f.department_id+'.html#people'));profile.replaceChildren(back,el('h1',f.name),photo(f),el('p',f.designation+' · '+f.department),scholarly(f));if(f.research_interests)profile.append(el('h2','Research interests'),el('p',f.research_interests));if(f.email){const contact=el('p');contact.append(link(f.email,'mailto:'+f.email));profile.append(el('h2','Contact'),contact)}
+profile.append(el('h2','Imported publications'));const works=el('div');works.append(el('p','Loading imported publications…'));profile.append(works);fetch(base+'data/publications.json').then(r=>{if(!r.ok)throw Error('Publications HTTP '+r.status);return r.json()}).then(data=>{const rows=data.publications.filter(p=>p.faculty_ids.includes(f.id)).sort((a,b)=>b.year-a.year||a.title.localeCompare(b.title));works.replaceChildren();if(!rows.length){works.append(el('p','Publications have not yet been imported for this profile. This does not mean the researcher has no publications.'));return}rows.forEach(p=>{const article=el('article',undefined,'notice');article.append(el('h3',p.title),el('div',p.authors_display,'hint'),el('div',p.journal+' · '+p.year+' · '+p.reference,'hint'),link('Find publication on Google Scholar ↗','https://scholar.google.com/scholar?q='+encodeURIComponent(p.title),true));works.append(article)});works.append(el('p','Partial imported list. Author lists may be abbreviated. Source: Google Scholar. Last reviewed: '+data.last_reviewed+'. Citation counts and automatic refresh are not active.','event-note'))}).catch(()=>works.replaceChildren(el('p','The imported publication list could not load. Use the Google Scholar link above.')));
+profile.append(el('p','Profile information supplied for this independent design concept. Missing fields have been omitted. Institutional review is required before official publication.','event-note'));
+}
+}).catch(error=>{target.replaceChildren(el('h2','Faculty information'),el('p','Faculty information could not load. Please try again later.'));console.error(error)}).finally(()=>target.setAttribute('aria-busy','false'));
+})();

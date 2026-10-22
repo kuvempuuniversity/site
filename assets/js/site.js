@@ -1,4 +1,5 @@
 "use strict";
+(()=>{const base=document.body.dataset.base||'./';document.querySelectorAll('header .brand').forEach(brand=>{const logo=document.createElement('img');logo.src=base+'assets/img/placeholders/kulogo.png';logo.alt='';logo.style.cssText='display:block;width:48px;height:56px;object-fit:contain;flex-shrink:0';const name=document.createElement('span');name.className='brandname';name.textContent='Kuvempu University';brand.href=base+'index.html';brand.setAttribute('aria-label','Kuvempu University concept homepage');brand.replaceChildren(logo,name)})})();
 (()=>{
 const subjects=[['Applied Botany','science'],['Environmental Science','science'],['Chemistry','science'],['Computer Sciences','science'],['English','arts'],['Kannada','arts'],['History and Archaeology','arts'],['Social Work','arts'],['Commerce','commerce'],['Business Administration','commerce'],['Education','education'],['Physical Education','education']];
 const names={science:'Sciences',arts:'Arts & languages',commerce:'Commerce & management',education:'Education'};

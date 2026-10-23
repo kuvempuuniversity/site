@@ -1,0 +1,28 @@
+/* Profile-only overrides; !important replaces existing renderer inline styles. */
+.faculty-profile-page{font-size:18px;line-height:1.6}
+.faculty-profile-page .wrap{width:100%;max-width:1440px;padding-inline:clamp(20px,4vw,56px)}
+.faculty-profile-page .brandrow{padding-block:16px;gap:16px 28px}
+.faculty-profile-page .brandname{font-size:24px}
+.faculty-profile-page .brandrow nav{font-size:15px;line-height:1.45}
+.faculty-profile-page .wrap.page-pad{padding-block:16px 40px;padding-inline:clamp(20px,4vw,56px)}
+.faculty-profile-page .breadcrumb{font-size:14px;line-height:1.5;margin:0 0 16px}
+.faculty-profile-page .faculty-profile-layout{display:grid!important;grid-template-columns:300px minmax(0,1fr);gap:28px!important;align-items:start;margin-top:0!important}
+.faculty-profile-page .faculty-profile-identity{padding:24px;width:100%}
+.faculty-profile-page .faculty-profile-identity>img{display:block;width:100%;max-width:240px;height:auto}
+.faculty-profile-page .faculty-profile-identity>h1{font-size:28px!important;line-height:1.2!important;margin:16px 0 12px;letter-spacing:-.02em}
+.faculty-profile-page .faculty-profile-identity>p{margin:10px 0;font-size:17px;line-height:1.5}
+.faculty-profile-page .faculty-profile-identity a[href^="mailto:"]{font-size:15px;overflow-wrap:anywhere;word-break:normal}
+.faculty-profile-page .faculty-profile-identity .actions{margin-top:18px;gap:8px;font-size:14px}
+.faculty-profile-page .faculty-profile-details>p{margin:0 0 16px;max-width:80ch}
+.faculty-profile-page .faculty-profile-details>h2{font-size:1.025rem!important;line-height:1.4!important;margin:22px 0 10px!important;letter-spacing:-.02em}
+.faculty-profile-page .faculty-profile-details>h2:first-child{margin-top:0!important}
+.faculty-profile-page .faculty-profile-details>ul{margin:0 0 18px;padding-left:24px}
+.faculty-profile-page .faculty-profile-details .notice{padding:16px 0}
+.faculty-profile-page .faculty-profile-details .notice h3{font-size:.9375rem!important;line-height:1.5!important;font-weight:500;margin:0 0 4px;letter-spacing:0}
+.faculty-profile-page .faculty-profile-details .hint{font-size:14.5px!important;line-height:1.55}
+.faculty-profile-page .faculty-profile-details .notice .actions{margin-top:10px!important;gap:10px;font-size:14px}
+.faculty-profile-page .faculty-profile-details .event-note{font-size:14px;line-height:1.55}
+.faculty-profile-page footer{padding-block:24px}
+.faculty-profile-page footer p{font-size:14px;margin:0}
+@media(max-width:900px){.faculty-profile-page .faculty-profile-layout{grid-template-columns:minmax(0,1fr)}.faculty-profile-page .faculty-profile-identity{max-width:480px!important}}
+@media(max-width:760px){.faculty-profile-page .brandrow{padding-block:12px;align-items:center}.faculty-profile-page .brandname{font-size:22px}.faculty-profile-page .brandrow nav{width:100%;font-size:14px}.faculty-profile-page .wrap.page-pad{padding-top:12px}.faculty-profile-page .faculty-profile-identity{padding:20px}.faculty-profile-page .faculty-profile-layout{gap:24px!important}}

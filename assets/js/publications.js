@@ -6,10 +6,19 @@ const clean=value=>String(value||'').replace(/<script\b[^>]*>[\s\S]*?<\/script>/
 const safe=value=>{try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)&&!u.username&&!u.password?u.href:null}catch{return null}};
 const anchor=(text,url)=>{const href=safe(url);if(!href)return null;const a=el('a',text);a.href=href;a.target='_blank';a.rel='noopener noreferrer';return a};
 const types={'journal-article':'Journal article (source classification)','preprint':'Preprint','conference-paper':'Conference paper','book':'Book'};
+const normaliseDoi=value=>{const d=String(value||'').trim().replace(/^(?:https?:\/\/(?:dx\.)?doi\.org\/|doi\s*:\s*)/i,'').toLowerCase();return /^10\.\d{4,9}\/\S+$/i.test(d)?d:''};
+function citationLine(p,metrics){
+const line=el('div',undefined,'hint');line.style.fontSize='.875rem';const doi=normaliseDoi(p.doi);const entry=doi&&metrics&&metrics.entries&&metrics.entries[doi];
+if(!doi){line.textContent='Citation count unavailable (no DOI).';return line}
+const verified=entry&&entry.doi===doi&&entry.source==='OpenAlex'&&Number.isSafeInteger(entry.count)&&entry.count>=0&&typeof entry.source_url==='string'&&/^https:\/\/openalex\.org\/W\d+$/.test(entry.source_url)&&Number.isFinite(Date.parse(entry.retrieved_at));
+if(verified){line.append(document.createTextNode('Cited by '+entry.count+' · '),anchor('OpenAlex ↗',entry.source_url),document.createTextNode(' · As of '+new Date(entry.retrieved_at).toISOString().slice(0,10)));if(entry.status!=='success')line.append(document.createTextNode(' · Last successful count; latest lookup unavailable.'));else if(Date.now()-Date.parse(entry.retrieved_at)>14*24*60*60*1000)line.append(document.createTextNode(' · More than 14 days old.'));return line}
+line.textContent=entry&&entry.status==='not_found'?'No exact DOI match in OpenAlex at last check.':entry&&entry.status==='failed'?'Citation count temporarily unavailable.':'Citation count not yet checked.';return line;
+}
 let loading;
 function load(){if(!loading)loading=Promise.all([
 fetch(base+'data/publications.json').then(r=>{if(!r.ok)throw Error('Publication data unavailable');return r.json()}),
-fetch(base+'data/publication-sync-status.json').then(r=>{if(!r.ok)throw Error('Sync status unavailable');return r.json()}).catch(()=>null)
+fetch(base+'data/publication-sync-status.json').then(r=>{if(!r.ok)throw Error('Sync status unavailable');return r.json()}).catch(()=>null),
+fetch(base+'data/citation-metrics.json').then(r=>{if(!r.ok)throw Error('Citation metrics unavailable');return r.json()}).catch(()=>null)
 ]);return loading}
 function statusText(data,status,facultyId){
 const all=status&&status.faculty?Object.entries(status.faculty):[];
@@ -17,7 +26,7 @@ const entries=facultyId?all.filter(([id])=>id===facultyId):all;
 const failures=entries.filter(([,s])=>s.status==='failed');
 const dates=entries.map(([,s])=>s.last_success).filter(Boolean).sort();
 const stamp=facultyId?(entries[0]&&entries[0][1].last_success):data.last_successful_sync;
-let text='Records may be incomplete. Citation metrics are not included. ';
+let text='Records may be incomplete. Citation counts, where shown, are from OpenAlex. ';
 if(stamp)text+='Last successful '+(facultyId?'profile retrieval':'full ORCID retrieval')+': '+stamp+' (UTC offset shown). ';
 else if(dates.length)text+='Partial retrieval; successful records date from '+dates[0]+'. ';
 else text+='No successful ORCID retrieval date is available. ';
@@ -29,7 +38,7 @@ return text;
 async function render(target,options={}){
 target.setAttribute('aria-busy','true');
 try{
-const [data,status]=await load();if(!Array.isArray(data.publications))throw Error('Invalid publication data');
+const [data,status,metrics]=await load();if(!Array.isArray(data.publications))throw Error('Invalid publication data');
 const rows=data.publications.filter(p=>options.facultyId?(p.faculty_ids||[]).includes(options.facultyId):(p.departments||[]).includes(options.departmentId)).sort((a,b)=>(Number(b.year)||0)-(Number(a.year)||0)||clean(a.title).localeCompare(clean(b.title)));
 const summary=el('p','','hint');const updateSummary=expanded=>{summary.textContent=rows.length?'Showing '+(expanded?rows.length:Math.min(10,rows.length))+' of '+rows.length+' publications. Newest first.':'No publications available.'};updateSummary(false);target.replaceChildren(summary);
 const additional=el('div');additional.id='more-publications-'+String(options.facultyId||options.departmentId||'list').replace(/[^a-zA-Z0-9_-]/g,'-');additional.hidden=true;additional.style.display='none';
@@ -37,7 +46,7 @@ if(!rows.length){const s=status&&status.faculty&&status.faculty[options.facultyI
 rows.forEach((p,index)=>{
 const card=el('article',undefined,'notice');const title=el('h3',clean(p.title));title.style.cssText='font-size:1.05rem;font-weight:500;line-height:1.5';card.append(title);
 if(p.authors_display)card.append(el('div',clean(p.authors_display)+(p.authors_truncated?' (abbreviated)':''),'hint'));
-const meta=[clean(p.journal),p.year||'Undated',clean(p.reference),types[p.type]||clean(p.type)].filter(Boolean);card.append(el('div',meta.join(' · '),'hint'));
+const meta=[clean(p.journal),p.year||'Undated',clean(p.reference),types[p.type]||clean(p.type)].filter(Boolean);card.append(el('div',meta.join(' · '),'hint'),citationLine(p,metrics));
 const links=el('div',undefined,'actions');links.style.marginTop='12px';
 const doi=String(p.doi||'').replace(/^https?:\/\/(dx\.)?doi\.org\//i,'').trim();
 const paper=doi&&/^10\.\d{4,9}\/\S+$/i.test(doi)?anchor('Open publication / DOI ↗','https://doi.org/'+doi):anchor('Open publication ↗',p.url);

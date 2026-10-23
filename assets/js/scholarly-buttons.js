@@ -8,8 +8,6 @@ a.scholarly-button:hover{background:#f1f5f2;border-color:#496657;text-decoration
 a.scholarly-button:focus-visible{outline:3px solid #234134;outline-offset:3px}
 .scholarly-button img{display:block;width:24px;height:24px;object-fit:contain;flex:none}
 .scholarly-button-label{display:flex;flex-direction:column;text-align:left}
-.scholarly-button-label small{font-size:.7rem;font-weight:400}
-a.publication-doi-url{display:block;margin-top:8px;font-size:.8rem;line-height:1.45;overflow-wrap:anywhere;word-break:normal}
 `;
 document.head.append(style);
 const assets={scholar:'https://scholar.google.com/favicon.ico',orcid:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ORCID_iD.svg',doi:'https://commons.wikimedia.org/wiki/Special:Redirect/file/DOI_logo.svg'};
@@ -29,15 +27,11 @@ if(a.dataset.scholarlyButton)return;
 const match=classify(a);if(!match)return;
 a.dataset.scholarlyButton=match.kind;a.classList.add('scholarly-button');a.href=match.url.href;a.target='_blank';a.rel='noopener noreferrer';
 const label=document.createElement('span');label.className='scholarly-button-label';label.textContent=match.label;
-if(match.kind==='orcid'){const note=document.createElement('small');note.textContent='(unauthenticated)';label.append(note)}
 a.setAttribute('aria-label',match.label+(match.kind==='orcid'?' (unauthenticated)':'')+' — opens in a new tab');
 a.title=match.kind==='orcid'?'View ORCID record '+match.url.pathname.slice(1)+' (manually supplied; not authenticated through ORCID sign-in)':match.kind==='doi'?match.url.href:match.kind==='publication'?'Open publication':match.label+' profile';
 a.replaceChildren();
 if(assets[match.kind]){const icon=document.createElement('img');icon.src=assets[match.kind];icon.alt='';icon.setAttribute('aria-hidden','true');icon.width=24;icon.height=24;icon.loading='lazy';icon.referrerPolicy='no-referrer';icon.addEventListener('error',()=>{icon.hidden=true;icon.style.display='none'},{once:true});a.append(icon)}
 a.append(label);
-if(match.kind==='doi'){
-const card=a.closest('article');if(card&&!card.querySelector('.publication-doi-url')){const full=document.createElement('a');full.className='publication-doi-url';full.href=match.url.href;full.textContent=match.url.href;full.target='_blank';full.rel='noopener noreferrer';full.setAttribute('aria-label','DOI '+match.url.href+' — opens in a new tab');a.parentElement.after(full)}
-}
 });
 }
 let queued=false;

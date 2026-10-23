@@ -1,0 +1,61 @@
+{
+  "all_successful": true,
+  "faculty": {
+    "krishnamurthy-sv": {
+      "eligible_records": 25,
+      "last_attempt": "2026-10-23T04:32:15+00:00",
+      "last_success": "2026-10-23T04:32:15+00:00",
+      "message": "",
+      "orcid": "0000-0002-0129-2709",
+      "retrieved_records": 25,
+      "review_required": false,
+      "status": "success"
+    },
+    "madhusudhana-n": {
+      "eligible_records": 4,
+      "last_attempt": "2026-10-23T04:32:15+00:00",
+      "last_success": "2026-10-23T04:32:15+00:00",
+      "message": "",
+      "orcid": "0000-0002-8804-6294",
+      "retrieved_records": 4,
+      "review_required": false,
+      "status": "success"
+    },
+    "nanda-appaji": {
+      "eligible_records": 7,
+      "last_attempt": "2026-10-23T04:32:15+00:00",
+      "last_success": "2026-10-23T04:32:15+00:00",
+      "message": "",
+      "orcid": "0000-0003-1592-0937",
+      "retrieved_records": 8,
+      "review_required": false,
+      "status": "success"
+    },
+    "rakesh-tiwari": {
+      "eligible_records": 62,
+      "last_attempt": "2026-10-23T04:32:15+00:00",
+      "last_success": "2026-10-23T04:32:15+00:00",
+      "message": "",
+      "orcid": "0000-0002-2191-769X",
+      "retrieved_records": 68,
+      "review_required": false,
+      "status": "success"
+    },
+    "yogendra-kambalagere": {
+      "eligible_records": 37,
+      "last_attempt": "2026-10-23T04:32:15+00:00",
+      "last_success": "2026-10-23T04:32:15+00:00",
+      "message": "",
+      "orcid": "0000-0001-8652-8444",
+      "retrieved_records": 38,
+      "review_required": false,
+      "status": "success"
+    }
+  },
+  "faculty_count": 5,
+  "last_attempt": "2026-10-23T04:32:15+00:00",
+  "publication_count": 82,
+  "schema_version": 1,
+  "successful_faculty": 5,
+  "warnings": []
+}

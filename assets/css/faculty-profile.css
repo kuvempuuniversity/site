@@ -25,4 +25,13 @@
 .faculty-profile-page footer{padding-block:24px}
 .faculty-profile-page footer p{font-size:14px;margin:0}
 @media(max-width:900px){.faculty-profile-page .faculty-profile-layout{grid-template-columns:minmax(0,1fr)}.faculty-profile-page .faculty-profile-identity{max-width:480px!important}}
-@media(max-width:760px){.faculty-profile-page .brandrow{padding-block:12px;align-items:center}.faculty-profile-page .brandname{font-size:22px}.faculty-profile-page .brandrow nav{width:100%;font-size:14px}.faculty-profile-page .wrap.page-pad{padding-top:12px}.faculty-profile-page .faculty-profile-identity{padding:20px}.faculty-profile-page .faculty-profile-layout{gap:24px!important}}
+@media(max-width:760px){
+.faculty-profile-page .brandrow{padding-block:16px 12px;align-items:center;gap:12px}
+.faculty-profile-page .brandrow .brand{flex:0 0 100%;width:100%;min-width:0;gap:12px;align-items:center}
+.faculty-profile-page .brandrow .brand>img{width:clamp(44px,12vw,56px)!important;height:auto!important;aspect-ratio:6/7;object-fit:contain;flex-shrink:0}
+.faculty-profile-page .brandname{flex:1;min-width:0;font-size:clamp(22px,6vw,28px);line-height:1.15;letter-spacing:-.025em;overflow-wrap:normal}
+.faculty-profile-page .brandrow nav{width:100%;font-size:14px;padding-top:10px;border-top:1px solid var(--line)}
+.faculty-profile-page .wrap.page-pad{padding-top:12px}
+.faculty-profile-page .faculty-profile-identity{padding:20px}
+.faculty-profile-page .faculty-profile-layout{gap:24px!important}
+}

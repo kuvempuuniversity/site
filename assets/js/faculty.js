@@ -23,6 +23,7 @@ const layout=el('div',undefined,'faculty-profile-layout');layout.style.cssText='
 const identity=el('div',undefined,'panel faculty-profile-identity');identity.style.cssText='flex:0 1 260px;min-width:0;max-width:100%;box-sizing:border-box;overflow-wrap:anywhere';const name=el('h1',f.name);name.style.cssText='font-size:clamp(1.5rem,3vw,2rem);line-height:1.2';identity.append(photo(f,true),name,el('p',f.designation),el('p',f.department));if(f.email){const contact=el('p');contact.append(link(f.email,'mailto:'+f.email));identity.append(contact)}identity.append(scholarly(f));
 const details=el('div',undefined,'faculty-profile-details');details.style.cssText='flex:1 1 480px;min-width:0;max-width:100%;overflow-wrap:anywhere';layout.append(identity,details);profile.replaceChildren(back,layout);
 const sectionHeading=text=>{const h=el('h2',text);h.style.cssText='font-size:1.15rem;font-weight:500;line-height:1.4;margin:1.5rem 0 .65rem';return h};
+if(typeof f.biography==='string'&&f.biography.trim())details.append(el('p',f.biography,'faculty-biography'));
 if(f.research_interests)details.append(sectionHeading('Research interests'),el('p',f.research_interests));
 const modules=el('ul');const taught=Array.isArray(f.modules_taught)&&f.modules_taught.length?f.modules_taught:['Topic 1','Topic 2','Topic 3'];taught.forEach(topic=>modules.append(el('li',topic)));details.append(sectionHeading('Modules taught'),modules);
 details.append(sectionHeading('Select Publication'));const works=el('div');works.append(el('p','Loading publications…'));details.append(works);

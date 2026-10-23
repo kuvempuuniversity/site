@@ -1,0 +1,37 @@
+name: ORCID publication audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/sync_orcid_publications.py
+      - tests/test_sync_orcid_publications.py
+      - .github/workflows/orcid-publication-audit.yml
+permissions:
+  contents: read
+concurrency:
+  group: orcid-publication-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Read public ORCID works (dry run only)
+        run: python scripts/sync_orcid_publications.py --out orcid-audit
+        env:
+          ORCID_ACCESS_TOKEN: ${{ secrets.ORCID_ACCESS_TOKEN }}
+      - name: Save proposed records and per-faculty audit status
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: orcid-publication-audit
+          path: orcid-audit/
+          if-no-files-found: warn
+          retention-days: 7

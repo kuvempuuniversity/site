@@ -57,6 +57,7 @@ cards.forEach((card,index)=>{if(index>=cardImages.length)return;const copy=el('d
 const research=document.querySelector('#research');
 if(research){research.querySelectorAll('.learning-path').forEach(n=>n.remove());const image=research.querySelector('img.department-photo');if(image){const copy=el('div','department-research-copy');Array.from(research.childNodes).forEach(node=>{if(node!==image)copy.append(node)});const figure=el('figure','department-research-image');figure.append(image);const split=el('div','department-research-split');split.append(copy,figure);research.append(split)}}
 const events=document.querySelector('#events');if(events){const heading=events.querySelector('h2');if(heading)heading.textContent='Department events';events.querySelectorAll(':scope>p').forEach(p=>{if(p.textContent.startsWith('This is the university-wide calendar, not an Environmental Science-only feed.'))p.remove()})}
+const announcements=document.querySelector('#announcements');if(announcements)announcements.querySelectorAll(':scope>p').forEach(p=>{if(p.textContent.startsWith('No verified department announcements have been supplied for this release.'))p.textContent='No events are currently available.'});
 const publicationPage=base+'departments/environmental-science-publications.html';
 document.querySelectorAll('a[href="#publications"]').forEach(a=>{a.href=publicationPage});
 const publications=document.querySelector('#publications');if(publications)publications.remove();

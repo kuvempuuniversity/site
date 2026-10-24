@@ -1,4 +1,18 @@
 "use strict";
+(()=>{const style=document.createElement('style');style.id='site-frame-styles';style.textContent=`
+:root{--site-frame-width:1440px;--site-gutter:clamp(20px,4vw,56px)}
+.wrap,body.faculty-profile-page .wrap{width:100%;max-width:var(--site-frame-width);margin-inline:auto;padding-inline:var(--site-gutter)}
+.wrap.page-pad,body.faculty-profile-page .wrap.page-pad{padding-inline:var(--site-gutter)}
+body>header.brandrow{flex-wrap:wrap;row-gap:14px}
+body>header.brandrow .brand{min-width:0}
+body>header.brandrow .brandname{font-size:32px;line-height:1.15}
+body>header.brandrow>.nav{flex-wrap:wrap}
+@media(max-width:760px){
+body>header.brandrow .brand{flex:0 0 100%;width:100%;gap:12px;align-items:center}
+body>header.brandrow .brandname{flex:1;min-width:0;font-size:clamp(24px,6.5vw,30px);line-height:1.15;overflow-wrap:normal}
+body>main>.hero .hero-copy{width:calc(100% - var(--site-gutter) - var(--site-gutter));margin-inline:var(--site-gutter)}
+}
+`;document.head.append(style)})();
 (()=>{const base=document.body.dataset.base||'./';document.querySelectorAll('header .brand').forEach(brand=>{const logo=document.createElement('img');logo.src=base+'assets/img/placeholders/kulogo.png';logo.alt='';logo.style.cssText='display:block;width:48px;height:56px;object-fit:contain;flex-shrink:0';const name=document.createElement('span');name.className='brandname';name.textContent='Kuvempu University';brand.href=base+'index.html';brand.setAttribute('aria-label','Kuvempu University concept homepage');brand.replaceChildren(logo,name)})})();
 (()=>{
 const subjects=[['Applied Botany','science'],['Environmental Science','science'],['Chemistry','science'],['Computer Sciences','science'],['English','arts'],['Kannada','arts'],['History and Archaeology','arts'],['Social Work','arts'],['Commerce','commerce'],['Business Administration','commerce'],['Education','education'],['Physical Education','education']];

@@ -1,0 +1,51 @@
+name: Google Scholar metrics audit
+on:
+  workflow_dispatch:
+    inputs:
+      live_approved:
+        description: 'Approve provider requests for this run (may consume API quota)'
+        type: boolean
+        default: false
+      scope:
+        description: 'First run: pilot profile only'
+        type: choice
+        options: [pilot, all]
+        default: pilot
+  schedule:
+    - cron: '37 1 * * 1'
+  push:
+    branches: [main]
+    paths:
+      - scripts/sync_scholar_metrics.py
+      - tests/test_scholar_metrics.py
+      - .github/workflows/scholar-metrics-audit.yml
+permissions:
+  contents: read
+concurrency:
+  group: scholar-metrics-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offline parser and failure-handling tests
+        run: python -m unittest discover -s tests -p 'test_scholar_metrics.py' -v
+      - name: Retrieve proposed metrics (explicit opt-in only)
+        if: ${{ (github.event_name == 'workflow_dispatch' && inputs.live_approved) || (github.event_name == 'schedule' && vars.SCHOLAR_METRICS_ENABLED == 'true') }}
+        run: python scripts/sync_scholar_metrics.py --live --faculty "$FACULTY_SCOPE" --out scholar-audit
+        env:
+          SCHOLAR_SERPAPI_KEY: ${{ secrets.SCHOLAR_SERPAPI_KEY }}
+          FACULTY_SCOPE: ${{ github.event_name == 'schedule' && 'all' || inputs.scope == 'all' && 'all' || 'rakesh-tiwari' }}
+      - name: Save review-only proposals
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scholar-metrics-audit
+          path: scholar-audit/
+          if-no-files-found: ignore
+          retention-days: 7

@@ -9,7 +9,14 @@ const text=value=>typeof value==='string'?value.trim():'';
 const url=value=>{if(!text(value))return null;try{const u=new URL(value,location.href);return ['http:','https:'].includes(u.protocol)&&!u.username&&!u.password?u:null}catch{return null}};
 const link=(label,value)=>{const u=url(value);if(!u)return null;const a=el('a',label);a.href=u.href;if(u.origin!==location.origin){a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',label+' — opens in a new tab')}return a};
 const departments={'environmental-science':'Environmental Science','applied-botany':'Applied Botany'};
-const portrait=(s,directoryPhoto=false)=>{const u=url(s.photo_url);if(!u)return null;const img=el('img');img.src=u.href;img.alt=u.pathname.endsWith('/photo-placeholder.svg')?'Photograph to be added for '+s.name:'Portrait of '+s.name;img.width=directoryPhoto?240:408;img.height=directoryPhoto?320:544;img.loading=directoryPhoto?'lazy':'eager';img.style.cssText='display:block;width:100%;'+(directoryPhoto?'max-width:240px;':'')+'height:auto;aspect-ratio:3/4;object-fit:cover;object-position:center top;border-radius:8px';img.addEventListener('error',()=>img.replaceWith(el('p','Photograph unavailable.','hint')),{once:true});return img};
+const portrait=(s,directoryPhoto=false)=>{
+const fallback=new URL(base+'assets/img/students/photo-placeholder.svg',location.href).href;
+const u=url(s.photo_url);const img=el('img');let usingPlaceholder=!u||u.href===fallback;
+img.alt=usingPlaceholder?'Photograph to be added for '+s.name:'Portrait of '+s.name;
+img.width=directoryPhoto?240:408;img.height=directoryPhoto?320:544;img.loading=directoryPhoto?'lazy':'eager';img.style.cssText='display:block;width:100%;'+(directoryPhoto?'max-width:240px;':'')+'height:auto;aspect-ratio:3/4;object-fit:cover;object-position:center top;border-radius:8px';
+img.addEventListener('error',()=>{if(!usingPlaceholder){usingPlaceholder=true;img.alt='Photograph to be added for '+s.name;img.src=fallback}else img.replaceWith(el('p','Photograph to be added.','hint'))});
+img.src=u?u.href:fallback;return img;
+};
 const label=(parent,title,value)=>{if(!text(value))return;const p=el('p');p.append(el('strong',title+': '),document.createTextNode(value.trim()));parent.append(p)};
 const profileLinks=s=>{
 const actions=el('div',undefined,'actions faculty-profile-links');actions.setAttribute('role','group');actions.setAttribute('aria-label','Academic and professional profiles');

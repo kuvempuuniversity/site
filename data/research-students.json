@@ -1,0 +1,30 @@
+{
+  "students": [
+    {
+      "id": "rakshit-g-hosamani",
+      "published": true,
+      "name": "Rakshit G. Hosamani",
+      "department_id": "environmental-science",
+      "programme": "PhD candidate",
+      "supervisor": "Prof. Yogendra K",
+      "biography": "I am Rakshit, and I am interested in research.",
+      "photo_url": "../assets/img/students/photo-placeholder.svg",
+      "orcid": "0009-0000-8448-6383",
+      "linkedin_url": "https://www.linkedin.com/in/rakshit-hosamani-94a342363/",
+      "publications": []
+    },
+    {
+      "id": "shiva-naik-h",
+      "published": true,
+      "name": "Shiva Naik H.",
+      "department_id": "environmental-science",
+      "programme": "PhD candidate",
+      "supervisor": "Prof. Yogendra K",
+      "biography": "I am Shiva Naik H. Currently, I am pursuing my PhD on the topic of photocatalytic degradation of textile dyes using LED light.",
+      "research_topic": "Photocatalytic degradation of textile dyes using LED light",
+      "photo_url": "../assets/img/students/photo-placeholder.svg",
+      "orcid": "0009-0000-2191-9639",
+      "publications": []
+    }
+  ]
+}

@@ -1,11 +1,12 @@
 "use strict";
 (()=>{
 if(window.KUDepartmentLayout)return;
-const isEnvironmental=location.pathname.endsWith('/departments/environmental-science.html');
-const isBotany=location.pathname.endsWith('/departments/applied-botany.html');
-if(!isEnvironmental&&!isBotany)return;window.KUDepartmentLayout=true;
+const departmentNames={'environmental-science':'Environmental Science','applied-botany':'Applied Botany','english':'English','history-and-archaeology':'History and Archaeology','kannada':'Kannada','sanskrit':'Sanskrit','wildlife-management':'Wildlife Management'};
+const departmentId=location.pathname.split('/').pop().replace(/\.html$/,'');
+if(!Object.prototype.hasOwnProperty.call(departmentNames,departmentId))return;window.KUDepartmentLayout=true;
+const isEnvironmental=departmentId==='environmental-science';const isBotany=departmentId==='applied-botany';
 const base=document.body.dataset.base||'../';
-const name=isEnvironmental?'Environmental Science':'Applied Botany';
+const name=departmentNames[departmentId];
 const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text)n.textContent=text;return n};
 const style=el('style');style.textContent=`
 /* Shared, non-stretching directory cards; individual profiles are unaffected. */
@@ -51,11 +52,10 @@ const style=el('style');style.textContent=`
 document.head.append(style);
 const intro=document.querySelector('.page-intro'),hero=document.querySelector('.department-hero');
 if(intro&&hero){
-const note=intro.querySelector('.event-note');if(note){if(isEnvironmental)note.remove();else note.textContent='Events in the legacy demonstration below are fictional.'}
+const note=intro.querySelector('.event-note');if(note){if(isEnvironmental)note.remove();else if(isBotany)note.textContent='Events in the legacy demonstration below are fictional.'}
 if(isBotany){const eyebrow=intro.querySelector('.eyebrow');if(eyebrow)eyebrow.textContent='Department';const pending=hero.querySelector('p');if(pending&&pending.textContent.startsWith('Space for'))pending.remove()}
 const landing=el('section','department-landing');landing.setAttribute('aria-label',name+' introduction');
 const figure=el('figure','department-landing-image');const image=el('img');
-const departmentId=isEnvironmental?'environmental-science':'applied-botany';
 image.alt=name+' department header photograph';image.width=1600;image.height=1200;image.decoding='async';image.setAttribute('fetchpriority','high');
 image.addEventListener('error',()=>{image.alt='Illustrative photograph for '+name;image.src=base+'assets/img/placeholders/'+(isEnvironmental?'home-research-background.png':'home-campus-life.png')},{once:true});
 image.src=base+'assets/img/departments/'+departmentId+'-header.png';figure.append(image);
@@ -81,7 +81,7 @@ if(people){const tidy=()=>{Array.from(people.children).filter(n=>n.tagName==='P'
 })();
 
 (()=>{
-const match=location.pathname.match(/\/departments\/(environmental-science|applied-botany)\.html$/);
+const match=location.pathname.match(/\/departments\/(environmental-science|applied-botany|english|history-and-archaeology|kannada|sanskrit|wildlife-management)\.html$/);
 if(!match||document.getElementById('student-resources'))return;
 const container=document.querySelector('main .wrap.page-pad')||document.querySelector('main');
 if(!container)return;

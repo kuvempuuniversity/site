@@ -8,6 +8,16 @@ const base=document.body.dataset.base||'../';
 const name=isEnvironmental?'Environmental Science':'Applied Botany';
 const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text)n.textContent=text;return n};
 const style=el('style');style.textContent=`
+/* Shared, non-stretching directory cards; individual profiles are unaffected. */
+#people>.event-grid,#students>.event-grid{display:grid!important;grid-template-columns:repeat(auto-fill,min(100%,302px))!important;grid-auto-rows:620px;gap:24px!important;justify-content:start;align-items:stretch}
+#people>.event-grid>.panel,#students>.event-grid>.panel{box-sizing:border-box;width:100%;min-width:0;height:620px;padding:30px;display:flex;flex-direction:column;align-items:stretch;overflow-wrap:anywhere}
+#people>.event-grid>.panel>a:first-child,#students>.event-grid>.panel>a:first-child{flex:none;display:block;width:100%;max-width:240px;height:auto;aspect-ratio:3/4;margin:0 0 16px!important}
+#people>.event-grid>.panel>a:first-child>img,#students>.event-grid>.panel>a:first-child>img{display:block;width:100%;max-width:240px;height:auto;aspect-ratio:3/4;object-fit:cover;object-position:center top;border-radius:8px}
+#people>.event-grid>.panel>h3,#students>.event-grid>.panel>h3{flex:none;min-height:50px;margin:0 0 12px;font-size:20px;line-height:1.25}
+#people>.event-grid>.panel>h3>a,#students>.event-grid>.panel>h3>a{text-decoration:none}
+#people>.event-grid>.panel>p,#students>.event-grid>.panel>p{flex:none;margin:0 0 12px}
+#people>.event-grid>.panel>p:not(:last-child),#students>.event-grid>.panel>p:not(:last-child){display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+#people>.event-grid>.panel>p:last-child,#students>.event-grid>.panel>p:last-child{margin-top:auto;margin-bottom:0}
 .department-landing{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);margin:24px 0 30px;border:1px solid var(--line);background:#fffdf7;overflow:hidden}
 .department-landing-image{margin:0;position:relative;min-height:510px;background:#e0e7d8}
 .department-landing-image img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover}

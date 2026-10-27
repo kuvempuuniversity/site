@@ -25,6 +25,19 @@
       "photo_url": "../assets/img/students/es-shiva-naik-h.png",
       "orcid": "0009-0000-2191-9639",
       "publications": []
+    },
+    {
+      "id": "sujeetkumar-m-dongre",
+      "published": true,
+      "name": "Sujeetkumar M Dongre",
+      "department_id": "environmental-science",
+      "programme": "Research student",
+      "supervisor": "Prof. Yogendra K",
+      "research_topic": "Macrofaunal communities in the coastal rock pools of Goa",
+      "research_summary": "Macrofaunal communities in the coastal rock pools of Goa",
+      "photo_url": "../assets/img/students/es-sujeetkumar-m-dongre.png",
+      "orcid": "0009-0005-6994-8566",
+      "publications": []
     }
   ]
 }

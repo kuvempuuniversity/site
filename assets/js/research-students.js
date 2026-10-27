@@ -6,6 +6,9 @@ if(!profile&&!directory)return;
 const base=document.body.dataset.base||'../';
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n};
 const text=value=>typeof value==='string'?value.trim():'';
+const suppliedLastNames={'rakshit-g-hosamani':'Hosamani','shiva-naik-h':'Naik','sujeetkumar-m-dongre':'Dongre','mahesh-k-patil':'Patil'};
+const lastName=s=>text(s.last_name)||suppliedLastNames[s.id]||text(s.name).split(/\s+/).pop();
+const compareStudents=(a,b)=>lastName(a).localeCompare(lastName(b),'en',{sensitivity:'base'})||a.name.localeCompare(b.name,'en',{sensitivity:'base'});
 const url=value=>{if(!text(value))return null;try{const u=new URL(value,location.href);return ['http:','https:'].includes(u.protocol)&&!u.username&&!u.password?u:null}catch{return null}};
 const link=(label,value)=>{const u=url(value);if(!u)return null;const a=el('a',label);a.href=u.href;if(u.origin!==location.origin){a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',label+' — opens in a new tab')}return a};
 const departments={'environmental-science':'Environmental Science','applied-botany':'Applied Botany'};
@@ -29,7 +32,7 @@ fetch(base+'data/research-students.json').then(r=>{if(!r.ok)throw Error('Student
 if(!data||!Array.isArray(data.students))throw Error('Invalid student data');
 const students=data.students.filter(s=>s&&s.published===true&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(s.id)&&text(s.name)&&Object.prototype.hasOwnProperty.call(departments,s.department_id));
 if(directory){
-const heading=el('h2','Research students');const members=students.filter(s=>s.department_id==='environmental-science').sort((a,b)=>a.name.localeCompare(b.name));
+const heading=el('h2','Research students');const members=students.filter(s=>s.department_id==='environmental-science').sort(compareStudents);
 if(!members.length){directory.replaceChildren(heading,el('p','Research student profiles will be added here.'));return}
 const grid=el('div',undefined,'event-grid');grid.style.cssText='display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:24px';
 members.forEach(s=>{const card=el('article',undefined,'panel');const destination=base+'students/profile.html?id='+encodeURIComponent(s.id);const image=portrait(s,true);if(image){const a=link('View profile of '+s.name,destination);a.style.cssText='display:block;width:100%;max-width:240px;border-radius:8px;margin-bottom:16px';a.replaceChildren(image);card.append(a)}const h=el('h3');const name=link(s.name,destination);name.style.textDecoration='none';h.append(name);card.append(h);if(text(s.programme))card.append(el('p',s.programme));const more=el('p');more.append(link('View profile →',destination));card.append(more);grid.append(card)});directory.replaceChildren(heading,grid);return;

@@ -38,6 +38,20 @@
       "photo_url": "../assets/img/students/es-sujeetkumar-m-dongre.png",
       "orcid": "0009-0005-6994-8566",
       "publications": []
+    },
+    {
+      "id": "mahesh-k-patil",
+      "published": true,
+      "name": "Mahesh K Patil",
+      "department_id": "environmental-science",
+      "programme": "Research student",
+      "supervisor": "Prof. Yogendra K and Prof. Rakesh Tiwari",
+      "research_topic": "Photosynthetic heat sensitivity in trees of a wet evergreen tropical forest in the Northern Western Ghats",
+      "research_summary": "Photosynthetic heat sensitivity in trees of a wet evergreen tropical forest in the Northern Western Ghats",
+      "photo_url": "../assets/img/students/es-mahesh-k-patil.png",
+      "orcid": "0009-0009-5182-4580",
+      "linkedin_url": "https://www.linkedin.com/in/mahesh-k-patil-8a92b65b/",
+      "publications": []
     }
   ]
 }

@@ -65,3 +65,33 @@ if(location.hash==='#publications')location.replace(publicationPage);
 const people=document.querySelector('#people');
 if(people){const tidy=()=>{Array.from(people.children).filter(n=>n.tagName==='P'&&n.textContent.includes('department information supplied for this prototype')).forEach(n=>{n.textContent='Meet our faculty and explore their research interests.'})};tidy();const watch=new MutationObserver(tidy);watch.observe(people,{childList:true})}
 })();
+
+(()=>{
+const match=location.pathname.match(/\/departments\/(environmental-science|applied-botany)\.html$/);
+if(!match||document.getElementById('student-resources'))return;
+const container=document.querySelector('main .wrap.page-pad')||document.querySelector('main');
+if(!container)return;
+const base=document.body.dataset.base||'../';
+const section=document.createElement('section');
+section.id='student-resources';section.className='department-section content';section.setAttribute('aria-labelledby','student-resources-heading');
+const heading=document.createElement('h2');heading.id='student-resources-heading';heading.textContent='Student resources';
+const body=document.createElement('div');
+const empty=()=>{const p=document.createElement('p');p.textContent='Resources will be added here.';body.replaceChildren(p)};
+empty();section.append(heading,body);
+const contact=document.querySelector('#contact');
+if(contact&&contact.parentElement===container)contact.before(section);else container.append(section);
+fetch(base+'data/student-resources.json').then(r=>{if(!r.ok)throw Error('Student resources unavailable');return r.json()}).then(data=>{
+const entries=data&&Array.isArray(data[match[1]])?data[match[1]]:[];
+const list=document.createElement('ul');list.className='student-resource-list';
+entries.forEach(item=>{
+if(!item||typeof item.title!=='string'||!item.title.trim()||typeof item.link!=='string')return;
+let url;try{url=new URL(item.link,location.href);if(!['https:','http:'].includes(url.protocol)||url.username||url.password)return}catch{return}
+const row=document.createElement('li');const a=document.createElement('a');a.textContent=item.title.trim();a.href=url.href;
+if(url.origin!==location.origin){a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',item.title.trim()+' — opens in a new tab')}
+row.append(a);
+const year=String(item.year==null?'':item.year).trim();if(/^\d{4}$/.test(year))row.append(document.createTextNode(' ('+year+')'));
+list.append(row);
+});
+if(list.children.length)body.replaceChildren(list);else empty();
+}).catch(()=>{const p=document.createElement('p');p.textContent='Student resources could not load. Please try again later.';body.replaceChildren(p)});
+})();

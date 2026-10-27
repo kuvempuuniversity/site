@@ -54,7 +54,11 @@ if(intro&&hero){
 const note=intro.querySelector('.event-note');if(note){if(isEnvironmental)note.remove();else note.textContent='Events in the legacy demonstration below are fictional.'}
 if(isBotany){const eyebrow=intro.querySelector('.eyebrow');if(eyebrow)eyebrow.textContent='Department';const pending=hero.querySelector('p');if(pending&&pending.textContent.startsWith('Space for'))pending.remove()}
 const landing=el('section','department-landing');landing.setAttribute('aria-label',name+' introduction');
-const figure=el('figure','department-landing-image');const image=el('img');image.src=base+'assets/img/placeholders/'+(isEnvironmental?'home-research-background.png':'home-campus-life.png');image.alt='Illustrative photograph for '+name;image.decoding='async';image.setAttribute('fetchpriority','high');figure.append(image);
+const figure=el('figure','department-landing-image');const image=el('img');
+const departmentId=isEnvironmental?'environmental-science':'applied-botany';
+image.alt=name+' department header photograph';image.width=1600;image.height=1200;image.decoding='async';image.setAttribute('fetchpriority','high');
+image.addEventListener('error',()=>{image.alt='Illustrative photograph for '+name;image.src=base+'assets/img/placeholders/'+(isEnvironmental?'home-research-background.png':'home-campus-life.png')},{once:true});
+image.src=base+'assets/img/departments/'+departmentId+'-header.png';figure.append(image);
 const copy=el('div','department-landing-copy');intro.replaceWith(landing);copy.append(intro,hero);landing.append(figure,copy);
 }
 if(!isEnvironmental)return;

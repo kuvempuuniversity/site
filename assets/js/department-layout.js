@@ -1,7 +1,7 @@
 "use strict";
 (()=>{
 if(window.KUDepartmentLayout)return;
-const departmentNames={'environmental-science':'Environmental Science','applied-botany':'Applied Botany','english':'English','history-and-archaeology':'History and Archaeology','kannada':'Kannada','sanskrit':'Sanskrit','wildlife-management':'Wildlife Management','industrial-chemistry':'Industrial Chemistry'};
+const departmentNames={'environmental-science':'Environmental Science','applied-botany':'Applied Botany','english':'English','history-and-archaeology':'History and Archaeology','kannada':'Kannada','sanskrit':'Sanskrit','wildlife-management':'Wildlife Management','industrial-chemistry':'Industrial Chemistry','pharmaceutical-chemistry':'Pharmaceutical Chemistry'};
 const departmentId=location.pathname.split('/').pop().replace(/\.html$/,'');
 if(!Object.prototype.hasOwnProperty.call(departmentNames,departmentId))return;window.KUDepartmentLayout=true;
 const isEnvironmental=departmentId==='environmental-science';const isBotany=departmentId==='applied-botany';
@@ -84,7 +84,7 @@ if(people){const tidy=()=>{Array.from(people.children).filter(n=>n.tagName==='P'
 })();
 
 (()=>{
-const match=location.pathname.match(/\/departments\/(environmental-science|applied-botany|english|history-and-archaeology|kannada|sanskrit|wildlife-management|industrial-chemistry)\.html$/);
+const match=location.pathname.match(/\/departments\/(environmental-science|applied-botany|english|history-and-archaeology|kannada|sanskrit|wildlife-management|industrial-chemistry|pharmaceutical-chemistry)\.html$/);
 if(!match||document.getElementById('student-resources'))return;
 const container=document.querySelector('main .wrap.page-pad')||document.querySelector('main');
 if(!container)return;

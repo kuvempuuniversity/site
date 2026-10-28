@@ -92,10 +92,20 @@
     {
       "id": "roopa-c",
       "published": true,
-      "name": "Roopa C",
+      "name": "Ms. Roopa Chunchanagiriyappa",
+      "last_name": "Chunchanagiriyappa",
       "department_id": "wildlife-management",
-      "programme": "Research scholar",
-      "biography": "Profile information will be added here.",
+      "programme": "PhD candidate",
+      "supervisor": "Prof. Vijaya Kumara",
+      "biography": "My research work mainly focus on Bio Ecology of Jungle Babblers and expertise include GIS based studies, Biodiversity and Ecology.",
+      "research_topic": "Bio Ecology of Jungle Babblers",
+      "research_summary": "Pursuing PhD in Ornithology with special focus on bio-ecology of babblers",
+      "research_interests": "Ecology, Biodiversity, GIS",
+      "academic_journey": "Pursuing PhD in Ornithology with special focus on bio-ecology of babblers, M.Sc in Wildlife and management (2020), B.Sc in Chemistry, Botany, Zoology.",
+      "email": "roopac463@gmail.com",
+      "orcid": "0009-0002-3122-8764",
+      "scholar_url": "https://scholar.google.com/citations?hl=en&user=Z0qDJeIAAAAJ",
+      "linkedin_url": "https://www.linkedin.com/in/-roopa-c/",
       "photo_url": "../assets/img/faculty/wl-roopa-c.png",
       "publications": []
     }

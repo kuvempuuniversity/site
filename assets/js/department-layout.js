@@ -50,6 +50,9 @@ const style=el('style');style.textContent=`
 @media(max-width:760px){.department-landing,.department-research-split{grid-template-columns:1fr}.department-landing-image{min-height:0;aspect-ratio:4/3}.department-landing-copy{padding:24px;gap:20px}.department-landing .page-intro h1{font-size:36px}.department-landing .department-hero h2{font-size:28px}.department-research-image img.department-photo{height:auto}.department-research-split{gap:24px}}
 `;
 document.head.append(style);
+const breadcrumb=document.querySelector('main .breadcrumb');
+const sectionNav=document.querySelector('main .department-nav');
+if(breadcrumb&&sectionNav)breadcrumb.after(sectionNav);
 const intro=document.querySelector('.page-intro'),hero=document.querySelector('.department-hero');
 if(intro&&hero){
 const note=intro.querySelector('.event-note');if(note){if(isEnvironmental)note.remove();else if(isBotany)note.textContent='Events in the legacy demonstration below are fictional.'}

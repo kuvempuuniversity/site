@@ -1,0 +1,8 @@
+/* Environmental Science introduction only. */
+.department-intro-video-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:38px;align-items:center;margin-bottom:32px}
+.department-intro-copy{min-width:0}
+.department-intro-copy>p{margin:0;line-height:1.8}
+.department-intro-video{display:block;width:100%;min-width:0;aspect-ratio:16/9;overflow:hidden;background:#e0e7d8;text-decoration:none}
+.department-intro-video>img{display:block;width:100%;height:100%;object-fit:cover}
+.department-intro-video:focus-visible{outline:3px solid var(--green);outline-offset:5px}
+@media(max-width:760px){.department-intro-video-grid{grid-template-columns:minmax(0,1fr);gap:24px}}

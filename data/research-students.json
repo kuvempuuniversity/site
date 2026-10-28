@@ -68,6 +68,26 @@
       "photo_url": "../assets/img/students/es-pratibha-t-bhagawad.png",
       "orcid": "0009-0001-4731-1530",
       "publications": []
+    },
+    {
+      "id": "sowmya-r-gandralli",
+      "published": true,
+      "name": "Mrs. Sowmya R Gandralli",
+      "last_name": "Gandralli",
+      "department_id": "wildlife-management",
+      "programme": "PhD candidate",
+      "supervisor": "Prof. Vijaya Kumara",
+      "research_topic": "Ecology of Woodpeckers",
+      "research_summary": "PhD in Ornithology with focus on ecology of Woodpeckers (Pursuing)",
+      "biography": "My work focuses on Wildlife conservation, wildlife ecology, species conservation, biodiversity",
+      "research_interests": "Wildlife Conservation, Wildlife Ecology, Biodiversity, Wildlife Forensic, Wetland Ecology",
+      "academic_journey": "PhD in Ornithology with focus on ecology of Woodpeckers (Pursuing); B.Ed in Chemistry, Biology (2021); M.Sc in Wildlife and Management (2018); B.Sc In Chemistry, Botany, Zoology (2016)",
+      "email": "sowmya95ph@gmail.com",
+      "photo_url": "../assets/img/faculty/wl-sowgya-gr.png",
+      "orcid": "0009-0002-8315-9932",
+      "scholar_url": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=nAZjyzwAAAAJ",
+      "linkedin_url": "https://www.linkedin.com/in/sowmyagandralli",
+      "publications": []
     }
   ]
 }

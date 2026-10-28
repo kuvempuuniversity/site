@@ -88,6 +88,16 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=nAZjyzwAAAAJ",
       "linkedin_url": "https://www.linkedin.com/in/sowmyagandralli",
       "publications": []
+    },
+    {
+      "id": "roopa-c",
+      "published": true,
+      "name": "Roopa C",
+      "department_id": "wildlife-management",
+      "programme": "Research scholar",
+      "biography": "Profile information will be added here.",
+      "photo_url": "../assets/img/faculty/wl-roopa-c.png",
+      "publications": []
     }
   ]
 }

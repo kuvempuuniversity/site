@@ -11,10 +11,11 @@ const style=document.createElement('style');style.id='department-card-image-styl
 #programmes .department-card-image figcaption{display:none}
 #programmes>.programme>p,#programmes>.programme>h3,#programmes>.programme>a{grid-column:2;min-width:0}
 #programmes>.programme>p{margin:12px 18px 0 0}
-#programmes>.programme>h3{margin:0 18px 4px 0;overflow-wrap:anywhere}
-#programmes>.programme>h3>a{font:inherit;margin:0;text-decoration:none}
+#programmes>.programme>h3{margin:0 18px 4px 0;overflow-wrap:anywhere;color:var(--green)}
+#programmes>.programme>h3>a{font:inherit;margin:0;text-decoration:none;color:var(--green)}
 #programmes>.programme>h3>a:hover{text-decoration:underline;text-underline-offset:5px}
-#programmes>.programme>a{margin:0 18px 8px 0;align-self:start;justify-self:start}
+#programmes>.programme>a{margin:0 18px 8px 0;align-self:start;justify-self:start;text-decoration:none}
+#programmes>.programme>a:hover,#programmes>.programme>a:focus-visible{text-decoration:none;color:var(--green)}
 @media(max-width:1100px){#programmes>.programme{column-gap:12px}}
 @media(max-width:760px){#programmes{grid-template-columns:1fr;gap:14px}#programmes>.programme{grid-template-columns:24% minmax(0,1fr)}}
 `;document.head.append(style);

@@ -1,0 +1,33 @@
+"use strict";
+(()=>{
+const root=document.getElementById('research-student-profile');if(!root)return;
+const base=document.body.dataset.base||'../';
+const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!=null)n.textContent=String(text);if(cls)n.className=cls;return n};
+const get=async(name,fallback)=>{try{const r=await fetch(base+'data/'+name);if(!r.ok)throw Error();return await r.json()}catch{return fallback}};
+const doi=v=>{const s=String(v||'').trim().replace(/^(?:https?:\/\/(?:dx\.)?doi\.org\/|doi\s*:\s*)/i,'').toLowerCase();return /^10\.\d{4,9}\/\S+$/.test(s)?s:''};
+const safe=v=>{try{const u=new URL(v);return ['https:','http:'].includes(u.protocol)&&!u.username&&!u.password?u.href:null}catch{return null}};
+const author=v=>{try{const u=new URL(v);return u.protocol==='https:'&&u.hostname==='scholar.google.com'&&u.pathname==='/citations'?u.searchParams.get('user'):null}catch{return null}};
+async function enhance(details){
+const [people,pubs,status,metrics,citations]=await Promise.all([get('research-students.json',{}),get('student-publications.json',null),get('student-publication-sync-status.json',{}),get('student-scholar-metrics.json',{}),get('citation-metrics.json',{})]);
+const id=new URLSearchParams(location.search).get('id');const s=(people.students||[]).find(v=>v.id===id&&v.published===true);if(!s)return;
+const heading=Array.from(details.children).find(n=>n.tagName==='H2'&&n.textContent.trim()==='Publications');if(!heading)return;
+const m=metrics.students&&metrics.students[id], aid=author(s.scholar_url), fields=[['h_index','h-index'],['i10_index','i10-index'],['total_citations','Total citations']];
+if(aid){
+const valid=m&&m.source==='Google Scholar'&&m.scope==='all-time'&&author(m.scholar_url)===aid&&m.author_id===aid&&fields.every(([k])=>Number.isSafeInteger(m[k])&&m[k]>=0)&&Number.isFinite(Date.parse(m.retrieved_at))&&Date.parse(m.retrieved_at)<=Date.now()&&m.h_index**2<=m.total_citations&&10*m.i10_index<=m.total_citations;
+const section=el('section',null,'faculty-scholar-metrics');section.setAttribute('aria-label','Google Scholar all-time metrics');const grid=el('dl',null,'faculty-metric-grid');fields.forEach(([key,name])=>{const item=el('div',null,'faculty-metric');item.append(el('dt',name),el('dd',valid?m[key].toLocaleString('en-IN'):'—'));grid.append(item)});section.append(grid,el('p',valid?'Google Scholar · All-time · Retrieved '+new Date(m.retrieved_at).toISOString().slice(0,10):'Google Scholar · All-time · Not yet retrieved.','faculty-metric-note'));details.insertBefore(section,heading)}
+if(!pubs||!Array.isArray(pubs.publications))return;
+const imported=pubs.publications.filter(p=>(p.student_ids||[]).includes(id));
+const manual=(Array.isArray(s.publications)?s.publications:[]).filter(p=>p&&typeof p.title==='string'&&p.title.trim()).map(p=>({...p,url:p.link||p.url,journal:p.venue||p.journal,authors_display:p.authors||p.authors_display,source_name:p.source_name||'User supplied'}));
+const rows=[];const seen=new Set();[...imported,...manual].forEach(p=>{const d=doi(p.doi);const key=d?'doi:'+d:'title:'+String(p.title).toLowerCase().replace(/\s+/g,' ').trim()+'|'+String(p.year||'')+'|'+String(p.journal||'').toLowerCase();if(!seen.has(key)){seen.add(key);rows.push(p)}});rows.sort((a,b)=>(Number(b.year)||0)-(Number(a.year)||0)||String(a.title).localeCompare(String(b.title)));
+const container=el('div');container.className='student-publication-feed';const summary=el('p',null,'hint');container.append(summary);const more=el('div');more.hidden=true;more.style.display='none';
+const update=expanded=>summary.textContent=rows.length?'Showing '+(expanded?rows.length:Math.min(10,rows.length))+' of '+rows.length+' publications. Newest first.':'No imported or manually supplied publications are available yet.';update(false);
+rows.forEach((p,i)=>{const card=el('article',null,'notice');card.append(el('h3',p.title));if(p.authors_display)card.append(el('div',p.authors_display,'hint'));card.append(el('div',[p.journal,p.year||'Undated',p.type].filter(Boolean).join(' · '),'hint'));
+const d=doi(p.doi),c=d&&citations.entries&&citations.entries[d];const valid=c&&c.doi===d&&c.source==='OpenAlex'&&Number.isSafeInteger(c.count)&&c.count>=0&&/^https:\/\/openalex\.org\/W\d+$/.test(c.source_url)&&Number.isFinite(Date.parse(c.retrieved_at))&&Date.parse(c.retrieved_at)<=Date.now();
+card.append(el('div',valid?'Cited by '+c.count+' · OpenAlex · As of '+new Date(c.retrieved_at).toISOString().slice(0,10)+(c.status==='success'?'':' · Last successful count; latest lookup unavailable.'):(d?'Citation count not yet available.':'Citation count unavailable (no DOI).'),'hint'));
+const href=d?'https://doi.org/'+d:safe(p.url);if(href){const a=el('a','Open publication ↗');a.href=href;a.target='_blank';a.rel='noopener noreferrer';card.append(a)}card.append(el('div','Metadata source: '+(p.source_name||'ORCID'),'hint'));(i<10?container:more).append(card)});
+if(rows.length>10){more.id='student-more-publications';const button=el('button','Show all publications ('+rows.length+')');button.type='button';button.setAttribute('aria-controls',more.id);button.setAttribute('aria-expanded','false');button.addEventListener('click',()=>{more.hidden=!more.hidden;more.style.display=more.hidden?'none':'';button.setAttribute('aria-expanded',String(!more.hidden));button.textContent=more.hidden?'Show all publications ('+rows.length+')':'Show fewer';update(!more.hidden)});container.append(more,button)}
+const st=status.students&&status.students[id];let note='Public ORCID works and user-supplied records; coverage may be incomplete. Paper citation counts are from OpenAlex, not Google Scholar. ';if(st&&st.last_success)note+='Last successful profile retrieval: '+st.last_success+'. ';if(st&&st.status==='no_public_publications')note+='ORCID returned no public works; this does not establish that the researcher has no publications. ';if(st&&st.status==='failed')note+='Latest retrieval failed; existing records are retained. ';note+='Scheduled student refresh is not enabled.';container.append(el('p',note,'event-note'));
+let n=heading.nextElementSibling;while(n){const next=n.nextElementSibling;n.remove();n=next}details.append(container);
+}
+let observer;const ready=()=>{const details=root.querySelector('.faculty-profile-details');if(!details)return;if(observer)observer.disconnect();enhance(details).catch(e=>console.error('Student research enhancement unavailable',e))};observer=new MutationObserver(ready);observer.observe(root,{childList:true,subtree:true});ready();
+})();

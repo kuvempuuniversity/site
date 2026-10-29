@@ -1,0 +1,61 @@
+name: Student research audit
+on:
+  workflow_dispatch:
+    inputs:
+      live_orcid:
+        description: 'Approve public ORCID retrieval for students without a reusable faculty snapshot'
+        type: boolean
+        default: false
+      live_scholar:
+        description: 'Approve SerpApi requests (may consume quota)'
+        type: boolean
+        default: false
+      live_citations:
+        description: 'Approve OpenAlex DOI citation requests'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - scripts/audit_student_research.py
+      - tests/test_student_research.py
+      - .github/workflows/student-research-audit.yml
+permissions:
+  contents: read
+concurrency:
+  group: student-research-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offline tests
+        run: python -m unittest discover -s tests -v
+      - name: Prepare review-only student proposals
+        shell: bash
+        env:
+          LIVE_ORCID: ${{ inputs.live_orcid }}
+          LIVE_SCHOLAR: ${{ inputs.live_scholar }}
+          LIVE_CITATIONS: ${{ inputs.live_citations }}
+          ORCID_ACCESS_TOKEN: ${{ secrets.ORCID_ACCESS_TOKEN }}
+          SCHOLAR_SERPAPI_KEY: ${{ secrets.SCHOLAR_SERPAPI_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: |
+          flags=()
+          if [[ "$LIVE_ORCID" == "true" ]]; then flags+=(--live-orcid); fi
+          if [[ "$LIVE_SCHOLAR" == "true" ]]; then flags+=(--live-scholar); fi
+          if [[ "$LIVE_CITATIONS" == "true" ]]; then flags+=(--live-citations); fi
+          python scripts/audit_student_research.py "${flags[@]}"
+      - name: Save review artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: student-research-audit
+          path: student-research-audit/
+          if-no-files-found: warn
+          retention-days: 7

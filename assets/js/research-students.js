@@ -1,7 +1,7 @@
 "use strict";
 (()=>{
 const profile=document.getElementById('research-student-profile');
-const directoryMatch=location.pathname.match(/\/departments\/(environmental-science|wildlife-management)\.html$/);
+const directoryMatch=location.pathname.match(/\/departments\/(environmental-science|wildlife-management|applied-botany|microbiology)\.html$/);
 const directory=directoryMatch?document.getElementById('students'):null;
 const directoryDepartment=directoryMatch&&directoryMatch[1];
 if(!profile&&!directory)return;
@@ -13,7 +13,7 @@ const lastName=s=>text(s.last_name)||suppliedLastNames[s.id]||text(s.name).split
 const compareStudents=(a,b)=>lastName(a).localeCompare(lastName(b),'en',{sensitivity:'base'})||a.name.localeCompare(b.name,'en',{sensitivity:'base'});
 const url=value=>{if(!text(value))return null;try{const u=new URL(value,location.href);return ['http:','https:'].includes(u.protocol)&&!u.username&&!u.password?u:null}catch{return null}};
 const link=(label,value)=>{const u=url(value);if(!u)return null;const a=el('a',label);a.href=u.href;if(u.origin!==location.origin){a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',label+' — opens in a new tab')}return a};
-const departments={'environmental-science':'Environmental Science','applied-botany':'Applied Botany','wildlife-management':'Wildlife Management'};
+const departments={'environmental-science':'Environmental Science','applied-botany':'Applied Botany','wildlife-management':'Wildlife Management','microbiology':'Microbiology'};
 const portrait=(s,directoryPhoto=false)=>{
 const fallback=new URL(base+'assets/img/students/photo-placeholder.svg',location.href).href;
 const u=url(s.photo_url);const img=el('img');let usingPlaceholder=!u||u.href===fallback;

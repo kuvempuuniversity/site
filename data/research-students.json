@@ -83,7 +83,7 @@
       "research_interests": "Wildlife Conservation, Wildlife Ecology, Biodiversity, Wildlife Forensic, Wetland Ecology",
       "academic_journey": "PhD in Ornithology with focus on ecology of Woodpeckers (Pursuing); B.Ed in Chemistry, Biology (2021); M.Sc in Wildlife and Management (2018); B.Sc In Chemistry, Botany, Zoology (2016)",
       "email": "sowmya95ph@gmail.com",
-      "photo_url": "../assets/img/faculty/wl-sowgya-gr.png",
+      "photo_url": "../assets/img/faculty/wl-sowmya-gr.png",
       "orcid": "0009-0002-8315-9932",
       "scholar_url": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=nAZjyzwAAAAJ",
       "linkedin_url": "https://www.linkedin.com/in/sowmyagandralli",
@@ -108,6 +108,18 @@
       "linkedin_url": "https://www.linkedin.com/in/-roopa-c/",
       "photo_url": "../assets/img/faculty/wl-roopa-c.png",
       "publications": []
-    }
+    },
+    {"id":"apoorva-p","published":true,"name":"Apoorva P","department_id":"applied-botany","programme":"","biography":"Profile information will be added here.","research_interests":"Information to be added.","academic_journey":"Information to be added.","photo_url":"../assets/img/students/ab-apoorva-p.png","publications":[]},
+    {"id":"jasmine-a","published":true,"name":"Jasmine A","department_id":"applied-botany","programme":"","biography":"Profile information will be added here.","research_interests":"Information to be added.","academic_journey":"Information to be added.","photo_url":"../assets/img/students/ab-jasmine-a.png","publications":[]},
+    {"id":"narasimha-tb","published":true,"name":"Narasimha TB","department_id":"applied-botany","programme":"","biography":"Profile information will be added here.","research_interests":"Information to be added.","academic_journey":"Information to be added.","photo_url":"../assets/img/students/ab-narasimha-tb.png","publications":[]},
+    {"id":"rashmi-dc","published":true,"name":"Rashmi DC","department_id":"applied-botany","programme":"","biography":"Profile information will be added here.","research_interests":"Information to be added.","academic_journey":"Information to be added.","photo_url":"../assets/img/students/ab-rashmi-dc.png","publications":[]},
+    {"id":"shashiraj-kn","published":true,"name":"Shashiraj KN","department_id":"applied-botany","programme":"","biography":"Profile information will be added here.","research_interests":"Information to be added.","academic_journey":"Information to be added.","photo_url":"../assets/img/students/ab-shashiraj-kn.png","publications":[]},
+    {"id":"venkatesh","published":true,"name":"Venkatesh","department_id":"applied-botany","programme":"","biography":"Profile information will be added here.","research_interests":"Information to be added.","academic_journey":"Information to be added.","photo_url":"../assets/img/students/ab-venkatesh.png","publications":[]},
+    {"id":"vikas-r","published":true,"name":"Vikas R","department_id":"applied-botany","programme":"","biography":"Profile information will be added here.","research_interests":"Information to be added.","academic_journey":"Information to be added.","photo_url":"../assets/img/students/ab-vikas-r.png","publications":[]},
+    {"id":"gulnaz","published":true,"name":"Gulnaz","department_id":"environmental-science","programme":"","biography":"Profile information will be added here.","research_interests":"Information to be added.","academic_journey":"Information to be added.","photo_url":"../assets/img/students/es-gulnaz.png","publications":[]},
+    {"id":"latha-c","published":true,"name":"Latha C","department_id":"environmental-science","programme":"","biography":"Profile information will be added here.","research_interests":"Information to be added.","academic_journey":"Information to be added.","photo_url":"../assets/img/students/es-latha-c.png","publications":[]},
+    {"id":"pooja","published":true,"name":"Pooja","department_id":"environmental-science","programme":"","biography":"Profile information will be added here.","research_interests":"Information to be added.","academic_journey":"Information to be added.","photo_url":"../assets/img/students/es-pooja.png","publications":[]},
+    {"id":"spoorthi","published":true,"name":"Spoorthi","department_id":"environmental-science","programme":"","biography":"Profile information will be added here.","research_interests":"Information to be added.","academic_journey":"Information to be added.","photo_url":"../assets/img/students/es-spoorthi.png","publications":[]},
+    {"id":"dhanyakumari","published":true,"name":"Dhanyakumari","department_id":"microbiology","programme":"","biography":"Profile information will be added here.","research_interests":"Information to be added.","academic_journey":"Information to be added.","photo_url":"../assets/img/students/mb-dhanyakumari.png","publications":[]}
   ]
 }

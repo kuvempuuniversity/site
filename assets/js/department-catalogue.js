@@ -13,3 +13,10 @@ const entries=[['Applied Zoology','applied-zoology','science'],['Biotechnology',
 })();
 (()=>{if(!/\/departments\/[^/]+\.html$/.test(location.pathname))return;const script=document.createElement('script');script.src=(document.body.dataset.base||'../')+'assets/js/department-navigation.js';document.head.append(script)})();
 (()=>{if(!document.getElementById('programmes'))return;const script=document.createElement('script');script.src=(document.body.dataset.base||'./')+'assets/js/department-card-images.js';document.head.append(script)})();
+(()=>{
+const match=location.pathname.match(/\/departments\/(applied-botany|biotechnology|microbiology)\.html$/);if(!match)return;
+const base=document.body.dataset.base||'../';
+const load=name=>{const exists=Array.from(document.scripts).some(s=>{try{return new URL(s.src,location.href).pathname.endsWith('/assets/js/'+name)}catch{return false}});if(exists)return;const script=document.createElement('script');script.src=base+'assets/js/'+name;document.head.append(script)};
+let observer;const ready=()=>{if(!document.getElementById('people')||!document.getElementById('students'))return false;load('faculty.js');if(match[1]!=='biotechnology')load('research-students.js');if(observer)observer.disconnect();return true};
+if(!ready()){observer=new MutationObserver(ready);observer.observe(document.body,{childList:true,subtree:true});ready()}
+})();

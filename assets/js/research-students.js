@@ -52,7 +52,7 @@ const actions=profileLinks(s);if(actions.children.length)identity.append(actions
 if(text(s.biography))details.append(el('p',s.biography,'faculty-biography'));
 label(details,'Research interests',s.research_interests);label(details,'Academic journey',s.academic_journey);label(details,'Supervisor',s.supervisor);label(details,'Co-supervisor',s.co_supervisor);label(details,'Registration year',s.registration_year==null?'':String(s.registration_year));
 const taught=Array.isArray(s.modules_taught)?s.modules_taught.filter(topic=>text(topic)).map(topic=>topic.trim()):[];if(taught.length)label(details,'Modules I teach',taught.join(', ')+'.');if(text(s.additional_notes))details.append(el('p',s.additional_notes,'student-additional-notes'));
-if(text(s.research_summary)){details.append(el('h2','Research overview'),el('p',s.research_summary))}
+if(text(s.research_summary)){details.append(el('h2','PhD topic:'),el('p',s.research_summary))}
 const publications=Array.isArray(s.publications)?s.publications.filter(p=>p&&text(p.title)):[];details.append(el('h2','Publications'));
 if(!publications.length)details.append(el('p','Publication details will be added here.'));
 else{const list=el('div');publications.forEach(p=>{const item=el('article',undefined,'notice');const h=el('h3');const a=link(p.title,p.link);h.append(a||document.createTextNode(p.title));item.append(h);const citation=[text(p.authors),text(p.venue),p.year==null?'':String(p.year)].filter(Boolean).join(' · ');if(citation)item.append(el('p',citation,'hint'));list.append(item)});details.append(list)}

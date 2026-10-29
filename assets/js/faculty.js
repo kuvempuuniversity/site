@@ -40,7 +40,7 @@ const sectionHeading=text=>el('h2',text);
 if(typeof f.biography==='string'&&f.biography.trim())details.append(el('p',f.biography,'faculty-biography'));
 if(f.research_interests){const interests=el('p',undefined,'faculty-research-interests');interests.append(el('strong','Research interests: '),document.createTextNode(f.research_interests));details.append(interests)}
 if(safeUrl(f.scholar_url))details.append(scholarMetrics(f));
-const taught=Array.isArray(f.modules_taught)?f.modules_taught.filter(topic=>typeof topic==='string'&&topic.trim()).map(topic=>topic.trim()):[];details.append(el('p','Modules I teach: '+(taught.length?taught.join(', ')+'.':'Information to be added.'),'faculty-teaching'));
+const taught=Array.isArray(f.modules_taught)?f.modules_taught.filter(topic=>typeof topic==='string'&&topic.trim()).map(topic=>topic.trim()):[];const teaching=el('p',undefined,'faculty-teaching');teaching.append(el('strong','Modules I teach: '),document.createTextNode(taught.length?taught.join(', ')+'.':'Information to be added.'));details.append(teaching);
 details.append(sectionHeading('Publications'));const works=el('div');details.append(works);
 if(!f.orcid&&!f.scholar_url){works.append(el('p','Publication details will be added here.'));return}
 works.append(el('p','Loading publications…'));

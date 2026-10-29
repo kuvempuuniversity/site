@@ -19,13 +19,21 @@ interests.after(section);
 }
 const text=typeof journeys[id]==='string'&&journeys[id].trim()?journeys[id].trim():'Information to be added.';
 if(section.lastChild.textContent!==text)section.lastChild.textContent=text;
-const f=faculty[id],identity=profile.querySelector('.faculty-profile-identity');if(!f||!identity||profile.querySelector('.faculty-additional-details'))return;
-const roles=Array.isArray(f.additional_roles)?f.additional_roles.filter(x=>typeof x==='string'&&x.trim()):[];
+const f=faculty[id],identity=profile.querySelector('.faculty-profile-identity');if(!f||!identity)return;
+const roles=Array.isArray(f.additional_roles)?f.additional_roles.filter(x=>typeof x==='string'&&x.trim()).map(x=>x.trim()):[];
+const teaching=profile.querySelector('.faculty-teaching');
+if(roles.length&&teaching&&!profile.querySelector('.faculty-additional-responsibilities')){
+const p=document.createElement('p'),label=document.createElement('strong');
+p.className='faculty-teaching faculty-additional-responsibilities';
+label.textContent='Additional responsibilities: ';
+const responsibilities=id==='hina-kousar'?"Faculty Advisor of Ladies' Hostel (2008 onwards); Director, Women's study centre from (2022 to 2026).":roles.join('; ').replace(/[.]+$/,'')+'.';
+p.append(label,document.createTextNode(responsibilities));
+teaching.after(p);
+}
 const notes=typeof f.additional_notes==='string'?f.additional_notes.trim():'';
 const supervisor=typeof f.phd_supervisor==='string'?f.phd_supervisor.trim():'';
-if(!roles.length&&!notes&&!supervisor)return;
+if(profile.querySelector('.faculty-additional-details')||(!notes&&!supervisor))return;
 const extra=document.createElement('section');extra.className='faculty-additional-details';extra.setAttribute('aria-label','Additional profile details');
-if(roles.length){const h=document.createElement('h2');h.textContent='Additional responsibilities';const list=document.createElement('ul');roles.forEach(role=>{const item=document.createElement('li');item.textContent=role;list.append(item)});extra.append(h,list)}
 if(notes){const p=document.createElement('p');p.textContent=notes;extra.append(p)}
 if(supervisor){const p=document.createElement('p'),label=document.createElement('strong');label.textContent='PhD supervisor: ';p.append(label,document.createTextNode(supervisor));extra.append(p)}
 identity.after(extra);

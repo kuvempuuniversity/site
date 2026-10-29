@@ -2,6 +2,12 @@
 (()=>{
 if(window.KUDepartmentNavigation||!/\/departments\/[^/]+\.html$/.test(location.pathname))return;window.KUDepartmentNavigation=true;
 const base=document.body.dataset.base||'../';document.body.classList.add('department-navigation-page');const css=document.createElement('link');css.rel='stylesheet';css.href=base+'assets/css/department-navigation.css';document.head.append(css);
+const cardSpacing=document.createElement('style');cardSpacing.id='department-people-spacing';cardSpacing.textContent=`
+body.department-navigation-page #people>.event-grid>.panel>h3,
+body.department-navigation-page #students>.event-grid>.panel>h3{min-height:0!important;margin-bottom:4px!important}
+body.department-navigation-page #people>.event-grid>.panel>h3+p,
+body.department-navigation-page #students>.event-grid>.panel>h3+p{margin-top:0!important}
+`;document.head.append(cardSpacing);
 let pending=false;const reconcile=()=>{
 pending=false;const header=document.querySelector('body>header.brandrow'),menu=header&&header.querySelector(':scope>.menu'),nav=header&&header.querySelector(':scope>#navigation');
 if(header&&menu&&nav){header.classList.add('has-mobile-menu');const open=menu.getAttribute('aria-expanded')==='true';const text=open?'Close university menu ×':'University menu ☰';if(menu.textContent!==text)menu.textContent=text;const label=open?'Close university navigation':'Open university navigation';if(menu.getAttribute('aria-label')!==label)menu.setAttribute('aria-label',label);if(nav.getAttribute('aria-label')!=='University navigation')nav.setAttribute('aria-label','University navigation')}

@@ -3,6 +3,7 @@
 if(window.KUDepartmentNavigation||!/\/departments\/[^/]+\.html$/.test(location.pathname))return;window.KUDepartmentNavigation=true;
 const base=document.body.dataset.base||'../';document.body.classList.add('department-navigation-page');const css=document.createElement('link');css.rel='stylesheet';css.href=base+'assets/css/department-navigation.css';document.head.append(css);
 const cardSpacing=document.createElement('style');cardSpacing.id='department-people-spacing';cardSpacing.textContent=`
+body.department-navigation-page #study>.event-grid{padding-top:1.5em;padding-top:1lh}
 body.department-navigation-page #people>.event-grid>.panel>h3,
 body.department-navigation-page #students>.event-grid>.panel>h3{min-height:0!important;margin-bottom:4px!important}
 body.department-navigation-page #people>.event-grid>.panel>h3+p,

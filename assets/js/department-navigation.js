@@ -4,6 +4,7 @@ if(window.KUDepartmentNavigation||!/\/departments\/[^/]+\.html$/.test(location.p
 const base=document.body.dataset.base||'../';document.body.classList.add('department-navigation-page','department-people-cards');
 const css=document.createElement('link');css.rel='stylesheet';css.href=base+'assets/css/department-navigation.css';document.head.append(css);
 const cardsCss=document.createElement('link');cardsCss.rel='stylesheet';cardsCss.href=base+'assets/css/department-people-cards.css';document.head.append(cardsCss);
+if(!Array.from(document.scripts).some(s=>s.src&&new URL(s.src,location.href).pathname.endsWith('/assets/js/department-directories.js'))){const directories=document.createElement('script');directories.src=base+'assets/js/department-directories.js';document.head.append(directories)}
 if(!Array.from(document.scripts).some(s=>s.src&&new URL(s.src,location.href).pathname.endsWith('/assets/js/department-research.js'))){const research=document.createElement('script');research.src=base+'assets/js/department-research.js';document.head.append(research)}
 const annotateCards=()=>{
 document.querySelectorAll('main #people>.event-grid>.panel,main #students>.event-grid>.panel').forEach(card=>{

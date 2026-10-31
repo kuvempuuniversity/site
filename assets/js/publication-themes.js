@@ -1,4 +1,4 @@
-const stop=new Set('a an and are as at be been being but by can could did do does during each for from has have how if in into is it its may more most not of on or our over per study studies studying using use used uses with within without to the their these this those through under via was were what when where which while who will would about above across after against all also among analysis approach approaches assessment based between both case cases comparative comparison determination different effect effects evaluation evidence experimental experiments investigation investigations method methods new novel results review role some synthesis system systems toward towards very'.split(' '));
+const stop=new Set('a an and are as at be been being but by can could did do does during each for from has have how if in into is it its may more most not of on or our over per study studies studying using use used uses with within without to the their these this those through under via was were what when where which while who will would about above across after against all also among analysis approach approaches assessment based between both case cases comparative comparison determination different effect effects evaluation evidence experimental experiments investigation investigations method methods new novel results review role some synthesis system systems toward towards very india karnataka shivamogga shimoga'.split(' '));
 const clean=value=>String(value||'').replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,' ').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,' ').replace(/<[^>]*>/g,' ').replace(/&(?:#x[0-9a-f]+|#\d+|[a-z]+);/gi,' ').normalize('NFKC').toLocaleLowerCase('en').replace(/[-‐‑–—]/g,' ');
 export function extract(papers){
 const counts=new Map();
@@ -13,6 +13,7 @@ const selected=[];
 for(const item of candidates){if(selected.some(other=>(' '+other.term+' ').includes(' '+item.term+' ')&&other.count===item.count))continue;selected.push(item);if(selected.length===28)break}
 return selected;
 }
+export function emphasis(count,minimum,maximum){const ratio=maximum===minimum?.5:Math.max(0,Math.min(1,(count-minimum)/(maximum-minimum)));return {size:13+39*Math.pow(ratio,.8),weight:Math.round((400+400*ratio)/100)*100,colour:ratio>=.7?'var(--green)':ratio>=.35?'var(--ink)':'var(--muted)'}}
 const el=(tag,text,cls)=>{const node=document.createElement(tag);if(text!=null)node.textContent=text;if(cls)node.className=cls;return node};
 export function render(section,collection){
 if(section.querySelector('.publication-overview'))return;
@@ -22,9 +23,9 @@ if(!document.querySelector('link[data-ku-publication-themes]')){const css=el('li
 const layout=el('div',null,'publication-overview'),left=el('div',null,'publication-overview-counts'),figure=el('figure',null,'publication-overview-themes');
 left.append(el('h3','Research at a glance'));figure.append(el('h3','Themes in our publications'));
 if(papers.length>=3&&terms.length>=6){
-const list=el('ul',null,'publication-theme-terms');list.setAttribute('aria-label','Recurring title terms and the number of paper titles containing each term');const maximum=Math.max(...terms.map(t=>t.count));
-terms.forEach((term,index)=>{const item=el('li');item.style.fontSize=(14+20*Math.sqrt(term.count/maximum)).toFixed(1)+'px';item.style.setProperty('--term-colour',['var(--green)','var(--purple)','var(--ink)','var(--muted)'][index%4]);item.title=term.term+' — '+term.count+' paper titles';item.append(el('span',term.term),el('span',' — '+term.count+' paper titles','publication-theme-sr'));list.append(item)});figure.append(list);
+const list=el('ul',null,'publication-theme-terms');list.setAttribute('aria-label','Recurring title terms and the number of paper titles containing each term');const maximum=Math.max(...terms.map(t=>t.count)),minimum=Math.min(...terms.map(t=>t.count));
+terms.forEach(term=>{const item=el('li'),appearance=emphasis(term.count,minimum,maximum);item.style.setProperty('--term-size',appearance.size.toFixed(1)+'px');item.style.fontWeight=String(appearance.weight);item.style.setProperty('--term-colour',appearance.colour);item.title=term.term+' — '+term.count+' paper titles';item.append(el('span',term.term),el('span',' — '+term.count+' paper titles','publication-theme-sr'));list.append(item)});figure.append(list);
 }else figure.append(el('p','Not enough recurring title terms yet. Research themes will appear as publication records are added.','hint'));
-figure.append(el('figcaption','Recurring terms extracted from '+papers.length+' available research-paper titles. Larger terms appear in more paper titles. This is an indicative view, not author-supplied keywords or a measure of research impact.'));
+figure.append(el('figcaption','Recurring terms extracted from '+papers.length+' available research-paper titles. Larger, bolder terms appear in more paper titles; selected location names are excluded. This is an indicative view, not author-supplied keywords or a measure of research impact.'));
 layout.append(left,figure);section.prepend(layout);left.append(dl);
 }

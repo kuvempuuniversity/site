@@ -32,11 +32,14 @@ body.department-navigation-page.department-people-cards main :is(#people,#studen
 body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>p.department-card-position{
  display:block!important;line-height:1.45;overflow:visible!important;
 }
-body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>p.department-card-excerpt{
- display:-webkit-box!important;-webkit-box-orient:vertical;-webkit-line-clamp:2!important;
- line-clamp:2!important;line-height:1.55;max-height:3.1em!important;overflow:hidden!important;
+body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>p.department-card-excerpt,
+body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>h3+p+p:not(:last-child){
+ display:none!important;
 }
 body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>p:last-child{
- flex:0 0 auto!important;margin: auto 0 0!important;padding-top:12px;
+ flex:0 0 auto!important;margin:auto 0 0!important;padding-top:8px;font-size:8px!important;line-height:1.4;
+}
+body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>p:last-child>a{
+ display:inline-block;font-size:8px!important;line-height:1.4;padding-block:4px;
 }
 body.department-navigation-page.department-people-cards main #study>.event-grid{padding-top:1.5em;padding-top:1lh}

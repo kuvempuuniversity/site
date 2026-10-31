@@ -8,7 +8,7 @@ import re
 import unicodedata
 from urllib.parse import urlparse, parse_qs
 
-SOURCE_BLOB = 'f8c0fe9d84cd79159bc1fd16d80a88cc4947f4f5'
+SOURCE_BLOB = 'f066871f7c63ddfdc7647266f42507f250dfe075'
 ROUTES = {'computer-science': 'computer-sciences', 'tourism-administration': 'tourism'}
 PHOTO_ALIASES = {
 'reenaroyprasad@gmail.com':'ab-reena-roy-d', 'shankarsaralap@gmail.com':'ab-sarala-p',

@@ -1566,27 +1566,6 @@
       }
     },
     {
-      "id": "aishwarya-m",
-      "name": "Ms. Aishwarya M.",
-      "last_name": "M.",
-      "department_id": "environmental-science",
-      "department": "Environmental Science",
-      "email": "aishwaryam896@gmail.com",
-      "teaches": true,
-      "biography": "A Food Technology academic and researcher currently working as a Guest Lecturer in the Department of Food Technology at Kuvempu University, Karnataka, and a UGC-NET qualified candidate in Home Science. I completed my M.Sc. in Food Technology from Kuvempu University in 2024 and my B.Sc. from Smt. Indira Gandhi Government First Grade Women's College in 2022. My postgraduate research focused on the development of edible cutlery using millet flour, with an emphasis on nutritional composition and sensory evaluation, exploring sustainable and biodegradable alternatives to conventional plastic-based food service materials. My research interests include millet-based value-added food product development, food preservation and processing technologies, functional foods and nutraceuticals, sustainable food packaging, edible films and coatings, food safety, and nutritional evaluation of innovative food products. I am particularly interested in developing nutritious, sustainable, and innovative food solutions through research and technological advancements in food science.",
-      "research_interests": "Millet based value added food product development, Sustainable food packaging, Edible films and coatings, Functional foods and nutraceuticals, Food preservation and processing technologies",
-      "academic_journey": "MSc in Food Technology (2024); BSc in CBZ (2022)",
-      "modules_taught": [
-        "Food Preservation and Processing Technology",
-        "Food Additives",
-        "Food Packaging",
-        "Food Engineering",
-        "Nutraceuticals and Functional Foods"
-      ],
-      "orcid": "0009-0004-9549-6746",
-      "designation": "Guest faculty"
-    },
-    {
       "id": "madhusudhana-n",
       "name": "Dr. Madhusudhana N.",
       "designation": "Guest Lecturer",
@@ -1614,30 +1593,6 @@
         "last_attempt": "2026-10-29T12:57:30+00:00",
         "status": "success"
       }
-    },
-    {
-      "id": "sachin-s-nayaka",
-      "name": "Dr. Sachin S. Nayaka",
-      "last_name": "Nayaka",
-      "department_id": "environmental-science",
-      "department": "Environmental Science",
-      "email": "sachinsnayaka@gmail.com",
-      "teaches": true,
-      "biography": "A researcher and academician at Kuvempu University, Karnataka, with expertise in biotechnology, phytochemistry, pharmacology, and food technology. His research focuses on medicinal plant-based bioactive compounds, sustainable food packaging, biopolymer development, and environmental applications. He has over four years of research experience as a DBT-Senior Research Fellow and is actively involved in teaching, postgraduate research supervision, and interdisciplinary scientific research. He has guided 20 M.Sc. students, published several research articles, and received prestigious recognitions, including the Young Scientist Award (2025) and Dr. B.R. Ambedkar Young Academic Excellence Award (2026), Best Food-tech Innovation Award (2026) and Excellence of Research Award (2026). Also my work emphasizes scientific innovation, sustainable development, and the application of biological resources for societal and environmental well-being.",
-      "research_interests": "Phytochemistry, Pharmacology, Bioprocess technology, Molecular biology, Immunology, Microbiology",
-      "academic_journey": "PhD, Kuvempu University (2024); MSc, Kuvempu University (2015); BSc, Davangere University (2013)",
-      "modules_taught": [
-        "Dairy Technology",
-        "Bioprocess Technology",
-        "Plant Tissue Culture",
-        "Animal Handling",
-        "Column Chromatography",
-        "Animal Cell Culture Techniques",
-        "Environmental Remediation",
-        "Green Synthesis"
-      ],
-      "orcid": "0000-0001-9580-4105",
-      "designation": "Guest faculty"
     },
     {
       "id": "rakesh-tiwari",
@@ -1697,6 +1652,51 @@
       "orcid": "0000-0002-7509-0341",
       "scholar_url": "https://scholar.google.com/citations?user=i5lzgHcAAAAJ&hl=en",
       "linkedin_url": "https://www.linkedin.com/in/dr-preema-karal-andrade-b90666275/",
+      "designation": "Guest faculty"
+    },
+    {
+      "id": "aishwarya-m",
+      "name": "Ms. Aishwarya M.",
+      "last_name": "M.",
+      "department_id": "food-technology",
+      "department": "Food Technology",
+      "email": "aishwaryam896@gmail.com",
+      "teaches": true,
+      "biography": "A Food Technology academic and researcher currently working as a Guest Lecturer in the Department of Food Technology at Kuvempu University, Karnataka, and a UGC-NET qualified candidate in Home Science. I completed my M.Sc. in Food Technology from Kuvempu University in 2024 and my B.Sc. from Smt. Indira Gandhi Government First Grade Women's College in 2022. My postgraduate research focused on the development of edible cutlery using millet flour, with an emphasis on nutritional composition and sensory evaluation, exploring sustainable and biodegradable alternatives to conventional plastic-based food service materials. My research interests include millet-based value-added food product development, food preservation and processing technologies, functional foods and nutraceuticals, sustainable food packaging, edible films and coatings, food safety, and nutritional evaluation of innovative food products. I am particularly interested in developing nutritious, sustainable, and innovative food solutions through research and technological advancements in food science.",
+      "research_interests": "Millet based value added food product development, Sustainable food packaging, Edible films and coatings, Functional foods and nutraceuticals, Food preservation and processing technologies",
+      "academic_journey": "MSc in Food Technology (2024); BSc in CBZ (2022)",
+      "modules_taught": [
+        "Food Preservation and Processing Technology",
+        "Food Additives",
+        "Food Packaging",
+        "Food Engineering",
+        "Nutraceuticals and Functional Foods"
+      ],
+      "orcid": "0009-0004-9549-6746",
+      "designation": "Guest faculty"
+    },
+    {
+      "id": "sachin-s-nayaka",
+      "name": "Dr. Sachin S. Nayaka",
+      "last_name": "Nayaka",
+      "department_id": "food-technology",
+      "department": "Food Technology",
+      "email": "sachinsnayaka@gmail.com",
+      "teaches": true,
+      "biography": "A researcher and academician at Kuvempu University, Karnataka, with expertise in biotechnology, phytochemistry, pharmacology, and food technology. His research focuses on medicinal plant-based bioactive compounds, sustainable food packaging, biopolymer development, and environmental applications. He has over four years of research experience as a DBT-Senior Research Fellow and is actively involved in teaching, postgraduate research supervision, and interdisciplinary scientific research. He has guided 20 M.Sc. students, published several research articles, and received prestigious recognitions, including the Young Scientist Award (2025) and Dr. B.R. Ambedkar Young Academic Excellence Award (2026), Best Food-tech Innovation Award (2026) and Excellence of Research Award (2026). Also my work emphasizes scientific innovation, sustainable development, and the application of biological resources for societal and environmental well-being.",
+      "research_interests": "Phytochemistry, Pharmacology, Bioprocess technology, Molecular biology, Immunology, Microbiology",
+      "academic_journey": "PhD, Kuvempu University (2024); MSc, Kuvempu University (2015); BSc, Davangere University (2013)",
+      "modules_taught": [
+        "Dairy Technology",
+        "Bioprocess Technology",
+        "Plant Tissue Culture",
+        "Animal Handling",
+        "Column Chromatography",
+        "Animal Cell Culture Techniques",
+        "Environmental Remediation",
+        "Green Synthesis"
+      ],
+      "orcid": "0000-0001-9580-4105",
       "designation": "Guest faculty"
     },
     {

@@ -13,7 +13,7 @@ Raghu K. Shivani (Kannada), Shrinidhi K. T. Bhandari (Biochemistry), Veda H. T. 
 - Narasimha Basamma has a malformed duplicate ORCID; the consistently supplied alternative is retained pending verification.
 - Vinay B. Prasad supplied an email containing gamil.com; no guessed domain correction is applied.
 - Varghese P. A. Pulickal has inconsistent PhD years; the fuller earlier academic journey is retained pending confirmation.
-- Sachin S. Nayaka and Aishwarya M. retain Environmental Science as submitted; their biographies reference Food Technology.
+
 - Vasanthanaik Papanaik, Deekshith Babu and Govindaraju Kammaragatte Anjaneya retain Education as submitted; their physical-education material warrants a department check.
 - Explicit Industrial Chemistry, Physical Education and Food Technology corrections take precedence over uncorrected dropdowns.
 - Three unmatched email-only submissions contain no publishable profile identity; no unnamed profiles are created.
@@ -22,3 +22,8 @@ Raghu K. Shivani (Kannada), Shrinidhi K. T. Bhandari (Biochemistry), Veda H. T. 
 
 ## Import safeguards
 The import is pinned to the reviewed Git blob of data/source.json. A changed source requires fresh review. Existing identifiers, photos, publication datasets and citation metrics are preserved where matched. The portrait-only lists are migrated into the standard datasets before their separate loader is removed from page references. Old role URLs are redirected when a person's category changes. Computer Science uses the existing computer-sciences.html route; Tourism Administration uses tourism.html. The separate review workbook retains detailed field-level merge history.
+
+## Resolved Food Technology assignments
+- Sachin S. Nayaka (Food Technology; sachinsnayaka@gmail.com): reassigned from Environmental Science following explicit user confirmation on 31 October 2026.
+- Aishwarya M. (Food Technology; aishwaryam896@gmail.com): reassigned from Environmental Science based on her explicit biography identifying her current Food Technology appointment.
+- Preema Karal Andrade (Food Technology; preema1960@gmail.com): existing assignment retained, following her original correction note.

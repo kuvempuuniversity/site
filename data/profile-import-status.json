@@ -1,5 +1,5 @@
 {
-  "source_blob": "f8c0fe9d84cd79159bc1fd16d80a88cc4947f4f5",
+  "source_blob": "f066871f7c63ddfdc7647266f42507f250dfe075",
   "source_people": 140,
   "source_faculty": 109,
   "source_students": 64,
@@ -1045,6 +1045,22 @@
       "role": "students",
       "id": "rashmi-dc",
       "action": "updated"
+    }
+  ],
+  "department_corrections": [
+    {
+      "email": "sachinsnayaka@gmail.com",
+      "id": "sachin-s-nayaka",
+      "name": "Sachin S. Nayaka",
+      "from": "environmental-science",
+      "to": "food-technology"
+    },
+    {
+      "email": "aishwaryam896@gmail.com",
+      "id": "aishwarya-m",
+      "name": "Aishwarya M.",
+      "from": "environmental-science",
+      "to": "food-technology"
     }
   ]
 }

@@ -10,9 +10,14 @@ root=Path(__file__).resolve().parents[1]
 a=root/'assets/js/department-research.js'
 b=root/'assets/js/publications.js'
 x=a.read_text(encoding='utf-8');y=b.read_text(encoding='utf-8')
-if "import(base+'assets/js/scholar-citations.js')" not in x:
-    x=once(x,'const get=async id=>aggregate(await load(),id);',"const get=async id=>{const result=aggregate(await load(),id);if(id!=='environmental-science')return result;const module=await import(base+'assets/js/scholar-citations.js');return module.apply(result)};")
+original='const get=async id=>aggregate(await load(),id);'
+previous="const get=async id=>{const result=aggregate(await load(),id);if(id!=='environmental-science')return result;const module=await import(base+'assets/js/scholar-citations.js');return module.apply(result)};"
+corrected="const get=async id=>{const result=aggregate(await load(),id);if(id!=='environmental-science')return result;const module=await import(new URL(base+'assets/js/scholar-citations.js',document.baseURI).href);return module.apply(result)};"
+if corrected not in x:
+    x=once(x,previous if previous in x else original,corrected)
+if "dl.querySelector('div:last-child dt').textContent='Citations ('" not in x:
     x=once(x,'get(id).then(r=>{',"get(id).then(r=>{if(r.citationSource)dl.querySelector('div:last-child dt').textContent='Citations ('+r.citationSource+')';")
+if "methodology.href=base+'about-research-metrics.html'" not in x:
     x=once(x,'section.append(details);const link=',"const methodology=el('a','About this website and research metrics →');methodology.href=base+'about-research-metrics.html';details.append(methodology);section.append(details);const link=")
 if "metrics.source==='Google Scholar'" not in y:
     y=once(y,'function citationLine(p,metrics){',"""function citationLine(p,metrics){

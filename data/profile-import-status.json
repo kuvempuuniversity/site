@@ -1,0 +1,1050 @@
+{
+  "source_blob": "f8c0fe9d84cd79159bc1fd16d80a88cc4947f4f5",
+  "source_people": 140,
+  "source_faculty": 109,
+  "source_students": 64,
+  "source_both": 33,
+  "faculty_total": 144,
+  "student_total": 86,
+  "migrated_portrait_entries": 38,
+  "records": [
+    {
+      "email": "shashi083@gmail.com",
+      "role": "faculty",
+      "id": "shashikumar-r",
+      "action": "updated"
+    },
+    {
+      "email": "rangaswamyhg9@gmail.com",
+      "role": "faculty",
+      "id": "kn-rangaswamy-hg",
+      "action": "updated"
+    },
+    {
+      "email": "rangaswamyhg9@gmail.com",
+      "role": "students",
+      "id": "kn-rangaswamy-hg",
+      "action": "updated"
+    },
+    {
+      "email": "sathishandinje@gmail.com",
+      "role": "faculty",
+      "id": "sathish-kumar",
+      "action": "added"
+    },
+    {
+      "email": "keerthid39@gmail.com",
+      "role": "faculty",
+      "id": "keerthi-d",
+      "action": "added"
+    },
+    {
+      "email": "keerthid39@gmail.com",
+      "role": "students",
+      "id": "keerthi-d",
+      "action": "added"
+    },
+    {
+      "email": "rskuswrs@gmail.com",
+      "role": "faculty",
+      "id": "ravi-b-g-shankar",
+      "action": "added"
+    },
+    {
+      "email": "sanbioinfo@gmail.com",
+      "role": "faculty",
+      "id": "sandeep-telkar",
+      "action": "updated"
+    },
+    {
+      "email": "nehakumaric0204@gmail.com",
+      "role": "faculty",
+      "id": "nehakumari-chandrashekhar",
+      "action": "added"
+    },
+    {
+      "email": "nehakumaric0204@gmail.com",
+      "role": "students",
+      "id": "nehakumari-chandrashekhar",
+      "action": "added"
+    },
+    {
+      "email": "jaydrathschavan847@gmail.com",
+      "role": "students",
+      "id": "jaydrata",
+      "action": "added"
+    },
+    {
+      "email": "bhumikagp98@gmail.com",
+      "role": "students",
+      "id": "bhumika-g-p",
+      "action": "added"
+    },
+    {
+      "email": "skpavansk03@yahoo.com",
+      "role": "faculty",
+      "id": "parameshwara-s-k-naik",
+      "action": "added"
+    },
+    {
+      "email": "skpavansk03@yahoo.com",
+      "role": "students",
+      "id": "parameshwara-s-k-naik",
+      "action": "added"
+    },
+    {
+      "email": "teenabn6@gmail.com",
+      "role": "faculty",
+      "id": "teenakumari-b-n-keremane",
+      "action": "added"
+    },
+    {
+      "email": "teenabn6@gmail.com",
+      "role": "students",
+      "id": "teenakumari-b-n-keremane",
+      "action": "added"
+    },
+    {
+      "email": "reenaroyprasad@gmail.com",
+      "role": "faculty",
+      "id": "reena-roy-d",
+      "action": "updated"
+    },
+    {
+      "email": "anjanappa.soc@gmail.com",
+      "role": "faculty",
+      "id": "anjanappa-b-h",
+      "action": "added"
+    },
+    {
+      "email": "santhoshbio4@gmail.com",
+      "role": "faculty",
+      "id": "santhosh-k-hanumanthappa",
+      "action": "added"
+    },
+    {
+      "email": "ulmanikanta17@gmail.com",
+      "role": "students",
+      "id": "manikanta-u-l",
+      "action": "added"
+    },
+    {
+      "email": "mrsathyaprakash@gmail.com",
+      "role": "faculty",
+      "id": "sathyaprakash-m-r",
+      "action": "added"
+    },
+    {
+      "email": "drjkdange@gmail.com",
+      "role": "faculty",
+      "id": "jagannath-k-dange",
+      "action": "added"
+    },
+    {
+      "email": "knagarajv@gmail.com",
+      "role": "faculty",
+      "id": "nagaraja",
+      "action": "added"
+    },
+    {
+      "email": "vinuthaspatil92@gmail.com",
+      "role": "faculty",
+      "id": "vinutha-s-patil",
+      "action": "added"
+    },
+    {
+      "email": "ravi2142@yahoo.co.in",
+      "role": "faculty",
+      "id": "ravikumar-m",
+      "action": "added"
+    },
+    {
+      "email": "1967.shenoy@gmail.com",
+      "role": "faculty",
+      "id": "sudha",
+      "action": "added"
+    },
+    {
+      "email": "nataraja.02tc@gmail.com",
+      "role": "faculty",
+      "id": "nataraja-t-chandrappa",
+      "action": "added"
+    },
+    {
+      "email": "nataraja.02tc@gmail.com",
+      "role": "students",
+      "id": "nataraja-t-chandrappa",
+      "action": "added"
+    },
+    {
+      "email": "venkateshatalwar@gmail.com",
+      "role": "faculty",
+      "id": "talavara-venkatesh",
+      "action": "added"
+    },
+    {
+      "email": "raghuedn@gmail.com",
+      "role": "faculty",
+      "id": "raghavendra-bommannavar",
+      "action": "added"
+    },
+    {
+      "email": "preema1960@gmail.com",
+      "role": "faculty",
+      "id": "preema-karal-andrade",
+      "action": "added"
+    },
+    {
+      "email": "vadivelu1979@gmail.com",
+      "role": "faculty",
+      "id": "vadivelu-a",
+      "action": "added"
+    },
+    {
+      "email": "dilipkumar.kg@gmail.com",
+      "role": "faculty",
+      "id": "dileep-kumar",
+      "action": "added"
+    },
+    {
+      "email": "manjurajappa@gmail.com",
+      "role": "faculty",
+      "id": "manjunath-k-rajappa",
+      "action": "added"
+    },
+    {
+      "email": "shanmukha24@gmail.com",
+      "role": "faculty",
+      "id": "shanmukha-a",
+      "action": "added"
+    },
+    {
+      "email": "suprajarprasad@gmail.com",
+      "role": "faculty",
+      "id": "ic-supraja-r-prasad",
+      "action": "updated"
+    },
+    {
+      "email": "suprajarprasad@gmail.com",
+      "role": "students",
+      "id": "ic-supraja-r-prasad",
+      "action": "updated"
+    },
+    {
+      "email": "sk.genesan@gmail.com",
+      "role": "faculty",
+      "id": "h-s-santosh-kumar",
+      "action": "added"
+    },
+    {
+      "email": "rajscbz@gmail.com",
+      "role": "faculty",
+      "id": "shashiraj-kn",
+      "action": "added"
+    },
+    {
+      "email": "divakarabdvt@gmail.com",
+      "role": "faculty",
+      "id": "divakara-r",
+      "action": "updated"
+    },
+    {
+      "email": "bpniru@gmail.com",
+      "role": "faculty",
+      "id": "niranjana-pathappa",
+      "action": "added"
+    },
+    {
+      "email": "suresham.kuvu@gmail.com",
+      "role": "faculty",
+      "id": "suresha-m",
+      "action": "added"
+    },
+    {
+      "email": "drgov@yahoo.com",
+      "role": "faculty",
+      "id": "govindaraju",
+      "action": "added"
+    },
+    {
+      "email": "ram.prasad.u@gmail.com",
+      "role": "faculty",
+      "id": "rama-prasad-b-v",
+      "action": "added"
+    },
+    {
+      "email": "mspmanoj2@gmail.com",
+      "role": "faculty",
+      "id": "manoj-s-p",
+      "action": "added"
+    },
+    {
+      "email": "drshrishailc@gmail.com",
+      "role": "faculty",
+      "id": "shrishaila",
+      "action": "updated"
+    },
+    {
+      "email": "rspotry10@gmail.com",
+      "role": "faculty",
+      "id": "ravindra-gouda-s-m",
+      "action": "added"
+    },
+    {
+      "email": "megha2rao@gmail.com",
+      "role": "faculty",
+      "id": "meghana-p-pargi",
+      "action": "added"
+    },
+    {
+      "email": "chandrashekareregowda@gmail.com",
+      "role": "faculty",
+      "id": "chandrashekar-e",
+      "action": "added"
+    },
+    {
+      "email": "aishukanth01@gmail.com",
+      "role": "students",
+      "id": "aishwarya-b-l-beeranakallu-lakshmikantha",
+      "action": "added"
+    },
+    {
+      "email": "shreevanismg@gmail.com",
+      "role": "faculty",
+      "id": "vanishree-k",
+      "action": "added"
+    },
+    {
+      "email": "harshitha8.sr@gmail.com",
+      "role": "students",
+      "id": "harshitha-s-r",
+      "action": "added"
+    },
+    {
+      "email": "uddagattiv@gmail.com",
+      "role": "faculty",
+      "id": "uddagatti-venkatesha",
+      "action": "added"
+    },
+    {
+      "email": "raghuskanda18@gmail.com",
+      "role": "faculty",
+      "id": "raghavendra-s-n",
+      "action": "added"
+    },
+    {
+      "email": "sakammasnaik13@gmail.com",
+      "role": "faculty",
+      "id": "sakamma-s",
+      "action": "added"
+    },
+    {
+      "email": "sjpooja24@gmail.com",
+      "role": "students",
+      "id": "pooja-s-j-shettihalli-jagadeesh",
+      "action": "added"
+    },
+    {
+      "email": "ravibioinfotech@gmail.com",
+      "role": "faculty",
+      "id": "ravikumar-s",
+      "action": "updated"
+    },
+    {
+      "email": "sangeethakvgowda13@gmail.com",
+      "role": "students",
+      "id": "sangeetha-k-v-gowda",
+      "action": "added"
+    },
+    {
+      "email": "narasimhanarasimhatb@gmail.com",
+      "role": "faculty",
+      "id": "narasimha-tb",
+      "action": "added"
+    },
+    {
+      "email": "narasimhanarasimhatb@gmail.com",
+      "role": "students",
+      "id": "narasimha-tb",
+      "action": "updated"
+    },
+    {
+      "email": "madhujk12345@gmail.com",
+      "role": "faculty",
+      "id": "madhu-j-krishnappa",
+      "action": "added"
+    },
+    {
+      "email": "madhujk12345@gmail.com",
+      "role": "students",
+      "id": "madhu-j-krishnappa",
+      "action": "added"
+    },
+    {
+      "email": "sachinsnayaka@gmail.com",
+      "role": "faculty",
+      "id": "sachin-s-nayaka",
+      "action": "added"
+    },
+    {
+      "email": "ashikkoppa1912@gmail.com",
+      "role": "faculty",
+      "id": "kn-ashik",
+      "action": "updated"
+    },
+    {
+      "email": "ashikkoppa1912@gmail.com",
+      "role": "students",
+      "id": "kn-ashik",
+      "action": "updated"
+    },
+    {
+      "email": "mcmaruthimc@gmail.com",
+      "role": "faculty",
+      "id": "kn-maruthi-manjappa-chelavadhi",
+      "action": "updated"
+    },
+    {
+      "email": "mcmaruthimc@gmail.com",
+      "role": "students",
+      "id": "kn-maruthi-manjappa-chelavadhi",
+      "action": "added"
+    },
+    {
+      "email": "tobalesha@gmail.com",
+      "role": "faculty",
+      "id": "kn-obalesha-t",
+      "action": "updated"
+    },
+    {
+      "email": "tobalesha@gmail.com",
+      "role": "students",
+      "id": "kn-obalesha-t",
+      "action": "updated"
+    },
+    {
+      "email": "srikanthmta@gmail.com",
+      "role": "faculty",
+      "id": "srikanth-somanna",
+      "action": "added"
+    },
+    {
+      "email": "preethiyabaduku@gmail.com",
+      "role": "faculty",
+      "id": "kn-prashantha-nayaka",
+      "action": "updated"
+    },
+    {
+      "email": "sneham1609@gmail.com",
+      "role": "faculty",
+      "id": "sneha-m-a-anthony",
+      "action": "added"
+    },
+    {
+      "email": "sneham1609@gmail.com",
+      "role": "students",
+      "id": "sneha-m-a-anthony",
+      "action": "added"
+    },
+    {
+      "email": "venkateshjugal079@gmail.com",
+      "role": "faculty",
+      "id": "venkatesh",
+      "action": "added"
+    },
+    {
+      "email": "venkateshjugal079@gmail.com",
+      "role": "students",
+      "id": "venkatesh",
+      "action": "updated"
+    },
+    {
+      "email": "pulivarghese@gmail.com",
+      "role": "faculty",
+      "id": "varghese-p-a-pulickal",
+      "action": "added"
+    },
+    {
+      "email": "balachandramadiwal@gmail.com",
+      "role": "faculty",
+      "id": "balachandra-madiwal",
+      "action": "added"
+    },
+    {
+      "email": "shilpav03@gmail.com",
+      "role": "faculty",
+      "id": "shilpa-v",
+      "action": "added"
+    },
+    {
+      "email": "shashankshivamogga2723@gmail.com",
+      "role": "faculty",
+      "id": "shashank-i",
+      "action": "added"
+    },
+    {
+      "email": "kotresh59@gmail.com",
+      "role": "faculty",
+      "id": "kotresh-k-r",
+      "action": "added"
+    },
+    {
+      "email": "anitha22a@gmail.com",
+      "role": "faculty",
+      "id": "anitha-n",
+      "action": "added"
+    },
+    {
+      "email": "kjagadeesha413@gmail.com",
+      "role": "students",
+      "id": "jagadeesha-kondajji",
+      "action": "added"
+    },
+    {
+      "email": "katke.vaishali@gmail.com",
+      "role": "faculty",
+      "id": "vaishali-b-katke",
+      "action": "added"
+    },
+    {
+      "email": "khushiramjune14@gmail.com",
+      "role": "faculty",
+      "id": "lakshmi-hosurappa",
+      "action": "added"
+    },
+    {
+      "email": "govindraj031@gmail.com",
+      "role": "faculty",
+      "id": "govindaraju-kammaragatte-anjaneya",
+      "action": "added"
+    },
+    {
+      "email": "dr.m.ravinaik@gmail.com",
+      "role": "faculty",
+      "id": "kn-ravi-naik-m",
+      "action": "updated"
+    },
+    {
+      "email": "dr.rakesh.hs@gmail.com",
+      "role": "faculty",
+      "id": "rakesh-h-s",
+      "action": "added"
+    },
+    {
+      "email": "neelgund@gmail.com",
+      "role": "faculty",
+      "id": "shivayogeeswar-neelagund",
+      "action": "added"
+    },
+    {
+      "email": "aishwaryam896@gmail.com",
+      "role": "faculty",
+      "id": "aishwarya-m",
+      "action": "added"
+    },
+    {
+      "email": "drchandrurcr2008@gmail.com",
+      "role": "faculty",
+      "id": "chandrashekhar-s",
+      "action": "added"
+    },
+    {
+      "email": "nageshapapu929@gmail.com",
+      "role": "faculty",
+      "id": "nagesha-h-a",
+      "action": "added"
+    },
+    {
+      "email": "ravikumareco83@gmail.com",
+      "role": "faculty",
+      "id": "ravikumar-s-kumar",
+      "action": "added"
+    },
+    {
+      "email": "nagaraja.ngkvb1@gmail.com",
+      "role": "students",
+      "id": "kn-nagaraja-g",
+      "action": "updated"
+    },
+    {
+      "email": "kavanak9353@gmail.com",
+      "role": "students",
+      "id": "kn-kavana-k",
+      "action": "updated"
+    },
+    {
+      "email": "raghuskkannada24@gmail.com",
+      "role": "faculty",
+      "id": "kn-raghu-sk",
+      "action": "updated"
+    },
+    {
+      "email": "raghuskkannada24@gmail.com",
+      "role": "students",
+      "id": "kn-raghu-sk",
+      "action": "updated"
+    },
+    {
+      "email": "shankarsaralap@gmail.com",
+      "role": "faculty",
+      "id": "sarala-p",
+      "action": "updated"
+    },
+    {
+      "email": "sathishbryol@gmail.com",
+      "role": "faculty",
+      "id": "sathisha-am",
+      "action": "updated"
+    },
+    {
+      "email": "shilpakalarguna@gmail.com",
+      "role": "students",
+      "id": "kn-shilpakala-mathod",
+      "action": "updated"
+    },
+    {
+      "email": "mahanthra555@gmail.com",
+      "role": "students",
+      "id": "mahanth-rudrappa-avalageri",
+      "action": "added"
+    },
+    {
+      "email": "halaswamy.mv@gmail.com",
+      "role": "faculty",
+      "id": "halaswamy-m-v",
+      "action": "added"
+    },
+    {
+      "email": "kirankumara666@gmail.com",
+      "role": "students",
+      "id": "kirankumara-c-m",
+      "action": "added"
+    },
+    {
+      "email": "raghu.gbk@gmail.com",
+      "role": "students",
+      "id": "raghu-g-k",
+      "action": "added"
+    },
+    {
+      "email": "nellikattesiddesh@gmail.com",
+      "role": "faculty",
+      "id": "kn-nellikatte-siddesh",
+      "action": "updated"
+    },
+    {
+      "email": "ddeepak4192@gmail.com",
+      "role": "students",
+      "id": "deepak-h",
+      "action": "added"
+    },
+    {
+      "email": "bharathm8152@gmail.com",
+      "role": "students",
+      "id": "bharath-m",
+      "action": "added"
+    },
+    {
+      "email": "bggowthamig@gmail.com",
+      "role": "faculty",
+      "id": "gowthami-g",
+      "action": "added"
+    },
+    {
+      "email": "bggowthamig@gmail.com",
+      "role": "students",
+      "id": "gowthami-g",
+      "action": "added"
+    },
+    {
+      "email": "ignitedclawz001@gmail.com",
+      "role": "faculty",
+      "id": "jasmine-a",
+      "action": "added"
+    },
+    {
+      "email": "ignitedclawz001@gmail.com",
+      "role": "students",
+      "id": "jasmine-a",
+      "action": "updated"
+    },
+    {
+      "email": "naveenlbrp@gmail.com",
+      "role": "faculty",
+      "id": "naveena-l",
+      "action": "added"
+    },
+    {
+      "email": "thungas2002@gmail.com",
+      "role": "students",
+      "id": "thunga-s",
+      "action": "added"
+    },
+    {
+      "email": "mohannaikd199@gmail.com",
+      "role": "students",
+      "id": "mohan-naik-d",
+      "action": "added"
+    },
+    {
+      "email": "manaswinibs1999@gmail.com",
+      "role": "students",
+      "id": "manaswini-b-s",
+      "action": "added"
+    },
+    {
+      "email": "bhandarikt92@gmail.com",
+      "role": "faculty",
+      "id": "shrinidhi-k-t-bhandari",
+      "action": "added"
+    },
+    {
+      "email": "bhandarikt92@gmail.com",
+      "role": "students",
+      "id": "shrinidhi-k-t-bhandari",
+      "action": "added"
+    },
+    {
+      "email": "gagana07bw@gmail.com",
+      "role": "students",
+      "id": "gagana-s-sathish-kumar",
+      "action": "added"
+    },
+    {
+      "email": "shilpashreesl50@gmail.com",
+      "role": "faculty",
+      "id": "shilpashree-s-l",
+      "action": "added"
+    },
+    {
+      "email": "shilpashreesl50@gmail.com",
+      "role": "students",
+      "id": "shilpashree-s-l",
+      "action": "added"
+    },
+    {
+      "email": "vedaht224@gmail.com",
+      "role": "faculty",
+      "id": "veda-h-t",
+      "action": "added"
+    },
+    {
+      "email": "vedaht224@gmail.com",
+      "role": "students",
+      "id": "veda-h-t",
+      "action": "added"
+    },
+    {
+      "email": "gaganaj991@gmail.com",
+      "role": "students",
+      "id": "kn-gagana-j",
+      "action": "updated"
+    },
+    {
+      "email": "prathibhaskonkar@gmail.com",
+      "role": "faculty",
+      "id": "prathibha-s-konkar",
+      "action": "added"
+    },
+    {
+      "email": "prathibhaskonkar@gmail.com",
+      "role": "students",
+      "id": "prathibha-s-konkar",
+      "action": "added"
+    },
+    {
+      "email": "shilpasshivakumargs@gmail.com",
+      "role": "students",
+      "id": "shilpa-shivakumar",
+      "action": "added"
+    },
+    {
+      "email": "sridharsrinivas2018@gmail.com",
+      "role": "students",
+      "id": "kn-shridhara-s",
+      "action": "updated"
+    },
+    {
+      "email": "shushmakademanehl@gmail.com",
+      "role": "students",
+      "id": "shushma-h-l",
+      "action": "added"
+    },
+    {
+      "email": "sknmurthy@kuvenpu.ac.in",
+      "role": "faculty",
+      "id": "narasimhamurthy-s-k",
+      "action": "added"
+    },
+    {
+      "email": "rithurevankar@gmail.com",
+      "role": "faculty",
+      "id": "rithu-r-revankar",
+      "action": "added"
+    },
+    {
+      "email": "rithurevankar@gmail.com",
+      "role": "students",
+      "id": "rithu-r-revankar",
+      "action": "added"
+    },
+    {
+      "email": "manjumt94@gmail.com",
+      "role": "faculty",
+      "id": "kn-manjunatha-t",
+      "action": "updated"
+    },
+    {
+      "email": "varnapkamath@gmail.com",
+      "role": "students",
+      "id": "varna-p-kamath",
+      "action": "added"
+    },
+    {
+      "email": "skdde.ku11@gmail.com",
+      "role": "faculty",
+      "id": "shankaramurthy-k",
+      "action": "updated"
+    },
+    {
+      "email": "manoharamanoharanaikk@gmail.com",
+      "role": "students",
+      "id": "manoharanaik-kumaranaik",
+      "action": "added"
+    },
+    {
+      "email": "vinayprasad6.2@gamil.com",
+      "role": "faculty",
+      "id": "vinay-b-prasad",
+      "action": "added"
+    },
+    {
+      "email": "puruhitlu@gmail.com",
+      "role": "faculty",
+      "id": "kn-purushotama-sv",
+      "action": "updated"
+    },
+    {
+      "email": "sangeethasangeetha17772@gmail.com",
+      "role": "faculty",
+      "id": "sangeetha-kempayya",
+      "action": "added"
+    },
+    {
+      "email": "sangeethasangeetha17772@gmail.com",
+      "role": "students",
+      "id": "sangeetha-kempayya",
+      "action": "added"
+    },
+    {
+      "email": "obannadore@gmail.com",
+      "role": "students",
+      "id": "doreobanna-b",
+      "action": "added"
+    },
+    {
+      "email": "aditya.j.g.murthy@gmail.com",
+      "role": "faculty",
+      "id": "aditya-j",
+      "action": "added"
+    },
+    {
+      "email": "aditya.j.g.murthy@gmail.com",
+      "role": "students",
+      "id": "aditya-j",
+      "action": "added"
+    },
+    {
+      "email": "tabbuphd364@gmail.com",
+      "role": "faculty",
+      "id": "tabassum",
+      "action": "added"
+    },
+    {
+      "email": "vasanth.pav@gmail.com",
+      "role": "faculty",
+      "id": "vasanthanaik-papanaik",
+      "action": "added"
+    },
+    {
+      "email": "deekshith258@gmail.com",
+      "role": "faculty",
+      "id": "deekshith-babu",
+      "action": "added"
+    },
+    {
+      "email": "nishankbopanna@gmail.com",
+      "role": "faculty",
+      "id": "c-p-bopanna",
+      "action": "added"
+    },
+    {
+      "email": "mhbhavani1998@gmail.com",
+      "role": "faculty",
+      "id": "ic-bhavani-mh",
+      "action": "updated"
+    },
+    {
+      "email": "mhbhavani1998@gmail.com",
+      "role": "students",
+      "id": "ic-bhavani-mh",
+      "action": "updated"
+    },
+    {
+      "email": "pbbalu1975@gmail.com",
+      "role": "faculty",
+      "id": "balakrishna-puttur",
+      "action": "added"
+    },
+    {
+      "email": "pradeepbh2001@gmail.com",
+      "role": "students",
+      "id": "pradeep-basavarajappa",
+      "action": "added"
+    },
+    {
+      "email": "anushahyanushahy31@gmail.com",
+      "role": "faculty",
+      "id": "ic-anusha-hy",
+      "action": "updated"
+    },
+    {
+      "email": "anushahyanushahy31@gmail.com",
+      "role": "students",
+      "id": "ic-anusha-hy",
+      "action": "updated"
+    },
+    {
+      "email": "siddeshih26@gmail.com",
+      "role": "students",
+      "id": "siddeshi-hanumanthappa",
+      "action": "added"
+    },
+    {
+      "email": "mrvikasrajvr@gmail.com",
+      "role": "faculty",
+      "id": "vikas-r",
+      "action": "added"
+    },
+    {
+      "email": "kavanakavan2012@gmail.com",
+      "role": "faculty",
+      "id": "kavana-s",
+      "action": "added"
+    },
+    {
+      "email": "kavanakavan2012@gmail.com",
+      "role": "students",
+      "id": "kavana-s",
+      "action": "added"
+    },
+    {
+      "email": "harishmn2002@gmail.com",
+      "role": "faculty",
+      "id": "kn-harish-mn",
+      "action": "added"
+    },
+    {
+      "email": "harishmn2002@gmail.com",
+      "role": "students",
+      "id": "kn-harish-mn",
+      "action": "updated"
+    },
+    {
+      "email": "abhijithb736@gmail.com",
+      "role": "faculty",
+      "id": "kn-abhijith-b",
+      "action": "added"
+    },
+    {
+      "email": "abhijithb736@gmail.com",
+      "role": "students",
+      "id": "kn-abhijith-b",
+      "action": "updated"
+    },
+    {
+      "email": "chandanahp304@gmail.com",
+      "role": "faculty",
+      "id": "chandana-h-p",
+      "action": "added"
+    },
+    {
+      "email": "chandanahp304@gmail.com",
+      "role": "students",
+      "id": "chandana-h-p",
+      "action": "added"
+    },
+    {
+      "email": "basavarajm788@gmail.com",
+      "role": "students",
+      "id": "basavaraja-m-magalda",
+      "action": "added"
+    },
+    {
+      "email": "msudeep056@gmail.com",
+      "role": "students",
+      "id": "kn-sudeepa-m",
+      "action": "updated"
+    },
+    {
+      "email": "yogaraj5143@gmail.com",
+      "role": "faculty",
+      "id": "yogaraja-v-n",
+      "action": "added"
+    },
+    {
+      "email": "rao.nyeshwant@gmail.com",
+      "role": "faculty",
+      "id": "yeshwant-narayana-rao",
+      "action": "added"
+    },
+    {
+      "email": "rinakhanum1993@gmail.com",
+      "role": "faculty",
+      "id": "rinakhanum-khabum",
+      "action": "added"
+    },
+    {
+      "email": "shilpachandrubc@gmail.com",
+      "role": "faculty",
+      "id": "shilpa-b-c",
+      "action": "added"
+    },
+    {
+      "email": "shilpachandrubc@gmail.com",
+      "role": "students",
+      "id": "shilpa-b-c",
+      "action": "added"
+    },
+    {
+      "email": "thipperudrappae@gmail.com",
+      "role": "faculty",
+      "id": "thipperudrappa-e-eshwarappa",
+      "action": "added"
+    },
+    {
+      "email": "vasudhas2018@gmail.com",
+      "role": "faculty",
+      "id": "vasudha-s-s",
+      "action": "added"
+    },
+    {
+      "email": "vasudhas2018@gmail.com",
+      "role": "students",
+      "id": "vasudha-s-s",
+      "action": "added"
+    },
+    {
+      "email": "rashmichandrashekar16@gmail.com",
+      "role": "faculty",
+      "id": "rashmi-dc",
+      "action": "added"
+    },
+    {
+      "email": "rashmichandrashekar16@gmail.com",
+      "role": "students",
+      "id": "rashmi-dc",
+      "action": "updated"
+    }
+  ]
+}

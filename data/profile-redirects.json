@@ -1,0 +1,14 @@
+{
+  "students:shashiraj-kn": {
+    "role": "faculty",
+    "id": "shashiraj-kn"
+  },
+  "faculty:kn-shridhara-s": {
+    "role": "students",
+    "id": "kn-shridhara-s"
+  },
+  "students:vikas-r": {
+    "role": "faculty",
+    "id": "vikas-r"
+  }
+}

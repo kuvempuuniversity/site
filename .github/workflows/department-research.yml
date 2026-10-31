@@ -1,0 +1,52 @@
+name: Department research metrics structure
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/install_department_research.py
+      - assets/js/department-research.js
+      - assets/css/department-research.css
+      - .github/workflows/department-research.yml
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: department-research-structure
+  cancel-in-progress: false
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Connect shared research metrics and publication collection
+        run: python scripts/install_department_research.py
+      - name: Check JavaScript syntax
+        run: |
+          node --check assets/js/publications.js
+          node --check assets/js/department-navigation.js
+          node --check assets/js/department-research.js
+      - name: Commit department integration
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/js/publications.js assets/js/department-navigation.js
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Connect department research metrics to shared faculty and student publications"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Request existing GitHub Pages build
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

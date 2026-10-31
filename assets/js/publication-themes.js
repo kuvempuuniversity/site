@@ -1,3 +1,4 @@
+import {arrange} from './publication-cloud-layout.js';
 const stop=new Set('a an and are as at be been being but by can could did do does during each for from has have how if in into is it its may more most not of on or our over per study studies studying using use used uses with within without to the their these this those through under via was were what when where which while who will would about above across after against all also among analysis approach approaches assessment based between both case cases comparative comparison determination different effect effects evaluation evidence experimental experiments investigation investigations method methods new novel results review role some synthesis system systems toward towards very india karnataka shivamogga shimoga'.split(' '));
 const clean=value=>String(value||'').replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,' ').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,' ').replace(/<[^>]*>/g,' ').replace(/&(?:#x[0-9a-f]+|#\d+|[a-z]+);/gi,' ').normalize('NFKC').toLocaleLowerCase('en').replace(/[-‐‑–—]/g,' ');
 export function extract(papers){
@@ -18,7 +19,7 @@ const el=(tag,text,cls)=>{const node=document.createElement(tag);if(text!=null)n
 export function render(section,collection){
 if(section.querySelector('.publication-overview'))return;
 const dl=section.querySelector(':scope>dl');if(!dl)return;
-const papers=collection.papers||[],terms=extract(papers);
+const papers=collection.papers||[],terms=extract(papers).sort((a,b)=>b.count-a.count||b.words-a.words||a.term.localeCompare(b.term,'en'));
 if(!document.querySelector('link[data-ku-publication-themes]')){const css=el('link');css.rel='stylesheet';css.href=new URL('../css/publication-themes.css',import.meta.url).href;css.dataset.kuPublicationThemes='true';document.head.append(css)}
 const layout=el('div',null,'publication-overview'),left=el('div',null,'publication-overview-counts'),figure=el('figure',null,'publication-overview-themes');
 left.append(el('h3','Research at a glance'));figure.append(el('h3','Themes in our publications'));
@@ -26,6 +27,6 @@ if(papers.length>=3&&terms.length>=6){
 const list=el('ul',null,'publication-theme-terms');list.setAttribute('aria-label','Recurring title terms and the number of paper titles containing each term');const maximum=Math.max(...terms.map(t=>t.count)),minimum=Math.min(...terms.map(t=>t.count));
 terms.forEach(term=>{const item=el('li'),appearance=emphasis(term.count,minimum,maximum);item.style.setProperty('--term-size',appearance.size.toFixed(1)+'px');item.style.fontWeight=String(appearance.weight);item.style.setProperty('--term-colour',appearance.colour);item.title=term.term+' — '+term.count+' paper titles';item.append(el('span',term.term),el('span',' — '+term.count+' paper titles','publication-theme-sr'));list.append(item)});figure.append(list);
 }else figure.append(el('p','Not enough recurring title terms yet. Research themes will appear as publication records are added.','hint'));
-figure.append(el('figcaption','Recurring terms extracted from '+papers.length+' available research-paper titles. Larger, bolder terms appear in more paper titles; selected location names are excluded. This is an indicative view, not author-supplied keywords or a measure of research impact.'));
-layout.append(left,figure);section.prepend(layout);left.append(dl);
+figure.append(el('figcaption','Recurring terms extracted from '+papers.length+' available research-paper titles. Larger, bolder terms appear in more paper titles; selected location names are excluded. Positions are decorative, not measures of topic relationships. This is an indicative view, not author-supplied keywords or a measure of research impact.'));
+layout.append(left,figure);section.prepend(layout);left.append(dl);const cloud=figure.querySelector('.publication-theme-terms');if(cloud)arrange(cloud).catch(()=>{});
 }

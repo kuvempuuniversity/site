@@ -5,12 +5,14 @@ window.KUDepartmentDirectories=true;
 const style=document.createElement('style');style.id='department-directory-disclosure-styles';style.textContent=`
 main #people[data-ku-directory-collapsed="true"]>:not(.ku-directory-heading),main #students[data-ku-directory-collapsed="true"]>:not(.ku-directory-heading){display:none!important}
 .ku-directory-heading{margin-bottom:0}
-.ku-directory-toggle{display:flex;align-items:center;justify-content:space-between;gap:20px;width:100%;min-height:56px;padding:12px 0;border:0;background:transparent;color:inherit;font:inherit;text-align:left;cursor:pointer}
+.ku-directory-toggle{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:4px 16px;width:100%;min-height:56px;padding:12px 0;border:0;background:transparent;color:inherit;font:inherit;text-align:left;cursor:pointer}
 .ku-directory-toggle:focus-visible{outline:3px solid currentColor;outline-offset:6px;border-radius:3px}
-.ku-directory-affordance{display:flex;align-items:center;gap:12px;flex-shrink:0;font-size:13px;font-weight:400;color:var(--muted)}
-.ku-directory-arrow{font-size:22px;line-height:1;color:var(--ink)}
+.ku-directory-title{grid-column:1;grid-row:1}
+.ku-directory-affordance{display:contents}
+.ku-directory-hint{grid-column:1;grid-row:2;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:400;line-height:1.5;color:var(--muted)}
+.ku-directory-arrow{grid-column:2;grid-row:1 / span 2;align-self:center;font-family:Arial,Helvetica,sans-serif;font-size:22px;line-height:1;color:var(--ink)}
 main #people[data-ku-directory-collapsed="false"]>.ku-directory-heading,main #students[data-ku-directory-collapsed="false"]>.ku-directory-heading{margin-bottom:20px}
-@media(max-width:600px){.ku-directory-toggle{gap:12px;align-items:flex-start}.ku-directory-affordance{padding-top:5px}.ku-directory-hint{max-width:90px;font-size:12px}}
+@media(max-width:600px){.ku-directory-hint{font-size:12px}}
 @media print{main #people[data-ku-directory-collapsed]>:not(.ku-directory-heading),main #students[data-ku-directory-collapsed]>:not(.ku-directory-heading){display:revert!important}.ku-directory-affordance{display:none}}
 `;document.head.append(style);
 const states=new WeakMap();let pending=false,hashPending=true;
@@ -19,8 +21,8 @@ const state=states.get(section);if(!state)return;state.open=open;
 const value=String(!open);if(section.dataset.kuDirectoryCollapsed!==value)section.dataset.kuDirectoryCollapsed=value;
 const button=section.querySelector(':scope>.ku-directory-heading>.ku-directory-toggle');if(!button)return;
 if(button.getAttribute('aria-expanded')!==String(open))button.setAttribute('aria-expanded',String(open));
-const label=(section.id==='people'?'Teaching team':'Research students')+(open?': collapse':': expand to view all');if(button.getAttribute('aria-label')!==label)button.setAttribute('aria-label',label);
-const hint=button.querySelector('.ku-directory-hint'),arrow=button.querySelector('.ku-directory-arrow');const text=open?'Collapse':'Expand to view all',symbol=open?'▾':'▸';
+const action=open?'collapse':(section.id==='people'?'expand to meet the teachers':'expand to meet the researchers');const label=(section.id==='people'?'Teaching team':'Research students')+': '+action;if(button.getAttribute('aria-label')!==label)button.setAttribute('aria-label',label);
+const hint=button.querySelector('.ku-directory-hint'),arrow=button.querySelector('.ku-directory-arrow');const text=open?'collapse':(section.id==='people'?'Meet the teachers':'Meet the researchers'),symbol=open?'▾':'▸';
 if(hint.textContent!==text)hint.textContent=text;if(arrow.textContent!==symbol)arrow.textContent=symbol;
 }
 function revealHash(hash=location.hash){
@@ -35,7 +37,7 @@ if(!states.has(section))states.set(section,{open:false});
 let button=heading.querySelector(':scope>.ku-directory-toggle');
 if(!button){
 heading.classList.add('ku-directory-heading');button=document.createElement('button');button.type='button';button.className='ku-directory-toggle';
-const title=document.createElement('span');title.textContent=section.id==='people'?'Teaching team':'Research students';
+const title=document.createElement('span');title.className='ku-directory-title';title.textContent=section.id==='people'?'Teaching team':'Research students';
 const affordance=document.createElement('span');affordance.className='ku-directory-affordance';const hint=document.createElement('span');hint.className='ku-directory-hint';const arrow=document.createElement('span');arrow.className='ku-directory-arrow';arrow.setAttribute('aria-hidden','true');affordance.append(hint,arrow);button.append(title,affordance);heading.replaceChildren(button);
 button.addEventListener('click',()=>setOpen(section,!states.get(section).open));
 }

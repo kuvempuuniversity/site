@@ -1,16 +1,21 @@
 "use strict";
 (()=>{
 if(window.KUDepartmentNavigation||!/\/departments\/[^/]+\.html$/.test(location.pathname))return;window.KUDepartmentNavigation=true;
-const base=document.body.dataset.base||'../';document.body.classList.add('department-navigation-page');const css=document.createElement('link');css.rel='stylesheet';css.href=base+'assets/css/department-navigation.css';document.head.append(css);
-const cardSpacing=document.createElement('style');cardSpacing.id='department-people-spacing';cardSpacing.textContent=`
-body.department-navigation-page #study>.event-grid{padding-top:1.5em;padding-top:1lh}
-body.department-navigation-page #people>.event-grid>.panel>h3,
-body.department-navigation-page #students>.event-grid>.panel>h3{min-height:0!important;margin-bottom:4px!important}
-body.department-navigation-page #people>.event-grid>.panel>h3+p,
-body.department-navigation-page #students>.event-grid>.panel>h3+p{margin-top:0!important}
-`;document.head.append(cardSpacing);
+const base=document.body.dataset.base||'../';document.body.classList.add('department-navigation-page','department-people-cards');
+const css=document.createElement('link');css.rel='stylesheet';css.href=base+'assets/css/department-navigation.css';document.head.append(css);
+const cardsCss=document.createElement('link');cardsCss.rel='stylesheet';cardsCss.href=base+'assets/css/department-people-cards.css';document.head.append(cardsCss);
+const annotateCards=()=>{
+document.querySelectorAll('main #people>.event-grid>.panel,main #students>.event-grid>.panel').forEach(card=>{
+const heading=card.querySelector(':scope>h3');if(!heading)return;heading.classList.add('department-card-name');
+const paragraphs=[];for(let node=heading.nextElementSibling;node;node=node.nextElementSibling)if(node.tagName==='P')paragraphs.push(node);
+paragraphs.forEach(p=>p.classList.remove('department-card-position','department-card-excerpt','department-card-link'));
+const more=paragraphs[paragraphs.length-1];if(more)more.classList.add('department-card-link');
+if(paragraphs.length>1)paragraphs[0].classList.add('department-card-position');
+paragraphs.slice(1,-1).forEach(p=>p.classList.add('department-card-excerpt'));
+});
+};
 let pending=false;const reconcile=()=>{
-pending=false;const header=document.querySelector('body>header.brandrow'),menu=header&&header.querySelector(':scope>.menu'),nav=header&&header.querySelector(':scope>#navigation');
+pending=false;annotateCards();const header=document.querySelector('body>header.brandrow'),menu=header&&header.querySelector(':scope>.menu'),nav=header&&header.querySelector(':scope>#navigation');
 if(header&&menu&&nav){header.classList.add('has-mobile-menu');const open=menu.getAttribute('aria-expanded')==='true';const text=open?'Close university menu ×':'University menu ☰';if(menu.textContent!==text)menu.textContent=text;const label=open?'Close university navigation':'Open university navigation';if(menu.getAttribute('aria-label')!==label)menu.setAttribute('aria-label',label);if(nav.getAttribute('aria-label')!=='University navigation')nav.setAttribute('aria-label','University navigation')}
 const breadcrumb=document.querySelector('main .breadcrumb'),sections=document.querySelector('main .department-nav');if(!breadcrumb||!sections)return;
 let row=document.querySelector('main .department-context-row');if(!row){row=document.createElement('div');row.className='department-context-row';breadcrumb.before(row)}if(breadcrumb.parentElement!==row)row.prepend(breadcrumb);if(sections.parentElement!==row)row.append(sections);if(!sections.hasAttribute('tabindex'))sections.tabIndex=0;

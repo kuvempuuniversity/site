@@ -1,0 +1,42 @@
+/* Department directory cards only. Full profile content remains unchanged. */
+body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid{
+ display:grid!important;grid-template-columns:repeat(auto-fill,min(100%,242px))!important;
+ grid-auto-rows:auto!important;gap:20px!important;justify-content:start;align-items:stretch!important;
+}
+body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel{
+ box-sizing:border-box;width:100%;min-width:0;max-width:242px;height:auto!important;min-height:0!important;
+ max-height:none!important;padding:24px!important;display:flex!important;flex-direction:column;
+ align-items:stretch;align-self:stretch;overflow:visible;overflow-wrap:anywhere;
+}
+body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>a:first-child{
+ flex:0 0 auto!important;display:block;width:100%!important;max-width:192px!important;
+ height:auto!important;aspect-ratio:3/4;margin:0 0 12px!important;
+}
+body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>a:first-child>img{
+ display:block;width:100%!important;max-width:192px!important;height:auto!important;
+ aspect-ratio:3/4;object-fit:cover;object-position:center top;border-radius:8px;
+}
+body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>h3{
+ flex:0 0 auto!important;display:block!important;min-height:0!important;height:auto!important;
+ max-height:none!important;margin:0 0 4px!important;font-size:18px!important;line-height:1.3!important;
+ white-space:normal;overflow:visible!important;overflow-wrap:anywhere;word-break:normal;
+}
+body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>h3>a{
+ font:inherit;line-height:inherit;text-decoration:none;
+}
+body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>p{
+ flex:0 0 auto!important;display:block!important;height:auto!important;min-height:0!important;
+ max-height:none!important;margin:0 0 10px!important;font-size:14px;line-height:1.55;
+ white-space:normal;overflow:visible!important;-webkit-line-clamp:unset!important;line-clamp:unset!important;
+}
+body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>p.department-card-position{
+ display:block!important;line-height:1.45;overflow:visible!important;
+}
+body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>p.department-card-excerpt{
+ display:-webkit-box!important;-webkit-box-orient:vertical;-webkit-line-clamp:2!important;
+ line-clamp:2!important;line-height:1.55;max-height:3.1em!important;overflow:hidden!important;
+}
+body.department-navigation-page.department-people-cards main :is(#people,#students)>.event-grid>.panel>p:last-child{
+ flex:0 0 auto!important;margin: auto 0 0!important;padding-top:12px;
+}
+body.department-navigation-page.department-people-cards main #study>.event-grid{padding-top:1.5em;padding-top:1lh}

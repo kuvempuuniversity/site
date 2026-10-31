@@ -1,0 +1,41 @@
+name: Environmental Science Scholar paper pilot
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/audit_environmental_scholar_papers.py
+      - .github/workflows/environmental-scholar-paper-pilot.yml
+permissions:
+  contents: read
+concurrency:
+  group: environmental-scholar-paper-pilot
+  cancel-in-progress: false
+jobs:
+  audit:
+    if: ${{ github.event.head_commit.message == 'Add Environmental Science Scholar paper audit pilot (one-off, max 20 requests)' && github.run_attempt == '1' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check pilot syntax and existing Scholar parsers offline
+        run: |
+          python -m py_compile scripts/audit_environmental_scholar_papers.py
+          python -m unittest discover -s tests -p 'test_scholar_metrics.py' -v
+      - name: One approved review-only audit, at most 20 provider requests
+        env:
+          SCHOLAR_SERPAPI_KEY: ${{ secrets.SCHOLAR_SERPAPI_KEY }}
+        run: python scripts/audit_environmental_scholar_papers.py --live --out scholar-paper-audit
+      - name: Preserve review-only comparison
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: environmental-science-scholar-paper-review
+          path: scholar-paper-audit/
+          if-no-files-found: ignore
+          retention-days: 14

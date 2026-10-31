@@ -1,0 +1,59 @@
+name: Import approved profile source
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - data/source.json
+      - scripts/import_profiles.py
+      - assets/js/department-profile-loader.js
+      - .github/workflows/profile-import.yml
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: profile-import-main
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate and merge the approved 140-person source
+        run: python scripts/import_profiles.py
+      - name: Check updated JavaScript syntax
+        run: |
+          node --check assets/js/research-students.js
+          node --check assets/js/department-catalogue.js
+          node --check assets/js/department-profile-loader.js
+      - name: Commit generated profile data and department integration
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/faculty.json data/research-students.json data/academic-journeys.json data/profile-redirects.json data/profile-import-status.json assets/js/research-students.js assets/js/department-catalogue.js departments faculty/profile.html students/profile.html
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Import consolidated profiles and connect department lists"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Request a build of the existing GitHub Pages site
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"
+      - name: Save the generated import report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: profile-import-report
+          path: data/profile-import-status.json
+          if-no-files-found: warn

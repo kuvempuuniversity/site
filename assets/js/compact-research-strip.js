@@ -14,7 +14,7 @@ if(!document.getElementById('compact-research-strip-styles')){const style=docume
 .ku-compact-strip .publication-overview{gap:16px!important;align-items:stretch!important;margin-bottom:0!important}
 .ku-compact-strip .publication-overview-counts,.ku-compact-strip .publication-overview-themes{height:180px;min-height:0;box-sizing:border-box}
 .ku-compact-strip .department-research-metric-grid{height:180px;grid-template-columns:1fr;grid-template-rows:repeat(3,1fr);gap:0;margin:0}
-.ku-compact-strip .department-research-metric-grid>div{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:0;padding:4px 0;border-bottom:1px solid var(--line)}
+.ku-compact-strip .department-research-metric-grid>div{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:0;padding:4px 0;border-bottom:1px solid var(--line)}
 .ku-compact-strip .department-research-metric-grid>div:last-child{border-bottom:0}
 .ku-compact-strip .department-research-metric-grid dt{font:400 12px/1.3 Arial,Helvetica,sans-serif}
 .ku-compact-strip .department-research-metric-grid dd{order:-1;margin:0 0 3px;font-size:26px;line-height:1.05;font-weight:600}

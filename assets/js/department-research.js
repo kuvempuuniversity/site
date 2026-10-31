@@ -70,6 +70,29 @@ get(id).then(r=>{[r.phds,r.paperCount,r.citations].forEach((v,i)=>values[i].text
 }
 function showFeed(feed,id){if(feed.dataset.kuDepartmentPublication===id)return;if(globalThis.KUPublications){globalThis.KUPublications.render(feed,{departmentId:id});return}if(Array.from(document.scripts).some(s=>s.src&&new URL(s.src,location.href).pathname.endsWith('/assets/js/publications.js')))return;const script=document.createElement('script');script.src=base+'assets/js/publications.js';script.onerror=()=>{feed.textContent='Publication display could not load.'};document.head.append(script)}
 const match=location.pathname.match(/\/departments\/([a-z0-9-]+)\.html$/);if(!match)return;
-const mount=()=>{const existing=document.querySelector('#publication-feed[data-department]');const id=existing?existing.dataset.department:match[1].replace(/-publications$/,'');const root=document.getElementById('research');if(root&&id!=='environmental-science'&&!root.querySelector('[data-ku-research-metrics]'))metrics(root,id);let feed=existing;const section=document.getElementById('publications');if(section&&!feed){feed=el('div','Loading publications…');feed.id='publication-feed';feed.dataset.department=id;section.querySelectorAll(':scope>p').forEach(p=>{if(p.textContent.trim()==='Publication records will be added here.')p.remove()});section.append(feed)}if(feed){if(!document.querySelector('[data-ku-publication-metrics]'))metrics(feed.parentElement,id,true);showFeed(feed,id)}if(id==='environmental-science'&&!location.pathname.endsWith('-publications.html')&&!section){const students=document.getElementById('students'),previous=document.getElementById('research');let overview=document.querySelector('[data-ku-consolidated-overview="environmental-science"]')||document.getElementById('department-publication-overview');if(previous||students||overview){if(!overview){overview=el('section',null,'department-section');const all=el('a','View all publications →');all.href=base+'departments/environmental-science-publications.html';const paragraph=el('p');paragraph.append(all);overview.append(el('h2','Research overview'),paragraph)}overview.dataset.kuConsolidatedOverview=id;const heading=overview.querySelector(':scope>h2');if(heading&&heading.textContent!=='Research overview')heading.textContent='Research overview';if(previous&&previous!==overview)previous.replaceWith(overview);else if(!overview.isConnected&&students)students.after(overview);overview.id='research';if(!overview.querySelector('[data-ku-publication-metrics]'))metrics(overview,id,true)}}const intro=document.querySelector('.department-publications-page .page-intro>p:last-child');if(intro&&intro.textContent.includes('our faculty'))intro.textContent=intro.textContent.replace('our faculty','our teaching team and PhD students')};
+const mount=()=>{
+const existing=document.querySelector('#publication-feed[data-department]');
+const id=existing?existing.dataset.department:match[1].replace(/-publications$/,'');
+const dedicated=location.pathname.endsWith('-publications.html');
+const section=document.getElementById('publications');let feed=existing;
+if(section&&!feed){feed=el('div','Loading publications…');feed.id='publication-feed';feed.dataset.department=id;section.querySelectorAll(':scope>p').forEach(p=>{if(p.textContent.trim()==='Publication records will be added here.')p.remove()});section.append(feed)}
+if(dedicated){
+if(feed){const panels=Array.from(document.querySelectorAll('main [data-ku-research-metrics]')),keep=panels.find(p=>p.dataset.kuPublicationMetrics==='true');panels.forEach(p=>{if(p!==keep)p.remove()});if(!keep)metrics(feed.parentElement,id,true);showFeed(feed,id)}
+}else{
+const previous=document.getElementById('research'),students=document.getElementById('students'),study=document.getElementById('study');
+let overview=document.querySelector('[data-ku-global-research-overview]')||document.querySelector('[data-ku-consolidated-overview]')||document.getElementById('department-publication-overview');
+if(!overview&&(previous||students||study||section)){overview=el('section',null,'department-section');overview.append(el('h2','Research overview'))}
+if(overview){
+if(previous&&previous!==overview)previous.replaceWith(overview);else if(!overview.isConnected){if(study)study.after(overview);else if(students)students.before(overview);else if(section)section.before(overview)}
+overview.id='research';overview.dataset.kuGlobalResearchOverview=id;overview.dataset.kuConsolidatedOverview=id;
+let heading=overview.querySelector(':scope>h2');if(!heading){heading=el('h2','Research overview');overview.prepend(heading)}else if(heading.textContent!=='Research overview')heading.textContent='Research overview';
+const keep=overview.querySelector('[data-ku-research-metrics]');document.querySelectorAll('main [data-ku-research-metrics]').forEach(panel=>{if(panel!==keep)panel.remove()});if(!keep)metrics(overview,id,true);
+const destination=id==='environmental-science'?base+'departments/environmental-science-publications.html':section?'#publications':null;
+if(destination){let all=overview.querySelector('a[data-ku-overview-publications]')||Array.from(overview.querySelectorAll('a')).find(a=>/^View (all )?publications/.test(a.textContent));if(!all){all=el('a','View all publications →');const paragraph=el('p');paragraph.append(all);overview.append(paragraph)}all.dataset.kuOverviewPublications='true';if(all.getAttribute('href')!==destination)all.href=destination}
+}
+if(feed)showFeed(feed,id);
+}
+const intro=document.querySelector('.department-publications-page .page-intro>p:last-child');if(intro&&intro.textContent.includes('our faculty'))intro.textContent=intro.textContent.replace('our faculty','our teaching team and PhD students');
+};
 let pending=false;const schedule=()=>{if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;mount()})};new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true});mount();
 })();

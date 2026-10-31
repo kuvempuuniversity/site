@@ -1,0 +1,52 @@
+name: Publication counts and title themes
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/install_publication_themes.py
+      - assets/js/publication-themes.js
+      - assets/css/publication-themes.css
+      - .github/workflows/publication-themes.yml
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: publication-themes
+  cancel-in-progress: false
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Connect the shared publication overview
+        run: python scripts/install_publication_themes.py
+      - name: Check JavaScript syntax
+        run: |
+          node --check assets/js/department-research.js
+          node --check assets/js/publications.js
+          node --input-type=module --check < assets/js/publication-themes.js
+      - name: Commit publication overview integration
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/js/department-research.js assets/js/publications.js
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Connect publication counts and title themes across departments"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Request GitHub Pages build
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

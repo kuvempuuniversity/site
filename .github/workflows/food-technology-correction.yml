@@ -1,0 +1,119 @@
+name: Correct Food Technology assignments
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/food-technology-correction.yml
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: profile-import-main
+  cancel-in-progress: false
+jobs:
+  correct:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Correct only the approved Food Technology assignments
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+          import re
+          
+          expected = {
+              'data/source.json': 'f8c0fe9d84cd79159bc1fd16d80a88cc4947f4f5',
+              'data/faculty.json': '864b381bfc69a6649a7a5aa8d47b6cb3d54a57ac',
+          }
+          targets = {
+              'sachinsnayaka@gmail.com': ('sachin-s-nayaka', 'Sachin S. Nayaka'),
+              'aishwaryam896@gmail.com': ('aishwarya-m', 'Aishwarya M.'),
+          }
+          source = json.loads(Path('data/source.json').read_text(encoding='utf-8'))
+          faculty = json.loads(Path('data/faculty.json').read_text(encoding='utf-8'))
+          for email, (identity, name) in targets.items():
+              people = [p for p in source['people'] if p['email'].lower() == email]
+              records = [p for p in faculty['faculty'] if p.get('email', '').lower() == email]
+              assert len(people) == len(records) == 1, 'Ambiguous person: ' + email
+              assert records[0]['id'] == identity, 'Unexpected profile ID: ' + email
+              assert people[0]['faculty'] and not people[0]['student'], 'Unexpected role: ' + email
+          already_correct = all(
+              p.get('department_id') == 'food-technology' and p.get('department') == 'Food Technology'
+              for collection in [source['people'], faculty['faculty']]
+              for p in collection if p.get('email', '').lower() in targets
+          )
+          if already_correct:
+              print('Both profiles already belong to Food Technology; no changes made.')
+              raise SystemExit(0)
+          for filename, expected_blob in expected.items():
+              raw = Path(filename).read_bytes()
+              actual = hashlib.sha1(b'blob ' + str(len(raw)).encode() + bytes([0]) + raw).hexdigest()
+              assert actual == expected_blob, filename + ' changed after review; stop for fresh approval'
+          for collection in [source['people'], faculty['faculty']]:
+              for p in collection:
+                  if p.get('email', '').lower() in targets:
+                      assert p['department_id'] == 'environmental-science', 'Unexpected original department'
+                      p['department'] = 'Food Technology'
+                      p['department_id'] = 'food-technology'
+              preema = [p for p in collection if p.get('email', '').lower() == 'preema1960@gmail.com']
+              assert len(preema) == 1 and preema[0]['department_id'] == 'food-technology', 'Preserve Preema assignment'
+          assert (len(source['people']), sum(p['faculty'] for p in source['people']), sum(p['student'] for p in source['people']), sum(p['faculty'] and p['student'] for p in source['people'])) == (140,109,64,33)
+          faculty['faculty'].sort(key=lambda p:(p['department_id'],str(p.get('last_name') or p['name'].split()[-1]).casefold(),p['name'].casefold()))
+          source_text = json.dumps(source, ensure_ascii=False, indent=2) + '\n'
+          raw = source_text.encode('utf-8')
+          new_blob = hashlib.sha1(b'blob ' + str(len(raw)).encode() + bytes([0]) + raw).hexdigest()
+          importer_path = Path('scripts/import_profiles.py')
+          importer, count = re.subn(r"SOURCE_BLOB = '[0-9a-f]{40}'", "SOURCE_BLOB = '" + new_blob + "'", importer_path.read_text(encoding='utf-8'), count=1)
+          assert count == 1, 'Import source guard not found'
+          compile(importer, 'scripts/import_profiles.py', 'exec')
+          status_path = Path('data/profile-import-status.json')
+          status = json.loads(status_path.read_text(encoding='utf-8'))
+          status['source_blob'] = new_blob
+          status['department_corrections'] = [
+              {'email':email, 'id':identity, 'name':name, 'from':'environmental-science', 'to':'food-technology'}
+              for email,(identity,name) in targets.items()
+          ]
+          review_path = Path('docs/PROFILE-IMPORT-REVIEW.md')
+          review = review_path.read_text(encoding='utf-8')
+          old = '- Sachin S. Nayaka and Aishwarya M. retain Environmental Science as submitted; their biographies reference Food Technology.'
+          assert old in review, 'Review report changed; stop for review'
+          review = review.replace(old, '')
+          review += "\n## Resolved Food Technology assignments\n- Sachin S. Nayaka (Food Technology; sachinsnayaka@gmail.com): reassigned from Environmental Science following explicit user confirmation on 31 October 2026.\n- Aishwarya M. (Food Technology; aishwaryam896@gmail.com): reassigned from Environmental Science based on her explicit biography identifying her current Food Technology appointment.\n- Preema Karal Andrade (Food Technology; preema1960@gmail.com): existing assignment retained, following her original correction note.\n"
+          outputs = {
+              'data/source.json': source_text,
+              'data/faculty.json': json.dumps(faculty, ensure_ascii=False, indent=2) + '\n',
+              'scripts/import_profiles.py': importer,
+              'data/profile-import-status.json': json.dumps(status, ensure_ascii=False, indent=2) + '\n',
+              'docs/PROFILE-IMPORT-REVIEW.md': review,
+          }
+          for filename, content in outputs.items():
+              Path(filename).write_text(content, encoding='utf-8')
+          print(json.dumps({'corrected':list(targets), 'source_blob':new_blob, 'files':list(outputs)}, indent=2))
+          PY
+      - name: Commit corrected data and resolved review notes
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source.json data/faculty.json data/profile-import-status.json scripts/import_profiles.py docs/PROFILE-IMPORT-REVIEW.md
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Assign Sachin Nayaka and Aishwarya M to Food Technology"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Request GitHub Pages build
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

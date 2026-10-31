@@ -6,6 +6,7 @@ on:
     paths:
       - scripts/install_publication_themes.py
       - scripts/install_compact_research_strip.py
+      - scripts/install_global_research_overview.py
       - assets/js/publication-themes.js
       - assets/js/publication-cloud-layout.js
       - assets/js/compact-research-strip.js
@@ -29,10 +30,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Connect the shared publication overview and compact strip
+      - name: Connect the shared global research overview
         run: |
           python scripts/install_publication_themes.py
           python scripts/install_compact_research_strip.py
+          python scripts/install_global_research_overview.py
       - name: Check JavaScript syntax and PhD data
         run: |
           node --check assets/js/department-research.js
@@ -41,7 +43,7 @@ jobs:
           node --input-type=module --check < assets/js/publication-cloud-layout.js
           node --input-type=module --check < assets/js/compact-research-strip.js
           python -m json.tool data/department-phds.json > /dev/null
-      - name: Commit publication overview integration
+      - name: Commit global research overview integration
         id: commit
         run: |
           git config user.name "github-actions[bot]"
@@ -50,7 +52,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "Compact research strips and correct PhD and citation labels"
+            git commit -m "Apply single Research overview template across department homepages"
             git push origin HEAD:main
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi

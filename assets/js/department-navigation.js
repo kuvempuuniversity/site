@@ -15,7 +15,8 @@ paragraphs.slice(1,-1).forEach(p=>p.classList.add('department-card-excerpt'));
 });
 };
 let pending=false;const reconcile=()=>{
-pending=false;annotateCards();const header=document.querySelector('body>header.brandrow'),menu=header&&header.querySelector(':scope>.menu'),nav=header&&header.querySelector(':scope>#navigation');
+pending=false;const facultyHeading=document.querySelector('main #people>h2');if(facultyHeading&&facultyHeading.textContent.trim()==='Faculty & research interests')facultyHeading.textContent='Teaching team';
+annotateCards();const header=document.querySelector('body>header.brandrow'),menu=header&&header.querySelector(':scope>.menu'),nav=header&&header.querySelector(':scope>#navigation');
 if(header&&menu&&nav){header.classList.add('has-mobile-menu');const open=menu.getAttribute('aria-expanded')==='true';const text=open?'Close university menu ×':'University menu ☰';if(menu.textContent!==text)menu.textContent=text;const label=open?'Close university navigation':'Open university navigation';if(menu.getAttribute('aria-label')!==label)menu.setAttribute('aria-label',label);if(nav.getAttribute('aria-label')!=='University navigation')nav.setAttribute('aria-label','University navigation')}
 const breadcrumb=document.querySelector('main .breadcrumb'),sections=document.querySelector('main .department-nav');if(!breadcrumb||!sections)return;
 let row=document.querySelector('main .department-context-row');if(!row){row=document.createElement('div');row.className='department-context-row';breadcrumb.before(row)}if(breadcrumb.parentElement!==row)row.prepend(breadcrumb);if(sections.parentElement!==row)row.append(sections);if(!sections.hasAttribute('tabindex'))sections.tabIndex=0;

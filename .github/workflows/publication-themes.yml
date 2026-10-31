@@ -5,8 +5,12 @@ on:
     branches: [main]
     paths:
       - scripts/install_publication_themes.py
+      - scripts/install_compact_research_strip.py
       - assets/js/publication-themes.js
+      - assets/js/publication-cloud-layout.js
+      - assets/js/compact-research-strip.js
       - assets/css/publication-themes.css
+      - data/department-phds.json
       - .github/workflows/publication-themes.yml
 permissions:
   contents: write
@@ -25,13 +29,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Connect the shared publication overview
-        run: python scripts/install_publication_themes.py
-      - name: Check JavaScript syntax
+      - name: Connect the shared publication overview and compact strip
+        run: |
+          python scripts/install_publication_themes.py
+          python scripts/install_compact_research_strip.py
+      - name: Check JavaScript syntax and PhD data
         run: |
           node --check assets/js/department-research.js
           node --check assets/js/publications.js
           node --input-type=module --check < assets/js/publication-themes.js
+          node --input-type=module --check < assets/js/publication-cloud-layout.js
+          node --input-type=module --check < assets/js/compact-research-strip.js
+          python -m json.tool data/department-phds.json > /dev/null
       - name: Commit publication overview integration
         id: commit
         run: |
@@ -41,7 +50,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "Connect publication counts and title themes across departments"
+            git commit -m "Compact research strips and correct PhD and citation labels"
             git push origin HEAD:main
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi

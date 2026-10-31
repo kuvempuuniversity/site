@@ -43,3 +43,7 @@ body.department-navigation-page.department-people-cards main :is(#people,#studen
  display:inline-block;font-size:8px!important;line-height:1.4;padding-block:4px;
 }
 body.department-navigation-page.department-people-cards main #study>.event-grid{padding-top:1.5em;padding-top:1lh}
+/* Override the card grid's important display rule when its directory is collapsed. */
+@media screen{
+ body.department-navigation-page.department-people-cards main :is(#people,#students)[data-ku-directory-collapsed="true"]>.event-grid{display:none!important}
+}

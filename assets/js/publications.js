@@ -7,6 +7,10 @@ const safe=value=>{try{const u=new URL(value);return ['https:','http:'].includes
 const anchor=(text,url)=>{const href=safe(url);if(!href)return null;const a=el('a',text);a.href=href;a.target='_blank';a.rel='noopener noreferrer';return a};
 const types={'journal-article':'Journal article (source classification)','preprint':'Preprint','conference-paper':'Conference paper','book':'Book'};
 const normaliseDoi=value=>{const d=String(value||'').trim().replace(/^(?:https?:\/\/(?:dx\.)?doi\.org\/|doi\s*:\s*)/i,'').toLowerCase();return /^10\.\d{4,9}\/\S+$/i.test(d)?d:''};
+async function departmentCollection(id){
+if(!window.KUDepartmentResearch){if(!window.KUDepartmentResearchReady)window.KUDepartmentResearchReady=new Promise((resolve,reject)=>{let script=Array.from(document.scripts).find(s=>s.src&&new URL(s.src,location.href).pathname.endsWith('/assets/js/department-research.js'));if(!script){script=document.createElement('script');script.src=base+'assets/js/department-research.js';script.addEventListener('load',resolve,{once:true});script.addEventListener('error',reject,{once:true});document.head.append(script)}else{script.addEventListener('load',resolve,{once:true});script.addEventListener('error',reject,{once:true})}});await window.KUDepartmentResearchReady}
+if(!window.KUDepartmentResearch)throw Error('Department research collection unavailable');return window.KUDepartmentResearch.get(id);
+}
 function citationLine(p,metrics){
 const line=el('div',undefined,'hint');line.style.fontSize='.875rem';const doi=normaliseDoi(p.doi);const entry=doi&&metrics&&metrics.entries&&metrics.entries[doi];
 if(!doi){line.textContent='Citation count unavailable (no DOI).';return line}
@@ -36,17 +40,18 @@ text+=data.automatic_refresh?'Weekly refresh is configured; check the retrieval 
 return text;
 }
 async function render(target,options={}){
+if(options.departmentId){if(target.dataset.kuDepartmentPublication===options.departmentId)return;target.dataset.kuDepartmentPublication=options.departmentId;}
 target.setAttribute('aria-busy','true');
 try{
-const [data,status,metrics]=await load();if(!Array.isArray(data.publications))throw Error('Invalid publication data');
-const rows=data.publications.filter(p=>options.facultyId?(p.faculty_ids||[]).includes(options.facultyId):(p.departments||[]).includes(options.departmentId)).sort((a,b)=>(Number(b.year)||0)-(Number(a.year)||0)||clean(a.title).localeCompare(clean(b.title)));
-const summary=el('p','','hint');const updateSummary=expanded=>{summary.textContent=rows.length?'Showing '+(expanded?rows.length:Math.min(10,rows.length))+' of '+rows.length+' publications. Newest first.':'No publications available.'};updateSummary(false);target.replaceChildren(summary);
+let data,status,metrics,rows,collection;
+if(options.departmentId){collection=await departmentCollection(options.departmentId);data=collection.metadata;status=null;metrics=collection.metrics;rows=collection.publications}else{[data,status,metrics]=await load();if(!Array.isArray(data.publications))throw Error('Invalid publication data');rows=data.publications.filter(p=>(p.faculty_ids||[]).includes(options.facultyId)).sort((a,b)=>(Number(b.year)||0)-(Number(a.year)||0)||clean(a.title).localeCompare(clean(b.title)))}
+const summary=el('p','','hint');const updateSummary=expanded=>{summary.textContent=rows.length?'Showing '+(expanded?rows.length:Math.min(10,rows.length))+' of '+rows.length+' publications. Newest first.':'No publications available.'};updateSummary(false);target.replaceChildren(summary);if(collection)target.append(el('p','Research paper count: '+(collection.paperCount==null?'not yet available':collection.paperCount)+'. Other scholarly outputs remain listed but are excluded from the paper and summary-citation counters.','hint'));
 const additional=el('div');additional.id='more-publications-'+String(options.facultyId||options.departmentId||'list').replace(/[^a-zA-Z0-9_-]/g,'-');additional.hidden=true;additional.style.display='none';
 if(!rows.length){const s=status&&status.faculty&&status.faculty[options.facultyId];let message='Publications have not yet been imported for this profile.';if(s&&s.status==='failed')message='The ORCID refresh failed. No cached publication entries are available.';else if(s&&s.status==='no_public_publications')message='No eligible public publications were returned by ORCID at the last successful check.';target.append(el('p',message+' This does not establish that the researcher has no publications.'))}
 rows.forEach((p,index)=>{
 const card=el('article',undefined,'notice');const title=el('h3',clean(p.title));title.style.cssText='font-size:1.05rem;font-weight:500;line-height:1.5';card.append(title);
 if(p.authors_display)card.append(el('div',clean(p.authors_display)+(p.authors_truncated?' (abbreviated)':''),'hint'));
-const meta=[clean(p.journal),p.year||'Undated',clean(p.reference),types[p.type]||clean(p.type)].filter(Boolean);card.append(el('div',meta.join(' · '),'hint'),citationLine(p,metrics));
+const meta=[clean(p.journal),p.year||'Undated',clean(p.reference),clean(p.display_type)||types[p.type]||clean(p.type)].filter(Boolean);card.append(el('div',meta.join(' · '),'hint'),citationLine(p,metrics));
 const links=el('div',undefined,'actions');links.style.marginTop='12px';
 const doi=String(p.doi||'').replace(/^https?:\/\/(dx\.)?doi\.org\//i,'').trim();
 const paper=doi&&/^10\.\d{4,9}\/\S+$/i.test(doi)?anchor('Open publication / DOI ↗','https://doi.org/'+doi):anchor('Open publication ↗',p.url);
@@ -58,8 +63,8 @@ if(!paper){const search=anchor('Find title on Google Scholar ↗','https://schol
 card.append(el('div','Metadata source: '+[...new Set(provenance.map(s=>s.source_name||'Source'))].join(' + '),'hint'),links);if(index<10)target.append(card);else additional.append(card);
 });
 if(rows.length>10){const toggle=el('button','Show all publications ('+rows.length+')');toggle.type='button';toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-controls',additional.id);toggle.style.cssText='font:inherit;font-size:.95rem;color:inherit;background:transparent;border:1px solid currentColor;border-radius:4px;padding:.55rem .85rem;margin:1rem 0;cursor:pointer';toggle.addEventListener('click',()=>{const expanded=toggle.getAttribute('aria-expanded')!=='true';additional.hidden=!expanded;additional.style.display=expanded?'':'none';toggle.setAttribute('aria-expanded',String(expanded));toggle.textContent=expanded?'Show fewer':'Show all publications ('+rows.length+')';updateSummary(expanded)});target.append(additional,toggle)}
-const note=statusText(data,status,options.facultyId);target.append(el('p',note,'event-note'));
-if(options.departmentId){const coverage=document.querySelector('#publication-coverage');if(coverage)coverage.textContent=data.coverage+' '+note;const section=target.closest('section');if(section){const h=section.querySelector('h2');if(h){h.textContent='Publications';h.style.cssText='font-size:1.15rem;font-weight:500;line-height:1.4'}const intro=section.querySelector('p');if(intro&&intro.id!=='publication-coverage')intro.textContent='Publications and scholarly outputs associated with department faculty, collected from public ORCID records with legacy source information preserved. These are not necessarily works conducted at Kuvempu University.';const old=section.querySelector('p > a[href*="scholar.google.com/citations"]');if(old){old.href='https://orcid.org/';old.textContent='About ORCID ↗'}}}
+const note=collection?collection.note:statusText(data,status,options.facultyId);target.append(el('p',note,'event-note'));
+if(options.departmentId){const coverage=document.querySelector('#publication-coverage');if(coverage)coverage.textContent=data.coverage+' '+note;const section=target.closest('section');if(section){const h=section.querySelector('h2');if(h){h.textContent='Publications';h.style.cssText='font-size:1.15rem;font-weight:500;line-height:1.4'}const intro=section.querySelector(':scope>p');if(intro&&intro.id!=='publication-coverage')intro.textContent='Publications and scholarly outputs associated with the teaching team and PhD students, collected from public ORCID records with legacy source information preserved. These are not necessarily works conducted at Kuvempu University.';const old=section.querySelector('p > a[href*="scholar.google.com/citations"]');if(old){old.href='https://orcid.org/';old.textContent='About ORCID ↗'}}}
 }catch(error){target.replaceChildren(el('p','The imported publication list could not load. Use the faculty ORCID and Google Scholar profile links.','event-note'));if(options.departmentId){const note=document.querySelector('#publication-coverage');if(note)note.textContent='Publication data could not load. Refresh status is unavailable.'}console.error(error)}finally{target.setAttribute('aria-busy','false')}
 }
 window.KUPublications={render};

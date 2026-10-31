@@ -12,6 +12,8 @@ if(!window.KUDepartmentResearch){if(!window.KUDepartmentResearchReady)window.KUD
 if(!window.KUDepartmentResearch)throw Error('Department research collection unavailable');return window.KUDepartmentResearch.get(id);
 }
 function citationLine(p,metrics){
+if(metrics&&metrics.source==='Google Scholar'){const line=el('div',undefined,'hint'),entry=metrics.entriesById&&metrics.entriesById[p.id];line.style.fontSize='.875rem';if(entry){line.append(document.createTextNode('Cited by '+entry.count+' · '),anchor('Google Scholar ↗',entry.source_url),document.createTextNode(' · Automatically matched · Retrieved '+new Date(entry.retrieved_at).toISOString().slice(0,10)))}else line.textContent='Google Scholar count unavailable in this snapshot; not treated as zero.';return line}
+
 const line=el('div',undefined,'hint');line.style.fontSize='.875rem';const doi=normaliseDoi(p.doi);const entry=doi&&metrics&&metrics.entries&&metrics.entries[doi];
 if(!doi){line.textContent='Citation count unavailable (no DOI).';return line}
 const verified=entry&&entry.doi===doi&&entry.source==='OpenAlex'&&Number.isSafeInteger(entry.count)&&entry.count>=0&&typeof entry.source_url==='string'&&/^https:\/\/openalex\.org\/W\d+$/.test(entry.source_url)&&Number.isFinite(Date.parse(entry.retrieved_at));

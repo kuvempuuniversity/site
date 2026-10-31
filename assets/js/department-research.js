@@ -57,7 +57,7 @@ return {publications:merged,papers,paperCount:count,citations:matched.length?mat
 }
 let loading;
 async function load(){if(!loading)loading=(async()=>{const base=typeof document==='undefined'?'../':document.body.dataset.base||'../';const files={faculty:'faculty.json',students:'research-students.json',publications:'publications.json',studentPublications:'student-publications.json',citations:'citation-metrics.json',studentCitations:'student-citation-metrics.json',status:'publication-sync-status.json',studentStatus:'student-publication-sync-status.json',phds:'department-phds.json'};const pairs=await Promise.all(Object.entries(files).map(async([key,file])=>{try{const r=await fetch(base+'data/'+file);if(!r.ok)throw Error(file);return [key,await r.json()]}catch{return [key,null]}}));const data=Object.fromEntries(pairs);if(!data.faculty||!Array.isArray(data.faculty.faculty)||!data.students||!Array.isArray(data.students.students))throw Error('Researcher directory unavailable');return data})();return loading}
-const get=async id=>{const result=aggregate(await load(),id);if(id!=='environmental-science')return result;const module=await import(base+'assets/js/scholar-citations.js');return module.apply(result)};
+const get=async id=>{const result=aggregate(await load(),id);if(id!=='environmental-science')return result;const module=await import(new URL(base+'assets/js/scholar-citations.js',document.baseURI).href);return module.apply(result)};
 globalThis.KUDepartmentResearch={get,aggregate,doi,paper};
 if(typeof document==='undefined')return;
 const base=document.body.dataset.base||'../';

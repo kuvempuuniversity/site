@@ -1,0 +1,51 @@
+name: Confirmed profile photos and partial profiles
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/apply_confirmed_profile_photos.py
+      - .github/workflows/confirmed-profile-photos.yml
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: confirmed-profile-photos
+  cancel-in-progress: false
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply the confirmed mapping and preserve existing profile details
+        run: python scripts/apply_confirmed_profile_photos.py
+      - name: Validate the student renderer and profile data
+        run: |
+          node --check assets/js/research-students.js
+          python -m json.tool data/faculty.json > /dev/null
+          python -m json.tool data/research-students.json > /dev/null
+          python -m json.tool data/photo-profile-sync-status.json > /dev/null
+      - name: Commit confirmed profile updates
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/faculty.json data/research-students.json data/photo-profile-sync-status.json assets/js/research-students.js
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Connect 19 confirmed portraits and add five partial department profiles"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Request GitHub Pages build
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

@@ -377,7 +377,8 @@
       "orcid": "0009-0007-8613-3988",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/chm-sneha-ma.png"
     },
     {
       "id": "chandana-h-p",
@@ -398,7 +399,8 @@
       "supervisor": "Talavara venkatesh",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/chm-chandana-hp.png"
     },
     {
       "id": "kavana-s",
@@ -417,7 +419,8 @@
       "supervisor": "Talvara Venkatesha",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/chm-kavana-s.png"
     },
     {
       "id": "sangeetha-kempayya",
@@ -544,7 +547,8 @@
       "linkedin_url": "https://www.linkedin.com/in/dore-obanna-17651823b/",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/faculty/en-doreobanna-e.png"
     },
     {
       "id": "aditya-j",
@@ -569,7 +573,8 @@
       "linkedin_url": "https://www.linkedin.com/in/aditya-j-aditya-j-bidanooru-098267361",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/faculty/en-aditya-j.png"
     },
     {
       "id": "jaydrata",
@@ -594,7 +599,8 @@
       "scholar_url": "https://scholar.google.com/citations?user=D6UqpA0AAAAJ&hl=en",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/faculty/en-jayadrata.png"
     },
     {
       "id": "pratibha-t-bhagawad",
@@ -1697,7 +1703,37 @@
       "academic_journey": "Information to be added.",
       "photo_url": "../assets/img/students/wl-karthik-nj.png",
       "publications": []
+    },
+    {
+      "id": "ramya-k",
+      "name": "Ramya K.",
+      "department_id": "electronics",
+      "department": "Electronics",
+      "biography": "Profile information will be added here.",
+      "research_interests": "Information to be added.",
+      "academic_journey": "Information to be added.",
+      "profile_status": "partial",
+      "profile_source": "User-approved name and portrait mapping, 2026-11-01",
+      "published": true,
+      "programme": "",
+      "publications": [],
+      "photo_url": "../assets/img/students/elec-ramya-k.png"
+    },
+    {
+      "id": "salma-n",
+      "name": "Salma N.",
+      "department_id": "electronics",
+      "department": "Electronics",
+      "biography": "Profile information will be added here.",
+      "research_interests": "Information to be added.",
+      "academic_journey": "Information to be added.",
+      "profile_status": "partial",
+      "profile_source": "User-approved name and portrait mapping, 2026-11-01",
+      "published": true,
+      "programme": "",
+      "publications": [],
+      "photo_url": "../assets/img/students/elec-salma-n.png"
     }
   ],
-  "updated": "2026-10-31"
+  "updated": "2026-11-01"
 }

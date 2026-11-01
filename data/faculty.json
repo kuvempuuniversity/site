@@ -1,6 +1,6 @@
 {
   "source": "User-supplied faculty.xlsx, portrait filenames and profile updates",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "faculty": [
     {
       "id": "jasmine-a",
@@ -166,7 +166,7 @@
       "biography": "Profile information will be added here.",
       "orcid": "",
       "scholar_url": "",
-      "photo": "ab-apoorva-p.png",
+      "photo": "../students/ab-apoorva-p.png",
       "personal_website": ""
     },
     {
@@ -252,7 +252,8 @@
       ],
       "orcid": "0000-0002-0119-4826",
       "scholar_url": "https://scholar.google.com/citations?user=t-QveJ4AAAAJ&hl=en",
-      "designation": "Professor"
+      "designation": "Professor",
+      "photo": "ag-govindaraju.png"
     },
     {
       "id": "shwetha-a",
@@ -901,7 +902,8 @@
       ],
       "phd_supervisor": "Prof Yadav.D. bodke",
       "orcid": "0009-0007-8613-3988",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "photo": "../students/chm-sneha-ma.png"
     },
     {
       "id": "chandana-h-p",
@@ -920,7 +922,8 @@
         "DFT"
       ],
       "phd_supervisor": "Talavara venkatesh",
-      "designation": "PhD candidate (teaching)"
+      "designation": "PhD candidate (teaching)",
+      "photo": "../students/chm-chandana-hp.png"
     },
     {
       "id": "pushpavathi-itte",
@@ -974,7 +977,8 @@
         "Synthesis of organic compounds"
       ],
       "phd_supervisor": "Talvara Venkatesha",
-      "designation": "PhD candidate (teaching)"
+      "designation": "PhD candidate (teaching)",
+      "photo": "../students/chm-kavana-s.png"
     },
     {
       "id": "talavara-venkatesh",
@@ -997,7 +1001,8 @@
       ],
       "orcid": "0000-0001-9637-3909",
       "scholar_url": "https://scholar.google.com/citations?user=g_WRzGgAAAAJ&hl=en",
-      "designation": "Assistant Professor"
+      "designation": "Assistant Professor",
+      "photo": "chm-talavara-venkatesh.png"
     },
     {
       "id": "naveena-l",
@@ -1378,7 +1383,8 @@
       "phd_supervisor": "Prof. Avinash T",
       "orcid": "0009-0000-9906-3527",
       "linkedin_url": "https://www.linkedin.com/in/aditya-j-aditya-j-bidanooru-098267361",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "photo": "en-aditya-j.png"
     },
     {
       "id": "tabassum",
@@ -1396,7 +1402,8 @@
         "Communication Skills"
       ],
       "orcid": "0009-0002-1331-989X",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "photo": "en-tabassum.png"
     },
     {
       "id": "rama-prasad-b-v",
@@ -1416,7 +1423,8 @@
       ],
       "scholar_url": "https://scholar.google.com/citations?user=v6AzUHkAAAAJ&hl=en",
       "linkedin_url": "https://www.linkedin.com/in/rama-prasad-4a526578/",
-      "designation": "Senior Professor"
+      "designation": "Senior Professor",
+      "photo": "en-ramprasad-bv.png"
     },
     {
       "id": "ananthnag-b",
@@ -1520,7 +1528,7 @@
       ],
       "orcid": "0000-0002-6968-2818",
       "scholar_url": "https://scholar.google.com/citations?user=06EIJTQAAAAJ&hl=en",
-      "photo": "es-hina-kousar.png",
+      "photo": "es-hina-kausar.png",
       "photo_placeholder": "es-hina-kousar-placeholder.svg",
       "personal_website": "",
       "scholar_metrics": {
@@ -1894,7 +1902,8 @@
         "Communication Research"
       ],
       "orcid": "0009-0008-3840-2845",
-      "designation": "Professor"
+      "designation": "Professor",
+      "photo": "jrnl-sathish-kumar.png"
     },
     {
       "id": "varghese-p-a-pulickal",
@@ -1915,7 +1924,8 @@
         "Digital media advertising"
       ],
       "orcid": "0009-0003-5144-0604",
-      "designation": "Professor"
+      "designation": "Professor",
+      "photo": "jrnl-varghese-pa.png"
     },
     {
       "id": "jrnl-varnashree-r",
@@ -3108,6 +3118,45 @@
         "last_attempt": "2026-10-29T12:57:30+00:00",
         "status": "success"
       }
+    },
+    {
+      "id": "dattatreya-m",
+      "name": "Dattatreya M.",
+      "department_id": "english",
+      "department": "English",
+      "biography": "Profile information will be added here.",
+      "research_interests": "Information to be added.",
+      "academic_journey": "Information to be added.",
+      "profile_status": "partial",
+      "profile_source": "User-approved name and portrait mapping, 2026-11-01",
+      "designation": "Position to be added.",
+      "photo": "en-dattatreya-m.png"
+    },
+    {
+      "id": "manjunatha-g-p",
+      "name": "Manjunatha G. P.",
+      "department_id": "english",
+      "department": "English",
+      "biography": "Profile information will be added here.",
+      "research_interests": "Information to be added.",
+      "academic_journey": "Information to be added.",
+      "profile_status": "partial",
+      "profile_source": "User-approved name and portrait mapping, 2026-11-01",
+      "designation": "Position to be added.",
+      "photo": "en-manjunatha-gp.png"
+    },
+    {
+      "id": "premkumar-g",
+      "name": "Premkumar G.",
+      "department_id": "english",
+      "department": "English",
+      "biography": "Profile information will be added here.",
+      "research_interests": "Information to be added.",
+      "academic_journey": "Information to be added.",
+      "profile_status": "partial",
+      "profile_source": "User-approved name and portrait mapping, 2026-11-01",
+      "designation": "Position to be added.",
+      "photo": "en-premkumar-g.png"
     }
   ]
 }

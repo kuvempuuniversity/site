@@ -1,0 +1,352 @@
+{
+  "revision": "2026-11-01-confirmed-portraits",
+  "manifest_sha256": "52f46b4c424dc4aae15697b6ac82694a07620353ad21419fd7e0dee5532d4758",
+  "updated": "2026-11-01",
+  "created_profiles": [
+    {
+      "role": "faculty",
+      "id": "dattatreya-m",
+      "name": "Dattatreya M.",
+      "department_id": "english"
+    },
+    {
+      "role": "faculty",
+      "id": "manjunatha-g-p",
+      "name": "Manjunatha G. P.",
+      "department_id": "english"
+    },
+    {
+      "role": "faculty",
+      "id": "premkumar-g",
+      "name": "Premkumar G.",
+      "department_id": "english"
+    },
+    {
+      "role": "students",
+      "id": "ramya-k",
+      "name": "Ramya K.",
+      "department_id": "electronics"
+    },
+    {
+      "role": "students",
+      "id": "salma-n",
+      "name": "Salma N.",
+      "department_id": "electronics"
+    }
+  ],
+  "mapped_records": 24,
+  "unique_images": 19,
+  "faculty_total": 147,
+  "student_total": 88,
+  "mappings": [
+    {
+      "role": "faculty",
+      "id": "govindaraju",
+      "name": "Prof. Govindaraju",
+      "field": "photo",
+      "previous": null,
+      "value": "ag-govindaraju.png"
+    },
+    {
+      "role": "faculty",
+      "id": "talavara-venkatesh",
+      "name": "Dr. Talavara Venkatesh",
+      "field": "photo",
+      "previous": null,
+      "value": "chm-talavara-venkatesh.png"
+    },
+    {
+      "role": "faculty",
+      "id": "aditya-j",
+      "name": "Mr. Aditya J.",
+      "field": "photo",
+      "previous": null,
+      "value": "en-aditya-j.png"
+    },
+    {
+      "role": "students",
+      "id": "aditya-j",
+      "name": "Mr. Aditya J.",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/faculty/en-aditya-j.png"
+    },
+    {
+      "role": "faculty",
+      "id": "dattatreya-m",
+      "name": "Dattatreya M.",
+      "field": "photo",
+      "previous": null,
+      "value": "en-dattatreya-m.png"
+    },
+    {
+      "role": "students",
+      "id": "doreobanna-b",
+      "name": "Mr. Doreobanna B.",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/faculty/en-doreobanna-e.png"
+    },
+    {
+      "role": "students",
+      "id": "jaydrata",
+      "name": "Mr. Jaydrata",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/faculty/en-jayadrata.png"
+    },
+    {
+      "role": "faculty",
+      "id": "manjunatha-g-p",
+      "name": "Manjunatha G. P.",
+      "field": "photo",
+      "previous": null,
+      "value": "en-manjunatha-gp.png"
+    },
+    {
+      "role": "faculty",
+      "id": "premkumar-g",
+      "name": "Premkumar G.",
+      "field": "photo",
+      "previous": null,
+      "value": "en-premkumar-g.png"
+    },
+    {
+      "role": "faculty",
+      "id": "rama-prasad-b-v",
+      "name": "Prof. Rama Prasad B. V.",
+      "field": "photo",
+      "previous": null,
+      "value": "en-ramprasad-bv.png"
+    },
+    {
+      "role": "faculty",
+      "id": "tabassum",
+      "name": "Dr. Tabassum",
+      "field": "photo",
+      "previous": null,
+      "value": "en-tabassum.png"
+    },
+    {
+      "role": "faculty",
+      "id": "hina-kousar",
+      "name": "Prof. Hina Kousar",
+      "field": "photo",
+      "previous": "es-hina-kousar.png",
+      "value": "es-hina-kausar.png"
+    },
+    {
+      "role": "faculty",
+      "id": "sathish-kumar",
+      "name": "Prof. Sathish Kumar",
+      "field": "photo",
+      "previous": null,
+      "value": "jrnl-sathish-kumar.png"
+    },
+    {
+      "role": "faculty",
+      "id": "varghese-p-a-pulickal",
+      "name": "Prof. Varghese P. A. Pulickal",
+      "field": "photo",
+      "previous": null,
+      "value": "jrnl-varghese-pa.png"
+    },
+    {
+      "role": "faculty",
+      "id": "apoorva-p",
+      "name": "Apoorva P",
+      "field": "photo",
+      "previous": "ab-apoorva-p.png",
+      "value": "../students/ab-apoorva-p.png"
+    },
+    {
+      "role": "students",
+      "id": "apoorva-p",
+      "name": "Apoorva P",
+      "field": "photo_url",
+      "previous": "../assets/img/students/ab-apoorva-p.png",
+      "value": "../assets/img/students/ab-apoorva-p.png"
+    },
+    {
+      "role": "faculty",
+      "id": "chandana-h-p",
+      "name": "Ms. Chandana H. P.",
+      "field": "photo",
+      "previous": null,
+      "value": "../students/chm-chandana-hp.png"
+    },
+    {
+      "role": "students",
+      "id": "chandana-h-p",
+      "name": "Ms. Chandana H. P.",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/students/chm-chandana-hp.png"
+    },
+    {
+      "role": "faculty",
+      "id": "kavana-s",
+      "name": "Ms. Kavana S.",
+      "field": "photo",
+      "previous": null,
+      "value": "../students/chm-kavana-s.png"
+    },
+    {
+      "role": "students",
+      "id": "kavana-s",
+      "name": "Ms. Kavana S.",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/students/chm-kavana-s.png"
+    },
+    {
+      "role": "faculty",
+      "id": "sneha-m-a-anthony",
+      "name": "Ms. Sneha M. A. Anthony",
+      "field": "photo",
+      "previous": null,
+      "value": "../students/chm-sneha-ma.png"
+    },
+    {
+      "role": "students",
+      "id": "sneha-m-a-anthony",
+      "name": "Ms. Sneha M. A. Anthony",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/students/chm-sneha-ma.png"
+    },
+    {
+      "role": "students",
+      "id": "ramya-k",
+      "name": "Ramya K.",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/students/elec-ramya-k.png"
+    },
+    {
+      "role": "students",
+      "id": "salma-n",
+      "name": "Salma N.",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/students/elec-salma-n.png"
+    }
+  ],
+  "images": [
+    {
+      "path": "assets/img/faculty/ag-govindaraju.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "1c9d29373108a8a74816b09c6edf96f0cb4f1396324d4a88ac9d0da6a7ba4d6b"
+    },
+    {
+      "path": "assets/img/faculty/chm-talavara-venkatesh.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "5b9f0d23959520e57489d388b24687ddd45f15696fa0efe3e0ee57bcbac7ac7d"
+    },
+    {
+      "path": "assets/img/faculty/en-aditya-j.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "83f185c9edd070d81fb2a5319def46eef9d390f242d018e0d0429c2a5b90e290"
+    },
+    {
+      "path": "assets/img/faculty/en-dattatreya-m.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "c10e9583201bc2495a904a9e677e783885d15998b32b45be92a6c7462d4cfa25"
+    },
+    {
+      "path": "assets/img/faculty/en-doreobanna-e.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "70887a5ce8619e3cc970b3bd58907e48cb12c152f7cc4673c384440da949fc12"
+    },
+    {
+      "path": "assets/img/faculty/en-jayadrata.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "0b07a775b340b53ac1fbdb128744e775a10511cf72847c63a79008fcee6fb377"
+    },
+    {
+      "path": "assets/img/faculty/en-manjunatha-gp.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "50a85f1c578fc9c9457fecb048df040f8ef76d8a1d97d82be4cd8bd463e427a8"
+    },
+    {
+      "path": "assets/img/faculty/en-premkumar-g.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "7e75ec164ad6f56bd222369145b618554f9368278392015921673458269169b9"
+    },
+    {
+      "path": "assets/img/faculty/en-ramprasad-bv.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "4e0beee5a73211c440e000ede0256165c8cbdc7acf806de32ad9dc62bef3946e"
+    },
+    {
+      "path": "assets/img/faculty/en-tabassum.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "2a4d8e08a2609f38c476f18c4cafb9280c5362973b5fb495a69c6a38f2310e0e"
+    },
+    {
+      "path": "assets/img/faculty/es-hina-kausar.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "2a1f3760b49c75ae4cd0e95fd1b47ff9ea1b55a080bdde9fe019fda10fb129e8"
+    },
+    {
+      "path": "assets/img/faculty/jrnl-sathish-kumar.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "bf704c2a57a0823047848f85ec3c2b65b3cbe2627b58ffde407ab856bb99a70e"
+    },
+    {
+      "path": "assets/img/faculty/jrnl-varghese-pa.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "ba0c18e1a5316d847285497025f79824cb370a3e9146bdd650114f35f8ce14b2"
+    },
+    {
+      "path": "assets/img/students/ab-apoorva-p.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "e9c45191a7cb3a5b6098b1ab64e7da0e348e11a7244016ee979fe74ff970a4dd"
+    },
+    {
+      "path": "assets/img/students/chm-chandana-hp.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "d75ad0b8c71ad6d48d87c815097b6e2a5c630ff43be0cebf9001e2b787779405"
+    },
+    {
+      "path": "assets/img/students/chm-kavana-s.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "74c941275050e56a9ff897b6aa018c905fac9a7467b39b865a219b55a7305bf3"
+    },
+    {
+      "path": "assets/img/students/chm-sneha-ma.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "152e9fdc6ca95b7e377749b622ecbdba17b3c6a8779732cfbb45cf85fdd1d055"
+    },
+    {
+      "path": "assets/img/students/elec-ramya-k.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "0b57004e2c20a695c9e37cad57e918b7c856d3976252a8a42b54c8b2289e029b"
+    },
+    {
+      "path": "assets/img/students/elec-salma-n.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "759f0597d450ffebead77f7fab943f7bc4ca94139d6dc0122ccafaace0ea8a48"
+    }
+  ],
+  "notes": "User-confirmed aliases; existing profile details and roles preserved. New profiles are partial; no positions, qualifications, research or contact details inferred. Original image files retained."
+}

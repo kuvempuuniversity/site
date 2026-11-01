@@ -1,0 +1,69 @@
+name: Connect H S Santosh Kumar portrait
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/connect-santosh-photo.yml
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: connect-santosh-photo
+  cancel-in-progress: false
+jobs:
+  connect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Connect only the confirmed existing profile and uploaded image
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          import re
+          from pathlib import Path
+          path=Path('data/faculty.json')
+          data=json.loads(path.read_text(encoding='utf-8'))
+          matches=[p for p in data['faculty'] if p.get('id')=='h-s-santosh-kumar']
+          if len(matches)!=1 or matches[0].get('department_id')!='biotechnology':
+              raise ValueError('Expected unique Biotechnology profile not found')
+          person=matches[0]
+          name=re.sub(r'^(?:prof\.?|dr\.?)\s+','',person.get('name','').strip(),flags=re.I)
+          if re.sub('[^a-z0-9]','',name.casefold())!='hssantoshkumar':
+              raise ValueError('Profile name differs from the approved person')
+          filename='bt-santosh-kumar-hs.png'
+          raw=(Path('assets/img/faculty')/filename).read_bytes()
+          digest=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+          if digest!='44b08c18f791d05dcbcd0d1948ffc2d94d9cbcc2' or raw[:8]!=b'\x89PNG\r\n\x1a\n':
+              raise ValueError('Uploaded image differs from the approved portrait')
+          if person.get('photo') not in (None,'',filename):
+              raise ValueError('A different photo was assigned after review')
+          person['photo']=filename
+          path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'id':person['id'],'department_id':person['department_id'],'photo':person['photo']}))
+          PY
+      - name: Commit the single photo reference
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/faculty.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Connect H S Santosh Kumar Biotechnology portrait"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Request GitHub Pages build
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

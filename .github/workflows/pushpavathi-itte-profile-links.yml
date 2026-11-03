@@ -1,0 +1,75 @@
+name: Pushpavathi Itte Industrial Chemistry profile links
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/pushpavathi-itte-profile-links.yml
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: pushpavathi-itte-profile-links
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Add approved links without changing the stored name
+        run: |
+          python - <<'PY'
+          import copy
+          import hashlib
+          import json
+          from pathlib import Path
+          path = Path('data/faculty.json')
+          raw = path.read_bytes()
+          data = json.loads(raw)
+          matches = [r for r in data['faculty'] if r.get('id') == 'ic-pushpavathi-itte']
+          if len(matches) != 1 or matches[0].get('department_id') != 'industrial-chemistry':
+              raise ValueError('Existing Industrial Chemistry profile not uniquely found; stop for review')
+          row = matches[0]
+          approved = {'orcid':'0000-0002-4479-2623','scholar_url':'https://scholar.google.com/citations?user=ytd20b0AAAAJ&hl=en'}
+          already = all(row.get(k) == v for k,v in approved.items())
+          digest = hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+          if digest != '725ba8cf0767a891fd6d9120eed449906ef8d4e7' and not already:
+              raise ValueError('Faculty data changed after review; stop rather than overwrite newer edits')
+          before = copy.deepcopy(row)
+          row.update(approved)
+          if {k:v for k,v in before.items() if k not in approved} != {k:v for k,v in row.items() if k not in approved}:
+              raise ValueError('Unexpected change outside the two approved link fields')
+          if row.get('name') != before.get('name'):
+              raise ValueError('Original database name must be retained')
+          if not already:
+              path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'id':row['id'],'name':row.get('name'),'department_id':row['department_id'],**approved,'already_applied':already}))
+          PY
+      - name: Validate faculty data and profile renderer
+        run: |
+          python -m json.tool data/faculty.json > /dev/null
+          node --check assets/js/faculty.js
+      - name: Commit approved profile links
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/faculty.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Add ORCID and Scholar links to existing Pushpavathi Itte Industrial Chemistry profile"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Request GitHub Pages rebuild
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

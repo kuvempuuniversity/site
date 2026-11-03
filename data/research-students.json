@@ -494,8 +494,8 @@
       "id": "basavaraja-m-magalda",
       "name": "Mr. Basavaraja M. Magalda",
       "last_name": "Magalda",
-      "department_id": "education",
-      "department": "Education",
+      "department_id": "physical-education",
+      "department": "Physical Education",
       "email": "basavarajm788@gmail.com",
       "teaches": false,
       "biography": "My work focuse on inclusive physical education",
@@ -505,14 +505,15 @@
       "supervisor": "Professor Dr. Gajanana prabhu. b",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/pe-basavaraja-magalda.png"
     },
     {
       "id": "vasudha-s-s",
       "name": "Ms. Vasudha S. S.",
       "last_name": "Vasudha",
-      "department_id": "education",
-      "department": "Education",
+      "department_id": "physical-education",
+      "department": "Physical Education",
       "email": "vasudhas2018@gmail.com",
       "teaches": true,
       "biography": "Track and field is considered the mother of all sports, where performance is a complex interaction of body structure and physical capacities. Success in sprints, jumps, throws and middle-distance events is not by chance but determined by specific morphological and fitness profiles. Hence, deciphering these variables is essential for talent identification and training optimization.",
@@ -528,7 +529,8 @@
       "supervisor": "Dr.Ravindra Gounda S M",
       "published": true,
       "programme": "PhD candidate (Research Fellow)",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/pe-vasudha-ss.png"
     },
     {
       "id": "doreobanna-b",
@@ -1733,7 +1735,85 @@
       "programme": "",
       "publications": [],
       "photo_url": "../assets/img/students/elec-salma-n.png"
+    },
+    {
+      "name": "Mr. C.P Bopanna",
+      "last_name": "Bopanna",
+      "email": "nishankbopanna@gmail.com",
+      "orcid": "0009-0008-0642-8282",
+      "research_interests": "Technology based training, Virtual reality, Sports training",
+      "academic_journey": "Master's in Physical Education, Mangalore University (2023); KSET",
+      "research_summary": "Technology- Training, VR/AR, Exergaming.",
+      "modules_taught": [
+        "Kinesiology and Biomechanics",
+        "Exercise Physiology and Sports Training"
+      ],
+      "id": "c-p-bopanna",
+      "department_id": "physical-education",
+      "department": "Physical Education",
+      "profile_status": "partial",
+      "profile_source": "User-approved portrait and role mapping, 2026-11-03",
+      "biography": "Profile information will be added here.",
+      "published": true,
+      "programme": "",
+      "publications": [],
+      "supervisor": "Prof. Gajanana Prabhu B",
+      "photo_url": "../assets/img/students/pe-bopanna-cp.png"
+    },
+    {
+      "name": "Mr. Govindaraju Kammaragatte Anjaneya",
+      "last_name": "Anjaneya",
+      "email": "govindraj031@gmail.com",
+      "orcid": "0009-0003-2934-5416",
+      "academic_journey": "MPEd in Physical Education, Kuvempu University (2009); BPEd in Physical Education, Kuvempu University (2007)",
+      "modules_taught": [
+        "Officiating and Coaching",
+        "Psychology and Sociology in Physical Education",
+        "Health Education and Sports Nutrition",
+        "Research and Statistics"
+      ],
+      "id": "govindaraju-kammaragatte-anjaneya",
+      "department_id": "physical-education",
+      "department": "Physical Education",
+      "profile_status": "partial",
+      "profile_source": "User-approved portrait and role mapping, 2026-11-03",
+      "biography": "Profile information will be added here.",
+      "research_interests": "Information to be added.",
+      "published": true,
+      "programme": "",
+      "publications": [],
+      "photo_url": "../assets/img/students/pe-govindaraju-ka.png"
+    },
+    {
+      "id": "dileepkumar-s-c",
+      "name": "Dileepkumar S. C.",
+      "department_id": "physical-education",
+      "department": "Physical Education",
+      "profile_status": "partial",
+      "profile_source": "User-approved portrait and role mapping, 2026-11-03",
+      "biography": "Profile information will be added here.",
+      "research_interests": "Information to be added.",
+      "academic_journey": "Information to be added.",
+      "published": true,
+      "programme": "",
+      "publications": [],
+      "photo_url": "../assets/img/students/pe-dileepkumar-sc.png"
+    },
+    {
+      "id": "pavithra-m",
+      "name": "Pavithra M.",
+      "department_id": "physical-education",
+      "department": "Physical Education",
+      "profile_status": "partial",
+      "profile_source": "User-approved portrait and role mapping, 2026-11-03",
+      "biography": "Profile information will be added here.",
+      "research_interests": "Information to be added.",
+      "academic_journey": "Information to be added.",
+      "published": true,
+      "programme": "",
+      "publications": [],
+      "photo_url": "../assets/img/students/pe-pavithra-m.png"
     }
   ],
-  "updated": "2026-11-01"
+  "updated": "2026-11-03"
 }

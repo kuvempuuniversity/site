@@ -1781,7 +1781,9 @@
       "biography": "Profile information will be added here.",
       "research_interests": "Information to be added.",
       "designation": "Position to be added.",
-      "photo": "ic-kumaraswamy-be.png"
+      "photo": "ic-kumaraswamy-be.png",
+      "orcid": "0000-0002-2433-0739",
+      "scholar_url": "https://scholar.google.com/citations?user=tvVdZQkAAAAJ&hl=en"
     },
     {
       "id": "ic-vinod-bm",

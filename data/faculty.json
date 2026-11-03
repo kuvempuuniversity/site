@@ -1,6 +1,6 @@
 {
   "source": "User-supplied faculty.xlsx, portrait filenames and profile updates",
-  "updated": "2026-11-01",
+  "updated": "2026-11-03",
   "faculty": [
     {
       "id": "jasmine-a",
@@ -1189,8 +1189,8 @@
       "id": "govindaraju-kammaragatte-anjaneya",
       "name": "Mr. Govindaraju Kammaragatte Anjaneya",
       "last_name": "Anjaneya",
-      "department_id": "education",
-      "department": "Education",
+      "department_id": "physical-education",
+      "department": "Physical Education",
       "email": "govindraj031@gmail.com",
       "teaches": true,
       "academic_journey": "MPEd in Physical Education, Kuvempu University (2009); BPEd in Physical Education, Kuvempu University (2007)",
@@ -1201,14 +1201,15 @@
         "Research and Statistics"
       ],
       "orcid": "0009-0003-2934-5416",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "photo": "pe-govindaraju-ka.png"
     },
     {
       "id": "deekshith-babu",
       "name": "Mr. Deekshith Babu",
       "last_name": "Babu",
-      "department_id": "education",
-      "department": "Education",
+      "department_id": "physical-education",
+      "department": "Physical Education",
       "email": "deekshith258@gmail.com",
       "teaches": true,
       "research_interests": "Sports medicine, Sports training, Event management, Track and field, Jumping",
@@ -1220,7 +1221,8 @@
         "ICT in Physical Education"
       ],
       "orcid": "0009-0001-5327-1299",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "photo": "pe-deekshith-b.png"
     },
     {
       "id": "raghavendra-bommannavar",
@@ -1304,8 +1306,8 @@
       "id": "vasanthanaik-papanaik",
       "name": "Dr. Vasanthanaik Papanaik",
       "last_name": "Papanaik",
-      "department_id": "education",
-      "department": "Education",
+      "department_id": "physical-education",
+      "department": "Physical Education",
       "email": "vasanth.pav@gmail.com",
       "teaches": true,
       "biography": "I, Vasanthanaik P, am a dedicated teacher with over three years of experience in promoting fitness, sportsmanship, and a healthy lifestyle among students. I hold a Bachelor’s degree (B.P.Ed.) and a Master’s degree (M.P.Ed.) in Physical Education, along with certifications in First Aid and sports training.\n\nI possess expertise in organizing school sports events, athletics training, and yoga sessions, as well as team sports such as football, cricket, volleyball, and basketball. I successfully train school teams for district and state-level competitions, helping students develop discipline, teamwork, and self-confidence.",
@@ -1319,7 +1321,8 @@
         "Physical education"
       ],
       "orcid": "0009-0005-9454-0036",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "photo": "pe-vasantha-naik-p.png"
     },
     {
       "id": "shilpa-v",
@@ -1346,8 +1349,8 @@
       "id": "vasudha-s-s",
       "name": "Ms. Vasudha S. S.",
       "last_name": "Vasudha",
-      "department_id": "education",
-      "department": "Education",
+      "department_id": "physical-education",
+      "department": "Physical Education",
       "email": "vasudhas2018@gmail.com",
       "teaches": true,
       "biography": "Track and field is considered the mother of all sports, where performance is a complex interaction of body structure and physical capacities. Success in sprints, jumps, throws and middle-distance events is not by chance but determined by specific morphological and fitness profiles. Hence, deciphering these variables is essential for talent identification and training optimization.",
@@ -1361,7 +1364,8 @@
         "Anthropometric of athletes"
       ],
       "phd_supervisor": "Dr.Ravindra Gounda S M",
-      "designation": "Research Fellow (teaching)"
+      "designation": "Research Fellow (teaching)",
+      "photo": "../students/pe-vasudha-ss.png"
     },
     {
       "id": "aditya-j",
@@ -2555,7 +2559,8 @@
       ],
       "phd_supervisor": "Prof. Gajanana Prabhu B",
       "orcid": "0009-0008-0642-8282",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "photo": "pe-bopanna-cp.png"
     },
     {
       "id": "balakrishna-puttur",
@@ -2576,7 +2581,8 @@
         "Agriculture"
       ],
       "orcid": "0009-0006-2375-814X",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "photo": "pe-balakrishna-k.png"
     },
     {
       "id": "ravindra-gouda-s-m",
@@ -2588,7 +2594,8 @@
       "teaches": true,
       "orcid": "0009-0004-1618-3697",
       "scholar_url": "https://scholar.google.com/citations?user=YS2_n-MAAAAJ&hl=en",
-      "designation": "Assistant Professor"
+      "designation": "Assistant Professor",
+      "photo": "pe-ravindra-gowda-sm.png"
     },
     {
       "id": "sudha",
@@ -3158,6 +3165,22 @@
       "profile_source": "User-approved name and portrait mapping, 2026-11-01",
       "designation": "Position to be added.",
       "photo": "en-premkumar-g.png"
+    },
+    {
+      "name": "Mr. Basavaraja M. Magalda",
+      "last_name": "Magalda",
+      "email": "basavarajm788@gmail.com",
+      "biography": "My work focuse on inclusive physical education",
+      "research_interests": "Physical education games and sports",
+      "academic_journey": "PhD in physical education",
+      "research_summary": "AN ANALYTICAL STUDY ON PERCEPTIONS PRACTICE AND BARRIERS FOR INCLUSIVE PHYSICAL EDUCATION IN SCHOOLS",
+      "id": "basavaraja-m-magalda",
+      "department_id": "physical-education",
+      "department": "Physical Education",
+      "profile_status": "partial",
+      "profile_source": "User-approved portrait and role mapping, 2026-11-03",
+      "designation": "Position to be added.",
+      "photo": "pe-basavaraja-magalda.png"
     }
   ]
 }

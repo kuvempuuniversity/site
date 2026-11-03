@@ -1,0 +1,293 @@
+{
+  "revision": "2026-11-03-physical-education-photos",
+  "manifest_sha256": "c975988ad6eb1ec2af612eeab3d7d8284688fbae2e70f377f11074b3e6a344c3",
+  "updated": "2026-11-03",
+  "mapped_records": 14,
+  "unique_images": 13,
+  "created_profiles": [
+    {
+      "role": "faculty",
+      "id": "basavaraja-m-magalda",
+      "name": "Mr. Basavaraja M. Magalda",
+      "url": "faculty/profile.html?id=basavaraja-m-magalda"
+    },
+    {
+      "role": "students",
+      "id": "c-p-bopanna",
+      "name": "Mr. C.P Bopanna",
+      "url": "students/profile.html?id=c-p-bopanna"
+    },
+    {
+      "role": "students",
+      "id": "govindaraju-kammaragatte-anjaneya",
+      "name": "Mr. Govindaraju Kammaragatte Anjaneya",
+      "url": "students/profile.html?id=govindaraju-kammaragatte-anjaneya"
+    },
+    {
+      "role": "students",
+      "id": "dileepkumar-s-c",
+      "name": "Dileepkumar S. C.",
+      "url": "students/profile.html?id=dileepkumar-s-c"
+    },
+    {
+      "role": "students",
+      "id": "pavithra-m",
+      "name": "Pavithra M.",
+      "url": "students/profile.html?id=pavithra-m"
+    }
+  ],
+  "department_corrections": [
+    {
+      "role": "faculty",
+      "id": "deekshith-babu",
+      "from": "education",
+      "to": "physical-education"
+    },
+    {
+      "role": "faculty",
+      "id": "govindaraju-kammaragatte-anjaneya",
+      "from": "education",
+      "to": "physical-education"
+    },
+    {
+      "role": "faculty",
+      "id": "vasanthanaik-papanaik",
+      "from": "education",
+      "to": "physical-education"
+    },
+    {
+      "role": "faculty",
+      "id": "vasudha-s-s",
+      "from": "education",
+      "to": "physical-education"
+    },
+    {
+      "role": "students",
+      "id": "basavaraja-m-magalda",
+      "from": "education",
+      "to": "physical-education"
+    },
+    {
+      "role": "students",
+      "id": "vasudha-s-s",
+      "from": "education",
+      "to": "physical-education"
+    }
+  ],
+  "mappings": [
+    {
+      "role": "faculty",
+      "id": "balakrishna-puttur",
+      "name": "Mr. Balakrishna Puttur",
+      "field": "photo",
+      "previous": null,
+      "value": "pe-balakrishna-k.png",
+      "url": "faculty/profile.html?id=balakrishna-puttur"
+    },
+    {
+      "role": "faculty",
+      "id": "basavaraja-m-magalda",
+      "name": "Mr. Basavaraja M. Magalda",
+      "field": "photo",
+      "previous": null,
+      "value": "pe-basavaraja-magalda.png",
+      "url": "faculty/profile.html?id=basavaraja-m-magalda"
+    },
+    {
+      "role": "faculty",
+      "id": "c-p-bopanna",
+      "name": "Mr. C.P Bopanna",
+      "field": "photo",
+      "previous": null,
+      "value": "pe-bopanna-cp.png",
+      "url": "faculty/profile.html?id=c-p-bopanna"
+    },
+    {
+      "role": "faculty",
+      "id": "deekshith-babu",
+      "name": "Mr. Deekshith Babu",
+      "field": "photo",
+      "previous": null,
+      "value": "pe-deekshith-b.png",
+      "url": "faculty/profile.html?id=deekshith-babu"
+    },
+    {
+      "role": "faculty",
+      "id": "govindaraju-kammaragatte-anjaneya",
+      "name": "Mr. Govindaraju Kammaragatte Anjaneya",
+      "field": "photo",
+      "previous": null,
+      "value": "pe-govindaraju-ka.png",
+      "url": "faculty/profile.html?id=govindaraju-kammaragatte-anjaneya"
+    },
+    {
+      "role": "faculty",
+      "id": "ravindra-gouda-s-m",
+      "name": "Dr. Ravindra Gouda S. M.",
+      "field": "photo",
+      "previous": null,
+      "value": "pe-ravindra-gowda-sm.png",
+      "url": "faculty/profile.html?id=ravindra-gouda-s-m"
+    },
+    {
+      "role": "faculty",
+      "id": "vasanthanaik-papanaik",
+      "name": "Dr. Vasanthanaik Papanaik",
+      "field": "photo",
+      "previous": null,
+      "value": "pe-vasantha-naik-p.png",
+      "url": "faculty/profile.html?id=vasanthanaik-papanaik"
+    },
+    {
+      "role": "faculty",
+      "id": "vasudha-s-s",
+      "name": "Ms. Vasudha S. S.",
+      "field": "photo",
+      "previous": null,
+      "value": "../students/pe-vasudha-ss.png",
+      "url": "faculty/profile.html?id=vasudha-s-s"
+    },
+    {
+      "role": "students",
+      "id": "basavaraja-m-magalda",
+      "name": "Mr. Basavaraja M. Magalda",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/students/pe-basavaraja-magalda.png",
+      "url": "students/profile.html?id=basavaraja-m-magalda"
+    },
+    {
+      "role": "students",
+      "id": "c-p-bopanna",
+      "name": "Mr. C.P Bopanna",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/students/pe-bopanna-cp.png",
+      "url": "students/profile.html?id=c-p-bopanna"
+    },
+    {
+      "role": "students",
+      "id": "govindaraju-kammaragatte-anjaneya",
+      "name": "Mr. Govindaraju Kammaragatte Anjaneya",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/students/pe-govindaraju-ka.png",
+      "url": "students/profile.html?id=govindaraju-kammaragatte-anjaneya"
+    },
+    {
+      "role": "students",
+      "id": "dileepkumar-s-c",
+      "name": "Dileepkumar S. C.",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/students/pe-dileepkumar-sc.png",
+      "url": "students/profile.html?id=dileepkumar-s-c"
+    },
+    {
+      "role": "students",
+      "id": "pavithra-m",
+      "name": "Pavithra M.",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/students/pe-pavithra-m.png",
+      "url": "students/profile.html?id=pavithra-m"
+    },
+    {
+      "role": "students",
+      "id": "vasudha-s-s",
+      "name": "Ms. Vasudha S. S.",
+      "field": "photo_url",
+      "previous": null,
+      "value": "../assets/img/students/pe-vasudha-ss.png",
+      "url": "students/profile.html?id=vasudha-s-s"
+    }
+  ],
+  "images": [
+    {
+      "path": "assets/img/faculty/pe-balakrishna-k.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "22a0628fe1044418f56105efa05e419bf1fab65488b7812e233e0765f5a16818"
+    },
+    {
+      "path": "assets/img/faculty/pe-basavaraja-magalda.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "824077715a74d427a1d36b08c5168b2e51b1603b381a76c0632982005a2a50fe"
+    },
+    {
+      "path": "assets/img/faculty/pe-bopanna-cp.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "d4e4a0d0e54f0bc7ceb8ef1ee40dc58eba8ee79e6a874f02a5f99423aaea9e07"
+    },
+    {
+      "path": "assets/img/faculty/pe-deekshith-b.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "dc271e3331b2bc1cea4419fd14702baa5a55227bdad01756507202c08508b30d"
+    },
+    {
+      "path": "assets/img/faculty/pe-govindaraju-ka.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "42342d1d710bd1973155bd07074deb723d2641f8a24494eedf410a9b7b12d0ab"
+    },
+    {
+      "path": "assets/img/faculty/pe-ravindra-gowda-sm.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "178188bf7bc26435d66951baa0f64e352d90eb7c3bc2f9810dad31f1e4098afe"
+    },
+    {
+      "path": "assets/img/faculty/pe-vasantha-naik-p.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "23458fbd09d2cbbf38ecec62a62e55a2de45cdf55ae1af93e7797320b01e9dfa"
+    },
+    {
+      "path": "assets/img/students/pe-vasudha-ss.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "92c3fbd5052fe69610c75f62e15efc275d8d7f2286d8af7a0619215498ce33c0"
+    },
+    {
+      "path": "assets/img/students/pe-basavaraja-magalda.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "824077715a74d427a1d36b08c5168b2e51b1603b381a76c0632982005a2a50fe"
+    },
+    {
+      "path": "assets/img/students/pe-bopanna-cp.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "d4e4a0d0e54f0bc7ceb8ef1ee40dc58eba8ee79e6a874f02a5f99423aaea9e07"
+    },
+    {
+      "path": "assets/img/students/pe-govindaraju-ka.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "42342d1d710bd1973155bd07074deb723d2641f8a24494eedf410a9b7b12d0ab"
+    },
+    {
+      "path": "assets/img/students/pe-dileepkumar-sc.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "e0644eab5a316e859fdbf55c32ff501b225b69f4ad0914cb11e1e1d68de42262"
+    },
+    {
+      "path": "assets/img/students/pe-pavithra-m.png",
+      "width": 600,
+      "height": 800,
+      "sha256": "563b3ab15c6fe77ca2d9fe2524b747a505ae5328d8e590263a6f3e2dd3928226"
+    }
+  ],
+  "faculty_total": 148,
+  "student_total": 92,
+  "notes": [
+    "Repeated people intentionally remain in both faculty and student categories.",
+    "Balakrishna K portrait assigned to existing Balakrishna Puttur profile using the user-approved tentative match; existing name preserved.",
+    "New roles do not establish a qualification or appointment; unknown fields remain placeholders.",
+    "Source form submissions and research metrics are not modified. Future source re-imports must retain the confirmed department and dual-role corrections."
+  ]
+}

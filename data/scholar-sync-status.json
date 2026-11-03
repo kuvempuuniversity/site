@@ -1,0 +1,797 @@
+{
+  "source": "Google Scholar",
+  "provider": "SerpApi",
+  "scope": "all-time",
+  "last_attempt": "2026-11-03T13:37:49+00:00",
+  "selected": 148,
+  "success": 46,
+  "failed": 102,
+  "faculty": {
+    "jasmine-a": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "narasimha-tb": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "shrishaila": {
+      "status": "success",
+      "author_id": "y_8ETW8AAAAJ",
+      "author_name": "H C Shrishail",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "reena-roy-d": {
+      "status": "success",
+      "author_id": "t9VeVpEAAAAJ",
+      "author_name": "Reena Roy D",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "sathisha-am": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "venkatesh": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "shashiraj-kn": {
+      "status": "success",
+      "author_id": "N2-ArOsAAAAJ",
+      "author_name": "SHASHIRAJ K N",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "apoorva-p": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "sarala-p": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "vikas-r": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "rashmi-dc": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "govindaraju": {
+      "status": "success",
+      "author_id": "t-QveJ4AAAAJ",
+      "author_name": "Govindaraju",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "shwetha-a": {
+      "status": "success",
+      "author_id": "AbwbvOEAAAAJ",
+      "author_name": "Dr. Shwetha A",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "dayananda-gy": {
+      "status": "success",
+      "author_id": "rWuOqHkAAAAJ",
+      "author_name": "Dayananda G Y",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "nagaraja": {
+      "status": "success",
+      "author_id": "CP9vp-gAAAAJ",
+      "author_name": "Kakanahalli Nagaraj",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "shrinidhi-k-t-bhandari": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "nehakumari-chandrashekhar": {
+      "status": "failed",
+      "message": "Missing metrics table",
+      "last_success": null
+    },
+    "kotresh-k-r": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "prathibha-s-konkar": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "anitha-n": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "raghavendra-s-n": {
+      "status": "success",
+      "author_id": "U0U6djgAAAAJ",
+      "author_name": "Raghavendra S N",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "shivayogeeswar-neelagund": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "niranjana-pathappa": {
+      "status": "success",
+      "author_id": "PHQ0Ov8AAAAJ",
+      "author_name": "Niranjana Pathappa",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "rithu-r-revankar": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "manoj-s-p": {
+      "status": "success",
+      "author_id": "x9x6WyEAAAAJ",
+      "author_name": "Manoj Sringeri Prakash",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "santhosh-k-hanumanthappa": {
+      "status": "success",
+      "author_id": "uxAhp3kAAAAJ",
+      "author_name": "Dr. Santhosh kondajji",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "kumaraswamy-hm": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "shankaramurthy-k": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "ravikumar-s": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "shashikumar-r": {
+      "status": "success",
+      "author_id": "pOeFHjgAAAAJ",
+      "author_name": "Dr. Shashikumar R",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "h-s-santosh-kumar": {
+      "status": "success",
+      "author_id": "MY9l-gQAAAAJ",
+      "author_name": "Hulikal Shivashankar Santosh Kumar",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "meghana-p-pargi": {
+      "status": "failed",
+      "message": "Missing author name for review",
+      "last_success": null
+    },
+    "divakara-r": {
+      "status": "failed",
+      "message": "Missing author name for review",
+      "last_success": null
+    },
+    "sandeep-telkar": {
+      "status": "success",
+      "author_id": "fKYqrZIAAAAJ",
+      "author_name": "Sandeep Telkar. Ph.D",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "vanishree-k": {
+      "status": "success",
+      "author_id": "hLYi0AQAAAAJ",
+      "author_name": "Vanishree K Naik",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "teenakumari-b-n-keremane": {
+      "status": "failed",
+      "message": "Missing metrics table",
+      "last_success": null
+    },
+    "rinakhanum-khabum": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "vinay-b-prasad": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "manjunath-k-rajappa": {
+      "status": "success",
+      "author_id": "lo-5Io8AAAAJ",
+      "author_name": "Manjunath Rajappa",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "yeshwant-narayana-rao": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "shilpa-b-c": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "sneha-m-a-anthony": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "chandana-h-p": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "pushpavathi-itte": {
+      "status": "success",
+      "author_id": "ytd20b0AAAAJ",
+      "author_name": "Dr.Pushpavathi Itte",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "kavana-s": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "talavara-venkatesh": {
+      "status": "success",
+      "author_id": "g_WRzGgAAAAJ",
+      "author_name": "Dr. Talavara Venkatesh",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "naveena-l": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "suresha-m": {
+      "status": "success",
+      "author_id": "pLxwEo0AAAAJ",
+      "author_name": "suresha M",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "ravikumar-m": {
+      "status": "success",
+      "author_id": "EXVKn9QAAAAJ",
+      "author_name": "M RAVIKUMAR",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "vadivelu-a": {
+      "status": "success",
+      "author_id": "ixJdlnsAAAAJ",
+      "author_name": "Vadivelu",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "thipperudrappa-e-eshwarappa": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "sangeetha-kempayya": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "ravikumar-s-kumar": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "halaswamy-m-v": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "parameshwara-s-k-naik": {
+      "status": "failed",
+      "message": "Missing metrics table",
+      "last_success": null
+    },
+    "govindaraju-kammaragatte-anjaneya": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "deekshith-babu": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "raghavendra-bommannavar": {
+      "status": "failed",
+      "message": "Missing metrics table",
+      "last_success": null
+    },
+    "jagannath-k-dange": {
+      "status": "success",
+      "author_id": "c72AxmEAAAAJ",
+      "author_name": "Jagannath K Dange",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "madhu-j-krishnappa": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "balachandra-madiwal": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "vasanthanaik-papanaik": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "shilpa-v": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "vasudha-s-s": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "aditya-j": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "tabassum": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "rama-prasad-b-v": {
+      "status": "success",
+      "author_id": "v6AzUHkAAAAJ",
+      "author_name": "Rama Prasad",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "ananthnag-b": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "arjumand-banu-ss": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "basavarajappa-sh": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "yogendra-kambalagere": {
+      "status": "success",
+      "author_id": "-TcIYBUAAAAJ",
+      "author_name": "Kambalagere Yogendra",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "hina-kousar": {
+      "status": "success",
+      "author_id": "06EIJTQAAAAJ",
+      "author_name": "Hina Kousar",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "krishnamurthy-sv": {
+      "status": "success",
+      "author_id": "c5GkfzIAAAAJ",
+      "author_name": "S V Krishnamurthy",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "madhusudhana-n": {
+      "status": "success",
+      "author_id": "yHgEzXMAAAAJ",
+      "author_name": "Dr. Madhusudhana N",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "rakesh-tiwari": {
+      "status": "success",
+      "author_id": "MTpM3HwAAAAJ",
+      "author_name": "Rakesh Tiwari",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "preema-karal-andrade": {
+      "status": "success",
+      "author_id": "i5lzgHcAAAAJ",
+      "author_name": "Preema Karal Andrade",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "aishwarya-m": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "sachin-s-nayaka": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "nagesha-h-a": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "rakesh-h-s": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "shashank-i": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "ic-kumaraswamy-be": {
+      "status": "success",
+      "author_id": "tvVdZQkAAAAJ",
+      "author_name": "Prof.B E Kumara Swamy M.Sc Ph.D. Post Doc (USA)",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "ic-vinod-bm": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "ic-vinay-kumar-e": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "ic-bhavani-mh": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "ic-pushpavathi-itte": {
+      "status": "success",
+      "author_id": "ytd20b0AAAAJ",
+      "author_name": "Dr.Pushpavathi Itte",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "ic-adarsh-gowda-n": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "ic-supraja-r-prasad": {
+      "status": "success",
+      "author_id": "MrBmQPwAAAAJ",
+      "author_name": "SUPRAJA R PRASAD",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "ic-anusha-hy": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "sathish-kumar": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "varghese-p-a-pulickal": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "jrnl-varnashree-r": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "sathyaprakash-m-r": {
+      "status": "success",
+      "author_id": "72R0IYIAAAAJ",
+      "author_name": "Sathyaprakash MR",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "kn-abhijith-b": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "kn-maruthi-manjappa-chelavadhi": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "kn-ravikumara-d": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "kn-rangaswamy-hg": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "kn-ashik": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "kn-ravi-naik-m": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "kn-harish-mn": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "kn-prashantha-nayaka": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "kn-purushotama-sv": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "kn-raghu-sk": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "kn-nellikatte-siddesh": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "kn-obalesha-t": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "kn-manjunatha-t": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "gowthami-g": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "narasimhamurthy-s-k": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "shilpashree-s-l": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "thippeswamy-b": {
+      "status": "success",
+      "author_id": "cImYsjoAAAAJ",
+      "author_name": "Dr.Thippeswamy Basaiah M.Sc.,Ph D.,Post Doc.(USA).",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "nayanashree-g": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "thilakashree-k": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "chaitra-kn": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "thippeswamy-nb": {
+      "status": "success",
+      "author_id": "l6fXh4cAAAAJ",
+      "author_name": "Dr. N B Thippeswamy",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "renuka-kp": {
+      "status": "success",
+      "author_id": "wy1pTBYAAAAJ",
+      "author_name": "Dr.Renuka K.P",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "lokesh-st": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "sowmya-hv": {
+      "status": "success",
+      "author_id": "m-TLX7wAAAAJ",
+      "author_name": "Sowmya H.V",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "dhanyakumari": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "c-p-bopanna": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "balakrishna-puttur": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "ravindra-gouda-s-m": {
+      "status": "success",
+      "author_id": "YS2_n-MAAAAJ",
+      "author_name": "Ravindra Gouda, S.M",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "sudha": {
+      "status": "success",
+      "author_id": "FnTT5GUAAAAJ",
+      "author_name": "Dr Sudha",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "veda-h-t": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "shanmukha-a": {
+      "status": "failed",
+      "message": "Missing metrics table",
+      "last_success": null
+    },
+    "vinutha-s-patil": {
+      "status": "failed",
+      "message": "Missing metrics table",
+      "last_success": null
+    },
+    "yogaraja-v-n": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "uddagatti-venkatesha": {
+      "status": "success",
+      "author_id": "QuQfuc0AAAAJ",
+      "author_name": "Uddagatti Venkatesha",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "keerthi-d": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "lakshmi-hosurappa": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "vaishali-b-katke": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "dileep-kumar": {
+      "status": "success",
+      "author_id": "L8aP5VwAAAAJ",
+      "author_name": "Dr. Dileep Kumar",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "ravi-b-g-shankar": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "chandrashekar-e": {
+      "status": "failed",
+      "message": "Missing metrics table",
+      "last_success": null
+    },
+    "anjanappa-b-h": {
+      "status": "failed",
+      "message": "Missing metrics table",
+      "last_success": null
+    },
+    "chandrashekhar-s": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "nataraja-t-chandrappa": {
+      "status": "success",
+      "author_id": "FOLB9awAAAAJ",
+      "author_name": "Nataraja Chandrappa",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "sakamma-s": {
+      "status": "failed",
+      "message": "Missing metrics table",
+      "last_success": null
+    },
+    "srikanth-somanna": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "roopa-c": {
+      "status": "success",
+      "author_id": "Z0qDJeIAAAAJ",
+      "author_name": "Roopa C",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "pramod-af": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "sowmya-gr": {
+      "status": "success",
+      "author_id": "nAZjyzwAAAAJ",
+      "author_name": "Sowmya G Bhat",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "raghavendra-gowda-ht": {
+      "status": "failed",
+      "message": "Invalid Scholar profile URL",
+      "last_success": null
+    },
+    "vijaya-kumara": {
+      "status": "success",
+      "author_id": "dyjL1TAAAAAJ",
+      "author_name": "Vijaya kumara",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "harisha-mn": {
+      "status": "success",
+      "author_id": "688iocAAAAAJ",
+      "author_name": "Harisha M Nijavvalli",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    "dattatreya-m": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "manjunatha-g-p": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "premkumar-g": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    },
+    "basavaraja-m-magalda": {
+      "status": "failed",
+      "message": "Missing Scholar profile URL",
+      "last_success": null
+    }
+  }
+}

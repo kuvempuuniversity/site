@@ -13,19 +13,19 @@ DEPARTMENT = 'physical-education'
 MAPPINGS = [
 ('faculty','balakrishna-puttur','faculty/pe-balakrishna-k.png'),
 ('faculty','basavaraja-m-magalda','faculty/pe-basavaraja-magalda.png'),
-('faculty','cp-bopanna','faculty/pe-bopanna-cp.png'),
+('faculty','c-p-bopanna','faculty/pe-bopanna-cp.png'),
 ('faculty','deekshith-babu','faculty/pe-deekshith-b.png'),
 ('faculty','govindaraju-kammaragatte-anjaneya','faculty/pe-govindaraju-ka.png'),
 ('faculty','ravindra-gouda-s-m','faculty/pe-ravindra-gowda-sm.png'),
 ('faculty','vasanthanaik-papanaik','faculty/pe-vasantha-naik-p.png'),
 ('faculty','vasudha-s-s','students/pe-vasudha-ss.png'),
 ('students','basavaraja-m-magalda','students/pe-basavaraja-magalda.png'),
-('students','cp-bopanna','students/pe-bopanna-cp.png'),
+('students','c-p-bopanna','students/pe-bopanna-cp.png'),
 ('students','govindaraju-kammaragatte-anjaneya','students/pe-govindaraju-ka.png'),
 ('students','dileepkumar-s-c','students/pe-dileepkumar-sc.png'),
 ('students','pavithra-m','students/pe-pavithra-m.png'),
 ('students','vasudha-s-s','students/pe-vasudha-ss.png')]
-NEW = [('faculty','basavaraja-m-magalda',None), ('students','cp-bopanna',None), ('students','govindaraju-kammaragatte-anjaneya',None), ('students','dileepkumar-s-c','Dileepkumar S. C.'), ('students','pavithra-m','Pavithra M.')]
+NEW = [('faculty','basavaraja-m-magalda',None), ('students','c-p-bopanna',None), ('students','govindaraju-kammaragatte-anjaneya',None), ('students','dileepkumar-s-c','Dileepkumar S. C.'), ('students','pavithra-m','Pavithra M.')]
 COPY_FIELDS = ['name','last_name','email','institutional_email','orcid','scholar_url','personal_website','linkedin_url','social_links','biography','research_interests','academic_journey','research_summary','modules_taught','additional_notes','qualifications']
 
 def blob(raw):

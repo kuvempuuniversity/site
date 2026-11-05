@@ -1,0 +1,55 @@
+name: Apply reviewed research metric proposals
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/apply_research_refresh.py
+      - .github/workflows/apply-research-refresh.yml
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: apply-research-refresh
+  cancel-in-progress: false
+jobs:
+  apply:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate pinned inputs and merge only successful metrics
+        run: |
+          python -m py_compile scripts/apply_research_refresh.py
+          python scripts/apply_research_refresh.py
+      - name: Validate published data and unchanged profile/publication records
+        run: |
+          python -m json.tool data/faculty.json > /dev/null
+          python -m json.tool data/citation-metrics.json > /dev/null
+          python -m json.tool data/research-refresh-apply-status.json > /dev/null
+          node --check assets/js/faculty.js
+          node --check assets/js/publications.js
+          git diff --exit-code -- data/publications.json data/research-students.json data/student-publications.json data/environmental-scholar-citations.json research-showcase-draft.html
+      - name: Commit validated research metrics
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/faculty.json data/citation-metrics.json data/research-refresh-apply-status.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Publish validated Scholar and OpenAlex metrics from November audit proposals"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Request GitHub Pages rebuild
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

@@ -1,0 +1,4610 @@
+{
+  "entries": {
+    "10.1002/aoc.3549": {
+      "count": 21,
+      "doi": "10.1002/aoc.3549",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2514259370",
+      "status": "success"
+    },
+    "10.1002/asia.70817": {
+      "count": 2,
+      "doi": "10.1002/asia.70817",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7163646545",
+      "status": "success"
+    },
+    "10.1002/etc.331": {
+      "count": 20,
+      "doi": "10.1002/etc.331",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2094714673",
+      "status": "success"
+    },
+    "10.1002/gcb4.70025": {
+      "count": 0,
+      "doi": "10.1002/gcb4.70025",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7162010615",
+      "status": "success"
+    },
+    "10.1002/jctb.6834": {
+      "count": 40,
+      "doi": "10.1002/jctb.6834",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3175248780",
+      "status": "success"
+    },
+    "10.1002/jmv.70820": {
+      "count": 0,
+      "doi": "10.1002/jmv.70820",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7125614293",
+      "status": "success"
+    },
+    "10.1002/jobm.201200656": {
+      "count": 19,
+      "doi": "10.1002/jobm.201200656",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1499171556",
+      "status": "success"
+    },
+    "10.1002/slct.202402411": {
+      "count": 9,
+      "doi": "10.1002/slct.202402411",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4402269473",
+      "status": "success"
+    },
+    "10.1002/slct.202502394": {
+      "count": 1,
+      "doi": "10.1002/slct.202502394",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4415737212",
+      "status": "success"
+    },
+    "10.1007/978-1-4614-3381-1_22": {
+      "count": 3,
+      "doi": "10.1007/978-1-4614-3381-1_22",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W29750470",
+      "status": "success"
+    },
+    "10.1007/978-3-319-19713-5_19": {
+      "count": 2,
+      "doi": "10.1007/978-3-319-19713-5_19",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W801654242",
+      "status": "success"
+    },
+    "10.1007/978-3-319-26832-3_21": {
+      "count": 4,
+      "doi": "10.1007/978-3-319-26832-3_21",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2296409183",
+      "status": "success"
+    },
+    "10.1007/978-81-322-2752-6_53": {
+      "count": 0,
+      "doi": "10.1007/978-81-322-2752-6_53",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2470745194",
+      "status": "success"
+    },
+    "10.1007/978-981-13-3393-4_43": {
+      "count": 1,
+      "doi": "10.1007/978-981-13-3393-4_43",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2915011316",
+      "status": "success"
+    },
+    "10.1007/978-981-15-7078-0_25": {
+      "count": 0,
+      "doi": "10.1007/978-981-15-7078-0_25",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3094181672",
+      "status": "success"
+    },
+    "10.1007/978-981-16-7554-6_17": {
+      "count": 1,
+      "doi": "10.1007/978-981-16-7554-6_17",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4226021679",
+      "status": "success"
+    },
+    "10.1007/s00044-011-9793-z": {
+      "count": 9,
+      "doi": "10.1007/s00044-011-9793-z",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2045602752",
+      "status": "success"
+    },
+    "10.1007/s00044-012-0156-1": {
+      "count": 17,
+      "doi": "10.1007/s00044-012-0156-1",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1982035479",
+      "status": "success"
+    },
+    "10.1007/s00203-026-04751-7": {
+      "count": 0,
+      "doi": "10.1007/s00203-026-04751-7",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7128741503",
+      "status": "success"
+    },
+    "10.1007/s00210-025-04827-z": {
+      "count": 2,
+      "doi": "10.1007/s00210-025-04827-z",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4416904210",
+      "status": "success"
+    },
+    "10.1007/s00217-004-1087-y": {
+      "count": 169,
+      "doi": "10.1007/s00217-004-1087-y",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1994806071",
+      "status": "success"
+    },
+    "10.1007/s00239-023-10129-w": {
+      "count": 2,
+      "doi": "10.1007/s00239-023-10129-w",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4386158261",
+      "status": "success"
+    },
+    "10.1007/s00244-006-0015-5": {
+      "count": 56,
+      "doi": "10.1007/s00244-006-0015-5",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1989543059",
+      "status": "success"
+    },
+    "10.1007/s00244-010-9559-5": {
+      "count": 24,
+      "doi": "10.1007/s00244-010-9559-5",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1964776647",
+      "status": "success"
+    },
+    "10.1007/s00284-020-02036-w": {
+      "count": 36,
+      "doi": "10.1007/s00284-020-02036-w",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3031208261",
+      "status": "success"
+    },
+    "10.1007/s00775-023-02042-w": {
+      "count": 0,
+      "doi": "10.1007/s00775-023-02042-w",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4391357570",
+      "status": "success"
+    },
+    "10.1007/s10008-013-2305-y": {
+      "count": 29,
+      "doi": "10.1007/s10008-013-2305-y",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1979763515",
+      "status": "success"
+    },
+    "10.1007/s10646-011-0692-3": {
+      "count": 30,
+      "doi": "10.1007/s10646-011-0692-3",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2071850153",
+      "status": "success"
+    },
+    "10.1007/s10653-019-00418-z": {
+      "count": 17,
+      "doi": "10.1007/s10653-019-00418-z",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2973124113",
+      "status": "success"
+    },
+    "10.1007/s10668-011-9320-x": {
+      "count": 1,
+      "doi": "10.1007/s10668-011-9320-x",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2062307446",
+      "status": "success"
+    },
+    "10.1007/s10705-015-9725-2": {
+      "count": 6,
+      "doi": "10.1007/s10705-015-9725-2",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1699256151",
+      "status": "success"
+    },
+    "10.1007/s10773-015-2870-1": {
+      "count": 3,
+      "doi": "10.1007/s10773-015-2870-1",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2277771903",
+      "status": "success"
+    },
+    "10.1007/s10773-021-04775-3": {
+      "count": 2,
+      "doi": "10.1007/s10773-021-04775-3",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3123492996",
+      "status": "success"
+    },
+    "10.1007/s10854-020-04498-x": {
+      "count": 51,
+      "doi": "10.1007/s10854-020-04498-x",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3088781157",
+      "status": "success"
+    },
+    "10.1007/s10934-016-0350-5": {
+      "count": 14,
+      "doi": "10.1007/s10934-016-0350-5",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2571813368",
+      "status": "success"
+    },
+    "10.1007/s10989-012-9303-2": {
+      "count": 31,
+      "doi": "10.1007/s10989-012-9303-2",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1985655742",
+      "status": "success"
+    },
+    "10.1007/s10989-021-10295-9": {
+      "count": 3,
+      "doi": "10.1007/s10989-021-10295-9",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3210392832",
+      "status": "success"
+    },
+    "10.1007/s11027-010-9261-y": {
+      "count": 26,
+      "doi": "10.1007/s11027-010-9261-y",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2009200335",
+      "status": "success"
+    },
+    "10.1007/s11128-011-0280-8": {
+      "count": 69,
+      "doi": "10.1007/s11128-011-0280-8",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1987896385",
+      "status": "success"
+    },
+    "10.1007/s11128-013-0627-4": {
+      "count": 6,
+      "doi": "10.1007/s11128-013-0627-4",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2000208752",
+      "status": "success"
+    },
+    "10.1007/s11128-014-0812-0": {
+      "count": 9,
+      "doi": "10.1007/s11128-014-0812-0",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2045069133",
+      "status": "success"
+    },
+    "10.1007/s11128-016-1491-9": {
+      "count": 5,
+      "doi": "10.1007/s11128-016-1491-9",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2565540043",
+      "status": "success"
+    },
+    "10.1007/s11128-019-2244-3": {
+      "count": 9,
+      "doi": "10.1007/s11128-019-2244-3",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2794937015",
+      "status": "success"
+    },
+    "10.1007/s11128-019-2511-3": {
+      "count": 0,
+      "doi": "10.1007/s11128-019-2511-3",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2943077684",
+      "status": "success"
+    },
+    "10.1007/s11128-021-03124-x": {
+      "count": 5,
+      "doi": "10.1007/s11128-021-03124-x",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3165004530",
+      "status": "success"
+    },
+    "10.1007/s11128-022-03665-9": {
+      "count": 5,
+      "doi": "10.1007/s11128-022-03665-9",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4224267653",
+      "status": "success"
+    },
+    "10.1007/s11128-024-04454-2": {
+      "count": 0,
+      "doi": "10.1007/s11128-024-04454-2",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4400387571",
+      "status": "success"
+    },
+    "10.1007/s11128-025-04964-7": {
+      "count": 0,
+      "doi": "10.1007/s11128-025-04964-7",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4415449507",
+      "status": "success"
+    },
+    "10.1007/s11164-015-2241-9": {
+      "count": 28,
+      "doi": "10.1007/s11164-015-2241-9",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2170794826",
+      "status": "success"
+    },
+    "10.1007/s11224-020-01493-0": {
+      "count": 39,
+      "doi": "10.1007/s11224-020-01493-0",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3005413959",
+      "status": "success"
+    },
+    "10.1007/s11224-024-02308-2": {
+      "count": 12,
+      "doi": "10.1007/s11224-024-02308-2",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4393259603",
+      "status": "success"
+    },
+    "10.1007/s11270-023-06186-y": {
+      "count": 20,
+      "doi": "10.1007/s11270-023-06186-y",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4323655504",
+      "status": "success"
+    },
+    "10.1007/s11273-026-10127-x": {
+      "count": 1,
+      "doi": "10.1007/s11273-026-10127-x",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7153794336",
+      "status": "success"
+    },
+    "10.1007/s11356-018-1311-0": {
+      "count": 13,
+      "doi": "10.1007/s11356-018-1311-0",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2793276398",
+      "status": "success"
+    },
+    "10.1007/s11581-017-2347-8": {
+      "count": 5,
+      "doi": "10.1007/s11581-017-2347-8",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2772912020",
+      "status": "success"
+    },
+    "10.1007/s11581-018-2483-9": {
+      "count": 29,
+      "doi": "10.1007/s11581-018-2483-9",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2791587077",
+      "status": "success"
+    },
+    "10.1007/s11581-018-2606-3": {
+      "count": 22,
+      "doi": "10.1007/s11581-018-2606-3",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2805523870",
+      "status": "success"
+    },
+    "10.1007/s11676-014-0450-5": {
+      "count": 13,
+      "doi": "10.1007/s11676-014-0450-5",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1985243896",
+      "status": "success"
+    },
+    "10.1007/s11696-025-04448-z": {
+      "count": 0,
+      "doi": "10.1007/s11696-025-04448-z",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4416417198",
+      "status": "success"
+    },
+    "10.1007/s11706-011-0149-x": {
+      "count": 8,
+      "doi": "10.1007/s11706-011-0149-x",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2018473318",
+      "status": "success"
+    },
+    "10.1007/s11756-025-02106-z": {
+      "count": 1,
+      "doi": "10.1007/s11756-025-02106-z",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7122822877",
+      "status": "success"
+    },
+    "10.1007/s12010-012-9588-9": {
+      "count": 3,
+      "doi": "10.1007/s12010-012-9588-9",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1989217996",
+      "status": "success"
+    },
+    "10.1007/s12010-022-04201-2": {
+      "count": 42,
+      "doi": "10.1007/s12010-022-04201-2",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4308370078",
+      "status": "success"
+    },
+    "10.1007/s12011-024-04270-w": {
+      "count": 3,
+      "doi": "10.1007/s12011-024-04270-w",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4400095832",
+      "status": "success"
+    },
+    "10.1007/s12024-023-00720-4": {
+      "count": 6,
+      "doi": "10.1007/s12024-023-00720-4",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4387392656",
+      "status": "success"
+    },
+    "10.1007/s12079-013-0197-3": {
+      "count": 22,
+      "doi": "10.1007/s12079-013-0197-3",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2053046812",
+      "status": "success"
+    },
+    "10.1007/s12275-021-0423-2": {
+      "count": 4,
+      "doi": "10.1007/s12275-021-0423-2",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3131558251",
+      "status": "success"
+    },
+    "10.1007/s12298-025-01646-7": {
+      "count": 1,
+      "doi": "10.1007/s12298-025-01646-7",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4414222451",
+      "status": "success"
+    },
+    "10.1007/s12517-023-11780-9": {
+      "count": 5,
+      "doi": "10.1007/s12517-023-11780-9",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4388866372",
+      "status": "success"
+    },
+    "10.1007/s12583-010-0248-0": {
+      "count": 10,
+      "doi": "10.1007/s12583-010-0248-0",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2064515302",
+      "status": "success"
+    },
+    "10.1007/s12649-023-02386-z": {
+      "count": 58,
+      "doi": "10.1007/s12649-023-02386-z",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4391105932",
+      "status": "success"
+    },
+    "10.1007/s12665-023-10996-y": {
+      "count": 13,
+      "doi": "10.1007/s12665-023-10996-y",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4379208977",
+      "status": "success"
+    },
+    "10.1007/s12665-023-11317-z": {
+      "count": 6,
+      "doi": "10.1007/s12665-023-11317-z",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4389862095",
+      "status": "success"
+    },
+    "10.1007/s12892-013-0069-7": {
+      "count": 16,
+      "doi": "10.1007/s12892-013-0069-7",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2027188489",
+      "status": "success"
+    },
+    "10.1007/s13197-020-04599-9": {
+      "count": 5,
+      "doi": "10.1007/s13197-020-04599-9",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3037260912",
+      "status": "success"
+    },
+    "10.1007/s13204-022-02386-w": {
+      "count": 49,
+      "doi": "10.1007/s13204-022-02386-w",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4211110604",
+      "status": "success"
+    },
+    "10.1007/s13205-020-02250-0": {
+      "count": 35,
+      "doi": "10.1007/s13205-020-02250-0",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3035392232",
+      "status": "success"
+    },
+    "10.1007/s13205-020-02547-0": {
+      "count": 51,
+      "doi": "10.1007/s13205-020-02547-0",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3121084318",
+      "status": "success"
+    },
+    "10.1007/s13205-021-02667-1": {
+      "count": 25,
+      "doi": "10.1007/s13205-021-02667-1",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3129712375",
+      "status": "success"
+    },
+    "10.1007/s13337-020-00578-y": {
+      "count": 7,
+      "doi": "10.1007/s13337-020-00578-y",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3014249129",
+      "status": "success"
+    },
+    "10.1007/s13399-023-05161-1": {
+      "count": 9,
+      "doi": "10.1007/s13399-023-05161-1",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4389289626",
+      "status": "success"
+    },
+    "10.1007/s40203-020-00064-9": {
+      "count": 14,
+      "doi": "10.1007/s40203-020-00064-9",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3120419261",
+      "status": "success"
+    },
+    "10.1007/s41976-025-00220-9": {
+      "count": 2,
+      "doi": "10.1007/s41976-025-00220-9",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4409252982",
+      "status": "success"
+    },
+    "10.1007/s42452-018-0095-7": {
+      "count": 260,
+      "doi": "10.1007/s42452-018-0095-7",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2905195757",
+      "status": "success"
+    },
+    "10.1007/s42535-023-00664-8": {
+      "count": 5,
+      "doi": "10.1007/s42535-023-00664-8",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4383819685",
+      "status": "success"
+    },
+    "10.1007/s42965-026-00438-8": {
+      "count": 0,
+      "doi": "10.1007/s42965-026-00438-8",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7211880745",
+      "status": "success"
+    },
+    "10.1007/s44174-024-00263-4": {
+      "count": 12,
+      "doi": "10.1007/s44174-024-00263-4",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4405587266",
+      "status": "success"
+    },
+    "10.1007/s44473-026-00276-5": {
+      "count": 0,
+      "doi": "10.1007/s44473-026-00276-5",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7218684910",
+      "status": "success"
+    },
+    "10.1016/j.apsusc.2016.11.185": {
+      "count": 55,
+      "doi": "10.1016/j.apsusc.2016.11.185",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2560303125",
+      "status": "success"
+    },
+    "10.1016/j.bcab.2026.104090": {
+      "count": 3,
+      "doi": "10.1016/j.bcab.2026.104090",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7161117527",
+      "status": "success"
+    },
+    "10.1016/j.bej.2022.108517": {
+      "count": 39,
+      "doi": "10.1016/j.bej.2022.108517",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4282582600",
+      "status": "success"
+    },
+    "10.1016/j.bioelechem.2011.08.002": {
+      "count": 79,
+      "doi": "10.1016/j.bioelechem.2011.08.002",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1968384624",
+      "status": "success"
+    },
+    "10.1016/j.bioelechem.2016.03.006": {
+      "count": 44,
+      "doi": "10.1016/j.bioelechem.2016.03.006",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2328734121",
+      "status": "success"
+    },
+    "10.1016/j.cclet.2010.07.016": {
+      "count": 22,
+      "doi": "10.1016/j.cclet.2010.07.016",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2050158850",
+      "status": "success"
+    },
+    "10.1016/j.cdc.2019.100314": {
+      "count": 22,
+      "doi": "10.1016/j.cdc.2019.100314",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2989802754",
+      "status": "success"
+    },
+    "10.1016/j.cdc.2020.100366": {
+      "count": 20,
+      "doi": "10.1016/j.cdc.2020.100366",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3011322486",
+      "status": "success"
+    },
+    "10.1016/j.cdc.2020.100388": {
+      "count": 11,
+      "doi": "10.1016/j.cdc.2020.100388",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3026285599",
+      "status": "success"
+    },
+    "10.1016/j.cdc.2020.100392": {
+      "count": 29,
+      "doi": "10.1016/j.cdc.2020.100392",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3025192916",
+      "status": "success"
+    },
+    "10.1016/j.cdc.2020.100447": {
+      "count": 11,
+      "doi": "10.1016/j.cdc.2020.100447",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3033420935",
+      "status": "success"
+    },
+    "10.1016/j.cdc.2022.100886": {
+      "count": 6,
+      "doi": "10.1016/j.cdc.2022.100886",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4286779574",
+      "status": "success"
+    },
+    "10.1016/j.cdc.2022.100952": {
+      "count": 1,
+      "doi": "10.1016/j.cdc.2022.100952",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4299348311",
+      "status": "success"
+    },
+    "10.1016/j.colsurfb.2011.07.023": {
+      "count": 52,
+      "doi": "10.1016/j.colsurfb.2011.07.023",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1981527239",
+      "status": "success"
+    },
+    "10.1016/j.colsurfb.2012.06.020": {
+      "count": 48,
+      "doi": "10.1016/j.colsurfb.2012.06.020",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1966090836",
+      "status": "success"
+    },
+    "10.1016/j.colsurfb.2013.03.056": {
+      "count": 73,
+      "doi": "10.1016/j.colsurfb.2013.03.056",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1985722164",
+      "status": "success"
+    },
+    "10.1016/j.colsurfb.2020.111299": {
+      "count": 72,
+      "doi": "10.1016/j.colsurfb.2020.111299",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3047130166",
+      "status": "success"
+    },
+    "10.1016/j.dyepig.2008.01.010": {
+      "count": 18,
+      "doi": "10.1016/j.dyepig.2008.01.010",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2060628823",
+      "status": "success"
+    },
+    "10.1016/j.dyepig.2016.09.004": {
+      "count": 69,
+      "doi": "10.1016/j.dyepig.2016.09.004",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2515794633",
+      "status": "success"
+    },
+    "10.1016/j.egg.2025.100379": {
+      "count": 1,
+      "doi": "10.1016/j.egg.2025.100379",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4411515304",
+      "status": "success"
+    },
+    "10.1016/j.ejmech.2015.03.024": {
+      "count": 104,
+      "doi": "10.1016/j.ejmech.2015.03.024",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1987117203",
+      "status": "success"
+    },
+    "10.1016/j.electacta.2010.06.091": {
+      "count": 139,
+      "doi": "10.1016/j.electacta.2010.06.091",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2005909520",
+      "status": "success"
+    },
+    "10.1016/j.electacta.2011.11.091": {
+      "count": 285,
+      "doi": "10.1016/j.electacta.2011.11.091",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2091016208",
+      "status": "success"
+    },
+    "10.1016/j.electacta.2017.11.154": {
+      "count": 60,
+      "doi": "10.1016/j.electacta.2017.11.154",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2770800777",
+      "status": "success"
+    },
+    "10.1016/j.envexpbot.2018.10.030": {
+      "count": 82,
+      "doi": "10.1016/j.envexpbot.2018.10.030",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2899008599",
+      "status": "success"
+    },
+    "10.1016/j.envres.2023.116212": {
+      "count": 7,
+      "doi": "10.1016/j.envres.2023.116212",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4378190243",
+      "status": "success"
+    },
+    "10.1016/j.envres.2024.118666": {
+      "count": 36,
+      "doi": "10.1016/j.envres.2024.118666",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4392594915",
+      "status": "success"
+    },
+    "10.1016/j.eve.2026.100126": {
+      "count": 0,
+      "doi": "10.1016/j.eve.2026.100126",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7152569901",
+      "status": "success"
+    },
+    "10.1016/j.foodchem.2013.07.047": {
+      "count": 88,
+      "doi": "10.1016/j.foodchem.2013.07.047",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2085276065",
+      "status": "success"
+    },
+    "10.1016/j.heliyon.2020.e04245": {
+      "count": 64,
+      "doi": "10.1016/j.heliyon.2020.e04245",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3037325194",
+      "status": "success"
+    },
+    "10.1016/j.heliyon.2020.e04948": {
+      "count": 12,
+      "doi": "10.1016/j.heliyon.2020.e04948",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3087555400",
+      "status": "success"
+    },
+    "10.1016/j.hermed.2026.101144": {
+      "count": 0,
+      "doi": "10.1016/j.hermed.2026.101144",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7221778940",
+      "status": "success"
+    },
+    "10.1016/j.ijbiomac.2023.125547": {
+      "count": 37,
+      "doi": "10.1016/j.ijbiomac.2023.125547",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4381940591",
+      "status": "success"
+    },
+    "10.1016/j.ijbiomac.2024.132021": {
+      "count": 4,
+      "doi": "10.1016/j.ijbiomac.2024.132021",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4396520313",
+      "status": "success"
+    },
+    "10.1016/j.imr.2017.01.004": {
+      "count": 144,
+      "doi": "10.1016/j.imr.2017.01.004",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2578798757",
+      "status": "success"
+    },
+    "10.1016/j.indcrop.2013.03.008": {
+      "count": 50,
+      "doi": "10.1016/j.indcrop.2013.03.008",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2092876467",
+      "status": "success"
+    },
+    "10.1016/j.insi.2026.100300": {
+      "count": 0,
+      "doi": "10.1016/j.insi.2026.100300",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7140288889",
+      "status": "success"
+    },
+    "10.1016/j.jacomc.2026.100283": {
+      "count": 0,
+      "doi": "10.1016/j.jacomc.2026.100283",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7220666009",
+      "status": "success"
+    },
+    "10.1016/j.jcis.2013.03.059": {
+      "count": 101,
+      "doi": "10.1016/j.jcis.2013.03.059",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2079135987",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2008.10.001": {
+      "count": 13,
+      "doi": "10.1016/j.jelechem.2008.10.001",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2072988615",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2009.02.011": {
+      "count": 70,
+      "doi": "10.1016/j.jelechem.2009.02.011",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2090627402",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2009.08.004": {
+      "count": 94,
+      "doi": "10.1016/j.jelechem.2009.08.004",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1993607539",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2009.09.016": {
+      "count": 108,
+      "doi": "10.1016/j.jelechem.2009.09.016",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2011547462",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2010.03.004": {
+      "count": 36,
+      "doi": "10.1016/j.jelechem.2010.03.004",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2053692462",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2011.05.011": {
+      "count": 72,
+      "doi": "10.1016/j.jelechem.2011.05.011",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2036705233",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2011.11.017": {
+      "count": 58,
+      "doi": "10.1016/j.jelechem.2011.11.017",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1982362294",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2011.11.020": {
+      "count": 63,
+      "doi": "10.1016/j.jelechem.2011.11.020",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2058437964",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2012.03.020": {
+      "count": 23,
+      "doi": "10.1016/j.jelechem.2012.03.020",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1969496061",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2012.11.004": {
+      "count": 79,
+      "doi": "10.1016/j.jelechem.2012.11.004",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1970616351",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2013.05.004": {
+      "count": 72,
+      "doi": "10.1016/j.jelechem.2013.05.004",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2066170015",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2014.02.020": {
+      "count": 29,
+      "doi": "10.1016/j.jelechem.2014.02.020",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2037039432",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2014.03.015": {
+      "count": 28,
+      "doi": "10.1016/j.jelechem.2014.03.015",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1987794748",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2015.06.002": {
+      "count": 89,
+      "doi": "10.1016/j.jelechem.2015.06.002",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W567717861",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2015.08.027": {
+      "count": 69,
+      "doi": "10.1016/j.jelechem.2015.08.027",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2218553476",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2016.01.001": {
+      "count": 14,
+      "doi": "10.1016/j.jelechem.2016.01.001",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2227978223",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2017.05.025": {
+      "count": 63,
+      "doi": "10.1016/j.jelechem.2017.05.025",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2615960699",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2017.06.026": {
+      "count": 51,
+      "doi": "10.1016/j.jelechem.2017.06.026",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2626921917",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2017.08.047": {
+      "count": 85,
+      "doi": "10.1016/j.jelechem.2017.08.047",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2752495025",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2017.09.039": {
+      "count": 37,
+      "doi": "10.1016/j.jelechem.2017.09.039",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2758834806",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2018.02.018": {
+      "count": 22,
+      "doi": "10.1016/j.jelechem.2018.02.018",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2790649646",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2018.02.027": {
+      "count": 169,
+      "doi": "10.1016/j.jelechem.2018.02.027",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2793343473",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2018.07.021": {
+      "count": 71,
+      "doi": "10.1016/j.jelechem.2018.07.021",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2884669320",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2018.08.022": {
+      "count": 42,
+      "doi": "10.1016/j.jelechem.2018.08.022",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2885318415",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2018.11.024": {
+      "count": 43,
+      "doi": "10.1016/j.jelechem.2018.11.024",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2901398035",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2018.12.012": {
+      "count": 42,
+      "doi": "10.1016/j.jelechem.2018.12.012",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2904919893",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2018.12.054": {
+      "count": 52,
+      "doi": "10.1016/j.jelechem.2018.12.054",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2906873543",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2019.01.019": {
+      "count": 115,
+      "doi": "10.1016/j.jelechem.2019.01.019",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2910972958",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2019.03.031": {
+      "count": 26,
+      "doi": "10.1016/j.jelechem.2019.03.031",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2922299962",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2019.113365": {
+      "count": 56,
+      "doi": "10.1016/j.jelechem.2019.113365",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2968093122",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2019.113367": {
+      "count": 20,
+      "doi": "10.1016/j.jelechem.2019.113367",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2967035876",
+      "status": "success"
+    },
+    "10.1016/j.jelechem.2020.113819": {
+      "count": 45,
+      "doi": "10.1016/j.jelechem.2020.113819",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2999974904",
+      "status": "success"
+    },
+    "10.1016/j.jflm.2022.102423": {
+      "count": 11,
+      "doi": "10.1016/j.jflm.2022.102423",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4291150323",
+      "status": "success"
+    },
+    "10.1016/j.jics.2022.100388": {
+      "count": 21,
+      "doi": "10.1016/j.jics.2022.100388",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4211137786",
+      "status": "success"
+    },
+    "10.1016/j.jics.2025.102168": {
+      "count": 1,
+      "doi": "10.1016/j.jics.2025.102168",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4414700210",
+      "status": "success"
+    },
+    "10.1016/j.jics.2026.103170": {
+      "count": 0,
+      "doi": "10.1016/j.jics.2026.103170",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7221804457",
+      "status": "success"
+    },
+    "10.1016/j.jksus.2020.101296": {
+      "count": 86,
+      "doi": "10.1016/j.jksus.2020.101296",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3117137432",
+      "status": "success"
+    },
+    "10.1016/j.jksus.2023.102884": {
+      "count": 6,
+      "doi": "10.1016/j.jksus.2023.102884",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4386365809",
+      "status": "success"
+    },
+    "10.1016/j.jopr.2013.03.028": {
+      "count": 39,
+      "doi": "10.1016/j.jopr.2013.03.028",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2074267167",
+      "status": "success"
+    },
+    "10.1016/j.jpurol.2010.04.016": {
+      "count": 14,
+      "doi": "10.1016/j.jpurol.2010.04.016",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2062211078",
+      "status": "success"
+    },
+    "10.1016/j.matchemphys.2020.123231": {
+      "count": 38,
+      "doi": "10.1016/j.matchemphys.2020.123231",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3036730724",
+      "status": "success"
+    },
+    "10.1016/j.matchemphys.2022.126443": {
+      "count": 37,
+      "doi": "10.1016/j.matchemphys.2022.126443",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4283831494",
+      "status": "success"
+    },
+    "10.1016/j.matchemphys.2023.127349": {
+      "count": 19,
+      "doi": "10.1016/j.matchemphys.2023.127349",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4313557931",
+      "status": "success"
+    },
+    "10.1016/j.matchemphys.2023.128118": {
+      "count": 10,
+      "doi": "10.1016/j.matchemphys.2023.128118",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4382364535",
+      "status": "success"
+    },
+    "10.1016/j.matchemphys.2023.128682": {
+      "count": 22,
+      "doi": "10.1016/j.matchemphys.2023.128682",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4388871008",
+      "status": "success"
+    },
+    "10.1016/j.matpr.2017.09.121": {
+      "count": 5,
+      "doi": "10.1016/j.matpr.2017.09.121",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2767951429",
+      "status": "success"
+    },
+    "10.1016/j.matpr.2018.06.604": {
+      "count": 23,
+      "doi": "10.1016/j.matpr.2018.06.604",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2900029776",
+      "status": "success"
+    },
+    "10.1016/j.matpr.2023.06.089": {
+      "count": 11,
+      "doi": "10.1016/j.matpr.2023.06.089",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4383370939",
+      "status": "success"
+    },
+    "10.1016/j.micpath.2022.105737": {
+      "count": 6,
+      "doi": "10.1016/j.micpath.2022.105737",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4293577904",
+      "status": "success"
+    },
+    "10.1016/j.microc.2020.105116": {
+      "count": 29,
+      "doi": "10.1016/j.microc.2020.105116",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3035540953",
+      "status": "success"
+    },
+    "10.1016/j.microc.2025.113554": {
+      "count": 5,
+      "doi": "10.1016/j.microc.2025.113554",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4409252529",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2010.09.005": {
+      "count": 38,
+      "doi": "10.1016/j.molliq.2010.09.005",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2040061990",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2011.03.019": {
+      "count": 59,
+      "doi": "10.1016/j.molliq.2011.03.019",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2093936015",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2011.11.005": {
+      "count": 45,
+      "doi": "10.1016/j.molliq.2011.11.005",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2063281414",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2012.01.012": {
+      "count": 28,
+      "doi": "10.1016/j.molliq.2012.01.012",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2059177797",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2012.03.022": {
+      "count": 43,
+      "doi": "10.1016/j.molliq.2012.03.022",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1979199246",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2012.05.005": {
+      "count": 35,
+      "doi": "10.1016/j.molliq.2012.05.005",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2039956517",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2012.05.015": {
+      "count": 24,
+      "doi": "10.1016/j.molliq.2012.05.015",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2092852190",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2012.07.022": {
+      "count": 50,
+      "doi": "10.1016/j.molliq.2012.07.022",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2075633421",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2012.10.002": {
+      "count": 29,
+      "doi": "10.1016/j.molliq.2012.10.002",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2030621540",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2012.12.032": {
+      "count": 29,
+      "doi": "10.1016/j.molliq.2012.12.032",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2082636990",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2014.06.019": {
+      "count": 32,
+      "doi": "10.1016/j.molliq.2014.06.019",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2026112148",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2015.07.011": {
+      "count": 19,
+      "doi": "10.1016/j.molliq.2015.07.011",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1175147212",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2015.12.025": {
+      "count": 42,
+      "doi": "10.1016/j.molliq.2015.12.025",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2232377733",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2016.04.078": {
+      "count": 60,
+      "doi": "10.1016/j.molliq.2016.04.078",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2346343491",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2017.02.029": {
+      "count": 48,
+      "doi": "10.1016/j.molliq.2017.02.029",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2589102278",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2017.05.093": {
+      "count": 56,
+      "doi": "10.1016/j.molliq.2017.05.093",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2618996197",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2018.10.156": {
+      "count": 15,
+      "doi": "10.1016/j.molliq.2018.10.156",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2887017945",
+      "status": "success"
+    },
+    "10.1016/j.molliq.2020.113719": {
+      "count": 42,
+      "doi": "10.1016/j.molliq.2020.113719",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3039940596",
+      "status": "success"
+    },
+    "10.1016/j.molstruc.2019.127576": {
+      "count": 53,
+      "doi": "10.1016/j.molstruc.2019.127576",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2995871225",
+      "status": "success"
+    },
+    "10.1016/j.molstruc.2021.131321": {
+      "count": 24,
+      "doi": "10.1016/j.molstruc.2021.131321",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3195965429",
+      "status": "success"
+    },
+    "10.1016/j.molstruc.2022.133231": {
+      "count": 27,
+      "doi": "10.1016/j.molstruc.2022.133231",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4229057508",
+      "status": "success"
+    },
+    "10.1016/j.molstruc.2022.133587": {
+      "count": 13,
+      "doi": "10.1016/j.molstruc.2022.133587",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4283520278",
+      "status": "success"
+    },
+    "10.1016/j.molstruc.2023.134918": {
+      "count": 9,
+      "doi": "10.1016/j.molstruc.2023.134918",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4313705355",
+      "status": "success"
+    },
+    "10.1016/j.molstruc.2023.135043": {
+      "count": 5,
+      "doi": "10.1016/j.molstruc.2023.135043",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4318269792",
+      "status": "success"
+    },
+    "10.1016/j.molstruc.2024.137982": {
+      "count": 1,
+      "doi": "10.1016/j.molstruc.2024.137982",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4392502916",
+      "status": "success"
+    },
+    "10.1016/j.molstruc.2024.140111": {
+      "count": 3,
+      "doi": "10.1016/j.molstruc.2024.140111",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4402675728",
+      "status": "success"
+    },
+    "10.1016/j.molstruc.2025.142037": {
+      "count": 2,
+      "doi": "10.1016/j.molstruc.2025.142037",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4408327710",
+      "status": "success"
+    },
+    "10.1016/j.molstruc.2025.143549": {
+      "count": 1,
+      "doi": "10.1016/j.molstruc.2025.143549",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4413001555",
+      "status": "success"
+    },
+    "10.1016/j.molstruc.2025.143954": {
+      "count": 0,
+      "doi": "10.1016/j.molstruc.2025.143954",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4414058142",
+      "status": "success"
+    },
+    "10.1016/j.mseb.2024.117400": {
+      "count": 15,
+      "doi": "10.1016/j.mseb.2024.117400",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4396501682",
+      "status": "success"
+    },
+    "10.1016/j.msec.2013.04.010": {
+      "count": 86,
+      "doi": "10.1016/j.msec.2013.04.010",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2037186238",
+      "status": "success"
+    },
+    "10.1016/j.msec.2015.08.002": {
+      "count": 30,
+      "doi": "10.1016/j.msec.2015.08.002",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2096331463",
+      "status": "success"
+    },
+    "10.1016/j.msec.2018.12.055": {
+      "count": 65,
+      "doi": "10.1016/j.msec.2018.12.055",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2906281128",
+      "status": "success"
+    },
+    "10.1016/j.nxnano.2026.100474": {
+      "count": 4,
+      "doi": "10.1016/j.nxnano.2026.100474",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7160184930",
+      "status": "success"
+    },
+    "10.1016/j.pestbp.2006.08.012": {
+      "count": 22,
+      "doi": "10.1016/j.pestbp.2006.08.012",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1975369713",
+      "status": "success"
+    },
+    "10.1016/j.phymed.2007.11.017": {
+      "count": 109,
+      "doi": "10.1016/j.phymed.2007.11.017",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2081242230",
+      "status": "success"
+    },
+    "10.1016/j.physa.2015.09.086": {
+      "count": 12,
+      "doi": "10.1016/j.physa.2015.09.086",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2175434811",
+      "status": "success"
+    },
+    "10.1016/j.prenap.2025.100246": {
+      "count": 26,
+      "doi": "10.1016/j.prenap.2025.100246",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4409798944",
+      "status": "success"
+    },
+    "10.1016/j.rechem.2023.101018": {
+      "count": 30,
+      "doi": "10.1016/j.rechem.2023.101018",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4382047015",
+      "status": "success"
+    },
+    "10.1016/j.rines.2024.100048": {
+      "count": 2,
+      "doi": "10.1016/j.rines.2024.100048",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4404814154",
+      "status": "success"
+    },
+    "10.1016/j.rines.2025.100103": {
+      "count": 11,
+      "doi": "10.1016/j.rines.2025.100103",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4410579229",
+      "status": "success"
+    },
+    "10.1016/j.rinp.2013.02.001": {
+      "count": 6,
+      "doi": "10.1016/j.rinp.2013.02.001",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2064813382",
+      "status": "success"
+    },
+    "10.1016/j.rsase.2025.101816": {
+      "count": 0,
+      "doi": "10.1016/j.rsase.2025.101816",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4417147726",
+      "status": "success"
+    },
+    "10.1016/j.sbsr.2017.08.001": {
+      "count": 49,
+      "doi": "10.1016/j.sbsr.2017.08.001",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2751693869",
+      "status": "success"
+    },
+    "10.1016/j.sbsr.2018.08.001": {
+      "count": 37,
+      "doi": "10.1016/j.sbsr.2018.08.001",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2886160683",
+      "status": "success"
+    },
+    "10.1016/j.snb.2017.02.003": {
+      "count": 14,
+      "doi": "10.1016/j.snb.2017.02.003",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2583216707",
+      "status": "success"
+    },
+    "10.1016/j.toxicon.2016.09.021": {
+      "count": 12,
+      "doi": "10.1016/j.toxicon.2016.09.021",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2529002205",
+      "status": "success"
+    },
+    "10.1016/j.toxicon.2021.11.121": {
+      "count": 5,
+      "doi": "10.1016/j.toxicon.2021.11.121",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3217348756",
+      "status": "success"
+    },
+    "10.1017/s0376892903000274": {
+      "count": 45,
+      "doi": "10.1017/s0376892903000274",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2156250033",
+      "status": "success"
+    },
+    "10.1017/s174275840999035x": {
+      "count": 16,
+      "doi": "10.1017/s174275840999035x",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2019803144",
+      "status": "success"
+    },
+    "10.1021/jp504552z": {
+      "count": 0,
+      "doi": "10.1021/jp504552z",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4250514785",
+      "status": "success"
+    },
+    "10.1023/a:1017930708099": {
+      "count": 138,
+      "doi": "10.1023/a:1017930708099",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1487719749",
+      "status": "success"
+    },
+    "10.1039/c1ay05179b": {
+      "count": 9,
+      "doi": "10.1039/c1ay05179b",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2002980909",
+      "status": "success"
+    },
+    "10.1039/c1ay05483j": {
+      "count": 32,
+      "doi": "10.1039/c1ay05483j",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2077176745",
+      "status": "success"
+    },
+    "10.1039/c2ay05632a": {
+      "count": 38,
+      "doi": "10.1039/c2ay05632a",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2013285899",
+      "status": "success"
+    },
+    "10.1039/c2ay25203a": {
+      "count": 27,
+      "doi": "10.1039/c2ay25203a",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2002832496",
+      "status": "success"
+    },
+    "10.1039/c2ay26124c": {
+      "count": 29,
+      "doi": "10.1039/c2ay26124c",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2001698367",
+      "status": "success"
+    },
+    "10.1039/c3ay41795f": {
+      "count": 6,
+      "doi": "10.1039/c3ay41795f",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2033447316",
+      "status": "success"
+    },
+    "10.1039/c4an01262c": {
+      "count": 34,
+      "doi": "10.1039/c4an01262c",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1993661906",
+      "status": "success"
+    },
+    "10.1039/c6ra07501k": {
+      "count": 6,
+      "doi": "10.1039/c6ra07501k",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2467188815",
+      "status": "success"
+    },
+    "10.1039/c7nj02188g": {
+      "count": 25,
+      "doi": "10.1039/c7nj02188g",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2751750477",
+      "status": "success"
+    },
+    "10.1039/c7nj04998f": {
+      "count": 45,
+      "doi": "10.1039/c7nj04998f",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2785384278",
+      "status": "success"
+    },
+    "10.1063/5.0143283": {
+      "count": 1,
+      "doi": "10.1063/5.0143283",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4389430415",
+      "status": "success"
+    },
+    "10.1074/jbc.m117.781294": {
+      "count": 39,
+      "doi": "10.1074/jbc.m117.781294",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2607175114",
+      "status": "success"
+    },
+    "10.1080/01296612.2021.2005961": {
+      "count": 8,
+      "doi": "10.1080/01296612.2021.2005961",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3217206934",
+      "status": "success"
+    },
+    "10.1080/01932691.2026.2681929": {
+      "count": 0,
+      "doi": "10.1080/01932691.2026.2681929",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7167794426",
+      "status": "success"
+    },
+    "10.1080/02757540.2021.1951257": {
+      "count": 4,
+      "doi": "10.1080/02757540.2021.1951257",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3188262844",
+      "status": "success"
+    },
+    "10.1080/02772248.2014.881828": {
+      "count": 6,
+      "doi": "10.1080/02772248.2014.881828",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1967265981",
+      "status": "success"
+    },
+    "10.1080/03601234.2012.611428": {
+      "count": 15,
+      "doi": "10.1080/03601234.2012.611428",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2075186096",
+      "status": "success"
+    },
+    "10.1080/07391102.2023.2210674": {
+      "count": 20,
+      "doi": "10.1080/07391102.2023.2210674",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4376107827",
+      "status": "success"
+    },
+    "10.1080/09500349808230890": {
+      "count": 69,
+      "doi": "10.1080/09500349808230890",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2034112020",
+      "status": "success"
+    },
+    "10.1080/09500349808230891": {
+      "count": 49,
+      "doi": "10.1080/09500349808230891",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1964291676",
+      "status": "success"
+    },
+    "10.1080/10426500902717317": {
+      "count": 21,
+      "doi": "10.1080/10426500902717317",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2065184964",
+      "status": "success"
+    },
+    "10.1080/10889868.2025.2549005": {
+      "count": 7,
+      "doi": "10.1080/10889868.2025.2549005",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4413618958",
+      "status": "success"
+    },
+    "10.1080/11263504.2013.806367": {
+      "count": 2,
+      "doi": "10.1080/11263504.2013.806367",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2033267621",
+      "status": "success"
+    },
+    "10.1080/13880209.2016.1185445": {
+      "count": 25,
+      "doi": "10.1080/13880209.2016.1185445",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2415399237",
+      "status": "success"
+    },
+    "10.1080/15257770.2021.1991373": {
+      "count": 3,
+      "doi": "10.1080/15257770.2021.1991373",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3207824954",
+      "status": "success"
+    },
+    "10.1080/15257770.2024.2358901": {
+      "count": 2,
+      "doi": "10.1080/15257770.2024.2358901",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4399244274",
+      "status": "success"
+    },
+    "10.1080/15257770.2025.2451375": {
+      "count": 5,
+      "doi": "10.1080/15257770.2025.2451375",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4406596464",
+      "status": "success"
+    },
+    "10.1080/15257770.2025.2473442": {
+      "count": 0,
+      "doi": "10.1080/15257770.2025.2473442",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4408198506",
+      "status": "success"
+    },
+    "10.1080/15257770.2026.2705884": {
+      "count": 1,
+      "doi": "10.1080/15257770.2026.2705884",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7171717479",
+      "status": "success"
+    },
+    "10.1080/1747423x.2010.500683": {
+      "count": 9,
+      "doi": "10.1080/1747423x.2010.500683",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1983004157",
+      "status": "success"
+    },
+    "10.1080/17583004.2015.1082233": {
+      "count": 5,
+      "doi": "10.1080/17583004.2015.1082233",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2184531629",
+      "status": "success"
+    },
+    "10.1088/0256-307x/28/2/020305": {
+      "count": 1,
+      "doi": "10.1088/0256-307x/28/2/020305",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2088147517",
+      "status": "success"
+    },
+    "10.1088/0256-307x/30/12/120301": {
+      "count": 3,
+      "doi": "10.1088/0256-307x/30/12/120301",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2079167641",
+      "status": "success"
+    },
+    "10.1088/1464-4266/7/12/042": {
+      "count": 12,
+      "doi": "10.1088/1464-4266/7/12/042",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2090550631",
+      "status": "success"
+    },
+    "10.1088/1674-1056/24/11/110302": {
+      "count": 5,
+      "doi": "10.1088/1674-1056/24/11/110302",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1657490127",
+      "status": "success"
+    },
+    "10.1088/1674-1056/26/5/050301": {
+      "count": 4,
+      "doi": "10.1088/1674-1056/26/5/050301",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2620803396",
+      "status": "success"
+    },
+    "10.1088/1674-1056/28/6/060302": {
+      "count": 1,
+      "doi": "10.1088/1674-1056/28/6/060302",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2908963057",
+      "status": "success"
+    },
+    "10.1088/1674-1056/ac5fa3": {
+      "count": 1,
+      "doi": "10.1088/1674-1056/ac5fa3",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4220984415",
+      "status": "success"
+    },
+    "10.1088/1742-5468/abdd14": {
+      "count": 0,
+      "doi": "10.1088/1742-5468/abdd14",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3041203245",
+      "status": "success"
+    },
+    "10.1088/1748-9326/abe3b9": {
+      "count": 57,
+      "doi": "10.1088/1748-9326/abe3b9",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3128950809",
+      "status": "success"
+    },
+    "10.1089/ind.2024.0018": {
+      "count": 1,
+      "doi": "10.1089/ind.2024.0018",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4401780893",
+      "status": "success"
+    },
+    "10.1093/jxb/erag045": {
+      "count": 2,
+      "doi": "10.1093/jxb/erag045",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7125908714",
+      "status": "success"
+    },
+    "10.1101/2025.11.22.689893": {
+      "count": 1,
+      "doi": "10.1101/2025.11.22.689893",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4416773810",
+      "status": "success"
+    },
+    "10.1103/physreva.102.052419": {
+      "count": 14,
+      "doi": "10.1103/physreva.102.052419",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3039746264",
+      "status": "success"
+    },
+    "10.1103/physreva.107.042207": {
+      "count": 6,
+      "doi": "10.1103/physreva.107.042207",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4364361743",
+      "status": "success"
+    },
+    "10.1103/physreva.81.024303": {
+      "count": 8,
+      "doi": "10.1103/physreva.81.024303",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1988007612",
+      "status": "success"
+    },
+    "10.1103/physreva.83.022109": {
+      "count": 85,
+      "doi": "10.1103/physreva.83.022109",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2138574865",
+      "status": "success"
+    },
+    "10.1103/physreva.85.012103": {
+      "count": 41,
+      "doi": "10.1103/physreva.85.012103",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W293960586",
+      "status": "success"
+    },
+    "10.1103/physreva.86.042105": {
+      "count": 165,
+      "doi": "10.1103/physreva.86.042105",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2001798391",
+      "status": "success"
+    },
+    "10.1103/physreva.87.052103": {
+      "count": 43,
+      "doi": "10.1103/physreva.87.052103",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2033516672",
+      "status": "success"
+    },
+    "10.1103/physreva.89.012331": {
+      "count": 23,
+      "doi": "10.1103/physreva.89.012331",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2032578257",
+      "status": "success"
+    },
+    "10.1103/physreva.89.062116": {
+      "count": 4,
+      "doi": "10.1103/physreva.89.062116",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2060097365",
+      "status": "success"
+    },
+    "10.1103/physreva.95.052105": {
+      "count": 4,
+      "doi": "10.1103/physreva.95.052105",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2533662976",
+      "status": "success"
+    },
+    "10.1103/yk29-vcb8": {
+      "count": 0,
+      "doi": "10.1103/yk29-vcb8",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7204802410",
+      "status": "success"
+    },
+    "10.1107/s1600536810012237": {
+      "count": 0,
+      "doi": "10.1107/s1600536810012237",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2001400469",
+      "status": "success"
+    },
+    "10.1108/ijccsm-06-2012-0032": {
+      "count": 1,
+      "doi": "10.1108/ijccsm-06-2012-0032",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2138559717",
+      "status": "success"
+    },
+    "10.1111/gcb.70069": {
+      "count": 8,
+      "doi": "10.1111/gcb.70069",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4407348968",
+      "status": "success"
+    },
+    "10.1111/jfb.15178": {
+      "count": 7,
+      "doi": "10.1111/jfb.15178",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4288447012",
+      "status": "success"
+    },
+    "10.1111/pce.13770": {
+      "count": 93,
+      "doi": "10.1111/pce.13770",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3019782289",
+      "status": "success"
+    },
+    "10.1111/phen.12351": {
+      "count": 2,
+      "doi": "10.1111/phen.12351",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3128623232",
+      "status": "success"
+    },
+    "10.1111/ppl.70410": {
+      "count": 9,
+      "doi": "10.1111/ppl.70410",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4412385430",
+      "status": "success"
+    },
+    "10.1134/s1068162024010199": {
+      "count": 1,
+      "doi": "10.1134/s1068162024010199",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4391776347",
+      "status": "success"
+    },
+    "10.1134/s1068162024010229": {
+      "count": 8,
+      "doi": "10.1134/s1068162024010229",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4391776263",
+      "status": "success"
+    },
+    "10.1134/s1068162024020079": {
+      "count": 0,
+      "doi": "10.1134/s1068162024020079",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4394621475",
+      "status": "success"
+    },
+    "10.1134/s1070363223040205": {
+      "count": 2,
+      "doi": "10.1134/s1070363223040205",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4378220762",
+      "status": "success"
+    },
+    "10.1134/s1995082925600218": {
+      "count": 0,
+      "doi": "10.1134/s1995082925600218",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7203581033",
+      "status": "success"
+    },
+    "10.1139/cjp-2024-0039": {
+      "count": 0,
+      "doi": "10.1139/cjp-2024-0039",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4406388403",
+      "status": "success"
+    },
+    "10.1142/s0217979206034406": {
+      "count": 18,
+      "doi": "10.1142/s0217979206034406",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2024228219",
+      "status": "success"
+    },
+    "10.1142/s0219749911008209": {
+      "count": 10,
+      "doi": "10.1142/s0219749911008209",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2047708168",
+      "status": "success"
+    },
+    "10.1142/s021974991450004x": {
+      "count": 5,
+      "doi": "10.1142/s021974991450004x",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2003699904",
+      "status": "success"
+    },
+    "10.1142/s021974992250023x": {
+      "count": 0,
+      "doi": "10.1142/s021974992250023x",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3214952942",
+      "status": "success"
+    },
+    "10.1149/1945-7111/ab91c9": {
+      "count": 22,
+      "doi": "10.1149/1945-7111/ab91c9",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3025738609",
+      "status": "success"
+    },
+    "10.1155/2014/621309": {
+      "count": 8,
+      "doi": "10.1155/2014/621309",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2059076707",
+      "status": "success"
+    },
+    "10.1155/2014/674286": {
+      "count": 17,
+      "doi": "10.1155/2014/674286",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2096648228",
+      "status": "success"
+    },
+    "10.1155/2016/8092860": {
+      "count": 18,
+      "doi": "10.1155/2016/8092860",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2550093937",
+      "status": "success"
+    },
+    "10.1155/2018/9464592": {
+      "count": 45,
+      "doi": "10.1155/2018/9464592",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2810893176",
+      "status": "success"
+    },
+    "10.11594/jtls.07.03.04": {
+      "count": 5,
+      "doi": "10.11594/jtls.07.03.04",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2760793794",
+      "status": "success"
+    },
+    "10.1163/157075407779766651": {
+      "count": 50,
+      "doi": "10.1163/157075407779766651",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1519079485",
+      "status": "success"
+    },
+    "10.11646/zootaxa.5209.1.4": {
+      "count": 4,
+      "doi": "10.11646/zootaxa.5209.1.4",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4308945891",
+      "status": "success"
+    },
+    "10.1166/jbns.2017.1485": {
+      "count": 1,
+      "doi": "10.1166/jbns.2017.1485",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2770191245",
+      "status": "success"
+    },
+    "10.1166/jbns.2018.1490": {
+      "count": 10,
+      "doi": "10.1166/jbns.2018.1490",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2792495626",
+      "status": "success"
+    },
+    "10.1166/jbns.2018.1579": {
+      "count": 3,
+      "doi": "10.1166/jbns.2018.1579",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2912889726",
+      "status": "success"
+    },
+    "10.1166/jon.2018.1458": {
+      "count": 9,
+      "doi": "10.1166/jon.2018.1458",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2769351122",
+      "status": "success"
+    },
+    "10.1177/0021998312454902": {
+      "count": 9,
+      "doi": "10.1177/0021998312454902",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2051582911",
+      "status": "success"
+    },
+    "10.1186/s40409-015-0053-4": {
+      "count": 21,
+      "doi": "10.1186/s40409-015-0053-4",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2192180088",
+      "status": "success"
+    },
+    "10.1186/s43088-020-00074-8": {
+      "count": 74,
+      "doi": "10.1186/s43088-020-00074-8",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3106867317",
+      "status": "success"
+    },
+    "10.1186/s43088-021-00126-7": {
+      "count": 2,
+      "doi": "10.1186/s43088-021-00126-7",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3171154582",
+      "status": "success"
+    },
+    "10.12743/quanta.v10i1.165": {
+      "count": 2,
+      "doi": "10.12743/quanta.v10i1.165",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3209881941",
+      "status": "success"
+    },
+    "10.12944/cwe.15.3.27": {
+      "count": 4,
+      "doi": "10.12944/cwe.15.3.27",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3120809486",
+      "status": "success"
+    },
+    "10.13140/rg.2.2.24691.03362": {
+      "count": 0,
+      "doi": "10.13140/rg.2.2.24691.03362",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W6922737899",
+      "status": "success"
+    },
+    "10.13140/rg.2.2.25529.89448": {
+      "count": 0,
+      "doi": "10.13140/rg.2.2.25529.89448",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7093361994",
+      "status": "success"
+    },
+    "10.1364/josaa.18.003130": {
+      "count": 28,
+      "doi": "10.1364/josaa.18.003130",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2115310438",
+      "status": "success"
+    },
+    "10.1364/josaa.25.000874": {
+      "count": 11,
+      "doi": "10.1364/josaa.25.000874",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2008166744",
+      "status": "success"
+    },
+    "10.1364/oe.27.032111": {
+      "count": 14,
+      "doi": "10.1364/oe.27.032111",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2981762886",
+      "status": "success"
+    },
+    "10.14233/ajchem.2020.22576": {
+      "count": 1,
+      "doi": "10.14233/ajchem.2020.22576",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3028644695",
+      "status": "success"
+    },
+    "10.14233/ajchem.2024.31148": {
+      "count": 0,
+      "doi": "10.14233/ajchem.2024.31148",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4393342709",
+      "status": "success"
+    },
+    "10.14719/pst.3447": {
+      "count": 5,
+      "doi": "10.14719/pst.3447",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4406112133",
+      "status": "success"
+    },
+    "10.1504/ijnt.2017.086760": {
+      "count": 15,
+      "doi": "10.1504/ijnt.2017.086760",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2756692181",
+      "status": "success"
+    },
+    "10.1504/ijnt.2017.086776": {
+      "count": 21,
+      "doi": "10.1504/ijnt.2017.086776",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2757791537",
+      "status": "success"
+    },
+    "10.1505/ifor.10.2.256": {
+      "count": 17,
+      "doi": "10.1505/ifor.10.2.256",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1971459487",
+      "status": "success"
+    },
+    "10.1515/jbcpp.2007.18.1.49": {
+      "count": 5,
+      "doi": "10.1515/jbcpp.2007.18.1.49",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2089341400",
+      "status": "success"
+    },
+    "10.1515/jbcpp.2007.18.4.277": {
+      "count": 14,
+      "doi": "10.1515/jbcpp.2007.18.4.277",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2320254378",
+      "status": "success"
+    },
+    "10.1515/zpch-2017-0992": {
+      "count": 11,
+      "doi": "10.1515/zpch-2017-0992",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2775091100",
+      "status": "success"
+    },
+    "10.15226/2381-2907/3/2/00127": {
+      "count": 0,
+      "doi": "10.15226/2381-2907/3/2/00127",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2748868766",
+      "status": "success"
+    },
+    "10.15826/chimtech.2021.8.4.01": {
+      "count": 11,
+      "doi": "10.15826/chimtech.2021.8.4.01",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3205125451",
+      "status": "success"
+    },
+    "10.1590/s0100-736x2013000700012": {
+      "count": 17,
+      "doi": "10.1590/s0100-736x2013000700012",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2156947089",
+      "status": "success"
+    },
+    "10.17577/ijertv9is070316": {
+      "count": 0,
+      "doi": "10.17577/ijertv9is070316",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3042539217",
+      "status": "success"
+    },
+    "10.20546/ijcmas.2020.903.231": {
+      "count": 2,
+      "doi": "10.20546/ijcmas.2020.903.231",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3016154618",
+      "status": "success"
+    },
+    "10.20546/ijcmas.2021.1008.021": {
+      "count": 13,
+      "doi": "10.20546/ijcmas.2021.1008.021",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3197996092",
+      "status": "success"
+    },
+    "10.20964/2018.06.06": {
+      "count": 13,
+      "doi": "10.20964/2018.06.06",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2802774804",
+      "status": "success"
+    },
+    "10.21203/rs.3.rs-10383226/v1": {
+      "count": 0,
+      "doi": "10.21203/rs.3.rs-10383226/v1",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7169882022",
+      "status": "success"
+    },
+    "10.21203/rs.3.rs-2811186/v1": {
+      "count": 0,
+      "doi": "10.21203/rs.3.rs-2811186/v1",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4366334858",
+      "status": "success"
+    },
+    "10.21275/sr231102130250": {
+      "count": 0,
+      "doi": "10.21275/sr231102130250",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4389790789",
+      "status": "success"
+    },
+    "10.2139/ssrn.3977795": {
+      "doi": "10.2139/ssrn.3977795",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "Returned DOI does not match; review required",
+      "source": "OpenAlex",
+      "status": "failed"
+    },
+    "10.2174/092986611797200986": {
+      "count": 6,
+      "doi": "10.2174/092986611797200986",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2157920811",
+      "status": "success"
+    },
+    "10.2174/1573411019666230418093328": {
+      "count": 4,
+      "doi": "10.2174/1573411019666230418093328",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4366418468",
+      "status": "success"
+    },
+    "10.22036/pcr.2019.205211.1688": {
+      "count": 62,
+      "doi": "10.22036/pcr.2019.205211.1688",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2990451075",
+      "status": "success"
+    },
+    "10.22159/ajpcr.2020.v13i1.36008": {
+      "count": 6,
+      "doi": "10.22159/ajpcr.2020.v13i1.36008",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3004515463",
+      "status": "success"
+    },
+    "10.22159/ijpps.2020v12i5.37257": {
+      "count": 5,
+      "doi": "10.22159/ijpps.2020v12i5.37257",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3023779133",
+      "status": "success"
+    },
+    "10.22438/jeb/42/1/mrn-1401": {
+      "count": 25,
+      "doi": "10.22438/jeb/42/1/mrn-1401",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3127255549",
+      "status": "success"
+    },
+    "10.22438/jeb/46/6/mrn-5671": {
+      "count": 1,
+      "doi": "10.22438/jeb/46/6/mrn-5671",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4415986530",
+      "status": "success"
+    },
+    "10.22541/au.158136983.31779076": {
+      "count": 18,
+      "doi": "10.22541/au.158136983.31779076",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3082628827",
+      "status": "success"
+    },
+    "10.2307/24078517": {
+      "doi": "10.2307/24078517",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "No exact DOI record returned.",
+      "source": "OpenAlex",
+      "status": "not_found"
+    },
+    "10.23880/oajmms-16000134": {
+      "count": 0,
+      "doi": "10.23880/oajmms-16000134",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3208581549",
+      "status": "success"
+    },
+    "10.23880/oajmms-16000162": {
+      "count": 3,
+      "doi": "10.23880/oajmms-16000162",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4391225807",
+      "status": "success"
+    },
+    "10.24425/122401": {
+      "count": 20,
+      "doi": "10.24425/122401",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4386208206",
+      "status": "success"
+    },
+    "10.2478/aopf-2023-0021": {
+      "count": 2,
+      "doi": "10.2478/aopf-2023-0021",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4391644570",
+      "status": "success"
+    },
+    "10.25004/ijpsdr.2011.030207": {
+      "count": 53,
+      "doi": "10.25004/ijpsdr.2011.030207",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2184565792",
+      "status": "success"
+    },
+    "10.25303/1703rjbt103110": {
+      "count": 0,
+      "doi": "10.25303/1703rjbt103110",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4220712434",
+      "status": "success"
+    },
+    "10.26438/ijsrbs/v5i6.3439": {
+      "count": 0,
+      "doi": "10.26438/ijsrbs/v5i6.3439",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2990976108",
+      "status": "success"
+    },
+    "10.26438/ijsrpas/v6i5.4856": {
+      "count": 4,
+      "doi": "10.26438/ijsrpas/v6i5.4856",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2991203430",
+      "status": "success"
+    },
+    "10.26452/ijrps.v11i2.2048": {
+      "count": 6,
+      "doi": "10.26452/ijrps.v11i2.2048",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3016259871",
+      "status": "success"
+    },
+    "10.29121/shodhkosh.v3.i2.2022.216": {
+      "count": 0,
+      "doi": "10.29121/shodhkosh.v3.i2.2022.216",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4310238101",
+      "status": "success"
+    },
+    "10.29121/shodhkosh.v4.i1.2023.285": {
+      "count": 4,
+      "doi": "10.29121/shodhkosh.v4.i1.2023.285",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4317583956",
+      "status": "success"
+    },
+    "10.29121/shodhkosh.v4.i1.2023.286": {
+      "count": 1,
+      "doi": "10.29121/shodhkosh.v4.i1.2023.286",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4319228118",
+      "status": "success"
+    },
+    "10.29356/jmcs.v64i1.1116": {
+      "count": 29,
+      "doi": "10.29356/jmcs.v64i1.1116",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3003200107",
+      "status": "success"
+    },
+    "10.30954/2321-712x.02.2019.3": {
+      "count": 2,
+      "doi": "10.30954/2321-712x.02.2019.3",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3034307233",
+      "status": "success"
+    },
+    "10.3109/13880209.2010.489565": {
+      "count": 8,
+      "doi": "10.3109/13880209.2010.489565",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2059419640",
+      "status": "success"
+    },
+    "10.31098/ijebce.v4i1.1797": {
+      "count": 3,
+      "doi": "10.31098/ijebce.v4i1.1797",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4391316202",
+      "status": "success"
+    },
+    "10.31223/x5nb7d": {
+      "count": 0,
+      "doi": "10.31223/x5nb7d",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7164681015",
+      "status": "success"
+    },
+    "10.31559/crmi2020.1.1.2": {
+      "count": 14,
+      "doi": "10.31559/crmi2020.1.1.2",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3138321420",
+      "status": "success"
+    },
+    "10.31788/rjc.2024.1738886": {
+      "count": 4,
+      "doi": "10.31788/rjc.2024.1738886",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4400293033",
+      "status": "success"
+    },
+    "10.31838/ijpr/2020.12.03.024": {
+      "doi": "10.31838/ijpr/2020.12.03.024",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "No exact DOI record returned.",
+      "source": "OpenAlex",
+      "status": "not_found"
+    },
+    "10.33545/26174693.2025.v9.i12so.6681": {
+      "count": 0,
+      "doi": "10.33545/26174693.2025.v9.i12so.6681",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7116868157",
+      "status": "success"
+    },
+    "10.33545/2664844x.2026.v8.i5d.1522": {
+      "count": 0,
+      "doi": "10.33545/2664844x.2026.v8.i5d.1522",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7161593714",
+      "status": "success"
+    },
+    "10.3390/antibiotics12030567": {
+      "count": 86,
+      "doi": "10.3390/antibiotics12030567",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4324151711",
+      "status": "success"
+    },
+    "10.3390/antibiotics12101506": {
+      "count": 11,
+      "doi": "10.3390/antibiotics12101506",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4387267862",
+      "status": "success"
+    },
+    "10.3390/bioengineering10070821": {
+      "count": 92,
+      "doi": "10.3390/bioengineering10070821",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4383911737",
+      "status": "success"
+    },
+    "10.3390/catal13010100": {
+      "count": 20,
+      "doi": "10.3390/catal13010100",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4313461541",
+      "status": "success"
+    },
+    "10.3390/chemosensors7020024": {
+      "count": 22,
+      "doi": "10.3390/chemosensors7020024",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2899343183",
+      "status": "success"
+    },
+    "10.3390/cimb43020079": {
+      "count": 43,
+      "doi": "10.3390/cimb43020079",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3196872734",
+      "status": "success"
+    },
+    "10.3390/cimb45050241": {
+      "count": 53,
+      "doi": "10.3390/cimb45050241",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4366823805",
+      "status": "success"
+    },
+    "10.3390/inorganics11080322": {
+      "count": 50,
+      "doi": "10.3390/inorganics11080322",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4385420953",
+      "status": "success"
+    },
+    "10.3390/ma15248990": {
+      "count": 90,
+      "doi": "10.3390/ma15248990",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4312195129",
+      "status": "success"
+    },
+    "10.3390/metabo13091022": {
+      "count": 17,
+      "doi": "10.3390/metabo13091022",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4386895848",
+      "status": "success"
+    },
+    "10.3390/nano12030493": {
+      "count": 157,
+      "doi": "10.3390/nano12030493",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4210534197",
+      "status": "success"
+    },
+    "10.3390/ph17050548": {
+      "count": 12,
+      "doi": "10.3390/ph17050548",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4395082286",
+      "status": "success"
+    },
+    "10.3390/pr11030893": {
+      "count": 57,
+      "doi": "10.3390/pr11030893",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4327595288",
+      "status": "success"
+    },
+    "10.34172/jhp.2020.46": {
+      "count": 10,
+      "doi": "10.34172/jhp.2020.46",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3042489723",
+      "status": "success"
+    },
+    "10.36468/pharmaceutical-sciences.646": {
+      "count": 26,
+      "doi": "10.36468/pharmaceutical-sciences.646",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3024836108",
+      "status": "success"
+    },
+    "10.36468/pharmaceutical-sciences.772": {
+      "count": 3,
+      "doi": "10.36468/pharmaceutical-sciences.772",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3156327339",
+      "status": "success"
+    },
+    "10.36808/if/2026/v152i7/171121": {
+      "count": 0,
+      "doi": "10.36808/if/2026/v152i7/171121",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7213970412",
+      "status": "success"
+    },
+    "10.3724/sp.j.1145.2011.00883": {
+      "count": 0,
+      "doi": "10.3724/sp.j.1145.2011.00883",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2363305798",
+      "status": "success"
+    },
+    "10.37335/ijek.v11i2.198": {
+      "count": 12,
+      "doi": "10.37335/ijek.v11i2.198",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4390411535",
+      "status": "success"
+    },
+    "10.38124/ijisrt/ijisrt24sep818": {
+      "count": 3,
+      "doi": "10.38124/ijisrt/ijisrt24sep818",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4402689017",
+      "status": "success"
+    },
+    "10.4028/www.scientific.net/kem.659.468": {
+      "count": 2,
+      "doi": "10.4028/www.scientific.net/kem.659.468",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2242726114",
+      "status": "success"
+    },
+    "10.4103/0970-1591.82837": {
+      "count": 20,
+      "doi": "10.4103/0970-1591.82837",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2047923341",
+      "status": "success"
+    },
+    "10.4103/ijot.ijot_33_19": {
+      "count": 6,
+      "doi": "10.4103/ijot.ijot_33_19",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3000668486",
+      "status": "success"
+    },
+    "10.4103/jss.jss_34_18": {
+      "count": 2,
+      "doi": "10.4103/jss.jss_34_18",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2903634399",
+      "status": "success"
+    },
+    "10.4103/kleuhsj.kleuhsj_161_18": {
+      "count": 2,
+      "doi": "10.4103/kleuhsj.kleuhsj_161_18",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2914017812",
+      "status": "success"
+    },
+    "10.4172/0975-413x.15.2.11-20": {
+      "doi": "10.4172/0975-413x.15.2.11-20",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "No exact DOI record returned.",
+      "source": "OpenAlex",
+      "status": "not_found"
+    },
+    "10.4172/2157-7617.1000131": {
+      "count": 226,
+      "doi": "10.4172/2157-7617.1000131",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2108376748",
+      "status": "success"
+    },
+    "10.4172/jcsb.1000101": {
+      "doi": "10.4172/jcsb.1000101",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "Returned DOI does not match; review required",
+      "source": "OpenAlex",
+      "status": "failed"
+    },
+    "10.4236/jmp.2014.514130": {
+      "count": 4,
+      "doi": "10.4236/jmp.2014.514130",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1971765060",
+      "status": "success"
+    },
+    "10.4236/jqis.2012.23009": {
+      "count": 18,
+      "doi": "10.4236/jqis.2012.23009",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2017543666",
+      "status": "success"
+    },
+    "10.4236/jqis.2018.81002": {
+      "count": 1,
+      "doi": "10.4236/jqis.2018.81002",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2772593224",
+      "status": "success"
+    },
+    "10.4236/jqis.2024.142003": {
+      "count": 0,
+      "doi": "10.4236/jqis.2024.142003",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4393858295",
+      "status": "success"
+    },
+    "10.4314/ajfand.v9i5.45097": {
+      "count": 16,
+      "doi": "10.4314/ajfand.v9i5.45097",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2146547747",
+      "status": "success"
+    },
+    "10.4314/star.v2i4.7": {
+      "count": 1,
+      "doi": "10.4314/star.v2i4.7",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2023364006",
+      "status": "success"
+    },
+    "10.46488/nept.2020.v19i04.037": {
+      "count": 6,
+      "doi": "10.46488/nept.2020.v19i04.037",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3112434164",
+      "status": "success"
+    },
+    "10.46488/nept.2023.v22i02.014": {
+      "count": 1,
+      "doi": "10.46488/nept.2023.v22i02.014",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4379233120",
+      "status": "success"
+    },
+    "10.46488/nept.2024.v23i02.020": {
+      "count": 10,
+      "doi": "10.46488/nept.2024.v23i02.020",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4399293150",
+      "status": "success"
+    },
+    "10.46488/nept.2024.v24is1.002": {
+      "count": 2,
+      "doi": "10.46488/nept.2024.v24is1.002",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4406531170",
+      "status": "success"
+    },
+    "10.46488/nept.2024.v24is1.005": {
+      "count": 1,
+      "doi": "10.46488/nept.2024.v24is1.005",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4406532359",
+      "status": "success"
+    },
+    "10.46488/nept.2025.v24i03.b4280": {
+      "count": 1,
+      "doi": "10.46488/nept.2025.v24i03.b4280",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4413998290",
+      "status": "success"
+    },
+    "10.46852/0424-2513.3.2023.12": {
+      "count": 1,
+      "doi": "10.46852/0424-2513.3.2023.12",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4388187046",
+      "status": "success"
+    },
+    "10.51248/.v42i2.1305": {
+      "count": 2,
+      "doi": "10.51248/.v42i2.1305",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4229069992",
+      "status": "success"
+    },
+    "10.51248/.v42i5.1946": {
+      "count": 0,
+      "doi": "10.51248/.v42i5.1946",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4309010819",
+      "status": "success"
+    },
+    "10.51248/.v43i02.2706": {
+      "count": 3,
+      "doi": "10.51248/.v43i02.2706",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4378549065",
+      "status": "success"
+    },
+    "10.51470/plantarchives.2021.v21.no1.227": {
+      "count": 0,
+      "doi": "10.51470/plantarchives.2021.v21.no1.227",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3194090786",
+      "status": "success"
+    },
+    "10.5155/eurjchem.11.2.168-178.1962": {
+      "count": 1,
+      "doi": "10.5155/eurjchem.11.2.168-178.1962",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3038968736",
+      "status": "success"
+    },
+    "10.5155/eurjchem.11.3.223-234.2004": {
+      "count": 8,
+      "doi": "10.5155/eurjchem.11.3.223-234.2004",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3090884795",
+      "status": "success"
+    },
+    "10.5185/amlett.2016.6395": {
+      "count": 6,
+      "doi": "10.5185/amlett.2016.6395",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2533132103",
+      "status": "success"
+    },
+    "10.5185/amlett.2017.1554": {
+      "count": 0,
+      "doi": "10.5185/amlett.2017.1554",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3210636583",
+      "status": "success"
+    },
+    "10.5267/j.ccl.2024.2.002": {
+      "count": 0,
+      "doi": "10.5267/j.ccl.2024.2.002",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4396826652",
+      "status": "success"
+    },
+    "10.52783/jchr.v14.i6.6998": {
+      "count": 1,
+      "doi": "10.52783/jchr.v14.i6.6998",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4405195261",
+      "status": "success"
+    },
+    "10.52783/jchr.v15.4.9270": {
+      "count": 0,
+      "doi": "10.52783/jchr.v15.4.9270",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4412883576",
+      "status": "success"
+    },
+    "10.52783/jchr.v16.i3.14281": {
+      "count": 0,
+      "doi": "10.52783/jchr.v16.i3.14281",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7162763092",
+      "status": "success"
+    },
+    "10.5281/zenodo.19329851": {
+      "doi": "10.5281/zenodo.19329851",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "Returned DOI does not match; review required",
+      "source": "OpenAlex",
+      "status": "failed"
+    },
+    "10.5281/zenodo.20199145": {
+      "doi": "10.5281/zenodo.20199145",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "Returned DOI does not match; review required",
+      "source": "OpenAlex",
+      "status": "failed"
+    },
+    "10.5281/zenodo.22212487": {
+      "count": 0,
+      "doi": "10.5281/zenodo.22212487",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7204749230",
+      "status": "success"
+    },
+    "10.53550/eec.2025.v31i07s.036": {
+      "count": 0,
+      "doi": "10.53550/eec.2025.v31i07s.036",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4416951340",
+      "status": "success"
+    },
+    "10.53555/ajbr.v27i4s.4498": {
+      "count": 0,
+      "doi": "10.53555/ajbr.v27i4s.4498",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4405088404",
+      "status": "success"
+    },
+    "10.53555/n5zrvw94": {
+      "doi": "10.53555/n5zrvw94",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "Returned DOI does not match; review required",
+      "source": "OpenAlex",
+      "status": "failed"
+    },
+    "10.53989/bu.ge.v12i1.2": {
+      "count": 0,
+      "doi": "10.53989/bu.ge.v12i1.2",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4405109621",
+      "status": "success"
+    },
+    "10.54207/bsmps1000-2023-6rw434": {
+      "count": 0,
+      "doi": "10.54207/bsmps1000-2023-6rw434",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4396838996",
+      "status": "success"
+    },
+    "10.55041/ijsmt.v2i5.130": {
+      "count": 3,
+      "doi": "10.55041/ijsmt.v2i5.130",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7160723856",
+      "status": "success"
+    },
+    "10.5599/jese.1438": {
+      "count": 6,
+      "doi": "10.5599/jese.1438",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4292749693",
+      "status": "success"
+    },
+    "10.5599/jese.2416": {
+      "count": 0,
+      "doi": "10.5599/jese.2416",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4403312795",
+      "status": "success"
+    },
+    "10.5599/jese.2589": {
+      "count": 3,
+      "doi": "10.5599/jese.2589",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4409081515",
+      "status": "success"
+    },
+    "10.5599/jese.2594": {
+      "count": 2,
+      "doi": "10.5599/jese.2594",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4412398062",
+      "status": "success"
+    },
+    "10.5599/jese.2640": {
+      "count": 0,
+      "doi": "10.5599/jese.2640",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4412962256",
+      "status": "success"
+    },
+    "10.5599/jese.2914": {
+      "count": 1,
+      "doi": "10.5599/jese.2914",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4415474065",
+      "status": "success"
+    },
+    "10.56042/ijbb.v63i3.18676": {
+      "count": 1,
+      "doi": "10.56042/ijbb.v63i3.18676",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7129524806",
+      "status": "success"
+    },
+    "10.56557/joban/2026/v18i110525": {
+      "count": 0,
+      "doi": "10.56557/joban/2026/v18i110525",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7155518200",
+      "status": "success"
+    },
+    "10.5740/jaoacint.17-0316": {
+      "count": 4,
+      "doi": "10.5740/jaoacint.17-0316",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2801082978",
+      "status": "success"
+    },
+    "10.5958/0974-360x.2020.00374.1": {
+      "count": 3,
+      "doi": "10.5958/0974-360x.2020.00374.1",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3032906232",
+      "status": "success"
+    },
+    "10.5958/0974-360x.2020.00735.0": {
+      "count": 0,
+      "doi": "10.5958/0974-360x.2020.00735.0",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3083534068",
+      "status": "success"
+    },
+    "10.6026/97320630009983": {
+      "count": 0,
+      "doi": "10.6026/97320630009983",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W1999242485",
+      "status": "success"
+    },
+    "10.6026/97320630012054": {
+      "count": 7,
+      "doi": "10.6026/97320630012054",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2482156492",
+      "status": "success"
+    },
+    "10.6026/97320630012285": {
+      "count": 1,
+      "doi": "10.6026/97320630012285",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2583872817",
+      "status": "success"
+    },
+    "10.64252/33sda480": {
+      "count": 0,
+      "doi": "10.64252/33sda480",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4413305010",
+      "status": "success"
+    },
+    "10.64898/2026.06.10.731154": {
+      "count": 0,
+      "doi": "10.64898/2026.06.10.731154",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7164572435",
+      "status": "success"
+    },
+    "10.69857/joapr.v13i4.1237": {
+      "count": 1,
+      "doi": "10.69857/joapr.v13i4.1237",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4414193944",
+      "status": "success"
+    },
+    "10.70333/ijeks-03-07-030": {
+      "count": 2,
+      "doi": "10.70333/ijeks-03-07-030",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W4402123324",
+      "status": "success"
+    },
+    "10.70333/ijeks-03-07-039": {
+      "doi": "10.70333/ijeks-03-07-039",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "Returned DOI does not match; review required",
+      "source": "OpenAlex",
+      "status": "failed"
+    },
+    "10.7324/jabb.2020.80401": {
+      "count": 5,
+      "doi": "10.7324/jabb.2020.80401",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3046693724",
+      "status": "success"
+    },
+    "10.7324/japs.2019.90511": {
+      "count": 7,
+      "doi": "10.7324/japs.2019.90511",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2954975857",
+      "status": "success"
+    },
+    "10.7324/japs.2019.91113": {
+      "count": 20,
+      "doi": "10.7324/japs.2019.91113",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3160671033",
+      "status": "success"
+    },
+    "10.7763/ijcea.2011.v2.120": {
+      "count": 14,
+      "doi": "10.7763/ijcea.2011.v2.120",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W2326151860",
+      "status": "success"
+    },
+    "10.7897/2277-4572.093172": {
+      "count": 0,
+      "doi": "10.7897/2277-4572.093172",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W3037147989",
+      "status": "success"
+    },
+    "10.9734/bpi/psnid/v12/7621": {
+      "count": 0,
+      "doi": "10.9734/bpi/psnid/v12/7621",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7164295907",
+      "status": "success"
+    },
+    "10.9734/jalsi/2026/v29i3779": {
+      "count": 0,
+      "doi": "10.9734/jalsi/2026/v29i3779",
+      "last_attempt": "2026-11-05T03:03:32+00:00",
+      "message": "",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "source": "OpenAlex",
+      "source_url": "https://openalex.org/W7163518084",
+      "status": "success"
+    }
+  },
+  "last_attempt": "2026-11-05T03:03:32+00:00",
+  "schema_version": 1,
+  "source": "OpenAlex"
+}

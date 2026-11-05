@@ -1,0 +1,9 @@
+{
+  "failed": 6,
+  "last_attempt": "2026-11-05T03:03:32+00:00",
+  "matched": 454,
+  "not_found": 3,
+  "publications": 723,
+  "unique_dois": 463,
+  "without_doi": 260
+}

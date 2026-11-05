@@ -1,0 +1,54 @@
+name: Publish reviewed ORCID article extraction
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/apply_orcid_refresh.py
+      - .github/workflows/apply-orcid-refresh.yml
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: apply-orcid-refresh
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate complete uploaded extraction and profile mappings
+        run: |
+          python -m py_compile scripts/apply_orcid_refresh.py
+          python scripts/apply_orcid_refresh.py
+      - name: Validate publication files and preserve existing profile data
+        run: |
+          python -m json.tool data/publications.json > /dev/null
+          python -m json.tool data/publication-sync-status.json > /dev/null
+          python -m json.tool data/orcid-refresh-apply-status.json > /dev/null
+          node --check assets/js/publications.js
+          git diff --exit-code -- data/faculty.json data/research-students.json data/citation-metrics.json data/student-publications.json research-showcase-draft.html
+      - name: Commit reviewed publication records and matching status
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/publications.json data/publication-sync-status.json data/orcid-refresh-apply-status.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Publish reviewed fresh ORCID articles with validated profile mappings"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Request GitHub Pages rebuild
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

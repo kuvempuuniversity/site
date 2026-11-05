@@ -63,7 +63,21 @@
       "personal_website": "",
       "last_name": "C.",
       "teaches": true,
-      "academic_journey": "PhD in Plant Systematics, Gulbarga University (2010); MSc in Botany, Gulbarga University (2001); BSc in Chemistry, Botany, Zoology, MSI College, Kalaburagi (1997)"
+      "academic_journey": "PhD in Plant Systematics, Gulbarga University (2010); MSc in Botany, Gulbarga University (2001); BSc in Chemistry, Botany, Zoology, MSI College, Kalaburagi (1997)",
+      "scholar_metrics": {
+        "total_citations": 27,
+        "h_index": 3,
+        "i10_index": 0,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=y_8ETW8AAAAJ&hl=en",
+        "author_id": "y_8ETW8AAAAJ",
+        "author_name": "H C Shrishail",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "reena-roy-d",
@@ -85,7 +99,21 @@
         "Medicinal and Aromatic Plants",
         "Ethnobotany",
         "Mycology"
-      ]
+      ],
+      "scholar_metrics": {
+        "total_citations": 37,
+        "h_index": 3,
+        "i10_index": 2,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=t9VeVpEAAAAJ&hl=en",
+        "author_id": "t9VeVpEAAAAJ",
+        "author_name": "Reena Roy D",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "sathisha-am",
@@ -153,7 +181,21 @@
       "scholar_url": "https://scholar.google.com/citations?user=N2-ArOsAAAAJ&hl=en",
       "linkedin_url": "https://www.linkedin.com/in/shashiraj-kn-888012194",
       "designation": "Guest faculty",
-      "photo": "../students/ab-shashiraj-kn.png"
+      "photo": "../students/ab-shashiraj-kn.png",
+      "scholar_metrics": {
+        "total_citations": 1446,
+        "h_index": 21,
+        "i10_index": 27,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=N2-ArOsAAAAJ&hl=en",
+        "author_id": "N2-ArOsAAAAJ",
+        "author_name": "SHASHIRAJ K N",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "apoorva-p",
@@ -253,7 +295,21 @@
       "orcid": "0000-0002-0119-4826",
       "scholar_url": "https://scholar.google.com/citations?user=t-QveJ4AAAAJ&hl=en",
       "designation": "Professor",
-      "photo": "ag-govindaraju.png"
+      "photo": "ag-govindaraju.png",
+      "scholar_metrics": {
+        "total_citations": 55,
+        "h_index": 4,
+        "i10_index": 2,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=t-QveJ4AAAAJ&hl=en",
+        "author_id": "t-QveJ4AAAAJ",
+        "author_name": "Govindaraju",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "shwetha-a",
@@ -287,8 +343,8 @@
         "scholar_url": "https://scholar.google.com/citations?user=AbwbvOEAAAAJ&hl=en",
         "author_id": "AbwbvOEAAAAJ",
         "author_name": "Dr. Shwetha A",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -323,8 +379,8 @@
         "scholar_url": "https://scholar.google.com/citations?user=rWuOqHkAAAAJ&hl=en",
         "author_id": "rWuOqHkAAAAJ",
         "author_name": "Dayananda G Y",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -348,7 +404,21 @@
       ],
       "orcid": "0000-0002-3516-0560",
       "scholar_url": "https://scholar.google.com/citations?user=CP9vp-gAAAAJ&hl=en",
-      "designation": "Professor"
+      "designation": "Professor",
+      "scholar_metrics": {
+        "total_citations": 288,
+        "h_index": 8,
+        "i10_index": 8,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=CP9vp-gAAAAJ&hl=en",
+        "author_id": "CP9vp-gAAAAJ",
+        "author_name": "Kakanahalli Nagaraj",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "shrinidhi-k-t-bhandari",
@@ -459,7 +529,21 @@
         "Industrial Biotechnology"
       ],
       "scholar_url": "https://scholar.google.com/citations?user=U0U6djgAAAAJ&hl=en",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "scholar_metrics": {
+        "total_citations": 2,
+        "h_index": 1,
+        "i10_index": 0,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=U0U6djgAAAAJ&hl=en",
+        "author_id": "U0U6djgAAAAJ",
+        "author_name": "Raghavendra S N",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "shivayogeeswar-neelagund",
@@ -484,7 +568,21 @@
       "orcid": "0000-0002-7440-3844",
       "scholar_url": "https://scholar.google.com/citations?user=PHQ0Ov8AAAAJ&hl=en",
       "linkedin_url": "https://www.linkedin.com/in/niranjana-pathappa-82235640",
-      "designation": "Professor"
+      "designation": "Professor",
+      "scholar_metrics": {
+        "total_citations": 524,
+        "h_index": 11,
+        "i10_index": 11,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=PHQ0Ov8AAAAJ&hl=en",
+        "author_id": "PHQ0Ov8AAAAJ",
+        "author_name": "Niranjana Pathappa",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "rithu-r-revankar",
@@ -528,7 +626,21 @@
       "orcid": "0009-0006-3270-8937",
       "scholar_url": "https://scholar.google.com/citations?user=x9x6WyEAAAAJ&hl=en",
       "linkedin_url": "https://www.linkedin.com/in/manoj-sp-manoj-66a2b11a2?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "scholar_metrics": {
+        "total_citations": 5,
+        "h_index": 1,
+        "i10_index": 0,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=x9x6WyEAAAAJ&hl=en",
+        "author_id": "x9x6WyEAAAAJ",
+        "author_name": "Manoj Sringeri Prakash",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "santhosh-k-hanumanthappa",
@@ -549,7 +661,21 @@
       "orcid": "0000-0003-1448-9364",
       "scholar_url": "https://scholar.google.com/citations?user=uxAhp3kAAAAJ&hl=en",
       "linkedin_url": "https://www.linkedin.com/in/santhosh-kondajji-a8aa271a",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "scholar_metrics": {
+        "total_citations": 60,
+        "h_index": 5,
+        "i10_index": 3,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=uxAhp3kAAAAJ&hl=en",
+        "author_id": "uxAhp3kAAAAJ",
+        "author_name": "Dr. Santhosh kondajji",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "kumaraswamy-hm",
@@ -632,7 +758,21 @@
         "Molecular Biology",
         "Recombinant DNA Technology"
       ],
-      "linkedin_url": "https://www.linkedin.com/in/shashi-kumar-4725b5251/"
+      "linkedin_url": "https://www.linkedin.com/in/shashi-kumar-4725b5251/",
+      "scholar_metrics": {
+        "total_citations": 74,
+        "h_index": 3,
+        "i10_index": 2,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=pOeFHjgAAAAJ&hl=en",
+        "author_id": "pOeFHjgAAAAJ",
+        "author_name": "Dr. Shashikumar R",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "h-s-santosh-kumar",
@@ -656,7 +796,21 @@
       "scholar_url": "https://scholar.google.com/citations?user=MY9l-gQAAAAJ&hl=en",
       "linkedin_url": "https://www.linkedin.com/in/h-s-santosh-kumar-6794601b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       "designation": "Professor",
-      "photo": "bt-santosh-kumar-hs.png"
+      "photo": "bt-santosh-kumar-hs.png",
+      "scholar_metrics": {
+        "total_citations": 632,
+        "h_index": 11,
+        "i10_index": 12,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=MY9l-gQAAAAJ&hl=en",
+        "author_id": "MY9l-gQAAAAJ",
+        "author_name": "Hulikal Shivashankar Santosh Kumar",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "meghana-p-pargi",
@@ -727,7 +881,21 @@
         "Research Methodology",
         "Biostatistics"
       ],
-      "linkedin_url": "https://www.linkedin.com/in/dr-sandeep-telkar-785372260"
+      "linkedin_url": "https://www.linkedin.com/in/dr-sandeep-telkar-785372260",
+      "scholar_metrics": {
+        "total_citations": 1449,
+        "h_index": 20,
+        "i10_index": 25,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=fKYqrZIAAAAJ&hl=en",
+        "author_id": "fKYqrZIAAAAJ",
+        "author_name": "Sandeep Telkar. Ph.D",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "vanishree-k",
@@ -749,7 +917,21 @@
       "phd_supervisor": "Prof.R HiremaniNaik",
       "orcid": "0009-0000-9239-4921",
       "scholar_url": "https://scholar.google.com/citations?user=hLYi0AQAAAAJ&hl=en",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "scholar_metrics": {
+        "total_citations": 1,
+        "h_index": 1,
+        "i10_index": 0,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=hLYi0AQAAAAJ&hl=en",
+        "author_id": "hLYi0AQAAAAJ",
+        "author_name": "Vanishree K Naik",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "teenakumari-b-n-keremane",
@@ -845,7 +1027,21 @@
       "orcid": "0009-0001-9863-6781",
       "scholar_url": "https://scholar.google.com/citations?user=lo-5Io8AAAAJ&hl=en",
       "linkedin_url": "https://www.linkedin.com/in/manjunath-rajappa-65a98322/",
-      "designation": "Professor"
+      "designation": "Professor",
+      "scholar_metrics": {
+        "total_citations": 227,
+        "h_index": 9,
+        "i10_index": 8,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=lo-5Io8AAAAJ&hl=en",
+        "author_id": "lo-5Io8AAAAJ",
+        "author_name": "Manjunath Rajappa",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "yeshwant-narayana-rao",
@@ -949,7 +1145,7 @@
       "photo": "",
       "personal_website": "",
       "scholar_metrics": {
-        "total_citations": 325,
+        "total_citations": 328,
         "h_index": 10,
         "i10_index": 10,
         "source": "Google Scholar",
@@ -958,8 +1154,8 @@
         "scholar_url": "https://scholar.google.com/citations?user=ytd20b0AAAAJ&hl=en",
         "author_id": "ytd20b0AAAAJ",
         "author_name": "Dr.Pushpavathi Itte",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -1003,7 +1199,21 @@
       "orcid": "0000-0001-9637-3909",
       "scholar_url": "https://scholar.google.com/citations?user=g_WRzGgAAAAJ&hl=en",
       "designation": "Assistant Professor",
-      "photo": "chm-talavara-venkatesh.png"
+      "photo": "chm-talavara-venkatesh.png",
+      "scholar_metrics": {
+        "total_citations": 621,
+        "h_index": 15,
+        "i10_index": 23,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=g_WRzGgAAAAJ&hl=en",
+        "author_id": "g_WRzGgAAAAJ",
+        "author_name": "Dr. Talavara Venkatesh",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "naveena-l",
@@ -1046,7 +1256,21 @@
       ],
       "orcid": "0000-0003-0668-926X",
       "scholar_url": "https://scholar.google.com/citations?user=pLxwEo0AAAAJ&hl=en",
-      "designation": "Associate Professor"
+      "designation": "Associate Professor",
+      "scholar_metrics": {
+        "total_citations": 742,
+        "h_index": 14,
+        "i10_index": 20,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=pLxwEo0AAAAJ&hl=en",
+        "author_id": "pLxwEo0AAAAJ",
+        "author_name": "suresha M",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "ravikumar-m",
@@ -1066,7 +1290,21 @@
       ],
       "orcid": "0000-0001-5450-7788",
       "scholar_url": "https://scholar.google.com/citations?user=EXVKn9QAAAAJ&hl=en",
-      "designation": "Professor"
+      "designation": "Professor",
+      "scholar_metrics": {
+        "total_citations": 186,
+        "h_index": 9,
+        "i10_index": 8,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=EXVKn9QAAAAJ&hl=en",
+        "author_id": "EXVKn9QAAAAJ",
+        "author_name": "M RAVIKUMAR",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "vadivelu-a",
@@ -1088,7 +1326,21 @@
       ],
       "orcid": "0009-0002-1420-8796",
       "scholar_url": "https://scholar.google.com/citations?user=ixJdlnsAAAAJ&hl=en",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "scholar_metrics": {
+        "total_citations": 124,
+        "h_index": 1,
+        "i10_index": 1,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=ixJdlnsAAAAJ&hl=en",
+        "author_id": "ixJdlnsAAAAJ",
+        "author_name": "Vadivelu",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "thipperudrappa-e-eshwarappa",
@@ -1263,7 +1515,21 @@
       "social_links": {
         "youtube": "https://www.youtube.com/@jkdange"
       },
-      "designation": "Professor"
+      "designation": "Professor",
+      "scholar_metrics": {
+        "total_citations": 177,
+        "h_index": 7,
+        "i10_index": 4,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=c72AxmEAAAAJ&hl=en",
+        "author_id": "c72AxmEAAAAJ",
+        "author_name": "Jagannath K Dange",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "madhu-j-krishnappa",
@@ -1429,7 +1695,21 @@
       "scholar_url": "https://scholar.google.com/citations?user=v6AzUHkAAAAJ&hl=en",
       "linkedin_url": "https://www.linkedin.com/in/rama-prasad-4a526578/",
       "designation": "Senior Professor",
-      "photo": "en-ramprasad-bv.png"
+      "photo": "en-ramprasad-bv.png",
+      "scholar_metrics": {
+        "total_citations": 1,
+        "h_index": 1,
+        "i10_index": 0,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=v6AzUHkAAAAJ&hl=en",
+        "author_id": "v6AzUHkAAAAJ",
+        "author_name": "Rama Prasad",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "ananthnag-b",
@@ -1495,7 +1775,7 @@
       "photo": "es-yogendra-kambalagere.png",
       "personal_website": "",
       "scholar_metrics": {
-        "total_citations": 1169,
+        "total_citations": 1170,
         "h_index": 15,
         "i10_index": 21,
         "source": "Google Scholar",
@@ -1504,8 +1784,8 @@
         "scholar_url": "https://scholar.google.com/citations?user=-TcIYBUAAAAJ&hl=en",
         "author_id": "-TcIYBUAAAAJ",
         "author_name": "Kambalagere Yogendra",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -1546,8 +1826,8 @@
         "scholar_url": "https://scholar.google.com/citations?user=06EIJTQAAAAJ&hl=en",
         "author_id": "06EIJTQAAAAJ",
         "author_name": "Hina Kousar",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -1564,7 +1844,7 @@
       "photo": "es-krishnamurthy-sv.png",
       "personal_website": "",
       "scholar_metrics": {
-        "total_citations": 982,
+        "total_citations": 983,
         "h_index": 18,
         "i10_index": 35,
         "source": "Google Scholar",
@@ -1573,8 +1853,8 @@
         "scholar_url": "https://scholar.google.com/citations?user=c5GkfzIAAAAJ&hl=en",
         "author_id": "c5GkfzIAAAAJ",
         "author_name": "S V Krishnamurthy",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -1593,7 +1873,7 @@
       "photo": "es-madhusudhana-n.png",
       "personal_website": "",
       "scholar_metrics": {
-        "total_citations": 434,
+        "total_citations": 435,
         "h_index": 11,
         "i10_index": 13,
         "source": "Google Scholar",
@@ -1602,8 +1882,8 @@
         "scholar_url": "https://scholar.google.com/citations?user=yHgEzXMAAAAJ&hl=en",
         "author_id": "yHgEzXMAAAAJ",
         "author_name": "Dr. Madhusudhana N",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -1644,8 +1924,8 @@
         "scholar_url": "https://scholar.google.com/citations?user=MTpM3HwAAAAJ&hl=en",
         "author_id": "MTpM3HwAAAAJ",
         "author_name": "Rakesh Tiwari",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -1665,7 +1945,21 @@
       "orcid": "0000-0002-7509-0341",
       "scholar_url": "https://scholar.google.com/citations?user=i5lzgHcAAAAJ&hl=en",
       "linkedin_url": "https://www.linkedin.com/in/dr-preema-karal-andrade-b90666275/",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "scholar_metrics": {
+        "total_citations": 19,
+        "h_index": 1,
+        "i10_index": 1,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=i5lzgHcAAAAJ&hl=en",
+        "author_id": "i5lzgHcAAAAJ",
+        "author_name": "Preema Karal Andrade",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "aishwarya-m",
@@ -1783,7 +2077,21 @@
       "designation": "Position to be added.",
       "photo": "ic-kumaraswamy-be.png",
       "orcid": "0000-0002-2433-0739",
-      "scholar_url": "https://scholar.google.com/citations?user=tvVdZQkAAAAJ&hl=en"
+      "scholar_url": "https://scholar.google.com/citations?user=tvVdZQkAAAAJ&hl=en",
+      "scholar_metrics": {
+        "total_citations": 13192,
+        "h_index": 63,
+        "i10_index": 280,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=tvVdZQkAAAAJ&hl=en",
+        "author_id": "tvVdZQkAAAAJ",
+        "author_name": "Prof.B E Kumara Swamy M.Sc Ph.D. Post Doc (USA)",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "ic-vinod-bm",
@@ -1836,7 +2144,21 @@
       "designation": "Position to be added.",
       "photo": "ic-pushpavathi-itte.png",
       "orcid": "0000-0002-4479-2623",
-      "scholar_url": "https://scholar.google.com/citations?user=ytd20b0AAAAJ&hl=en"
+      "scholar_url": "https://scholar.google.com/citations?user=ytd20b0AAAAJ&hl=en",
+      "scholar_metrics": {
+        "total_citations": 328,
+        "h_index": 10,
+        "i10_index": 10,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=ytd20b0AAAAJ&hl=en",
+        "author_id": "ytd20b0AAAAJ",
+        "author_name": "Dr.Pushpavathi Itte",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "ic-adarsh-gowda-n",
@@ -1869,7 +2191,21 @@
       ],
       "phd_supervisor": "Dr. Itte Pushpavathi",
       "orcid": "0009-0008-9101-4569",
-      "scholar_url": "https://scholar.google.com/citations?user=MrBmQPwAAAAJ&hl=en"
+      "scholar_url": "https://scholar.google.com/citations?user=MrBmQPwAAAAJ&hl=en",
+      "scholar_metrics": {
+        "total_citations": 1,
+        "h_index": 1,
+        "i10_index": 0,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=MrBmQPwAAAAJ&hl=en",
+        "author_id": "MrBmQPwAAAAJ",
+        "author_name": "SUPRAJA R PRASAD",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "ic-anusha-hy",
@@ -1968,7 +2304,21 @@
       "orcid": "0000-0001-9710-4268",
       "scholar_url": "https://scholar.google.com/citations?user=72R0IYIAAAAJ&hl=en",
       "linkedin_url": "https://www.linkedin.com/in/sathyaprakash-m-r-8b9b1562/",
-      "designation": "Professor"
+      "designation": "Professor",
+      "scholar_metrics": {
+        "total_citations": 16,
+        "h_index": 2,
+        "i10_index": 0,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=72R0IYIAAAAJ&hl=en",
+        "author_id": "72R0IYIAAAAJ",
+        "author_name": "Sathyaprakash MR",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "kn-abhijith-b",
@@ -2325,7 +2675,7 @@
       "photo": "mb-thippeswamy-b.png",
       "personal_website": "",
       "scholar_metrics": {
-        "total_citations": 1741,
+        "total_citations": 1743,
         "h_index": 21,
         "i10_index": 39,
         "source": "Google Scholar",
@@ -2334,8 +2684,8 @@
         "scholar_url": "https://scholar.google.com/citations?user=cImYsjoAAAAJ&hl=en",
         "author_id": "cImYsjoAAAAJ",
         "author_name": "Dr.Thippeswamy Basaiah M.Sc.,Ph D.,Post Doc.(USA).",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -2431,8 +2781,8 @@
         "scholar_url": "https://scholar.google.com/citations?user=l6fXh4cAAAAJ&hl=en",
         "author_id": "l6fXh4cAAAAJ",
         "author_name": "Dr. N B Thippeswamy",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -2467,8 +2817,8 @@
         "scholar_url": "https://scholar.google.com/citations?user=wy1pTBYAAAAJ&hl=en",
         "author_id": "wy1pTBYAAAAJ",
         "author_name": "Dr.Renuka K.P",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -2512,7 +2862,7 @@
       "photo": "mb-sowmya-hv.png",
       "personal_website": "",
       "scholar_metrics": {
-        "total_citations": 716,
+        "total_citations": 715,
         "h_index": 9,
         "i10_index": 9,
         "source": "Google Scholar",
@@ -2521,8 +2871,8 @@
         "scholar_url": "https://scholar.google.com/citations?user=m-TLX7wAAAAJ&hl=en",
         "author_id": "m-TLX7wAAAAJ",
         "author_name": "Sowmya H.V",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -2599,7 +2949,21 @@
       "orcid": "0009-0004-1618-3697",
       "scholar_url": "https://scholar.google.com/citations?user=YS2_n-MAAAAJ&hl=en",
       "designation": "Assistant Professor",
-      "photo": "pe-ravindra-gowda-sm.png"
+      "photo": "pe-ravindra-gowda-sm.png",
+      "scholar_metrics": {
+        "total_citations": 1,
+        "h_index": 1,
+        "i10_index": 0,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=YS2_n-MAAAAJ&hl=en",
+        "author_id": "YS2_n-MAAAAJ",
+        "author_name": "Ravindra Gouda, S.M",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "sudha",
@@ -2620,7 +2984,21 @@
       ],
       "orcid": "0000-0002-4590-5765",
       "scholar_url": "https://scholar.google.com/citations?user=FnTT5GUAAAAJ&hl=en",
-      "designation": "Professor"
+      "designation": "Professor",
+      "scholar_metrics": {
+        "total_citations": 842,
+        "h_index": 13,
+        "i10_index": 19,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=FnTT5GUAAAAJ&hl=en",
+        "author_id": "FnTT5GUAAAAJ",
+        "author_name": "Dr Sudha",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "veda-h-t",
@@ -2725,7 +3103,21 @@
       ],
       "orcid": "0009-0000-3008-758X",
       "scholar_url": "https://scholar.google.com/citations?user=QuQfuc0AAAAJ&hl=en",
-      "designation": "Professor"
+      "designation": "Professor",
+      "scholar_metrics": {
+        "total_citations": 35,
+        "h_index": 3,
+        "i10_index": 1,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=QuQfuc0AAAAJ&hl=en",
+        "author_id": "QuQfuc0AAAAJ",
+        "author_name": "Uddagatti Venkatesha",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "keerthi-d",
@@ -2805,7 +3197,21 @@
       ],
       "orcid": "0009-0007-3774-2162",
       "scholar_url": "https://scholar.google.com/citations?user=L8aP5VwAAAAJ&hl=en",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "scholar_metrics": {
+        "total_citations": 5631,
+        "h_index": 33,
+        "i10_index": 112,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=L8aP5VwAAAAJ&hl=en",
+        "author_id": "L8aP5VwAAAAJ",
+        "author_name": "Dr. Dileep Kumar",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "ravi-b-g-shankar",
@@ -2904,7 +3310,21 @@
       "orcid": "0009-0007-8330-1624",
       "scholar_url": "https://scholar.google.com/citations?user=FOLB9awAAAAJ&hl=en",
       "linkedin_url": "https://www.linkedin.com/in/nataraja-t-c/",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "scholar_metrics": {
+        "total_citations": 20,
+        "h_index": 2,
+        "i10_index": 1,
+        "source": "Google Scholar",
+        "provider": "SerpApi",
+        "scope": "all-time",
+        "scholar_url": "https://scholar.google.com/citations?user=FOLB9awAAAAJ&hl=en",
+        "author_id": "FOLB9awAAAAJ",
+        "author_name": "Nataraja Chandrappa",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
+        "status": "success"
+      }
     },
     {
       "id": "sakamma-s",
@@ -2982,8 +3402,8 @@
         "scholar_url": "https://scholar.google.com/citations?hl=en&user=Z0qDJeIAAAAJ",
         "author_id": "Z0qDJeIAAAAJ",
         "author_name": "Roopa C",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -3029,8 +3449,8 @@
         "scholar_url": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=nAZjyzwAAAAJ",
         "author_id": "nAZjyzwAAAAJ",
         "author_name": "Sowmya G Bhat",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -3084,8 +3504,8 @@
         "scholar_url": "https://scholar.google.com/citations?user=dyjL1TAAAAAJ&hl=en",
         "author_id": "dyjL1TAAAAAJ",
         "author_name": "Vijaya kumara",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },
@@ -3117,7 +3537,7 @@
       "photo_source_url": "https://drive.google.com/open?id=1NR23HH34lNyysGhjoaoAKpz8vGciECaL",
       "personal_website": "",
       "scholar_metrics": {
-        "total_citations": 228,
+        "total_citations": 227,
         "h_index": 8,
         "i10_index": 6,
         "source": "Google Scholar",
@@ -3126,8 +3546,8 @@
         "scholar_url": "https://scholar.google.com/citations?hl=en&user=688iocAAAAAJ",
         "author_id": "688iocAAAAAJ",
         "author_name": "Harisha M Nijavvalli",
-        "retrieved_at": "2026-10-29T12:57:30+00:00",
-        "last_attempt": "2026-10-29T12:57:30+00:00",
+        "retrieved_at": "2026-11-03T13:37:49+00:00",
+        "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
       }
     },

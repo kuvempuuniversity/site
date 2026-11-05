@@ -1,0 +1,917 @@
+{
+  "manifest_sha256": "d3fcae2f286429370668e94302c578350b81e99777625521bbe650ab6b68957a",
+  "applied_at": "2026-11-05T02:36:47+00:00",
+  "scholar_selected": 148,
+  "scholar_updated": 46,
+  "scholar_not_updated": 102,
+  "scholar_mappings": [
+    {
+      "id": "shrishaila",
+      "database_name": "Dr. Shrishail H. C.",
+      "department_id": "applied-botany",
+      "author_id": "y_8ETW8AAAAJ",
+      "returned_author_name": "H C Shrishail",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "reena-roy-d",
+      "database_name": "Dr. Reena Roy D.",
+      "department_id": "applied-botany",
+      "author_id": "t9VeVpEAAAAJ",
+      "returned_author_name": "Reena Roy D",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "shashiraj-kn",
+      "database_name": "Dr. Shashiraj K. N.",
+      "department_id": "applied-botany",
+      "author_id": "N2-ArOsAAAAJ",
+      "returned_author_name": "SHASHIRAJ K N",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "govindaraju",
+      "database_name": "Prof. Govindaraju",
+      "department_id": "applied-geology",
+      "author_id": "t-QveJ4AAAAJ",
+      "returned_author_name": "Govindaraju",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "shwetha-a",
+      "database_name": "Dr. Shwetha Alavandi",
+      "department_id": "applied-zoology",
+      "author_id": "AbwbvOEAAAAJ",
+      "returned_author_name": "Dr. Shwetha A",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "dayananda-gy",
+      "database_name": "Dr. Dayananda Y Gulladamane",
+      "department_id": "applied-zoology",
+      "author_id": "rWuOqHkAAAAJ",
+      "returned_author_name": "Dayananda G Y",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "nagaraja",
+      "database_name": "Prof. Nagaraja",
+      "department_id": "applied-zoology",
+      "author_id": "CP9vp-gAAAAJ",
+      "returned_author_name": "Kakanahalli Nagaraj",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "raghavendra-s-n",
+      "database_name": "Dr. Raghavendra S. N.",
+      "department_id": "biochemistry",
+      "author_id": "U0U6djgAAAAJ",
+      "returned_author_name": "Raghavendra S N",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "niranjana-pathappa",
+      "database_name": "Prof. Niranjana Pathappa",
+      "department_id": "biochemistry",
+      "author_id": "PHQ0Ov8AAAAJ",
+      "returned_author_name": "Niranjana Pathappa",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "manoj-s-p",
+      "database_name": "Mr. Manoj S. P.",
+      "department_id": "biochemistry",
+      "author_id": "x9x6WyEAAAAJ",
+      "returned_author_name": "Manoj Sringeri Prakash",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "santhosh-k-hanumanthappa",
+      "database_name": "Dr. Santhosh K. Hanumanthappa",
+      "department_id": "biotechnology",
+      "author_id": "uxAhp3kAAAAJ",
+      "returned_author_name": "Dr. Santhosh kondajji",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "shashikumar-r",
+      "database_name": "Dr. Shashi R. Kumar",
+      "department_id": "biotechnology",
+      "author_id": "pOeFHjgAAAAJ",
+      "returned_author_name": "Dr. Shashikumar R",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "h-s-santosh-kumar",
+      "database_name": "Prof. H. S. Santosh Kumar",
+      "department_id": "biotechnology",
+      "author_id": "MY9l-gQAAAAJ",
+      "returned_author_name": "Hulikal Shivashankar Santosh Kumar",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "sandeep-telkar",
+      "database_name": "Dr. Sandeep Telkar",
+      "department_id": "biotechnology",
+      "author_id": "fKYqrZIAAAAJ",
+      "returned_author_name": "Sandeep Telkar. Ph.D",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "vanishree-k",
+      "database_name": "Dr. Vanishree K.",
+      "department_id": "business-administration",
+      "author_id": "hLYi0AQAAAAJ",
+      "returned_author_name": "Vanishree K Naik",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "manjunath-k-rajappa",
+      "database_name": "Prof. Manjunath K. Rajappa",
+      "department_id": "business-administration",
+      "author_id": "lo-5Io8AAAAJ",
+      "returned_author_name": "Manjunath Rajappa",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "pushpavathi-itte",
+      "database_name": "Dr. Pushpavathi Itte",
+      "department_id": "chemistry",
+      "author_id": "ytd20b0AAAAJ",
+      "returned_author_name": "Dr.Pushpavathi Itte",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "talavara-venkatesh",
+      "database_name": "Dr. Talavara Venkatesh",
+      "department_id": "chemistry",
+      "author_id": "g_WRzGgAAAAJ",
+      "returned_author_name": "Dr. Talavara Venkatesh",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "suresha-m",
+      "database_name": "Dr. Suresha M.",
+      "department_id": "computer-sciences",
+      "author_id": "pLxwEo0AAAAJ",
+      "returned_author_name": "suresha M",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "ravikumar-m",
+      "database_name": "Prof. Ravikumar M.",
+      "department_id": "computer-sciences",
+      "author_id": "EXVKn9QAAAAJ",
+      "returned_author_name": "M RAVIKUMAR",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "vadivelu-a",
+      "database_name": "Dr. Vadivelu A.",
+      "department_id": "economics",
+      "author_id": "ixJdlnsAAAAJ",
+      "returned_author_name": "Vadivelu",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "jagannath-k-dange",
+      "database_name": "Prof. Jagannath K. Dange",
+      "department_id": "education",
+      "author_id": "c72AxmEAAAAJ",
+      "returned_author_name": "Jagannath K Dange",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "rama-prasad-b-v",
+      "database_name": "Prof. Rama Prasad B. V.",
+      "department_id": "english",
+      "author_id": "v6AzUHkAAAAJ",
+      "returned_author_name": "Rama Prasad",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "yogendra-kambalagere",
+      "database_name": "Prof. Yogendra Kambalagere",
+      "department_id": "environmental-science",
+      "author_id": "-TcIYBUAAAAJ",
+      "returned_author_name": "Kambalagere Yogendra",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "hina-kousar",
+      "database_name": "Prof. Hina Kousar",
+      "department_id": "environmental-science",
+      "author_id": "06EIJTQAAAAJ",
+      "returned_author_name": "Hina Kousar",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "krishnamurthy-sv",
+      "database_name": "Prof. S V Krishnamurthy",
+      "department_id": "environmental-science",
+      "author_id": "c5GkfzIAAAAJ",
+      "returned_author_name": "S V Krishnamurthy",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "madhusudhana-n",
+      "database_name": "Dr. Madhusudhana N.",
+      "department_id": "environmental-science",
+      "author_id": "yHgEzXMAAAAJ",
+      "returned_author_name": "Dr. Madhusudhana N",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "rakesh-tiwari",
+      "database_name": "Prof. Rakesh Tiwari",
+      "department_id": "environmental-science",
+      "author_id": "MTpM3HwAAAAJ",
+      "returned_author_name": "Rakesh Tiwari",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "preema-karal-andrade",
+      "database_name": "Dr. Preema Karal Andrade",
+      "department_id": "food-technology",
+      "author_id": "i5lzgHcAAAAJ",
+      "returned_author_name": "Preema Karal Andrade",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "ic-kumaraswamy-be",
+      "database_name": "Kumaraswamy BE",
+      "department_id": "industrial-chemistry",
+      "author_id": "tvVdZQkAAAAJ",
+      "returned_author_name": "Prof.B E Kumara Swamy M.Sc Ph.D. Post Doc (USA)",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "ic-pushpavathi-itte",
+      "database_name": "Pushpavathi Itte",
+      "department_id": "industrial-chemistry",
+      "author_id": "ytd20b0AAAAJ",
+      "returned_author_name": "Dr.Pushpavathi Itte",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "ic-supraja-r-prasad",
+      "database_name": "Ms. Supraja R. Prasad",
+      "department_id": "industrial-chemistry",
+      "author_id": "MrBmQPwAAAAJ",
+      "returned_author_name": "SUPRAJA R PRASAD",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "sathyaprakash-m-r",
+      "database_name": "Prof. Sathyaprakash M. R.",
+      "department_id": "journalism-and-mass-communication",
+      "author_id": "72R0IYIAAAAJ",
+      "returned_author_name": "Sathyaprakash MR",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "thippeswamy-b",
+      "database_name": "Prof. Thippeswamy Basaiah",
+      "department_id": "microbiology",
+      "author_id": "cImYsjoAAAAJ",
+      "returned_author_name": "Dr.Thippeswamy Basaiah M.Sc.,Ph D.,Post Doc.(USA).",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "thippeswamy-nb",
+      "database_name": "Prof. Thippeswamy B Nayaka",
+      "department_id": "microbiology",
+      "author_id": "l6fXh4cAAAAJ",
+      "returned_author_name": "Dr. N B Thippeswamy",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "renuka-kp",
+      "database_name": "Dr. Renuka K Parashuramappa",
+      "department_id": "microbiology",
+      "author_id": "wy1pTBYAAAAJ",
+      "returned_author_name": "Dr.Renuka K.P",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "sowmya-hv",
+      "database_name": "Dr. Sowmya H Veeranna",
+      "department_id": "microbiology",
+      "author_id": "m-TLX7wAAAAJ",
+      "returned_author_name": "Sowmya H.V",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "ravindra-gouda-s-m",
+      "database_name": "Dr. Ravindra Gouda S. M.",
+      "department_id": "physical-education",
+      "author_id": "YS2_n-MAAAAJ",
+      "returned_author_name": "Ravindra Gouda, S.M",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "sudha",
+      "database_name": "Dr. Sudha",
+      "department_id": "physics",
+      "author_id": "FnTT5GUAAAAJ",
+      "returned_author_name": "Dr Sudha",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "uddagatti-venkatesha",
+      "database_name": "Prof. Uddagatti Venkatesha",
+      "department_id": "political-science",
+      "author_id": "QuQfuc0AAAAJ",
+      "returned_author_name": "Uddagatti Venkatesha",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "dileep-kumar",
+      "database_name": "Dr. Dileep Kumar",
+      "department_id": "social-work",
+      "author_id": "L8aP5VwAAAAJ",
+      "returned_author_name": "Dr. Dileep Kumar",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "nataraja-t-chandrappa",
+      "database_name": "Mr. Nataraja T. Chandrappa",
+      "department_id": "tourism",
+      "author_id": "FOLB9awAAAAJ",
+      "returned_author_name": "Nataraja Chandrappa",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "roopa-c",
+      "database_name": "Ms. Roopa Chunchanagiriyappa",
+      "department_id": "wildlife-management",
+      "author_id": "Z0qDJeIAAAAJ",
+      "returned_author_name": "Roopa C",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "sowmya-gr",
+      "database_name": "Mrs. Sowmya R Gandralli",
+      "department_id": "wildlife-management",
+      "author_id": "nAZjyzwAAAAJ",
+      "returned_author_name": "Sowmya G Bhat",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "vijaya-kumara",
+      "database_name": "Prof. Vijaya Kumara",
+      "department_id": "wildlife-management",
+      "author_id": "dyjL1TAAAAAJ",
+      "returned_author_name": "Vijaya kumara",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    },
+    {
+      "id": "harisha-mn",
+      "database_name": "Dr. Harisha M. N.",
+      "department_id": "wildlife-management",
+      "author_id": "688iocAAAAAJ",
+      "returned_author_name": "Harisha M Nijavvalli",
+      "retrieved_at": "2026-11-03T13:37:49+00:00"
+    }
+  ],
+  "scholar_exceptions": [
+    {
+      "id": "jasmine-a",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "narasimha-tb",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "sathisha-am",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "venkatesh",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "apoorva-p",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "sarala-p",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "vikas-r",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "rashmi-dc",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "shrinidhi-k-t-bhandari",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "nehakumari-chandrashekhar",
+      "reason": "Missing metrics table",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kotresh-k-r",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "prathibha-s-konkar",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "anitha-n",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "shivayogeeswar-neelagund",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "rithu-r-revankar",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kumaraswamy-hm",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "shankaramurthy-k",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "ravikumar-s",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "meghana-p-pargi",
+      "reason": "Missing author name for review",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "divakara-r",
+      "reason": "Missing author name for review",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "teenakumari-b-n-keremane",
+      "reason": "Missing metrics table",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "rinakhanum-khabum",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "vinay-b-prasad",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "yeshwant-narayana-rao",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "shilpa-b-c",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "sneha-m-a-anthony",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "chandana-h-p",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kavana-s",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "naveena-l",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "thipperudrappa-e-eshwarappa",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "sangeetha-kempayya",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "ravikumar-s-kumar",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "halaswamy-m-v",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "parameshwara-s-k-naik",
+      "reason": "Missing metrics table",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "govindaraju-kammaragatte-anjaneya",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "deekshith-babu",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "raghavendra-bommannavar",
+      "reason": "Missing metrics table",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "madhu-j-krishnappa",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "balachandra-madiwal",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "vasanthanaik-papanaik",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "shilpa-v",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "vasudha-s-s",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "aditya-j",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "tabassum",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "ananthnag-b",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "arjumand-banu-ss",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "basavarajappa-sh",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "aishwarya-m",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "sachin-s-nayaka",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "nagesha-h-a",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "rakesh-h-s",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "shashank-i",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "ic-vinod-bm",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "ic-vinay-kumar-e",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "ic-bhavani-mh",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "ic-adarsh-gowda-n",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "ic-anusha-hy",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "sathish-kumar",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "varghese-p-a-pulickal",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "jrnl-varnashree-r",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kn-abhijith-b",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kn-maruthi-manjappa-chelavadhi",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kn-ravikumara-d",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kn-rangaswamy-hg",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kn-ashik",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kn-ravi-naik-m",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kn-harish-mn",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kn-prashantha-nayaka",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kn-purushotama-sv",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kn-raghu-sk",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kn-nellikatte-siddesh",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kn-obalesha-t",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "kn-manjunatha-t",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "gowthami-g",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "narasimhamurthy-s-k",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "shilpashree-s-l",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "nayanashree-g",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "thilakashree-k",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "chaitra-kn",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "lokesh-st",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "dhanyakumari",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "c-p-bopanna",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "balakrishna-puttur",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "veda-h-t",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "shanmukha-a",
+      "reason": "Missing metrics table",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "vinutha-s-patil",
+      "reason": "Missing metrics table",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "yogaraja-v-n",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "keerthi-d",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "lakshmi-hosurappa",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "vaishali-b-katke",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "ravi-b-g-shankar",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "chandrashekar-e",
+      "reason": "Missing metrics table",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "anjanappa-b-h",
+      "reason": "Missing metrics table",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "chandrashekhar-s",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "sakamma-s",
+      "reason": "Missing metrics table",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "srikanth-somanna",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "pramod-af",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "raghavendra-gowda-ht",
+      "reason": "Invalid Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "dattatreya-m",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "manjunatha-g-p",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "premkumar-g",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    },
+    {
+      "id": "basavaraja-m-magalda",
+      "reason": "Missing Scholar profile URL",
+      "previous_metrics_retained": false
+    }
+  ],
+  "citation_updated": 101,
+  "citation_exceptions": [
+    {
+      "doi": "10.2139/ssrn.3977795",
+      "status": "failed",
+      "message": "Returned DOI does not match; review required",
+      "previous_entry_retained": false
+    },
+    {
+      "doi": "10.2307/24078517",
+      "status": "not_found",
+      "message": "No exact DOI record returned.",
+      "previous_entry_retained": true
+    }
+  ],
+  "publications_unchanged": 158,
+  "papers_without_doi": 55,
+  "output_blobs": {
+    "data/faculty.json": "823b936397cb5ae87e6a39a830506931f972036d",
+    "data/citation-metrics.json": "3554b950f6c22afb4fdb0a24ed34a874f710d39c"
+  },
+  "notes": [
+    "Only successful validated metrics are mapped. Failed attempts do not replace existing values or become zero.",
+    "Names, photos, identifiers, roles, department assignments and publications are preserved. Returned Scholar author names are retained only inside metric provenance for review.",
+    "Google Scholar profile totals and OpenAlex paper counts remain separate sources.",
+    "Student datasets, the Environmental Science Scholar paper snapshot, and static showcase rankings are not modified.",
+    "No new provider requests are performed."
+  ]
+}

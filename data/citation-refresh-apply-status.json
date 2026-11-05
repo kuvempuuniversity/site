@@ -1,0 +1,92 @@
+{
+  "manifest_sha256": "c3fc17d301be91b1dec6aeffe710afc473ad3bfe71f5aede1249a3673059c830",
+  "applied_at": "2026-11-05T03:18:44+00:00",
+  "retrieved_at": "2026-11-05T03:03:32+00:00",
+  "publications": 723,
+  "unique_dois": 463,
+  "matched_published": 454,
+  "not_found": 3,
+  "failed": 6,
+  "without_doi": 260,
+  "exceptions": [
+    {
+      "doi": "10.2139/ssrn.3977795",
+      "status": "failed",
+      "message": "Returned DOI does not match; review required",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.2307/24078517",
+      "status": "not_found",
+      "message": "No exact DOI record returned.",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.31838/ijpr/2020.12.03.024",
+      "status": "not_found",
+      "message": "No exact DOI record returned.",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.4172/0975-413x.15.2.11-20",
+      "status": "not_found",
+      "message": "No exact DOI record returned.",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.4172/jcsb.1000101",
+      "status": "failed",
+      "message": "Returned DOI does not match; review required",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.5281/zenodo.19329851",
+      "status": "failed",
+      "message": "Returned DOI does not match; review required",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.5281/zenodo.20199145",
+      "status": "failed",
+      "message": "Returned DOI does not match; review required",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.53555/n5zrvw94",
+      "status": "failed",
+      "message": "Returned DOI does not match; review required",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.70333/ijeks-03-07-039",
+      "status": "failed",
+      "message": "Returned DOI does not match; review required",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    }
+  ],
+  "output_blob": "bd39ccf063f6f79ccf42eaf9eaa444a63c733de7",
+  "notes": [
+    "Successful DOI-matched OpenAlex counts are published.",
+    "For unsuccessful lookups, valid prior counts retain their original retrieval dates and latest lookup status is marked unavailable. Otherwise no count is assigned.",
+    "Names, portraits, publications, student datasets, Scholar profile metrics, the Environmental Science Scholar snapshot and static showcase rankings are unchanged.",
+    "No new provider requests are performed."
+  ]
+}

@@ -1,0 +1,1394 @@
+{
+  "all_successful": false,
+  "faculty": {
+    "aditya-j": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0000-9906-3527",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "aishwarya-m": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0004-9549-6746",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "ananthnag-b": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "anitha-n": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0009-5374-4007",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "anjanappa-b-h": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0000-3930-1941",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "apoorva-p": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "arjumand-banu-ss": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "balachandra-madiwal": {
+      "eligible_records": 7,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0004-5921-465X",
+      "retrieved_records": 7,
+      "review_required": false,
+      "status": "success"
+    },
+    "balakrishna-puttur": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0006-2375-814X",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "basavaraja-m-magalda": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "basavarajappa-sh": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "c-p-bopanna": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0008-0642-8282",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "chaitra-kn": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0004-4583-9827",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "chandana-h-p": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "chandrashekar-e": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0006-3166-3159",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "chandrashekhar-s": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "dattatreya-m": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "dayananda-gy": {
+      "eligible_records": 1,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0003-0790-7230",
+      "retrieved_records": 1,
+      "review_required": false,
+      "status": "success"
+    },
+    "deekshith-babu": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0001-5327-1299",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "dhanyakumari": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0007-0801-1272",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "dileep-kumar": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0007-3774-2162",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "divakara-r": {
+      "eligible_records": 9,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0001-7989-1608",
+      "retrieved_records": 9,
+      "review_required": false,
+      "status": "success"
+    },
+    "govindaraju": {
+      "eligible_records": 46,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-0119-4826",
+      "retrieved_records": 47,
+      "review_required": false,
+      "status": "success"
+    },
+    "govindaraju-kammaragatte-anjaneya": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0003-2934-5416",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "gowthami-g": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0004-5031-0063",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "h-s-santosh-kumar": {
+      "eligible_records": 48,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0003-0371-3535",
+      "retrieved_records": 48,
+      "review_required": false,
+      "status": "success"
+    },
+    "halaswamy-m-v": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0007-3505-1587",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "harisha-mn": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Work has conflicting self DOIs; review required",
+      "orcid": "0000-0002-0030-558X",
+      "status": "failed"
+    },
+    "hina-kousar": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-6968-2818",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "ic-adarsh-gowda-n": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "ic-anusha-hy": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0002-9280-5502",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "ic-bhavani-mh": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "0009-0009-5684-3782",
+      "status": "failed"
+    },
+    "ic-kumaraswamy-be": {
+      "eligible_records": 215,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-2433-0739",
+      "retrieved_records": 215,
+      "review_required": false,
+      "status": "success"
+    },
+    "ic-pushpavathi-itte": {
+      "eligible_records": 20,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-4479-2623",
+      "retrieved_records": 21,
+      "review_required": false,
+      "status": "success"
+    },
+    "ic-supraja-r-prasad": {
+      "eligible_records": 2,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0008-9101-4569",
+      "retrieved_records": 2,
+      "review_required": false,
+      "status": "success"
+    },
+    "ic-vinay-kumar-e": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "ic-vinod-bm": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "jagannath-k-dange": {
+      "eligible_records": 2,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-1293-3508",
+      "retrieved_records": 2,
+      "review_required": false,
+      "status": "success"
+    },
+    "jasmine-a": {
+      "eligible_records": 1,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0009-9501-7262",
+      "retrieved_records": 1,
+      "review_required": false,
+      "status": "success"
+    },
+    "jrnl-varnashree-r": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "kavana-s": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "keerthi-d": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0003-1693-3956",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "kn-abhijith-b": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "kn-ashik": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0004-2993-0874",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "kn-harish-mn": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "kn-manjunatha-t": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0005-8485-3274",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "kn-maruthi-manjappa-chelavadhi": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0007-2863-643X",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "kn-nellikatte-siddesh": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0005-3466-1215",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "kn-obalesha-t": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0002-0704-5650",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "kn-prashantha-nayaka": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0001-9941-6588",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "kn-purushotama-sv": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0009-6351-1768",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "kn-raghu-sk": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0004-1822-531X",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "kn-rangaswamy-hg": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0008-0970-8458",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "kn-ravi-naik-m": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0005-4915-3141",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "kn-ravikumara-d": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "kotresh-k-r": {
+      "eligible_records": 14,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-0976-5515",
+      "retrieved_records": 14,
+      "review_required": false,
+      "status": "success"
+    },
+    "krishnamurthy-sv": {
+      "eligible_records": 25,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-0129-2709",
+      "retrieved_records": 25,
+      "review_required": false,
+      "status": "success"
+    },
+    "kumaraswamy-hm": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "lakshmi-hosurappa": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0008-3669-7854",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "lokesh-st": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-5978-2508",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "madhu-j-krishnappa": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0003-1331-0745",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "madhusudhana-n": {
+      "eligible_records": 4,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-8804-6294",
+      "retrieved_records": 4,
+      "review_required": false,
+      "status": "success"
+    },
+    "manjunath-k-rajappa": {
+      "eligible_records": 2,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0001-9863-6781",
+      "retrieved_records": 2,
+      "review_required": false,
+      "status": "success"
+    },
+    "manjunatha-g-p": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "manoj-s-p": {
+      "eligible_records": 11,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0006-3270-8937",
+      "retrieved_records": 11,
+      "review_required": false,
+      "status": "success"
+    },
+    "meghana-p-pargi": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "nagaraja": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-3516-0560",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "nagesha-h-a": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0009-6039-472X",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "narasimha-tb": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0007-0999-6966",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "narasimhamurthy-s-k": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Work has conflicting self DOIs; review required",
+      "orcid": "0009-0003-5077-7758",
+      "status": "failed"
+    },
+    "nataraja-t-chandrappa": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0007-8330-1624",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "naveena-l": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0008-2086-4590",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "nayanashree-g": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0002-3451-490X",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "nehakumari-chandrashekhar": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0003-0600-2939",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "niranjana-pathappa": {
+      "eligible_records": 5,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-7440-3844",
+      "retrieved_records": 5,
+      "review_required": false,
+      "status": "success"
+    },
+    "parameshwara-s-k-naik": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0001-2378-3533",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "pramod-af": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0009-3479-691X",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "prathibha-s-konkar": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0005-5205-3774",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "preema-karal-andrade": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-7509-0341",
+      "retrieved_records": 2,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "premkumar-g": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "pushpavathi-itte": {
+      "eligible_records": 20,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-4479-2623",
+      "retrieved_records": 21,
+      "review_required": false,
+      "status": "success"
+    },
+    "raghavendra-bommannavar": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0005-7198-2966",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "raghavendra-gowda-ht": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0003-4621-1065",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "raghavendra-s-n": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "rakesh-h-s": {
+      "eligible_records": 1,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0009-9101-3643",
+      "retrieved_records": 2,
+      "review_required": false,
+      "status": "success"
+    },
+    "rakesh-tiwari": {
+      "eligible_records": 64,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-2191-769X",
+      "retrieved_records": 70,
+      "review_required": false,
+      "status": "success"
+    },
+    "rama-prasad-b-v": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "rashmi-dc": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "ravi-b-g-shankar": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0001-4455-2021",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "ravikumar-m": {
+      "eligible_records": 5,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0001-5450-7788",
+      "retrieved_records": 5,
+      "review_required": false,
+      "status": "success"
+    },
+    "ravikumar-s": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-1157-9404",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "ravikumar-s-kumar": {
+      "eligible_records": 1,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0003-4362-879X",
+      "retrieved_records": 1,
+      "review_required": false,
+      "status": "success"
+    },
+    "ravindra-gouda-s-m": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0004-1618-3697",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "reena-roy-d": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0004-2726-6076",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "renuka-kp": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0006-2321-7079",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "rinakhanum-khabum": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "rithu-r-revankar": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0006-3200-9327",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "roopa-c": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0002-3122-8764",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "sachin-s-nayaka": {
+      "eligible_records": 1,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0001-9580-4105",
+      "retrieved_records": 1,
+      "review_required": false,
+      "status": "success"
+    },
+    "sakamma-s": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0008-5935-5275",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "sandeep-telkar": {
+      "eligible_records": 45,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0003-3175-051X",
+      "retrieved_records": 45,
+      "review_required": false,
+      "status": "success"
+    },
+    "sangeetha-kempayya": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0008-7316-2680",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "santhosh-k-hanumanthappa": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0003-1448-9364",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "sarala-p": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0007-6644-1692",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "sathish-kumar": {
+      "eligible_records": 1,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0008-3840-2845",
+      "retrieved_records": 1,
+      "review_required": false,
+      "status": "success"
+    },
+    "sathisha-am": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0003-4939-4349",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "sathyaprakash-m-r": {
+      "eligible_records": 3,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0001-9710-4268",
+      "retrieved_records": 3,
+      "review_required": false,
+      "status": "success"
+    },
+    "shankaramurthy-k": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "shanmukha-a": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0006-9336-9692",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "shashank-i": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0009-4528-8152",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "shashikumar-r": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0001-8012-3833",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "shashiraj-kn": {
+      "eligible_records": 71,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0003-4920-6459",
+      "retrieved_records": 71,
+      "review_required": false,
+      "status": "success"
+    },
+    "shilpa-b-c": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "shilpa-v": {
+      "eligible_records": 6,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0000-5484-2682",
+      "retrieved_records": 9,
+      "review_required": false,
+      "status": "success"
+    },
+    "shilpashree-s-l": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0004-1603-7139",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "shivayogeeswar-neelagund": {
+      "eligible_records": 208,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0009-3765-0780",
+      "retrieved_records": 214,
+      "review_required": false,
+      "status": "success"
+    },
+    "shrinidhi-k-t-bhandari": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0002-0863-2435",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "shrishaila": {
+      "eligible_records": 4,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0008-1911-6149",
+      "retrieved_records": 4,
+      "review_required": false,
+      "status": "success"
+    },
+    "shwetha-a": {
+      "eligible_records": 35,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0003-0213-9922",
+      "retrieved_records": 35,
+      "review_required": false,
+      "status": "success"
+    },
+    "sneha-m-a-anthony": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0007-8613-3988",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "sowmya-gr": {
+      "eligible_records": 5,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0002-8315-9932",
+      "retrieved_records": 5,
+      "review_required": false,
+      "status": "success"
+    },
+    "sowmya-hv": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0009-1720-7124",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "srikanth-somanna": {
+      "eligible_records": 7,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-7480-2781",
+      "retrieved_records": 8,
+      "review_required": false,
+      "status": "success"
+    },
+    "sudha": {
+      "eligible_records": 60,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-4590-5765",
+      "retrieved_records": 60,
+      "review_required": false,
+      "status": "success"
+    },
+    "suresha-m": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0003-0668-926X",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "tabassum": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0002-1331-989X",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "talavara-venkatesh": {
+      "eligible_records": 15,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0001-9637-3909",
+      "retrieved_records": 15,
+      "review_required": false,
+      "status": "success"
+    },
+    "teenakumari-b-n-keremane": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0005-4412-4923",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "thilakashree-k": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0002-1381-089X",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "thipperudrappa-e-eshwarappa": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "thippeswamy-b": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-6436-0289",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "thippeswamy-nb": {
+      "eligible_records": 15,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0002-4736-3429",
+      "retrieved_records": 15,
+      "review_required": false,
+      "status": "success"
+    },
+    "uddagatti-venkatesha": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0000-3008-758X",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "vadivelu-a": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0002-1420-8796",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "vaishali-b-katke": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0003-4505-2018",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "vanishree-k": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0000-9239-4921",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "varghese-p-a-pulickal": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0003-5144-0604",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "vasanthanaik-papanaik": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0005-9454-0036",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "vasudha-s-s": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "veda-h-t": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0001-7542-3273",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "venkatesh": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "vijaya-kumara": {
+      "eligible_records": 9,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0003-0853-6435",
+      "retrieved_records": 9,
+      "review_required": false,
+      "status": "success"
+    },
+    "vikas-r": {
+      "eligible_records": 1,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0005-1806-3530",
+      "retrieved_records": 1,
+      "review_required": false,
+      "status": "success"
+    },
+    "vinay-b-prasad": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0005-4878-4275",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "vinutha-s-patil": {
+      "eligible_records": 0,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0009-0009-6941-5523",
+      "retrieved_records": 0,
+      "review_required": false,
+      "status": "no_public_publications"
+    },
+    "yeshwant-narayana-rao": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "yogaraja-v-n": {
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": null,
+      "message": "Invalid ORCID identifier/checksum",
+      "orcid": "",
+      "status": "failed"
+    },
+    "yogendra-kambalagere": {
+      "eligible_records": 37,
+      "last_attempt": "2026-11-05T02:43:02+00:00",
+      "last_success": "2026-11-05T02:43:02+00:00",
+      "message": "",
+      "orcid": "0000-0001-8652-8444",
+      "retrieved_records": 38,
+      "review_required": false,
+      "status": "success"
+    }
+  },
+  "faculty_count": 148,
+  "last_attempt": "2026-11-05T02:43:02+00:00",
+  "publication_count": 723,
+  "schema_version": 1,
+  "successful_faculty": 114,
+  "warnings": [
+    "Review possible duplicate: Coconut’s Bud Rot by Phytophthora palmivora: A Destructive Disease",
+    "Review possible duplicate: Cyanoxanthomycin",
+    "Review possible duplicate: Effect of exposure to sublethal concentrations of sodium cyanide on the carbohydrate metabolism of the indian major carp labeo rohita (hamilton, 1822)",
+    "Review possible duplicate: Integrating Multiple Theories: A Holistic Approach to Knowledge Acquisition for Senior Citizen Teachers"
+  ]
+}

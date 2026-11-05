@@ -1,0 +1,1364 @@
+{
+  "manifest_sha256": "ab2b3542f927765acc5b5892a285e13d1d330059dea4bf2774b4f78dc27e8c0d",
+  "applied_at": "2026-11-05T03:00:32+00:00",
+  "retrieved_at": "2026-11-05T02:43:02+00:00",
+  "old_publication_count": 158,
+  "new_publication_count": 723,
+  "new_record_ids": 565,
+  "faculty_checked": 148,
+  "profiles_with_eligible_works": 38,
+  "profiles_with_no_public_works": 76,
+  "profiles_failed": 34,
+  "unique_dois": 463,
+  "warnings": [
+    "Review possible duplicate: Coconut’s Bud Rot by Phytophthora palmivora: A Destructive Disease",
+    "Review possible duplicate: Cyanoxanthomycin",
+    "Review possible duplicate: Effect of exposure to sublethal concentrations of sodium cyanide on the carbohydrate metabolism of the indian major carp labeo rohita (hamilton, 1822)",
+    "Review possible duplicate: Integrating Multiple Theories: A Holistic Approach to Knowledge Acquisition for Senior Citizen Teachers"
+  ],
+  "profile_results": [
+    {
+      "id": "aditya-j",
+      "database_name": "Mr. Aditya J.",
+      "department_id": "english",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "aishwarya-m",
+      "database_name": "Ms. Aishwarya M.",
+      "department_id": "food-technology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "ananthnag-b",
+      "database_name": "Dr. Ananthnag B.",
+      "department_id": "environmental-science",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "anitha-n",
+      "database_name": "Dr. Anitha N.",
+      "department_id": "biochemistry",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "anjanappa-b-h",
+      "database_name": "Prof. Anjanappa B. H.",
+      "department_id": "sociology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "apoorva-p",
+      "database_name": "Apoorva P",
+      "department_id": "applied-botany",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "arjumand-banu-ss",
+      "database_name": "Dr. Arjumand Banu S.S.",
+      "department_id": "environmental-science",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "balachandra-madiwal",
+      "database_name": "Dr. Balachandra Madiwal",
+      "department_id": "education",
+      "status": "success",
+      "eligible_records": 7,
+      "display_records": 7,
+      "message": ""
+    },
+    {
+      "id": "balakrishna-puttur",
+      "database_name": "Mr. Balakrishna Puttur",
+      "department_id": "physical-education",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "basavaraja-m-magalda",
+      "database_name": "Mr. Basavaraja M. Magalda",
+      "department_id": "physical-education",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "basavarajappa-sh",
+      "database_name": "Dr. Basavarajappa S.H.",
+      "department_id": "environmental-science",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "c-p-bopanna",
+      "database_name": "Mr. C.P Bopanna",
+      "department_id": "physical-education",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "chaitra-kn",
+      "database_name": "Ms. Chaitra K Nagaraj",
+      "department_id": "microbiology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "chandana-h-p",
+      "database_name": "Ms. Chandana H. P.",
+      "department_id": "chemistry",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "chandrashekar-e",
+      "database_name": "Prof. Chandrashekar E.",
+      "department_id": "sociology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "chandrashekhar-s",
+      "database_name": "Prof. Chandrashekhar S.",
+      "department_id": "sociology",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "dattatreya-m",
+      "database_name": "Dattatreya M.",
+      "department_id": "english",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "dayananda-gy",
+      "database_name": "Dr. Dayananda Y Gulladamane",
+      "department_id": "applied-zoology",
+      "status": "success",
+      "eligible_records": 1,
+      "display_records": 1,
+      "message": ""
+    },
+    {
+      "id": "deekshith-babu",
+      "database_name": "Mr. Deekshith Babu",
+      "department_id": "physical-education",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "dhanyakumari",
+      "database_name": "Ms. Dhanyakumari Y",
+      "department_id": "microbiology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "dileep-kumar",
+      "database_name": "Dr. Dileep Kumar",
+      "department_id": "social-work",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "divakara-r",
+      "database_name": "Mr. Divakara R.",
+      "department_id": "biotechnology",
+      "status": "success",
+      "eligible_records": 9,
+      "display_records": 9,
+      "message": ""
+    },
+    {
+      "id": "govindaraju",
+      "database_name": "Prof. Govindaraju",
+      "department_id": "applied-geology",
+      "status": "success",
+      "eligible_records": 46,
+      "display_records": 45,
+      "message": ""
+    },
+    {
+      "id": "govindaraju-kammaragatte-anjaneya",
+      "database_name": "Mr. Govindaraju Kammaragatte Anjaneya",
+      "department_id": "physical-education",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "gowthami-g",
+      "database_name": "Ms. Gowthami G.",
+      "department_id": "mathematics",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "h-s-santosh-kumar",
+      "database_name": "Prof. H. S. Santosh Kumar",
+      "department_id": "biotechnology",
+      "status": "success",
+      "eligible_records": 48,
+      "display_records": 36,
+      "message": ""
+    },
+    {
+      "id": "halaswamy-m-v",
+      "database_name": "Dr. Halaswamy M. V.",
+      "department_id": "economics",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "harisha-mn",
+      "database_name": "Dr. Harisha M. N.",
+      "department_id": "wildlife-management",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Work has conflicting self DOIs; review required"
+    },
+    {
+      "id": "hina-kousar",
+      "database_name": "Prof. Hina Kousar",
+      "department_id": "environmental-science",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "ic-adarsh-gowda-n",
+      "database_name": "Adarsh Gowda N",
+      "department_id": "industrial-chemistry",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "ic-anusha-hy",
+      "database_name": "Ms. Anusha H. Y.",
+      "department_id": "industrial-chemistry",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "ic-bhavani-mh",
+      "database_name": "Ms. Bhavani M. H.",
+      "department_id": "industrial-chemistry",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "ic-kumaraswamy-be",
+      "database_name": "Kumaraswamy BE",
+      "department_id": "industrial-chemistry",
+      "status": "success",
+      "eligible_records": 215,
+      "display_records": 214,
+      "message": ""
+    },
+    {
+      "id": "ic-pushpavathi-itte",
+      "database_name": "Pushpavathi Itte",
+      "department_id": "industrial-chemistry",
+      "status": "success",
+      "eligible_records": 20,
+      "display_records": 19,
+      "message": ""
+    },
+    {
+      "id": "ic-supraja-r-prasad",
+      "database_name": "Ms. Supraja R. Prasad",
+      "department_id": "industrial-chemistry",
+      "status": "success",
+      "eligible_records": 2,
+      "display_records": 2,
+      "message": ""
+    },
+    {
+      "id": "ic-vinay-kumar-e",
+      "database_name": "Vinay Kumar E",
+      "department_id": "industrial-chemistry",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "ic-vinod-bm",
+      "database_name": "Vinod BM",
+      "department_id": "industrial-chemistry",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "jagannath-k-dange",
+      "database_name": "Prof. Jagannath K. Dange",
+      "department_id": "education",
+      "status": "success",
+      "eligible_records": 2,
+      "display_records": 2,
+      "message": ""
+    },
+    {
+      "id": "jasmine-a",
+      "database_name": "Ms. Jasmin A. Arani",
+      "department_id": "applied-botany",
+      "status": "success",
+      "eligible_records": 1,
+      "display_records": 1,
+      "message": ""
+    },
+    {
+      "id": "jrnl-varnashree-r",
+      "database_name": "Varnashree R",
+      "department_id": "journalism-and-mass-communication",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "kavana-s",
+      "database_name": "Ms. Kavana S.",
+      "department_id": "chemistry",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "keerthi-d",
+      "database_name": "Mrs. Keerthi D.",
+      "department_id": "social-work",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "kn-abhijith-b",
+      "database_name": "Mr. Abhijith Basavaraja",
+      "department_id": "kannada",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "kn-ashik",
+      "database_name": "Mr. Ashik Koppa",
+      "department_id": "kannada",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "kn-harish-mn",
+      "database_name": "Mr. Harish Nagarajappa",
+      "department_id": "kannada",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "kn-manjunatha-t",
+      "database_name": "Dr. Manjunatha Thippeswamy",
+      "department_id": "kannada",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "kn-maruthi-manjappa-chelavadhi",
+      "database_name": "Mr. Maruthi Manjappa Chalavadhi",
+      "department_id": "kannada",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "kn-nellikatte-siddesh",
+      "database_name": "Prof. Nellikatte S. Siddesh",
+      "department_id": "kannada",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "kn-obalesha-t",
+      "database_name": "Mr. Obalesha T. Thippaiah",
+      "department_id": "kannada",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "kn-prashantha-nayaka",
+      "database_name": "Prof. Prashantha G. Nayaka",
+      "department_id": "kannada",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "kn-purushotama-sv",
+      "database_name": "Dr. Purushotama Shekharappa Vatigar",
+      "department_id": "kannada",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "kn-raghu-sk",
+      "database_name": "Mr. Raghu K. Shivani",
+      "department_id": "kannada",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "kn-rangaswamy-hg",
+      "database_name": "Mr. Rangaswamy H. G.",
+      "department_id": "kannada",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "kn-ravi-naik-m",
+      "database_name": "Dr. Ravinaik Meetyanaik",
+      "department_id": "kannada",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "kn-ravikumara-d",
+      "database_name": "Ravikumara D",
+      "department_id": "kannada",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "kotresh-k-r",
+      "database_name": "Dr. Kotresh K. R.",
+      "department_id": "biochemistry",
+      "status": "success",
+      "eligible_records": 14,
+      "display_records": 12,
+      "message": ""
+    },
+    {
+      "id": "krishnamurthy-sv",
+      "database_name": "Prof. S V Krishnamurthy",
+      "department_id": "environmental-science",
+      "status": "success",
+      "eligible_records": 25,
+      "display_records": 25,
+      "message": ""
+    },
+    {
+      "id": "kumaraswamy-hm",
+      "database_name": "Kumaraswamy HM",
+      "department_id": "biotechnology",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "lakshmi-hosurappa",
+      "database_name": "Mrs. Lakshmi Hosurappa",
+      "department_id": "social-work",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "lokesh-st",
+      "database_name": "Dr. Lokesh S Thimmappa",
+      "department_id": "microbiology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "madhu-j-krishnappa",
+      "database_name": "Mr. Madhu J. Krishnappa",
+      "department_id": "education",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "madhusudhana-n",
+      "database_name": "Dr. Madhusudhana N.",
+      "department_id": "environmental-science",
+      "status": "success",
+      "eligible_records": 4,
+      "display_records": 4,
+      "message": ""
+    },
+    {
+      "id": "manjunath-k-rajappa",
+      "database_name": "Prof. Manjunath K. Rajappa",
+      "department_id": "business-administration",
+      "status": "success",
+      "eligible_records": 2,
+      "display_records": 2,
+      "message": ""
+    },
+    {
+      "id": "manjunatha-g-p",
+      "database_name": "Manjunatha G. P.",
+      "department_id": "english",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "manoj-s-p",
+      "database_name": "Mr. Manoj S. P.",
+      "department_id": "biochemistry",
+      "status": "success",
+      "eligible_records": 11,
+      "display_records": 10,
+      "message": ""
+    },
+    {
+      "id": "meghana-p-pargi",
+      "database_name": "Dr. Meghana P. Pargi",
+      "department_id": "biotechnology",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "nagaraja",
+      "database_name": "Prof. Nagaraja",
+      "department_id": "applied-zoology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "nagesha-h-a",
+      "database_name": "Dr. Nagesha H. A.",
+      "department_id": "history-and-archaeology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "narasimha-tb",
+      "database_name": "Mr. Narasimha Basamma",
+      "department_id": "applied-botany",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "narasimhamurthy-s-k",
+      "database_name": "Prof. Narasimhamurthy S. K.",
+      "department_id": "mathematics",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Work has conflicting self DOIs; review required"
+    },
+    {
+      "id": "nataraja-t-chandrappa",
+      "database_name": "Mr. Nataraja T. Chandrappa",
+      "department_id": "tourism",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "naveena-l",
+      "database_name": "Dr. Naveena L.",
+      "department_id": "commerce",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "nayanashree-g",
+      "database_name": "Dr. Nayanashree G",
+      "department_id": "microbiology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "nehakumari-chandrashekhar",
+      "database_name": "Ms. Nehakumari Chandrashekhar",
+      "department_id": "biochemistry",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "niranjana-pathappa",
+      "database_name": "Prof. Niranjana Pathappa",
+      "department_id": "biochemistry",
+      "status": "success",
+      "eligible_records": 5,
+      "display_records": 5,
+      "message": ""
+    },
+    {
+      "id": "parameshwara-s-k-naik",
+      "database_name": "Mr. Parameshwara S. K. Naik",
+      "department_id": "economics",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "pramod-af",
+      "database_name": "Dr. Pramod A Francis",
+      "department_id": "wildlife-management",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "prathibha-s-konkar",
+      "database_name": "Mrs. Prathibha S. Konkar",
+      "department_id": "biochemistry",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "preema-karal-andrade",
+      "database_name": "Dr. Preema Karal Andrade",
+      "department_id": "food-technology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "premkumar-g",
+      "database_name": "Premkumar G.",
+      "department_id": "english",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "pushpavathi-itte",
+      "database_name": "Dr. Pushpavathi Itte",
+      "department_id": "chemistry",
+      "status": "success",
+      "eligible_records": 20,
+      "display_records": 19,
+      "message": ""
+    },
+    {
+      "id": "raghavendra-bommannavar",
+      "database_name": "Dr. Raghavendra Bommannavar",
+      "department_id": "education",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "raghavendra-gowda-ht",
+      "database_name": "Dr. Raghavendra Haluvalli T Gowda",
+      "department_id": "wildlife-management",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "raghavendra-s-n",
+      "database_name": "Dr. Raghavendra S. N.",
+      "department_id": "biochemistry",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "rakesh-h-s",
+      "database_name": "Dr. Rakesh H. S.",
+      "department_id": "history-and-archaeology",
+      "status": "success",
+      "eligible_records": 1,
+      "display_records": 1,
+      "message": ""
+    },
+    {
+      "id": "rakesh-tiwari",
+      "database_name": "Prof. Rakesh Tiwari",
+      "department_id": "environmental-science",
+      "status": "success",
+      "eligible_records": 64,
+      "display_records": 23,
+      "message": ""
+    },
+    {
+      "id": "rama-prasad-b-v",
+      "database_name": "Prof. Rama Prasad B. V.",
+      "department_id": "english",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "rashmi-dc",
+      "database_name": "Ms. Rashmi D. C.",
+      "department_id": "applied-botany",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "ravi-b-g-shankar",
+      "database_name": "Dr. RAVI B. G. Shankar",
+      "department_id": "social-work",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "ravikumar-m",
+      "database_name": "Prof. Ravikumar M.",
+      "department_id": "computer-sciences",
+      "status": "success",
+      "eligible_records": 5,
+      "display_records": 5,
+      "message": ""
+    },
+    {
+      "id": "ravikumar-s",
+      "database_name": "Dr. Ravi S. Kumar",
+      "department_id": "biotechnology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "ravikumar-s-kumar",
+      "database_name": "Dr. Ravikumar S. Kumar",
+      "department_id": "economics",
+      "status": "success",
+      "eligible_records": 1,
+      "display_records": 1,
+      "message": ""
+    },
+    {
+      "id": "ravindra-gouda-s-m",
+      "database_name": "Dr. Ravindra Gouda S. M.",
+      "department_id": "physical-education",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "reena-roy-d",
+      "database_name": "Dr. Reena Roy D.",
+      "department_id": "applied-botany",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "renuka-kp",
+      "database_name": "Dr. Renuka K Parashuramappa",
+      "department_id": "microbiology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "rinakhanum-khabum",
+      "database_name": "Dr. Rinakhanum Khabum",
+      "department_id": "business-administration",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "rithu-r-revankar",
+      "database_name": "Ms. Rithu R. Revankar",
+      "department_id": "biochemistry",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "roopa-c",
+      "database_name": "Ms. Roopa Chunchanagiriyappa",
+      "department_id": "wildlife-management",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "sachin-s-nayaka",
+      "database_name": "Dr. Sachin S. Nayaka",
+      "department_id": "food-technology",
+      "status": "success",
+      "eligible_records": 1,
+      "display_records": 1,
+      "message": ""
+    },
+    {
+      "id": "sakamma-s",
+      "database_name": "Mrs. Sakamma S.",
+      "department_id": "tourism",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "sandeep-telkar",
+      "database_name": "Dr. Sandeep Telkar",
+      "department_id": "biotechnology",
+      "status": "success",
+      "eligible_records": 45,
+      "display_records": 44,
+      "message": ""
+    },
+    {
+      "id": "sangeetha-kempayya",
+      "database_name": "Mrs. Sangeetha Kempayya",
+      "department_id": "economics",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "santhosh-k-hanumanthappa",
+      "database_name": "Dr. Santhosh K. Hanumanthappa",
+      "department_id": "biotechnology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "sarala-p",
+      "database_name": "Dr. Sarala Parameshwarappa",
+      "department_id": "applied-botany",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "sathish-kumar",
+      "database_name": "Prof. Sathish Kumar",
+      "department_id": "journalism-and-mass-communication",
+      "status": "success",
+      "eligible_records": 1,
+      "display_records": 1,
+      "message": ""
+    },
+    {
+      "id": "sathisha-am",
+      "database_name": "Dr. Sathisha A. M. Jagra",
+      "department_id": "applied-botany",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "sathyaprakash-m-r",
+      "database_name": "Prof. Sathyaprakash M. R.",
+      "department_id": "journalism-and-mass-communication",
+      "status": "success",
+      "eligible_records": 3,
+      "display_records": 3,
+      "message": ""
+    },
+    {
+      "id": "shankaramurthy-k",
+      "database_name": "Dr. Shankar Murthy K.",
+      "department_id": "biotechnology",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "shanmukha-a",
+      "database_name": "Prof. Shanmukha A.",
+      "department_id": "political-science",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "shashank-i",
+      "database_name": "Mr. Shashank I.",
+      "department_id": "history-and-archaeology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "shashikumar-r",
+      "database_name": "Dr. Shashi R. Kumar",
+      "department_id": "biotechnology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "shashiraj-kn",
+      "database_name": "Dr. Shashiraj K. N.",
+      "department_id": "applied-botany",
+      "status": "success",
+      "eligible_records": 71,
+      "display_records": 40,
+      "message": ""
+    },
+    {
+      "id": "shilpa-b-c",
+      "database_name": "Ms. Shilpa B. C.",
+      "department_id": "business-administration",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "shilpa-v",
+      "database_name": "Dr. Shilpa V.",
+      "department_id": "education",
+      "status": "success",
+      "eligible_records": 6,
+      "display_records": 6,
+      "message": ""
+    },
+    {
+      "id": "shilpashree-s-l",
+      "database_name": "Ms. Shilpashree S. L.",
+      "department_id": "mathematics",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "shivayogeeswar-neelagund",
+      "database_name": "Prof. Shivayogeeswar Neelagund",
+      "department_id": "biochemistry",
+      "status": "success",
+      "eligible_records": 208,
+      "display_records": 62,
+      "message": ""
+    },
+    {
+      "id": "shrinidhi-k-t-bhandari",
+      "database_name": "Mr. Shrinidhi K. T. Bhandari",
+      "department_id": "biochemistry",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "shrishaila",
+      "database_name": "Dr. Shrishail H. C.",
+      "department_id": "applied-botany",
+      "status": "success",
+      "eligible_records": 4,
+      "display_records": 4,
+      "message": ""
+    },
+    {
+      "id": "shwetha-a",
+      "database_name": "Dr. Shwetha Alavandi",
+      "department_id": "applied-zoology",
+      "status": "success",
+      "eligible_records": 35,
+      "display_records": 34,
+      "message": ""
+    },
+    {
+      "id": "sneha-m-a-anthony",
+      "database_name": "Ms. Sneha M. A. Anthony",
+      "department_id": "chemistry",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "sowmya-gr",
+      "database_name": "Mrs. Sowmya R Gandralli",
+      "department_id": "wildlife-management",
+      "status": "success",
+      "eligible_records": 5,
+      "display_records": 4,
+      "message": ""
+    },
+    {
+      "id": "sowmya-hv",
+      "database_name": "Dr. Sowmya H Veeranna",
+      "department_id": "microbiology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "srikanth-somanna",
+      "database_name": "Mr. Srikanth Somanna",
+      "department_id": "tourism",
+      "status": "success",
+      "eligible_records": 7,
+      "display_records": 7,
+      "message": ""
+    },
+    {
+      "id": "sudha",
+      "database_name": "Dr. Sudha",
+      "department_id": "physics",
+      "status": "success",
+      "eligible_records": 60,
+      "display_records": 48,
+      "message": ""
+    },
+    {
+      "id": "suresha-m",
+      "database_name": "Dr. Suresha M.",
+      "department_id": "computer-sciences",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "tabassum",
+      "database_name": "Dr. Tabassum",
+      "department_id": "english",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "talavara-venkatesh",
+      "database_name": "Dr. Talavara Venkatesh",
+      "department_id": "chemistry",
+      "status": "success",
+      "eligible_records": 15,
+      "display_records": 14,
+      "message": ""
+    },
+    {
+      "id": "teenakumari-b-n-keremane",
+      "database_name": "Ms. Teenakumari B. N. Keremane",
+      "department_id": "business-administration",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "thilakashree-k",
+      "database_name": "Ms. Thilakashree Krishnamurthy",
+      "department_id": "microbiology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "thipperudrappa-e-eshwarappa",
+      "database_name": "Dr. Thipperudrappa E Eshwarappa",
+      "department_id": "economics",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "thippeswamy-b",
+      "database_name": "Prof. Thippeswamy Basaiah",
+      "department_id": "microbiology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "thippeswamy-nb",
+      "database_name": "Prof. Thippeswamy B Nayaka",
+      "department_id": "microbiology",
+      "status": "success",
+      "eligible_records": 15,
+      "display_records": 15,
+      "message": ""
+    },
+    {
+      "id": "uddagatti-venkatesha",
+      "database_name": "Prof. Uddagatti Venkatesha",
+      "department_id": "political-science",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "vadivelu-a",
+      "database_name": "Dr. Vadivelu A.",
+      "department_id": "economics",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "vaishali-b-katke",
+      "database_name": "Dr. Vaishali B. Katke",
+      "department_id": "social-work",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "vanishree-k",
+      "database_name": "Dr. Vanishree K.",
+      "department_id": "business-administration",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "varghese-p-a-pulickal",
+      "database_name": "Prof. Varghese P. A. Pulickal",
+      "department_id": "journalism-and-mass-communication",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "vasanthanaik-papanaik",
+      "database_name": "Dr. Vasanthanaik Papanaik",
+      "department_id": "physical-education",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "vasudha-s-s",
+      "database_name": "Ms. Vasudha S. S.",
+      "department_id": "physical-education",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "veda-h-t",
+      "database_name": "Ms. Veda H. T.",
+      "department_id": "physics",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "venkatesh",
+      "database_name": "Mr. Venkatesh Jugal",
+      "department_id": "applied-botany",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "vijaya-kumara",
+      "database_name": "Prof. Vijaya Kumara",
+      "department_id": "wildlife-management",
+      "status": "success",
+      "eligible_records": 9,
+      "display_records": 9,
+      "message": ""
+    },
+    {
+      "id": "vikas-r",
+      "database_name": "Mr. Vikas R.",
+      "department_id": "applied-botany",
+      "status": "success",
+      "eligible_records": 1,
+      "display_records": 1,
+      "message": ""
+    },
+    {
+      "id": "vinay-b-prasad",
+      "database_name": "Mr. Vinay B. Prasad",
+      "department_id": "business-administration",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "vinutha-s-patil",
+      "database_name": "Dr. Vinutha S. Patil",
+      "department_id": "political-science",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "yeshwant-narayana-rao",
+      "database_name": "Dr. Yeshwant Narayana Rao",
+      "department_id": "business-administration",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "yogaraja-v-n",
+      "database_name": "Dr. Yogaraja V. N.",
+      "department_id": "political-science",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "yogendra-kambalagere",
+      "database_name": "Prof. Yogendra Kambalagere",
+      "department_id": "environmental-science",
+      "status": "success",
+      "eligible_records": 37,
+      "display_records": 29,
+      "message": ""
+    }
+  ],
+  "output_blobs": {
+    "data/publications.json": "13e00689d6c4f962c5f278b2f32f0a577b0efa4a",
+    "data/publication-sync-status.json": "55e83633c93baff8d46af0af7696b03f9ce60f4d"
+  },
+  "notes": [
+    "Fresh ORCID records and their matching status are published together.",
+    "All names, portraits, identifiers, profile roles and Scholar metrics are unchanged.",
+    "Shared DOI records link to multiple profiles without duplicating the publication.",
+    "Failed profiles retain previous ORCID records. No failure becomes a zero-publication claim.",
+    "No new provider calls, citation refreshes, student-only extractions or showcase ranking changes are performed. New DOI citation counts require a subsequent audit."
+  ]
+}

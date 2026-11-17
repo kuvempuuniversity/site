@@ -1,0 +1,68 @@
+name: Update Rakshit Hosamani biography
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/update-rakshit-biography.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: update-rakshit-biography
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Replace only the approved biography
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import copy
+          import json
+          import re
+          from pathlib import Path
+          path = Path('data/research-students.json')
+          original = path.read_text(encoding='utf-8')
+          before = json.loads(original)
+          profile_id = 'rakshit-g-hosamani'
+          matches = [s for s in before['students'] if s.get('id') == profile_id]
+          assert len(matches) == 1, 'Expected exactly one matching profile'
+          student = matches[0]
+          assert student.get('department_id') == 'environmental-science', 'Department mismatch'
+          assert 'rakshit' in student.get('name', '').lower() and 'hosamani' in student.get('name', '').lower(), 'Name mismatch'
+          bio = 'As a researcher, I study both natural ecosystems and environmental remediation, focusing on the degradation of harmful chemicals in industrial effluents using approaches such as synthesized nanoparticles. While the latter is part of my PhD project, I am also actively involved in research spanning ornithology, wildlife management, plant ecophysiology, and photosynthetic heat sensitivity. My field campaigns have covered the expanse of the Central Western Ghats, from Goa to the Bhadra region. Additionally, I actively organise bird and nature walks both on and off campus.'
+          starts = list(re.finditer(r'\{\s*"id"\s*:\s*"rakshit-g-hosamani"', original))
+          assert len(starts) == 1, 'Unexpected record layout; no changes written'
+          start = starts[0].start()
+          record, length = json.JSONDecoder().raw_decode(original[start:])
+          assert record == student, 'Record mismatch'
+          block = original[start:start + length]
+          pattern = r'("biography"\s*:\s*)("(?:[^"\\]|\\.)*")'
+          fields = list(re.finditer(pattern, block))
+          assert len(fields) == 1, 'Expected exactly one biography field'
+          field = fields[0]
+          replacement = json.dumps(bio, ensure_ascii=False)
+          updated_block = block[:field.start(2)] + replacement + block[field.end(2):]
+          updated = original[:start] + updated_block + original[start + length:]
+          expected = copy.deepcopy(before)
+          next(s for s in expected['students'] if s.get('id') == profile_id)['biography'] = bio
+          assert json.loads(updated) == expected, 'Unexpected data changes; aborting'
+          if updated != original:
+              path.write_text(updated, encoding='utf-8')
+          print(json.dumps({'profile_id': profile_id, 'changed': updated != original, 'student_count': len(before['students']), 'validated': True}))
+          PY
+      - name: Commit the single-field change if needed
+        shell: bash
+        run: |
+          if git diff --quiet -- data/research-students.json; then
+            echo 'Biography already matches; no commit needed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/research-students.json
+          git commit -m 'Update Rakshit Hosamani biography only'
+          git push origin HEAD:main

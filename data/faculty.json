@@ -681,16 +681,24 @@
     {
       "id": "kumaraswamy-hm",
       "name": "Kumaraswamy HM",
-      "designation": "",
+      "designation": "Professor",
       "department": "Biotechnology",
       "department_id": "biotechnology",
-      "email": "",
-      "research_interests": "Information to be added.",
-      "biography": "Profile information will be added here.",
-      "orcid": "",
-      "scholar_url": "",
+      "email": "drhmklab@gmail.com",
+      "research_interests": "Chemoresistance, Cancer cell signaling, Cancer trophy, Natural Products, Integrated omics.",
+      "biography": "My research focuses on pancreatic cancer biology, molecular mechanisms of chemoresistance and the development of natural-product-based therapeutics, particularly involving DNA Damage Response (DDR) and ATM-mediated pathways. My laboratory has established nicotine-induced and gemcitabine-induced chemoresistant pancreatic cancer models to investigate epithelial–mesenchymal transition (EMT), drug resistance and metastatic characteristics.\n\nA major area of my research is the identification and characterisation of bioactive compounds from wild edible and medicinal plants of the Western Ghats and their potential applications as anticancer agents and natural chemosensitizers. My group has demonstrated the chemosensitizing potential of embelin against nicotine-induced EMT and gemcitabine resistance through the modulation of hENT1/RRM1-associated mechanisms. Other significant contributions include the development of embelin-functionalised ZnO nanomaterials for inducing DNA damage and apoptosis in pancreatic cancer and the investigation of the nutraceutical and anticancer properties of Garcinia talbotii.\n\nI have published more than 50 research papers in reputed international journals and contributed three Elsevier book chapters on deep learning and multi-omics applications in precision medicine. My research has been supported by UGC, DST-SERB, DST-WOSA, VGST, ICMR and ANRF-PAIR. I am actively involved in postgraduate teaching in Biotechnology and Bioinformatics. I have guided five Ph.D. scholars as supervisor and three as co-guide, in addition to mentoring approximately 80 M.Sc. research projects. I am currently guiding four Ph.D. scholars as supervisor, four as co-guide and one CSIR Research Associate. My contributions have been recognised with the Young Investigator Award of the American Pancreatic Association (2014) and the VGST Young Scientist Award (2017). I am a life member of the Society of Biological Chemists, the Indian Association for Cancer Research and the Association of Food Scientists and Technologists (India).",
+      "orcid": "0000-0003-4114-6500",
+      "scholar_url": "https://scholar.google.com/citations?user=sa1Sm-YAAAAJ&hl=en",
       "photo": "bt-kumaraswamy-hm.png",
-      "personal_website": ""
+      "personal_website": "",
+      "academic_journey": "PDF (USA) 2013-14, PhD 2008 Biotechnology Kuvempu University, MSc (2004) in Biotechnology Kuvempu University, BSc (2002) Sringeri.",
+      "modules_taught": [
+        "Animal Biotechnology",
+        "Medical Biotechnology",
+        "Genetic Engineering"
+      ],
+      "linkedin_url": "https://www.linkedin.com/in/dr-kumara-swamy-h-m-69ab9643/",
+      "teaches": true
     },
     {
       "id": "shankaramurthy-k",
@@ -2076,9 +2084,9 @@
       "name": "Kumaraswamy BE",
       "department_id": "industrial-chemistry",
       "department": "Industrial Chemistry",
-      "biography": "Profile information will be added here.",
-      "research_interests": "Information to be added.",
-      "designation": "Position to be added.",
+      "biography": "My research focuses on electrochemistry, cyclic voltammetry, and the development of advanced electrochemical sensors and biosensors using modified carbon paste electrodes and nanomaterials. Contributions include investigating the redox behaviour of biologically, pharmaceutically, and environmentally important compounds to bridge fundamental science with real-world sensing applications. Scholarly outputs comprise over 400 research publications, more than 13,000 citations, and an h-index of 63, alongside guiding numerous doctoral scholars in advanced electroanalytical research.",
+      "research_interests": "Electrochemical sensors, Modified electrodes, Material synthesis.",
+      "designation": "Senior Professor",
       "photo": "ic-kumaraswamy-be.png",
       "orcid": "0000-0002-2433-0739",
       "scholar_url": "https://scholar.google.com/citations?user=tvVdZQkAAAAJ&hl=en",
@@ -2095,7 +2103,18 @@
         "retrieved_at": "2026-11-03T13:37:49+00:00",
         "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
-      }
+      },
+      "email": "bek@kuvempu.ac.in",
+      "academic_journey": "Post -doc USA(2006), PhD in Electrochemical sensor(2003), MSc in Industrial chemistry(1997), BSc In PCM (1995)",
+      "modules_taught": [
+        "Electrochemistry Polymer",
+        "Chemistry",
+        "Industrial Chemistry",
+        "Electroanalytical Techniques",
+        "Materials and Nanochemistry"
+      ],
+      "linkedin_url": "https://www.linkedin.com/in/kumara-swamy-6799966a/",
+      "teaches": true
     },
     {
       "id": "ic-vinod-bm",
@@ -2112,10 +2131,19 @@
       "name": "Vinay Kumar E",
       "department_id": "industrial-chemistry",
       "department": "Industrial Chemistry",
-      "biography": "Profile information will be added here.",
-      "research_interests": "Information to be added.",
-      "designation": "Position to be added.",
-      "photo": "ic-vinay-kumar-e.png"
+      "biography": "My research expertise lies in the green synthesis and characterization of metal oxide, sulfide, and vanadate nanomaterials for advanced energy storage applications including lithium-ion battery anodes as well as photocatalysis, electrochemical sensing, and supercapacitors.",
+      "research_interests": "Material Science, sensors, super capacitors, photocatalytic dye degradation, Li-ion batteries",
+      "designation": "Guest faculty",
+      "photo": "ic-vinay-kumar-e.png",
+      "email": "vinivinay704@gmail.com",
+      "orcid": "0009-0009-1211-8640",
+      "academic_journey": "PhD in Industrial Chemistry (2025), MSc in General chemistry (2016), BSc in PCM (2012)",
+      "modules_taught": [
+        "Inorganic chemistry",
+        "Analytical chemistry"
+      ],
+      "teaches": true,
+      "phd_supervisor": "Dr. Anitha"
     },
     {
       "id": "ic-bhavani-mh",
@@ -2169,10 +2197,19 @@
       "name": "Adarsh Gowda N",
       "department_id": "industrial-chemistry",
       "department": "Industrial Chemistry",
-      "biography": "Profile information will be added here.",
-      "research_interests": "Information to be added.",
-      "designation": "Position to be added.",
-      "photo": "ic-adarsh-gowda-n.png"
+      "biography": "My research focuses on the synthesis, characterization, and application of metal ferrite-based nanomaterials for photocatalytic degradation of organic pollutants. I am particularly interested in exploring the photocatalytic properties of metal ferrites for efficient environmental remediation and wastewater treatment. My work also involves investigating the structure–property relationships and optimizing photocatalytic performance under light irradiation.",
+      "research_interests": "Nano chemistry, Photodegradation, Green chemistry, Photocatalysis.",
+      "designation": "Guest faculty",
+      "photo": "ic-adarsh-gowda-n.png",
+      "email": "adarshic2021@gmail.com",
+      "orcid": "0000-0002-1081-5321",
+      "academic_journey": "PhD in Industrial Chemistry (2025), MSc in Industrial Chemistry(2018), BSc in Chemistry, Zoology, Microbiology (2016).",
+      "modules_taught": [
+        "Inorganic chemistry",
+        "Organic chemistry"
+      ],
+      "teaches": true,
+      "phd_supervisor": "Prof. H S Bhojya Naik"
     },
     {
       "id": "ic-supraja-r-prasad",
@@ -3611,20 +3648,177 @@
       "photo": "pe-basavaraja-magalda.png"
     },
     {
-      "id": "zo-bhargavi-h",
-      "name": "Bhargavi H.",
-      "department_id": "applied-zoology",
-      "department": "Applied Zoology",
-      "biography": "Will be updated",
-      "photo": "zo-bhargavi-h.png"
-    },
-    {
       "id": "zo-chandrakala",
       "name": "Chandrakala",
       "department_id": "applied-zoology",
       "department": "Applied Zoology",
       "biography": "Will be updated",
       "photo": "zo-chandrakala.png"
+    },
+    {
+      "id": "zo-bhargavi-h",
+      "name": "Bhargavi H.",
+      "department_id": "applied-zoology",
+      "department": "Applied Zoology",
+      "biography": "Will be updated",
+      "email": "bhagi886@gmail.com",
+      "orcid": "0009-0000-9925-5473",
+      "research_interests": "Human Molecular Genetics, Genetic Diversity, Bioinformatics, Neuro- Genetics.",
+      "academic_journey": "MSc in Applied Zoology Kuvempu University College (2017), BSc (2016) IndraGandi College.",
+      "modules_taught": [
+        "Cell-Biology",
+        "Advance Genetics",
+        "Biostatistics",
+        "Biosystematics",
+        "Chordates-Non chordates",
+        "Entamology"
+      ],
+      "designation": "Guest faculty",
+      "teaches": true,
+      "phd_supervisor": "Prof. Nagaraja",
+      "photo": "zo-bhargavi-h.png"
+    },
+    {
+      "id": "yadav-d-bodke",
+      "name": "Yadav D. Bodke",
+      "department_id": "chemistry",
+      "department": "Chemistry",
+      "biography": "Will be updated",
+      "email": "ydbodke@gmail.com",
+      "orcid": "0000-0003-2851-3492",
+      "research_interests": "Synthetic Organic Chemistry, Medicinal Chemistry, Natural Products.",
+      "academic_journey": "PhD in Organic Chemistry from Gulbarga University (2004), MSc in Organic Chemistry from Gulbarga University (1997), BSc in PCM from Gulbarga University (1994).",
+      "modules_taught": [
+        "Organic chemistry",
+        "Spectroscopy",
+        "Reaction Mechanism"
+      ],
+      "scholar_url": "https://scholar.google.com/citations?user=EaMAasgAAAAJ&hl=en",
+      "linkedin_url": "https://www.linkedin.com/in/yadav-bodke-21109a19",
+      "designation": "Professor",
+      "teaches": true,
+      "last_name": "Bodke"
+    },
+    {
+      "id": "paveendra-j",
+      "name": "Paveendra J.",
+      "department_id": "chemistry",
+      "department": "Chemistry",
+      "biography": "My work focuses on organic synthesis, heterocyclic chemistry, and the development of novel biologically active compounds, particularly benzoxazole derivatives with potential antitumor applications. My research interests include solvent-free synthesis, Schiff base chemistry, catalytic organic transformations, and structural characterization using FT-IR, NMR, and mass spectrometry. Alongside teaching and mentoring postgraduate Chemistry students, I promote research-oriented learning, innovative teaching methodologies, and practical laboratory-based education. I am also interested in advancing Chemistry education, curriculum development, and simplifying complex scientific concepts through effective teaching and research practices.",
+      "email": "paveendra.j@gmail.com",
+      "orcid": "0009-0006-5583-838X",
+      "research_interests": "Heterocyclic chemistry",
+      "academic_journey": "PhD in Chemistry(2026), MSc in Chemistry, BSc in Botany, Chemistry and Biotechnology (2007).",
+      "modules_taught": [
+        "Organic chemistry",
+        "Physical chemistry",
+        "Analytical chemistry",
+        "Inorganic chemistry"
+      ],
+      "linkedin_url": "https://www.linkedin.com/in/paveendra",
+      "designation": "Guest faculty",
+      "teaches": true,
+      "phd_supervisor": "Prof. H M Vagdevi",
+      "last_name": "J."
+    },
+    {
+      "id": "yathisha-r-o",
+      "name": "Yathisha R. O.",
+      "department_id": "chemistry",
+      "department": "Chemistry",
+      "biography": "My research focuses on the synthesis, characterization, and application of nanomaterials and nanoparticles, with particular emphasis on solar energy conversion, dye-sensitized solar cells (DSSCs), and electrochemistry. My research interests include the development of advanced nanomaterials for renewable energy applications, electrochemical studies, and improving the performance of solar cell technologies. Alongside my research activities, I am actively involved in teaching, curriculum development, and mentoring postgraduate students in their research projects.",
+      "email": "yathisharo89@gmail.com",
+      "orcid": "0009-0007-6207-766X",
+      "research_interests": "Nanomaterials and nanoparticles, solar cells, dye sensitized solar cells and electrochemistry.",
+      "academic_journey": "PhD in chemistry (2020), MSc in chemistry (2013), BSc in PCM (2011).",
+      "modules_taught": [
+        "Analytical chemistry",
+        "Physical chemistry",
+        "inorganic chemistry"
+      ],
+      "designation": "Guest faculty",
+      "teaches": true,
+      "phd_supervisor": "Prof. Y Arthoba Nayaka",
+      "last_name": "R. O."
+    },
+    {
+      "id": "sharath-kumar-b",
+      "name": "Sharath Kumar B.",
+      "department_id": "chemistry",
+      "department": "Chemistry",
+      "biography": "I am a researcher specialized in the synthesis, development, and characterization of advanced nanomaterials for energy storage applications. My research focuses on carbon-based nanomaterials, and hybrid nanostructures for applications in supercapacitors and redox flow batteries. I have expertise in various synthesis techniques, including hydrothermal synthesis and in-situ polymerization, along with electrochemical and physicochemical characterization techniques. My research aims to develop efficient, stable, and cost-effective nanomaterials for next-generation energy storage and conversion technologies.",
+      "email": "s14sharath@gmail.com",
+      "orcid": "0009-0006-9137-0550",
+      "research_interests": "Development of Nanostructure materials for energy storage devises which includes redox flow batteries and super capacitors",
+      "academic_journey": "PhD in chemistry (2026), MSc in chemistry (2020), BSc in PCM (2018).",
+      "modules_taught": [
+        "Physical and analytical chemistry"
+      ],
+      "scholar_url": "https://scholar.google.com/citations?user=Aw2U5WQAAAAJ&hl=en",
+      "linkedin_url": "https://www.linkedin.com/in/dr-sharath-kumar-b-6b271a194/",
+      "designation": "Guest faculty",
+      "teaches": true,
+      "phd_supervisor": "Prof. Y Arthoba Nayaka",
+      "last_name": "B."
+    },
+    {
+      "id": "ic-vinoda-b-m",
+      "name": "Vinoda B. M.",
+      "department_id": "industrial-chemistry",
+      "department": "Industrial Chemistry",
+      "biography": "Accomplished academician and researcher in the field of Chemistry, specializing in Industrial Chemistry. Holds a Ph.D. in Chemistry, with research focused on the synthesis of heterocyclic compounds using modified montmorillonite clay as a catalyst and evaluation of their biological activities.\n\nCurrently serving as a Lecturer in the Department of Chemistry at Sahyadri Science (Autonomous) College, Shivamogga, Karnataka. Research interests include clay minerals, synthesis and characterization of bioactive heterocyclic compounds, antimicrobial studies, nanomaterials, and environmental remediation.\n\nResearch contributions include several publications in reputed international journals covering organic synthesis, catalysis, antimicrobial activity, adsorption studies, and photocatalytic degradation of toxic dyes. Significant research work has been carried out on Fe(III)-montmorillonite as an efficient heterogeneous catalyst for organic synthesis and as an adsorbent for environmental applications.\n\nHas participated in several national and international conferences and seminars related to medicinal chemistry, green chemistry, nanoscience, material science, and environmental research.\n\nAcademic and research expertise includes chemical synthesis, characterization techniques, evaluation of biological activities, and environmental applications of nanomaterials. Demonstrates strong commitment to teaching, research, academic development, and promoting scientific knowledge among students.",
+      "email": "vinodbm.bm@gmail.com",
+      "orcid": "0009-0005-7262-882X",
+      "research_interests": "Organic Synthesis, Nanoparticles Synthesis, Biological Activities, Catalytic Organic Synthesis, Green Chemistry.",
+      "academic_journey": "PhD, (2017) Kuvempu University, MSc,(2010) Industrial Chemistry Kuvempu University, BSc ICCM(2008) Shayadri Science college.",
+      "modules_taught": [
+        "Analytical chemistry",
+        "Organic Chemistry",
+        "Inorganic Chemistry"
+      ],
+      "scholar_url": "https://scholar.google.com/citations?user=gliqOmcAAAAJ&hl=en",
+      "designation": "Guest faculty",
+      "teaches": true,
+      "last_name": "B. M."
+    },
+    {
+      "id": "sandeep-dongre",
+      "name": "Sandeep Dongre",
+      "department_id": "physics",
+      "department": "Physics",
+      "biography": "Will be updated",
+      "email": "sandyphysics53@gmail.com",
+      "orcid": "0000-0001-7484-3180",
+      "research_interests": "Nuclear Physics, Environmental Radio activity, Radon/Thoron studies, Polymer Studies",
+      "academic_journey": "PhD in Nuclear Physics from Kuvempu University (2025), MSc in Physics from Kuvempu University (2016), BSc in PCM GFGC kadur(2014)",
+      "modules_taught": [
+        "Classical Mechanics",
+        "Nuclear Physics"
+      ],
+      "scholar_url": "https://scholar.google.com/citations?user=fNx2-8MAAAAJ&hl=en",
+      "linkedin_url": "https://www.linkedin.com/in/dr-sandeep-dongre-882750421",
+      "designation": "Guest faculty",
+      "teaches": true,
+      "last_name": "Dongre"
+    },
+    {
+      "id": "pradeepa-m",
+      "name": "Pradeepa M.",
+      "department_id": "physics",
+      "department": "Physics",
+      "biography": "To work with full strength in dynamic organization which provided new challenges that help to add value to the organization and the individuals seeking a challenging career to value on time performance where i can enhance my working skills, strength and experience which helps archiving target.",
+      "email": "pradeeppalegar47@gmail.com",
+      "orcid": "0009-0004-8463-420X",
+      "research_interests": "Solid State Physics",
+      "academic_journey": "MSc in Physics (2012), BEd (2013), BSc in PCM (2010)",
+      "modules_taught": [
+        "Classical Electrodynamics",
+        "Elements of Nuclear and particle Physics"
+      ],
+      "designation": "Assistant Professor",
+      "teaches": true,
+      "phd_supervisor": "Dr. Devidas G B",
+      "last_name": "M."
     }
   ]
 }

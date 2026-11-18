@@ -1,0 +1,60 @@
+name: Apply reviewed November portraits
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  apply:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply exact profile mappings
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          batches = [
+            ('faculty.json','faculty','faculty','photo',[
+              ('nagaraja','applied-zoology','zo-nagaraj.png'),
+              ('aishwarya-m','food-technology','ft-aishwarya.png'),
+              ('preema-karal-andrade','food-technology','ft-preema.png'),
+              ('sachin-s-nayaka','food-technology','ft-sachin.png')],
+             [('zo-bhargavi-h','Bhargavi H.','zo-bhargavi-h.png'),('zo-chandrakala','Chandrakala','zo-chandrakala.png')]),
+            ('research-students.json','students','students','photo_url',[(i,'mathematics','mt-'+f+'.png') for i,f in [
+              ('bharath-m','bharath-m'),('bhumika-g-p','bhoomika'),('deepak-h','deepak'),('gowthami-g','gowthami-g'),('harshitha-s-r','harshitha-sr'),('kirankumara-c-m','kiran kumar'),('mahanth-rudrappa-avalageri','mahanth rudhrappa'),('manaswini-b-s','manaswini-bs'),('manikanta-u-l','manikanta'),('mohan-naik-d','mohannaik-d'),('raghu-g-k','raghu-gk'),('shilpashree-s-l','shilpeshree-sl'),('thunga-s','thunga-s')]],
+             [('zo-akshatha','Akshatha','zo-akshatha.png'),('zo-bhargavi-h','Bhargavi H.','zo-bhargavi-h.png'),('zo-harshitha','Harshitha','zo-harshitha.png'),('zo-sowmya','Sowmya','zo-sowmya.png')])]
+          outputs = []
+          for filename,key,folder,field,updates,additions in batches:
+              path = Path('data') / filename
+              data = json.loads(path.read_text(encoding='utf-8'))
+              rows = data[key]
+              by_id = {r['id']: r for r in rows}
+              assert len(by_id) == len(rows), filename
+              def portrait(file):
+                  asset = f'assets/img/{folder}/{file}'
+                  assert Path(asset).is_file(), asset
+                  return file if key == 'faculty' else '../'+asset
+              for id,department,file in updates:
+                  row = by_id[id]
+                  assert row['department_id'] == department, id
+                  value = portrait(file)
+                  assert row.get(field) in (None,'',value), (id, 'portrait already set')
+                  row[field] = value
+              for id,name,file in additions:
+                  row = dict(id=id,name=name,department_id='applied-zoology',department='Applied Zoology',biography='Will be updated')
+                  row[field] = portrait(file)
+                  if key == 'students':
+                      row.update(published=True,publications=[])
+                  if id in by_id:
+                      assert by_id[id] == row, (id, 'existing record differs')
+                      continue
+                  assert not any(r.get('department_id') == 'applied-zoology' and r.get('name','').strip().casefold() == name.casefold() for r in rows), name
+                  rows.append(row)
+              outputs.append((path,data))
+          for path,data in outputs:
+              path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+          git add -- data/faculty.json data/research-students.json
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Link November portraits and add Applied Zoology profiles'
+          git push origin HEAD:main

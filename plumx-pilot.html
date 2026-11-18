@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>PlumX pilot — Environmental Science</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<script defer src="assets/js/publications.js"></script>
+</head>
+<body data-base="./" data-plumx-approved="false">
+<a class="skip" href="main">Skip to content</a>
+<div class="concept">INDEPENDENT DESIGN CONCEPT · NOT THE OFFICIAL UNIVERSITY WEBSITE</div>
+<main id="main" class="wrap page-pad">
+<p><a href="departments/environmental-science.html#publications">Return to Environmental Science publications</a></p>
+<h1>Attention and engagement: PlumX pilot</h1>
+<p>This isolated preview reuses the existing Environmental Science publication collection. No publication or citation extraction is run by this page.</p>
+<p id="plumx-status" role="status">PlumX loading is disabled pending confirmation of widget eligibility. No PlumX script or metric request is made while this gate is disabled.</p>
+<p><button id="plumx-load" type="button" disabled>Load PlumX for up to five publications</button></p>
+<p class="event-note">When approved and explicitly loaded, PlumX will receive requests from your browser for selected DOIs. Its information is live, not part of our reviewed citation snapshot. Missing or failed responses are not zero. Attention is not a measure of research quality; no ranking uses these metrics.</p>
+<section id="publications" aria-labelledby="publications-title">
+<h2 id="publications-title">Publications</h2>
+<p>Existing publication records and citation information remain unchanged.</p>
+<div id="publication-feed" data-department="environmental-science"><p>Loading publication records…</p></div>
+<noscript><p>Enable JavaScript to view the publication collection. PlumX remains disabled until eligibility is confirmed.</p></noscript>
+</section>
+</main>
+<script>
+'use strict';
+(() => {
+  const approved = document.body.dataset.plumxApproved === 'true';
+  const button = document.getElementById('plumx-load');
+  const status = document.getElementById('plumx-status');
+  const feed = document.getElementById('publication-feed');
+  if (!approved) return;
+  function candidates() {
+    const seen = new Set();
+    const selected = [];
+    for (const card of feed.querySelectorAll('article.notice')) {
+      const link = card.querySelector('a[href^="https://doi.org/"]');
+      if (!link) continue;
+      let doi;
+      try { doi = decodeURIComponent(new URL(link.href).pathname.slice(1)).trim().toLowerCase(); } catch { continue; }
+      if (!/^10\.\d{4,9}\/\S+$/i.test(doi) || seen.has(doi)) continue;
+      seen.add(doi);
+      selected.push({card, doi});
+      if (selected.length === 5) break;
+    }
+    return selected;
+  }
+  const observer = new MutationObserver(() => {
+    if (feed.getAttribute('aria-busy') !== 'false') return;
+    observer.disconnect();
+    const count = candidates().length;
+    button.disabled = count === 0;
+    status.textContent = count ? 'PlumX is approved for this pilot. Use the button to request live engagement information for up to five distinct DOI-bearing publications.' : 'No DOI-bearing publication cards are available. No PlumX request has been made.';
+  });
+  observer.observe(feed, {childList:true, subtree:true, attributes:true, attributeFilter:['aria-busy']});
+  button.addEventListener('click', () => {
+    if (document.body.dataset.plumxApproved !== 'true') return;
+    const selected = candidates();
+    if (!selected.length) return;
+    button.disabled = true;
+    const holders = [];
+    let complete = 0;
+    let shown = 0;
+    let unavailable = 0;
+    let failed = false;
+    function report() {
+      status.textContent = 'PlumX: ' + shown + ' publication(s) with a loaded widget; ' + unavailable + ' empty or unavailable response(s); ' + (selected.length - complete) + ' pending. These are response counts, not engagement scores. Missing data is not zero.';
+    }
+    for (const {card, doi} of selected) {
+      const holder = document.createElement('div');
+      holder.style.marginTop = '12px';
+      const label = document.createElement('p');
+      label.className = 'hint';
+      label.textContent = 'Attention and engagement · live PlumX information';
+      label.hidden = true;
+      const widget = document.createElement('plumx-widget');
+      widget.setAttribute('type', 'artifact');
+      widget.setAttribute('identifier-type', 'doi');
+      widget.setAttribute('identifier', doi);
+      widget.setAttribute('display', 'badge');
+      widget.setAttribute('config', JSON.stringify({hideWhenEmpty:true, hideCitations:true, applyFiltersToMetricsPage:true}));
+      let settled = false;
+      function settle(hasData) {
+        if (settled || failed) return;
+        settled = true;
+        complete++;
+        if (hasData) { shown++; label.hidden = false; }
+        else { unavailable++; holder.remove(); }
+        report();
+      }
+      widget.addEventListener('plumx:load', () => settle(true));
+      widget.addEventListener('plumx:empty', () => settle(false));
+      widget.addEventListener('plumx:error', () => settle(false));
+      holder.append(label, widget);
+      card.append(holder);
+      holders.push(holder);
+    }
+    report();
+    const script = document.createElement('script');
+    script.src = 'https://plumx.elsevier.com/widget/plumx-widget.js';
+    script.async = true;
+    script.addEventListener('error', () => {
+      failed = true;
+      holders.forEach(holder => holder.remove());
+      status.textContent = 'PlumX could not load. Existing publication and citation information is unaffected. No zero values have been inferred. Reload the page to retry.';
+    }, {once:true});
+    document.body.append(script);
+  }, {once:true});
+})();
+</script>
+</body>
+</html>

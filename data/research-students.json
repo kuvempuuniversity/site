@@ -1135,7 +1135,8 @@
       "orcid": "0009-0006-3021-6146",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/mt-mahanth rudhrappa.png"
     },
     {
       "id": "manaswini-b-s",
@@ -1153,7 +1154,8 @@
       "orcid": "0009-0008-9962-8960",
       "published": true,
       "programme": "PhD candidate (Research Fellow)",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/mt-manaswini-bs.png"
     },
     {
       "id": "kirankumara-c-m",
@@ -1171,7 +1173,8 @@
       "orcid": "0009-0006-1941-3755",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/mt-kiran kumar.png"
     },
     {
       "id": "gowthami-g",
@@ -1192,7 +1195,8 @@
       "orcid": "0009-0004-5031-0063",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/mt-gowthami-g.png"
     },
     {
       "id": "raghu-g-k",
@@ -1214,7 +1218,8 @@
       "orcid": "0009-0008-0380-3825",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/mt-raghu-gk.png"
     },
     {
       "id": "bhumika-g-p",
@@ -1233,7 +1238,8 @@
       "scholar_url": "https://scholar.google.com/citations?user=phyhwV8AAAAJ&hl=en",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/mt-bhoomika.png"
     },
     {
       "id": "deepak-h",
@@ -1251,7 +1257,8 @@
       "orcid": "0009-0006-2289-8941",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/mt-deepak.png"
     },
     {
       "id": "bharath-m",
@@ -1269,7 +1276,8 @@
       "orcid": "0009-0001-5275-2592",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/mt-bharath-m.png"
     },
     {
       "id": "mohan-naik-d",
@@ -1287,7 +1295,8 @@
       "orcid": "0009-0003-1548-7763",
       "published": true,
       "programme": "PhD candidate (Research Fellow)",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/mt-mohannaik-d.png"
     },
     {
       "id": "thunga-s",
@@ -1308,7 +1317,8 @@
       "orcid": "0009-0001-0909-3341",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/mt-thunga-s.png"
     },
     {
       "id": "shilpashree-s-l",
@@ -1329,7 +1339,8 @@
       "orcid": "0009-0004-1603-7139",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/mt-shilpeshree-sl.png"
     },
     {
       "id": "harshitha-s-r",
@@ -1349,7 +1360,8 @@
       "linkedin_url": "https://www.linkedin.com/in/harshitha-s-r-3758b2250?trk=contact-info",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/mt-harshitha-sr.png"
     },
     {
       "id": "manikanta-u-l",
@@ -1368,7 +1380,8 @@
       "scholar_url": "https://scholar.google.com/citations?user=WSuArFIAAAAJ&hl=en",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "photo_url": "../assets/img/students/mt-manikanta.png"
     },
     {
       "id": "pruthviraj-d",
@@ -1813,6 +1826,46 @@
       "programme": "",
       "publications": [],
       "photo_url": "../assets/img/students/pe-pavithra-m.png"
+    },
+    {
+      "id": "zo-akshatha",
+      "name": "Akshatha",
+      "department_id": "applied-zoology",
+      "department": "Applied Zoology",
+      "biography": "Will be updated",
+      "photo_url": "../assets/img/students/zo-akshatha.png",
+      "published": true,
+      "publications": []
+    },
+    {
+      "id": "zo-bhargavi-h",
+      "name": "Bhargavi H.",
+      "department_id": "applied-zoology",
+      "department": "Applied Zoology",
+      "biography": "Will be updated",
+      "photo_url": "../assets/img/students/zo-bhargavi-h.png",
+      "published": true,
+      "publications": []
+    },
+    {
+      "id": "zo-harshitha",
+      "name": "Harshitha",
+      "department_id": "applied-zoology",
+      "department": "Applied Zoology",
+      "biography": "Will be updated",
+      "photo_url": "../assets/img/students/zo-harshitha.png",
+      "published": true,
+      "publications": []
+    },
+    {
+      "id": "zo-sowmya",
+      "name": "Sowmya",
+      "department_id": "applied-zoology",
+      "department": "Applied Zoology",
+      "biography": "Will be updated",
+      "photo_url": "../assets/img/students/zo-sowmya.png",
+      "published": true,
+      "publications": []
     }
   ],
   "updated": "2026-11-03"

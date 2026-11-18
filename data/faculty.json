@@ -418,7 +418,8 @@
         "retrieved_at": "2026-11-03T13:37:49+00:00",
         "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
-      }
+      },
+      "photo": "zo-nagaraj.png"
     },
     {
       "id": "shrinidhi-k-t-bhandari",
@@ -1959,7 +1960,8 @@
         "retrieved_at": "2026-11-03T13:37:49+00:00",
         "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
-      }
+      },
+      "photo": "ft-preema.png"
     },
     {
       "id": "aishwarya-m",
@@ -1980,7 +1982,8 @@
         "Nutraceuticals and Functional Foods"
       ],
       "orcid": "0009-0004-9549-6746",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "photo": "ft-aishwarya.png"
     },
     {
       "id": "sachin-s-nayaka",
@@ -2004,7 +2007,8 @@
         "Green Synthesis"
       ],
       "orcid": "0000-0001-9580-4105",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "photo": "ft-sachin.png"
     },
     {
       "id": "nagesha-h-a",
@@ -3605,6 +3609,22 @@
       "profile_source": "User-approved portrait and role mapping, 2026-11-03",
       "designation": "Position to be added.",
       "photo": "pe-basavaraja-magalda.png"
+    },
+    {
+      "id": "zo-bhargavi-h",
+      "name": "Bhargavi H.",
+      "department_id": "applied-zoology",
+      "department": "Applied Zoology",
+      "biography": "Will be updated",
+      "photo": "zo-bhargavi-h.png"
+    },
+    {
+      "id": "zo-chandrakala",
+      "name": "Chandrakala",
+      "department_id": "applied-zoology",
+      "department": "Applied Zoology",
+      "biography": "Will be updated",
+      "photo": "zo-chandrakala.png"
     }
   ]
 }

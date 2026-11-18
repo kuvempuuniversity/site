@@ -659,12 +659,20 @@
       "published": true,
       "name": "Gulnaz",
       "department_id": "environmental-science",
-      "programme": "",
-      "biography": "Profile information will be added here.",
-      "research_interests": "Information to be added.",
-      "academic_journey": "Information to be added.",
+      "programme": "PhD candidate",
+      "biography": "I am a Ph.D. research scholar in the Department of Environmental Sciences at Kuvempu University, pursuing my doctoral research under the guidance of Prof. Hina Kousar.\nMy research focuses on Integrated Bacterial and Fungal Bioremediation Approach for the Treatment of Paper Recycling Industrial Wastewater. I completed my Bachelor's degree from Sahyadri Science College and my Master's degree from Kuvempu University. My area of research specialization is wastewater treatment and bioremediation, with particular emphasis on the application of indigenous bacterial and fungal strains for the treatment of industrial wastewater. My research interests include environmental pollution control, microbial biotechnology, and sustainable approaches to industrial wastewater management.",
+      "research_interests": "Bioremedeation, Microbiology, Waste Water Treatment",
+      "academic_journey": "MSc in Environmental Science, Kuvempu University (2014), BCA Computer Application, Sahyadri Science College (2012)",
       "photo_url": "../assets/img/students/es-gulnaz.png",
-      "publications": []
+      "publications": [],
+      "email": "gulnazkhan8778@gmail.com",
+      "orcid": "0009-0001-5388-7384",
+      "modules_taught": [
+        "Bioremedeation",
+        "Water Quality Assessment"
+      ],
+      "supervisor": "Prof. Hina Kousar",
+      "teaches": true
     },
     {
       "id": "shiva-naik-h",
@@ -741,12 +749,20 @@
       "published": true,
       "name": "Spoorthi",
       "department_id": "environmental-science",
-      "programme": "",
-      "biography": "Profile information will be added here.",
-      "research_interests": "Information to be added.",
-      "academic_journey": "Information to be added.",
+      "programme": "PhD candidate",
+      "biography": "I am a Research Scholar in the Department of PG Studies and Research in Environmental Science, Kuvempu University, specializing in bioremediation. I hold an M.Sc. from Davangere University and a B.Sc. from Government First Grade College, Davangere. My research focuses on sustainable and cost-effective approaches to wastewater treatment, with particular emphasis on developing practical solutions for industrial effluent management. I am interested in bioremediation, environmental sustainability, water quality management, and the development of low-budget, industry-oriented wastewater treatment technologies that can support cleaner production and reduce environmental impact. Kuvempu University’s Environmental Science department includes bioremediation and water/wastewater treatment among its core research areas.",
+      "research_interests": "Bioremedeation, Waste Water Treatment, Environmental Sustainable",
+      "academic_journey": "Msc in Environmental Science, Davanagere University (2023), Bsc in Chemistry, Botany, Zology Govt First Grade Collage Davanagere (2021).",
       "photo_url": "../assets/img/students/es-spoorthi.png",
-      "publications": []
+      "publications": [],
+      "email": "spoorthinsonu@gmail.com",
+      "orcid": "0009-0000-6587-2510",
+      "modules_taught": [
+        "Bioremedeation",
+        "Water Quality Assessment"
+      ],
+      "supervisor": "Prof. Hina Kousar",
+      "teaches": true
     },
     {
       "id": "ic-bhavani-mh",
@@ -2008,6 +2024,29 @@
       "published": true,
       "publications": [],
       "last_name": "M."
+    },
+    {
+      "id": "priyadarshini-vijay",
+      "name": "Priyadarshini Vijay",
+      "last_name": "Vijay",
+      "department_id": "environmental-science",
+      "department": "Environmental Science",
+      "published": true,
+      "publications": [],
+      "email": "pinkupriyavnaik4@gmail.com",
+      "orcid": "0009-0002-5551-7165",
+      "linkedin_url": "https://www.linkedin.com/in/priyadarshini-v-345288367/",
+      "academic_journey": "Msc in Environmental Science, Kuvempu University (2022), Bsc Chemistry, Botany, Environmental Science, Sahyadri Science Collage (2020).",
+      "research_interests": "Waste Water Treatment, Adsorption Technology. Sustainable Environmental Management, Pollutant Removal",
+      "biography": "I am a Ph.D. Research Scholar in the Department of Environmental Science at Kuvempu University, specializing in Environmental Science. My academic background includes B.Sc. and M.Sc. specializations in Environmental Science from Kuvempu University. My doctoral research focuses on the remediation of distillery effluent using sawdust and coconut coir as eco-friendly adsorbents. I have industrial experience as a Chemist at Hindustan Aeronautics Limited (HAL), with exposure to industrial laboratory practices and chemical analysis. My research interests include wastewater treatment, adsorption techniques, industrial effluent remediation, environmental monitoring and sustainable waste management.",
+      "modules_taught": [
+        "Waste Water Treatment",
+        "Adsorption Technology. Sustainable Environmental Management",
+        "Pollutant Removal"
+      ],
+      "programme": "PhD candidate",
+      "supervisor": "Prof. Hina Kousar",
+      "teaches": true
     }
   ],
   "updated": "2026-11-03"

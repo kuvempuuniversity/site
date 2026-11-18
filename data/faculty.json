@@ -3819,6 +3819,46 @@
       "teaches": true,
       "phd_supervisor": "Dr. Devidas G B",
       "last_name": "M."
+    },
+    {
+      "id": "ashok-r-lamani",
+      "name": "Ashok R Lamani",
+      "last_name": "Lamani",
+      "department_id": "physics",
+      "department": "Physics",
+      "email": "ashok1571972@gmail.com",
+      "orcid": "0000-0001-5225-2822",
+      "scholar_url": "https://scholar.google.com/citations?user=7skpJJwAAAAJ&hl=en",
+      "academic_journey": "PhD in Solid State Physics(microwave ferrite materials), Kuvempu University, MSc Physics(Solid State Physics)from Karnataka University Dharwad.(1996) BSc from karnataka University (1996)",
+      "research_interests": "Supercapacitance, Photocatalytic, Janas perovskites materials, Gas Sensors",
+      "biography": "My research work mainly focuses on supercapacitor materials for enhanced supercapacitance ,photocatalytic activity activity of green synthesized RGO and its metal oxides, Janas perovskites materials. I published high quality research papers in reputed high impact factor journals,attended national/international conferences and presented the work. presently five students are working for PhD and seven students are successfully guided. presently i have submitted a project for ANRF funding agencies.",
+      "modules_taught": [
+        "Molecular spectroscopy",
+        "Condensed Matter Physics",
+        "Electronics"
+      ],
+      "designation": "Professor",
+      "teaches": true
+    },
+    {
+      "id": "devidas-gaibanna-byalollikar",
+      "name": "Devidas Gaibanna Byalollikar",
+      "last_name": "Gaibanna Byalollikar",
+      "department_id": "physics",
+      "department": "Physics",
+      "email": "devidasgb02@gmail.com",
+      "orcid": "0009-0002-4330-0604",
+      "scholar_url": "https://scholar.google.com/citations?user=V1dk1qcAAAAJ&hl=en",
+      "academic_journey": "PhD in Physics, Gulbarga University, (2008), M.Phill in Astrophysics, Gulbarga University(2001), MSc in Physics, Gulbarga University,(1998), BSc, Gulbarga University,(1995)",
+      "research_interests": "Nuclear Physics, Nuclear Irradiation studies to materials",
+      "biography": "My works focuses on Material Behaviour of Nuclear radiations and its impact on the network bondings. At same time I'm involved in teaching to PG students and motivated them in carrying research in future days",
+      "modules_taught": [
+        "Nuclear Physics",
+        "Statistical Mechanics",
+        "Classical Mechanics"
+      ],
+      "designation": "Chairman",
+      "teaches": true
     }
   ]
 }

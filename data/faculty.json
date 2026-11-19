@@ -94,9 +94,9 @@
       "personal_website": "",
       "last_name": "D.",
       "teaches": true,
-      "academic_journey": "PhD in Botany, Kuvempu University (2019), MPhil in Applied Botany, Kuvempu University(2009), MSc in Applied Botany,Kuvempu University (2007), BSc in Botany ( 2002)",
+      "academic_journey": "PhD in Botany, Kuvempu University (2019), MPhil in Applied Botany, Kuvempu University(2009), MSc in Applied Botany,Kuvempu University (2007), BSc  in Botany ( 2002)",
       "modules_taught": [
-        "Medicinal and Aromatic Plants",
+        "Medicinal and Aromatic plants",
         "Ethnobotany",
         "Mycology"
       ],
@@ -226,7 +226,7 @@
       "photo": "ab-sarala-p.png",
       "personal_website": "",
       "teaches": true,
-      "academic_journey": "PhD in Applied Botany, Kuvempu University (2016); MPhil in Applied Botany (2008); MSc in Applied Botany, Kuvempu University (2006); PGDMP in Applied Botany, Kuvempu University (2005)",
+      "academic_journey": "Ph.D in Applied Botany (2016),M.phil in Applied Botany (2008),PDMP in Applied Botany (2006),M.Sc in Applied Botany (2006)",
       "modules_taught": [
         "Medicinal plants",
         "Plant Physiology",
@@ -244,7 +244,7 @@
       "email": "mrvikasrajvr@gmail.com",
       "teaches": true,
       "biography": "Passionate about teaching, learning and research to inspire young minds towards scientific excellence, creative thinking and innovative discoveries in plant sciences.",
-      "research_interests": "Phytochemistry, Neutraceuticals, Cancer Biology",
+      "research_interests": "Phytochemistry, Nutraceuticals, Cancer biology",
       "academic_journey": "MSc in Applied Botany, Kuvempu University (2016); BEd, Kuvempu University (2011); KSET (2021)",
       "modules_taught": [
         "Biochemistry",
@@ -309,7 +309,8 @@
         "retrieved_at": "2026-11-03T13:37:49+00:00",
         "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
-      }
+      },
+      "biography": "to be sent through mail"
     },
     {
       "id": "shwetha-a",
@@ -511,7 +512,10 @@
       "email": "anitha22a@gmail.com",
       "teaches": true,
       "orcid": "0009-0009-5374-4007",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "modules_taught": [
+        "TBA"
+      ]
     },
     {
       "id": "raghavendra-s-n",
@@ -544,7 +548,8 @@
         "retrieved_at": "2026-11-03T13:37:49+00:00",
         "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
-      }
+      },
+      "biography": "to be sent through mail"
     },
     {
       "id": "shivayogeeswar-neelagund",
@@ -555,7 +560,10 @@
       "email": "neelgund@gmail.com",
       "teaches": true,
       "orcid": "0009-0009-3765-0780",
-      "designation": "Professor"
+      "designation": "Professor",
+      "modules_taught": [
+        "TBA"
+      ]
     },
     {
       "id": "niranjana-pathappa",
@@ -583,7 +591,10 @@
         "retrieved_at": "2026-11-03T13:37:49+00:00",
         "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
-      }
+      },
+      "modules_taught": [
+        "TBA"
+      ]
     },
     {
       "id": "rithu-r-revankar",
@@ -616,7 +627,7 @@
       "teaches": true,
       "biography": "I am a researcher in the field of Biochemistry and Life Sciences, with a strong interest in phytochemistry, medicinal plants, and green nanotechnology. My research focuses on phytochemical profiling, biosynthesis and characterization of silver nanoparticles, and evaluation of their antioxidant, antimicrobial, and pharmacological properties. I am also interested in molecular biology, biochemical techniques, and advanced analytical instrumentation.",
       "research_interests": "Phytochemistry, Medicinal Plants and Nanobiotechnology",
-      "academic_journey": "MSc in Biochemistry, Kuvempu University (2019–2021); K-SET in Life Science (2024)",
+      "academic_journey": "M. Sc. in Biochemistry (Kuvempu University) 2019 to 2021, K-SET 2024",
       "research_summary": "Green Synthesis of Silver Nanoparticles from Psydrax umbellata plant extract and their Biological and Pharmacological Evaluation",
       "modules_taught": [
         "Bioinformatics",
@@ -626,7 +637,7 @@
       "phd_supervisor": "Dr. S. E. Neelagund",
       "orcid": "0009-0006-3270-8937",
       "scholar_url": "https://scholar.google.com/citations?user=x9x6WyEAAAAJ&hl=en",
-      "linkedin_url": "https://www.linkedin.com/in/manoj-sp-manoj-66a2b11a2?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "linkedin_url": "https://www.linkedin.com/in/manoj-s-p-6242b4334/",
       "designation": "Guest faculty",
       "scholar_metrics": {
         "total_citations": 5,
@@ -651,7 +662,7 @@
       "department": "Biotechnology",
       "email": "santhoshbio4@gmail.com",
       "teaches": true,
-      "biography": "My research focuses on multidisciplinary work such as Natural product-based drug discovery, Nanobiotechnology, Biomaterials, and Environmental biotechnology. I identified β-keto amyrin, a natural compound from Cryptostegia grandiflora as a potent inhibitor of Daboia russellii venom phospholipase A₂, demonstrating significant anti-inflammatory potential. I also established the antiproliferative and antioxidant activities of C. grandiflora leaf extract. I guide master’s student projects. I have developed Brugmansia suaveolens-conjugated chitosan nanoparticles with enhanced antioxidant and antibacterial properties. My work includes engineering sardine fish-derived chitosan–collagen hybrid membranes as novel wound-healing scaffolds and developing Curcuma xanthorrhiza-doped chitosan–hydroxyapatite biomaterials for disrupting bacterial communication and biofilms. Additionally, I investigated hydrocarbon biodegradation by soil microorganisms and quorum-quenching actinomycetes for environmental remediation and combating antimicrobial resistance.",
+      "biography": "My research focuses on multidisciplinary work such as Natural product-based drug discovery, Nanobiotechnology, Biomaterials, and Environmental biotechnology. I identified β-keto amyrin, a natural compound from Cryptostegia grandiflora as a potent inhibitor of Daboia russellii venom phospholipase A₂, demonstrating significant anti-inflammatory potential. I also established the antiproliferative and antioxidant activities of C. grandiflora leaf extract.  I guide master’s student projects. I have developed Brugmansia suaveolens-conjugated chitosan nanoparticles with enhanced antioxidant and antibacterial properties. My work includes engineering sardine fish-derived chitosan–collagen hybrid membranes as novel wound-healing scaffolds and developing Curcuma xanthorrhiza-doped chitosan–hydroxyapatite biomaterials for disrupting bacterial communication and biofilms. Additionally, I investigated hydrocarbon biodegradation by soil microorganisms and quorum-quenching actinomycetes for environmental remediation and combating antimicrobial resistance.",
       "research_interests": "Phytochemistry and pharmacology, Environmental biotechnology, Nanotechnology, Material science",
       "academic_journey": "Post-Doctoral Fellow, UGC (2015–2020); PhD in Biotechnology, Kuvempu University (2014); MSc in Biotechnology, Kuvempu University (2007); BSc in Biotechnology, Computer Science and Botany, Kuvempu University",
       "modules_taught": [
@@ -708,7 +719,7 @@
       "department_id": "biotechnology",
       "email": "skdde.ku11@gmail.com",
       "research_interests": "Plant tissue culture, Phytochemistry, Pharmacology, Bioprocess engineering",
-      "biography": "My work focus on plant tissue culture to standardise regeneration protocols for endengered medicinal plants and extraction of crude drugs and isolation of pure compounds, also test their medicinal properties by using experimental Animals",
+      "biography": "My work focus on plant tissue culture to standardise regeneration protocols  for endengered medicinal plants and extraction of crude drugs and isolation of pure compounds, also test their medicinal properties by using experimental Animals",
       "orcid": "",
       "scholar_url": "",
       "photo": "bt-shankaramurthy-k.png",
@@ -791,7 +802,7 @@
       "department": "Biotechnology",
       "email": "sk.genesan@gmail.com",
       "teaches": true,
-      "biography": "I am a Professor in the Department of Studies and Research in Biotechnology at Kuvempu University, Karnataka. My research bridges computational biology, systems biology, and computer-aided drug design (CADD), with a focus on resolving complex biomedical challenges.\n\nMy investigative work centers on multi-omic big data analysis, transcriptomic profiling, interactomics, and molecular dynamics simulations to elucidate disease pathways and discover novel therapeutic targets. Key directions include identifying biomarkers for inflammatory conditions and gastric malignancies, tackling antimicrobial resistance mechanisms in pathogens like Helicobacter pylori, and characterizing natural product inhibitors and bioactive peptides.\n\nWith over two decades of academic and research experience, I have authored numerous peer-reviewed publications and mentored postgraduate and doctoral scholars. I am deeply committed to advancing data-driven biotechnology, integrating modern cheminformatics with wet-lab insights to translate biological data into actionable biomedical solutions.",
+      "biography": "I am a Professor in the Department of Studies and Research in Biotechnology at Kuvempu University, Karnataka. My research bridges computational biology, systems biology, and computer-aided drug design (CADD), with a focus on resolving complex biomedical challenges.\nMy investigative work centers on multi-omic big data analysis, transcriptomic profiling, interactomics, and molecular dynamics simulations to elucidate disease pathways and discover novel therapeutic targets. Key directions include identifying biomarkers for inflammatory conditions and gastric malignancies, tackling antimicrobial resistance mechanisms in pathogens like Helicobacter pylori, and characterizing natural product inhibitors and bioactive peptides.\nWith over two decades of academic and research experience, I have authored numerous peer-reviewed publications and mentored postgraduate and doctoral scholars. I am deeply committed to advancing data-driven biotechnology, integrating modern cheminformatics with wet-lab insights to translate biological data into actionable biomedical solutions.",
       "research_interests": "Rosetta stones, Metagenomics, Inflammation markers, CADD, Systems biology",
       "academic_journey": "MSc in Biochemistry (2004); Advanced Diploma in Bioinformatics (2005); Distance Learning Course in IPR (2006); Diploma in Computer Hardware and Networking (2005)",
       "modules_taught": [
@@ -916,11 +927,9 @@
       "teaches": true,
       "biography": "MBA department provides a continuous support to learn and growth",
       "research_interests": "Management",
-      "academic_journey": "PhD in Human Resource Development, Kuvempu University (2023); MCom, Kuvempu University (2016); MBA, Kuvempu University (2014); BCom, Siddaganga Women's College (2003)",
+      "academic_journey": "PhD in management",
       "research_summary": "Human Resources Development Polices and Practices in commercial Banks",
       "modules_taught": [
-        "Strategic Human Resources Management",
-        "International Human Resources Management",
         "Management"
       ],
       "phd_supervisor": "Prof.R HiremaniNaik",
@@ -978,7 +987,7 @@
       "teaches": true,
       "biography": "My work focus on the Occupational stress management among the women employees",
       "research_interests": "Stress management, Finance",
-      "academic_journey": "PhD in Occupational stress management, Kuvempu University(2026), Qualifies SLET in management (2020), MBA in finance and HR in Kuvempu University(2016), BBM in GFGC Tarikere from Kuvempu University(2014)",
+      "academic_journey": "PhD in Occupational stress management, Kuvempu University(2026), Qualifies SLET in management (2020),  MBA in finance and HR in Kuvempu University(2016), BBM in GFGC Tarikere from Kuvempu University(2014)",
       "modules_taught": [
         "Financial management",
         "Production and operations management",
@@ -1007,7 +1016,8 @@
       "phd_supervisor": "Prof. Manjunath K R",
       "orcid": "0009-0005-4878-4275",
       "linkedin_url": "https://www.linkedin.com/in/vinay-prasad-71686524/",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "biography": "filled by their own"
     },
     {
       "id": "manjunath-k-rajappa",
@@ -1017,20 +1027,13 @@
       "department": "Business Administration",
       "email": "manjurajappa@gmail.com",
       "teaches": true,
-      "biography": "My current areas of interest being Strategic Finance, Risk Management, Investment Management, Corporate Consultancy, Student and Youth empowerment, Communication and Personality development, I takeup academic, research and consultancy activiites in all such areas which help me to empower self and all other stakeholders (be it students, corporate clients, public or society and large). Iam always interested to take up acitivites be it teaching, research and consultancy which ensures holistic development of self and the institutions with whom Iam always associated with",
-      "research_interests": "Risk Management, Investment Management, Strategic Managment and all; allied areas of Management",
-      "academic_journey": "PhD in Stock Markets, Kuvempu University (2012); MBA in Finance and Marketing, Bangalore University (2003); Bachelor of Commerce, Seshadripuram College, Bangalore University (2001)",
+      "biography": "Holistic Development",
+      "research_interests": "Risk Management, Investment Management, Strategic Managment and all\nallied areas of Management",
+      "academic_journey": "PhD (2012) from Kuvempu University",
       "modules_taught": [
-        "Research Methodology",
-        "Risk Management",
-        "Derivatives",
-        "Strategic Management",
-        "Corporate Communication",
-        "HRD and HRP",
-        "Corporate Decision Making",
-        "Technology in Data Management",
         "Srategic Management",
         "RM",
+        "Derivatives",
         "Communication"
       ],
       "orcid": "0009-0001-9863-6781",
@@ -1098,13 +1101,12 @@
       "teaches": true,
       "biography": "My research focuses on the synthesis of heterocyclic compounds through green catalytic approaches and conventional organic synthetic methodologies, with particular emphasis on exploring their potential biological applications. I am also actively involved in the synthesis and development of agrochemically important molecules, particularly isoxazolones, and investigating their potential applications as herbicidal, pesticidal, and fungicidal agents.\n\nIn addition to my research activities, I serve as a full-time Lecturer in the Postgraduate Department of Chemistry, where I teach and mentor Master's students. I am passionate about creating a supportive and student-friendly academic environment, providing guidance not only in academic development but also in students' overall well-being. I strongly believe in approachable teaching, effective communication, and student counselling to help learners manage academic challenges and stress while developing confidence and independent thinking.\n\nBeyond my regular teaching responsibilities, I actively conduct coaching classes for competitive examinations, particularly KSET and CSIR-UGC NET, to support students aspiring to pursue careers in higher education and research.\n\nI am enthusiastic about academic and research collaborations within my areas of expertise and welcome opportunities for interdisciplinary research and teaching initiatives. I am particularly interested in collaborative projects that integrate organic synthesis, green chemistry, medicinal chemistry, biological sciences, and agricultural sciences to address scientific challenges and contribute to sustainable development.",
       "research_interests": "Synthesis of heterocyclic compounds and their biological applications",
-      "academic_journey": "PhD in Synthetic Organic Chemistry (Synthesis of Heterocyclic Compounds and Their Biological Applications), Kuvempu University, Jnana Sahyadri, Shankaraghatta, Shivamogga; Lecturer, Department of Chemistry",
+      "academic_journey": "MSc in chenistry (2023) Working as a lecturer in department of chemistry since 2024 august till present , pursuing PhD in synthetic organic chemistry department of chemistry Kuvempu university jnana Sahyadri shankaragatta shimoga",
       "research_summary": "Synthesis of heterocyclic compounds and their biological applications, green synthesis, agro chemical etc",
       "modules_taught": [
-        "Inorganic Chemistry",
-        "Organic Chemistry",
-        "Physical Chemistry",
-        "Analytical Chemistry"
+        "Inorganic chemistry",
+        "organic chemistry",
+        "physical chemistry"
       ],
       "phd_supervisor": "Prof Yadav.D. bodke",
       "orcid": "0009-0007-8613-3988",
@@ -1232,16 +1234,16 @@
       "department": "Commerce",
       "email": "naveenlbrp@gmail.com",
       "teaches": true,
-      "biography": "Working as faculty member in Commerce dept, Kuvempu University, did my Phd Kuvempu University commerce dept under the guidance of Prof.S Venkatesh",
+      "biography": "Good",
       "research_interests": "Banking and finance",
-      "academic_journey": "PhD in Finance, Kuvempu University (2022); MCom, Kuvempu University (2012); BCom, SMRFGC (2010)",
+      "academic_journey": "Yes",
       "research_summary": "An evaluation of government health insurance schemes in Karnataka",
       "modules_taught": [
-        "Stock Market Operations",
-        "Corporate Taxation"
+        "Good"
       ],
       "orcid": "0009-0008-2086-4590",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "phd_supervisor": "Completed PhD"
     },
     {
       "id": "suresha-m",
@@ -1279,7 +1281,8 @@
         "retrieved_at": "2026-11-03T13:37:49+00:00",
         "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
-      }
+      },
+      "biography": "to be sent through mail"
     },
     {
       "id": "ravikumar-m",
@@ -1313,7 +1316,8 @@
         "retrieved_at": "2026-11-03T13:37:49+00:00",
         "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
-      }
+      },
+      "biography": "to be sent thorough mail"
     },
     {
       "id": "vadivelu-a",
@@ -1325,13 +1329,11 @@
       "teaches": true,
       "biography": "I am interested in teaching economics for PG students with specialization development economics and agricultural economics.",
       "research_interests": "Development economics",
-      "academic_journey": "PhD in Transport Economics, Kuvempu University (2009); MA in Economics, Kuvempu University (2003); BA in History, Economics and Political Science, DVS College (2001)",
+      "academic_journey": "Ph D in Economics, Kuvempu university (2009) MA in economics, Kuvempu university (2003), BA HEP in DVS college (2001)",
       "modules_taught": [
-        "Developmental Economics",
-        "Demography",
-        "Agricultural Economics",
-        "Social Sector",
-        "Development economics"
+        "Development economics",
+        "demography",
+        "agricultural economics"
       ],
       "orcid": "0009-0002-1420-8796",
       "scholar_url": "https://scholar.google.com/citations?user=ixJdlnsAAAAJ&hl=en",
@@ -1364,7 +1366,9 @@
       "modules_taught": [
         "Environmental Research methods"
       ],
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "research_interests": "Yes",
+      "academic_journey": "Ok"
     },
     {
       "id": "sangeetha-kempayya",
@@ -1412,12 +1416,8 @@
       "teaches": true,
       "biography": "Things on Excellence",
       "research_interests": "Banking",
-      "academic_journey": "Primary Co-operative Agriculture and Rural Development Bank on Dairy Development of Karnataka",
+      "academic_journey": "PhD in Bank on Agriculture activity",
       "modules_taught": [
-        "Mathematical Methods for Economics",
-        "Statistical Methods for Economics",
-        "Computer Applications for Economics",
-        "Managerial Economics",
         "Statistics"
       ],
       "orcid": "0009-0007-3505-1587",
@@ -1463,7 +1463,8 @@
       ],
       "orcid": "0009-0003-2934-5416",
       "designation": "Guest faculty",
-      "photo": "pe-govindaraju-ka.png"
+      "photo": "pe-govindaraju-ka.png",
+      "biography": "Will updates"
     },
     {
       "id": "deekshith-babu",
@@ -1483,7 +1484,8 @@
       ],
       "orcid": "0009-0001-5327-1299",
       "designation": "Guest faculty",
-      "photo": "pe-deekshith-b.png"
+      "photo": "pe-deekshith-b.png",
+      "biography": "filled later"
     },
     {
       "id": "raghavendra-bommannavar",
@@ -1497,7 +1499,11 @@
       "academic_journey": "PhD in Education; NET-JRF (Education); MSc in Psychology; MEd",
       "orcid": "0009-0005-7198-2966",
       "scholar_url": "https://scholar.google.com/citations?user=GHPCq7sAAAAJ&hl=en",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "modules_taught": [
+        "TBA"
+      ],
+      "biography": "will be filled by their own"
     },
     {
       "id": "jagannath-k-dange",
@@ -1511,12 +1517,10 @@
       "research_interests": "Pedagogy, Happy Learning, teaching competency, Inclusive Education",
       "academic_journey": "Ph.D.in Education technology, Bangalore University (2009),M.Sc.in Psychology (2010) University of Madras, M.A.in Sociology (2001), Diploma in Music Theory from Yale University-(2026), B.Sc in Chemistry, Botany and Zoology(1997)",
       "modules_taught": [
-        "Education Technology",
-        "Instructional Technology",
-        "Research Methods",
-        "Resources for Teaching",
+        "Instructional technology",
+        "Resources for teaching",
         "ICT",
-        "Inclusive Education"
+        "Inclusive Education."
       ],
       "orcid": "0000-0002-1293-3508",
       "scholar_url": "https://scholar.google.com/citations?user=c72AxmEAAAAJ&hl=en",
@@ -1557,7 +1561,8 @@
       ],
       "phd_supervisor": "Prof. Geetha C",
       "orcid": "0009-0003-1331-0745",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "biography": "Will be filled by their own"
     },
     {
       "id": "balachandra-madiwal",
@@ -1569,7 +1574,7 @@
       "teaches": true,
       "biography": "My work focuses on Teacher Education to prepare future quality and skill-based teachers.",
       "research_interests": "Educational Psychology, Educational Technology",
-      "academic_journey": "Academic journey: PhD in Education(Educational Technology), Kuvempu University (2026); Master of Education(M.Ed.), Kuvempu University (2007); MA(Economics), Kuvempu University (2017);Bachelor of Education, Kuvempu University (2000); BA (History,Economics,Geography)Karnataka University(1999)",
+      "academic_journey": "Academic journey: PhD in Education(Educational Technology), Kuvempu University (2026); Master of Education(M.Ed.), Kuvempu University (2007); MA(Economics), Kuvempu University (2017);Bachelor of Education, Kuvempu University  (2000); BA (History,Economics,Geography)Karnataka University(1999)",
       "modules_taught": [
         "Educational Psychology",
         "Educational Technology"
@@ -1587,12 +1592,8 @@
       "teaches": true,
       "biography": "I, Vasanthanaik P, am a dedicated teacher with over three years of experience in promoting fitness, sportsmanship, and a healthy lifestyle among students. I hold a Bachelor’s degree (B.P.Ed.) and a Master’s degree (M.P.Ed.) in Physical Education, along with certifications in First Aid and sports training.\n\nI possess expertise in organizing school sports events, athletics training, and yoga sessions, as well as team sports such as football, cricket, volleyball, and basketball. I successfully train school teams for district and state-level competitions, helping students develop discipline, teamwork, and self-confidence.",
       "research_interests": "Physical education",
-      "academic_journey": "PhD in Physical Education, Kuvempu University (2024); KSET in Physical Education, University of Mysore (2019); Master of Physical Education, Kuvempu University (2020); PG Diploma in Yoga, Kuvempu University (2017)",
+      "academic_journey": "PhD in physical education, Kuvempu university, Karnataka(2024); Master degree in physical education, Kuvempu university(2020); Kset from mysuru university(2019).",
       "modules_taught": [
-        "ICT in Physical Education",
-        "History of Physical Education",
-        "Yoga Education",
-        "Computer Applications and Sports Management",
         "Physical education"
       ],
       "orcid": "0009-0005-9454-0036",
@@ -1607,7 +1608,7 @@
       "department": "Education",
       "email": "shilpav03@gmail.com",
       "teaches": true,
-      "biography": "My Work focuses on Create Enlightened Teachers to Enlighten the word.\n\nTransforming the hidden potentialities of the students into realities.",
+      "biography": "My Work focuses on Create Enlightened Teachers to Enlighten the word.\nTransforming the hidden potentialities of the students into realities.",
       "research_interests": "Skills Development, Higher Education.",
       "academic_journey": "P.hD in Skill Development of Employability. (2023), M. Ed (2009), MA in History & Archaeology, (2011).MA in Kannada, (2013), B. Ed (2007), BA in History, Economics, Political Science. (2006),(Kuvempu University).",
       "modules_taught": [
@@ -1615,7 +1616,7 @@
         "Philosophy of Education",
         "Sociology of Education",
         "Inclusive Education",
-        "Educational Research"
+        "Educational Research."
       ],
       "orcid": "0009-0000-5484-2682",
       "designation": "Guest faculty"
@@ -1718,7 +1719,8 @@
         "retrieved_at": "2026-11-03T13:37:49+00:00",
         "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
-      }
+      },
+      "biography": "Will Updates"
     },
     {
       "id": "ananthnag-b",
@@ -2001,7 +2003,7 @@
       "department": "Food Technology",
       "email": "sachinsnayaka@gmail.com",
       "teaches": true,
-      "biography": "A researcher and academician at Kuvempu University, Karnataka, with expertise in biotechnology, phytochemistry, pharmacology, and food technology. His research focuses on medicinal plant-based bioactive compounds, sustainable food packaging, biopolymer development, and environmental applications. He has over four years of research experience as a DBT-Senior Research Fellow and is actively involved in teaching, postgraduate research supervision, and interdisciplinary scientific research. He has guided 20 M.Sc. students, published several research articles, and received prestigious recognitions, including the Young Scientist Award (2025) and Dr. B.R. Ambedkar Young Academic Excellence Award (2026), Best Food-tech Innovation Award (2026) and Excellence of Research Award (2026). Also my work emphasizes scientific innovation, sustainable development, and the application of biological resources for societal and environmental well-being.",
+      "biography": "A researcher and academician at Kuvempu University, Karnataka, with expertise in biotechnology, phytochemistry, pharmacology, and food technology. His research focuses on medicinal plant-based bioactive compounds, sustainable food packaging, biopolymer development, and environmental applications. He has over four years of research experience as a DBT-Senior Research Fellow and is actively involved in teaching, postgraduate research supervision, and interdisciplinary scientific research. He has guided 20 M.Sc. students, published several research articles, and received prestigious recognitions, including the Young Scientist Award (2025) and Dr. B.R. Ambedkar Young Academic Excellence Award (2026), Best Food-tech Innovation Award (2026) and Excellence of Research Award (2026). Also my  work emphasizes scientific innovation, sustainable development, and the application of biological resources for societal and environmental well-being.",
       "research_interests": "Phytochemistry, Pharmacology, Bioprocess technology, Molecular biology, Immunology, Microbiology",
       "academic_journey": "PhD, Kuvempu University (2024); MSc, Kuvempu University (2015); BSc, Davangere University (2013)",
       "modules_taught": [
@@ -2026,7 +2028,7 @@
       "department": "History and Archaeology",
       "email": "nageshapapu929@gmail.com",
       "teaches": true,
-      "biography": "History of Karnataka\n\nAncient Indian\n\nArchaeology\n\nArt and Architecture",
+      "biography": "History of Karnataka \nAncient Indian \nArchaeology\nArt and Architecture",
       "research_interests": "Archaeology",
       "academic_journey": "PhD, Kuvempu University (2019); MA, Tumkur University (2011); BA, Bangalore University (2008)",
       "modules_taught": [
@@ -2049,13 +2051,12 @@
       "teaches": true,
       "biography": "My work focuses on Modern Mysuru. I support students across disciplines through training in digital tools and advanced research methods.",
       "research_interests": "Indian National Movement, Modern Mysuru, Historiography",
-      "academic_journey": "Ph.D in Modern Mysuru (Modern History), University of Mysore, India (2012); M.Phil in Modern Mysuru (Modern History), Kannada University, India (2008); B.Ed, Kuvempu University, (2009); MA in History, University of Mysore, India (2008).",
+      "academic_journey": "Ph.D in Modern Mysuru (Modern History), University of Mysore, India (2012); M.Phil in Modern Mysuru (Modern History), Kannada University, India (2008);  B.Ed, Kuvempu University, (2009); MA in History, University of Mysore, India (2008).",
       "modules_taught": [
-        "Historiography",
-        "Indian National Movement",
-        "Modern Karnataka",
         "Research Methods",
-        "National Movement"
+        "National Movement",
+        "Modern Karnataka",
+        "Historiography."
       ],
       "orcid": "0009-0009-9101-3643",
       "designation": "Lecturer"
@@ -2289,7 +2290,8 @@
       ],
       "orcid": "0009-0008-3840-2845",
       "designation": "Professor",
-      "photo": "jrnl-sathish-kumar.png"
+      "photo": "jrnl-sathish-kumar.png",
+      "biography": "To be updated"
     },
     {
       "id": "varghese-p-a-pulickal",
@@ -2300,13 +2302,8 @@
       "email": "pulivarghese@gmail.com",
       "teaches": true,
       "research_interests": "Journalism and mass comm",
-      "academic_journey": "PhD / MS in Communication, University of Philippines (2000); MA in Journalism, KSOU (2004); BA in Economics, University of Kerala (2000)",
+      "academic_journey": "PhD 2002",
       "modules_taught": [
-        "Communication",
-        "Journalism",
-        "Digital Media",
-        "Advertising",
-        "Film",
         "Digital media advertising"
       ],
       "orcid": "0009-0003-5144-0604",
@@ -2528,16 +2525,15 @@
       "name": "Dr. Purushotama Shekharappa Vatigar",
       "department_id": "kannada",
       "department": "Kannada",
-      "biography": "ನಾನು ಅತಿಥಿ ಉಪನ್ಯಾಸಕನಾಗಿ ಕಳೆದ ಐದುವರ್ಷದಿಂದ ಕೆಲಸಮಾಡುತ್ತಿದ್ದೇನೆ. ಸಾಹಿತ್ಯದ ವಿವಿಧ ಪ್ರಕಾರಗಳ ಓದಿನಲ್ಲಿ ಆಶಕ್ತಿ ಹೊಂದಿದ್ದೇನೆ.",
+      "biography": "ನಾನು ಅತಿಥಿ ಉಪನ್ಯಾಸಕನಾಗಿ ಕಳೆದ ಐದುವರ್ಷದಿಂದ ಕೆಲಸಮಾಡುತ್ತಿದ್ದೇನೆ. ಸಾಹಿತ್ಯದ ವಿವಿಧ ಪ್ರಕಾರಗಳ  ಓದಿನಲ್ಲಿ ಆಶಕ್ತಿ ಹೊಂದಿದ್ದೇನೆ.",
       "research_interests": "Kannada",
       "designation": "Guest faculty",
       "photo": "kn-purushotama-sv.png",
       "last_name": "Shekharappa Vatigar",
       "email": "puruhitlu@gmail.com",
       "teaches": true,
-      "academic_journey": "PhD in Kannada, Kuvempu University (2018); MA in Kannada, Kuvempu University (2011)",
+      "academic_journey": "Kannada",
       "modules_taught": [
-        "Kannada Literature",
         "Kannada"
       ],
       "orcid": "0009-0009-6351-1768"
@@ -2580,7 +2576,7 @@
       "last_name": "Siddesh",
       "email": "nellikattesiddesh@gmail.com",
       "teaches": true,
-      "academic_journey": "PhD in Abhinavakalidasa Basavappashastri, Kuvempu University (2005); MA in Kannada, Kuvempu University (1997); MEd, KSOU (1998); BEd, CTE (1994); BA in Sociology, Kannada, History (1993)",
+      "academic_journey": "Kannada",
       "modules_taught": [
         "Literature",
         "Linguistics",
@@ -2621,17 +2617,15 @@
       "name": "Dr. Manjunatha Thippeswamy",
       "department_id": "kannada",
       "department": "Kannada",
-      "biography": "ನಾನು ಇಲ್ಲಿ ಉಪನ್ಯಾಸಕನಾಗಿ ಸೇರಿಕೊಂಡಿತ್ತು ಹೆಮ್ಮೆ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಕನ್ನಡ ಸಾಹಿತ್ಯದ ಬಗ್ಗೆ ಅರಿವು ಮತ್ತು ಮಾರ್ಗದರ್ಶನವನ್ನು ನೀಡುತ್ತಿದ್ದು ಸಂಸ್ಕೃತಿಯ ಅರಿವು ಸಮಾಜದಲ್ಲಿ ಎದುರಿಸಬೇಕಾದ ಪರಿಸ್ಥಿತಿಗಳಿಗೆ ಹೇಗೆ ಸ್ಪಂದಿಸಬೇಕು ಎಂಬ ತಿಳುವಳಿಕೆಯನ್ನು ನೀಡುತ್ತಾ ನಾನು ಕೂಡ ಸಾಹಿತ್ಯದ ವಿದ್ಯಾರ್ಥಿಯಾಗಿದ್ದು ಸದಾ ಕಾಲ ಕಲಿಯಲು ಉತ್ಸಾಹಕಾರನಾಗಿದ್ದೇನೆ.",
+      "biography": "ನಾನು ಇಲ್ಲಿ ಉಪನ್ಯಾಸಕನಾಗಿ ಸೇರಿಕೊಂಡಿತ್ತು ಹೆಮ್ಮೆ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಕನ್ನಡ ಸಾಹಿತ್ಯದ ಬಗ್ಗೆ ಅರಿವು ಮತ್ತು ಮಾರ್ಗದರ್ಶನವನ್ನು ನೀಡುತ್ತಿದ್ದು ಸಂಸ್ಕೃತಿಯ ಅರಿವು ಸಮಾಜದಲ್ಲಿ ಎದುರಿಸಬೇಕಾದ  ಪರಿಸ್ಥಿತಿಗಳಿಗೆ ಹೇಗೆ ಸ್ಪಂದಿಸಬೇಕು ಎಂಬ ತಿಳುವಳಿಕೆಯನ್ನು ನೀಡುತ್ತಾ ನಾನು ಕೂಡ ಸಾಹಿತ್ಯದ ವಿದ್ಯಾರ್ಥಿಯಾಗಿದ್ದು ಸದಾ ಕಾಲ ಕಲಿಯಲು ಉತ್ಸಾಹಕಾರನಾಗಿದ್ದೇನೆ.",
       "research_interests": "Kannada",
       "designation": "Guest faculty",
       "photo": "kn-manjunatha-t.png",
       "last_name": "Thippeswamy",
       "email": "manjumt94@gmail.com",
       "teaches": true,
-      "academic_journey": "PhD in Kannada, Kuvempu University (2025); MA in Kannada, Kuvempu University (2017)",
+      "academic_journey": "Kannada phd",
       "modules_taught": [
-        "Modern Kannada",
-        "Folklore",
         "Kannada"
       ],
       "orcid": "0009-0005-8485-3274"
@@ -2955,7 +2949,8 @@
       "phd_supervisor": "Prof. Gajanana Prabhu B",
       "orcid": "0009-0008-0642-8282",
       "designation": "Guest faculty",
-      "photo": "pe-bopanna-cp.png"
+      "photo": "pe-bopanna-cp.png",
+      "biography": "filled later"
     },
     {
       "id": "balakrishna-puttur",
@@ -2965,15 +2960,14 @@
       "department": "Physical Education",
       "email": "pbbalu1975@gmail.com",
       "teaches": true,
-      "biography": "Developing the forest",
-      "research_interests": "Agriculture",
+      "biography": "filled later",
+      "research_interests": "Yoga",
       "academic_journey": "MPhil in Economics, Kuvempu University (2012); MA in Economics, Kuvempu University (2009); PG Diploma in Yoga, Kuvempu University (2009); MSc in Yoga, Annamalai University (2026)",
       "modules_taught": [
         "Yoga",
         "Hatha Yoga",
         "Gheranda Samhita",
-        "Introduction to Yoga",
-        "Agriculture"
+        "Introduction to Yoga"
       ],
       "orcid": "0009-0006-2375-814X",
       "designation": "Guest faculty",
@@ -3004,7 +2998,10 @@
         "retrieved_at": "2026-11-03T13:37:49+00:00",
         "last_attempt": "2026-11-03T13:37:49+00:00",
         "status": "success"
-      }
+      },
+      "modules_taught": [
+        "TBA"
+      ]
     },
     {
       "id": "sudha",
@@ -3014,9 +3011,9 @@
       "department": "Physics",
       "email": "1967.shenoy@gmail.com",
       "teaches": true,
-      "biography": "My work focusses on characterising quantum entanglement in symmetric multi qubit systems, their geometric visualisation and foundational aspects such as macrorealism. I am passionate about teaching as well as research. In addition to helping my students in their career prospects, I continuously strive to upgrade my research standards and contribute to the overall development of my University.",
+      "biography": "My work focusses on characterising quantum entanglement in symmetric multi qubit systems, their geometric visualisation and foundational aspects such as macrorealism. I am passionate about teaching as well as research. In addition to helping my students in their career prospects,  I continuously strive to upgrade my research standards and contribute to the overall development of my University.",
       "research_interests": "Quantum Information Science",
-      "academic_journey": "Ph.D., in Physics, University of Mysore (1999), M.Sc., in Physics, University of Mysore (1990) B.Sc. in Physics, Chemistry, Mathematics, Tunga Mahavidyakaya, Thirthahalli",
+      "academic_journey": "Ph.D., in Physics, University of Mysore (1999), M.Sc., in Physics, University of Mysore (1990) B.Sc.  in Physics, Chemistry, Mathematics, Tunga Mahavidyakaya, Thirthahalli",
       "modules_taught": [
         "Quantum Mechanics",
         "Electrodynamics",
@@ -3094,13 +3091,9 @@
       "teaches": true,
       "biography": "My work focuses on a comparative study of culture and rural development. Alongside teaching university-wide courses, I guide master’s student projects.",
       "research_interests": "Comparative study of culture, rural development",
-      "academic_journey": "PhD in Rural Development, Kuvempu University (2020); MA in Political Science, Kuvempu University (2014)",
+      "academic_journey": "PHD in Gandhi Gramaswarjay and Rural Development programs in Karnataka (Political Science) MA in Political Science",
       "modules_taught": [
-        "Western Political Thought",
-        "Research Methodology",
-        "Political Sociology",
-        "Contemporary Debates on Political Thought",
-        "Western political thought and research methodology"
+        "I teach Western political thought and research methodology"
       ],
       "orcid": "0009-0009-6941-5523",
       "scholar_url": "https://scholar.google.com/citations?user=eJTScmEAAAAJ&hl=en",
@@ -3135,7 +3128,7 @@
       "teaches": true,
       "biography": "I did work in Coalition Politics,and Government and Politics",
       "research_interests": "Coalition politics, International relations, Government and politics, Public policy",
-      "academic_journey": "PhD in Coalition Politics, Gulbarga University (2005); MPhil in Sri Lankan Foreign Policy, Gulbarga University (2001); MA in Political Science, Gulbarga University (1999); BA in History, Economics, Political Science, GFGC Hagaribommanahalli (1997)",
+      "academic_journey": "PhD Political Science",
       "modules_taught": [
         "Administrative Theory",
         "International Relations",
@@ -3178,7 +3171,8 @@
       ],
       "phd_supervisor": "Prof. Mohan S Singhe",
       "orcid": "0009-0003-1693-3956",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "biography": "Fill it later"
     },
     {
       "id": "lakshmi-hosurappa",
@@ -3274,7 +3268,8 @@
         "Life Skills"
       ],
       "orcid": "0009-0001-4455-2021",
-      "designation": "Guest faculty"
+      "designation": "Guest faculty",
+      "biography": "filled later"
     },
     {
       "id": "chandrashekar-e",
@@ -3315,7 +3310,8 @@
       ],
       "orcid": "0009-0000-3930-1941",
       "scholar_url": "https://scholar.google.com/citations?user=TTVnjqcAAAAJ&hl=en",
-      "designation": "Professor"
+      "designation": "Professor",
+      "biography": "to be sent through mail"
     },
     {
       "id": "chandrashekhar-s",
@@ -3326,7 +3322,10 @@
       "email": "drchandrurcr2008@gmail.com",
       "teaches": true,
       "research_interests": "Gerontology, Theories, Youth studies, Subaltern studies",
-      "designation": "Senior Professor"
+      "designation": "Senior Professor",
+      "modules_taught": [
+        "TBA"
+      ]
     },
     {
       "id": "nataraja-t-chandrappa",
@@ -3406,11 +3405,10 @@
       "teaches": true,
       "biography": "My work is focusing on the various aspects related to travel and tourism such as Heritage tourism, wildlife tourism, Agri tourism.",
       "research_interests": "Travel and Tourism Management, Urban Tourism, Medical Tourism and Wildlife Tourism",
-      "academic_journey": "MTA in Tourism Administration; PG Diploma in HRM",
+      "academic_journey": "MTA, PG Diploma in HRM",
       "modules_taught": [
-        "Travel Agency Management",
-        "Airline and Airport Operations",
         "Travel Agency and Tour Operations Management",
+        "Airline and Airport Operations",
         "International Tourism",
         "Itinerary Planning"
       ],
@@ -3726,33 +3724,33 @@
       "name": "Yathisha R. O.",
       "department_id": "chemistry",
       "department": "Chemistry",
-      "biography": "My research focuses on the synthesis, characterization, and application of nanomaterials and nanoparticles, with particular emphasis on solar energy conversion, dye-sensitized solar cells (DSSCs), and electrochemistry. My research interests include the development of advanced nanomaterials for renewable energy applications, electrochemical studies, and improving the performance of solar cell technologies. Alongside my research activities, I am actively involved in teaching, curriculum development, and mentoring postgraduate students in their research projects.",
+      "biography": "My work focused on synthesis of nanomaterials and characterization, application of photovoltaic  devices.",
       "email": "yathisharo89@gmail.com",
       "orcid": "0009-0007-6207-766X",
-      "research_interests": "Nanomaterials and nanoparticles, solar cells, dye sensitized solar cells and electrochemistry.",
-      "academic_journey": "PhD in chemistry (2020), MSc in chemistry (2013), BSc in PCM (2011).",
+      "research_interests": "Nanomaterials, Dye sensitized solar cells, photovoltaic devices.",
+      "academic_journey": "Ph.D. in chemistry,  Kuvempu University, M.Sc in chemistry  Kuvempu University",
       "modules_taught": [
-        "Analytical chemistry",
-        "Physical chemistry",
-        "inorganic chemistry"
+        "Physical",
+        "Analytical and inorganic Chemistry"
       ],
       "designation": "Guest faculty",
       "teaches": true,
       "phd_supervisor": "Prof. Y Arthoba Nayaka",
-      "last_name": "R. O."
+      "last_name": "R. O.",
+      "scholar_url": "https://scholar.google.com/citations?hl=en&authuser=1&user=33W2eOIAAAAJ"
     },
     {
       "id": "sharath-kumar-b",
       "name": "Sharath Kumar B.",
       "department_id": "chemistry",
       "department": "Chemistry",
-      "biography": "I am a researcher specialized in the synthesis, development, and characterization of advanced nanomaterials for energy storage applications. My research focuses on carbon-based nanomaterials, and hybrid nanostructures for applications in supercapacitors and redox flow batteries. I have expertise in various synthesis techniques, including hydrothermal synthesis and in-situ polymerization, along with electrochemical and physicochemical characterization techniques. My research aims to develop efficient, stable, and cost-effective nanomaterials for next-generation energy storage and conversion technologies.",
+      "biography": "My research work involves the development and electrochemical investigation of advanced electrode materials for energy storage applications",
       "email": "s14sharath@gmail.com",
       "orcid": "0009-0006-9137-0550",
-      "research_interests": "Development of Nanostructure materials for energy storage devises which includes redox flow batteries and super capacitors",
-      "academic_journey": "PhD in chemistry (2026), MSc in chemistry (2020), BSc in PCM (2018).",
+      "research_interests": "Redox flow battery, Supercapacitor, Nanomaterials, Carbon composites",
+      "academic_journey": "II have completed Master of Science (M.Sc.) in Chemistry in 2020, securing Fourth Rank at Kuvempu University. My academic interest in materials chemistry and electrochemical applications motivated me to pursue doctoral research on Nanostructured materials. I have completed my Ph.D. degree in the Department of Chemistry, Kuvempu University, Shankaraghatta, under the supervision of Prof. Y. Arthoba Nayaka.",
       "modules_taught": [
-        "Physical and analytical chemistry"
+        "Analytical chemistry and Physical chemistry"
       ],
       "scholar_url": "https://scholar.google.com/citations?user=Aw2U5WQAAAAJ&hl=en",
       "linkedin_url": "https://www.linkedin.com/in/dr-sharath-kumar-b-6b271a194/",

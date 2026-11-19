@@ -6,7 +6,7 @@
       "name": "Ms. Jasmin A. Arani",
       "department_id": "applied-botany",
       "programme": "PhD candidate",
-      "biography": "My work focuses on the phytochemical characterization, pharmacological potential, and profiling of Actinodaphne malabarica N.P. Balakr medicinal plant species.\n\nThrough this research, I evaluate the plant's chemical compounds and test their therapeutic properties to unlock its medicinal value.\n\nIn addition to laboratory research, I actively educate postgraduate (M.Sc.) students in advanced botanical sciences.\n\nUltimately, my efforts bridge the gap between plant taxonomy, ecological conservation, and modern pharmacological science.",
+      "biography": "My work focuses on the phytochemical characterization, pharmacological potential, and profiling of Actinodaphne malabarica N.P. Balakr medicinal plant species. \nThrough this research, I evaluate the plant's chemical compounds and test their therapeutic properties to unlock its medicinal value.\nIn addition to laboratory research, I actively educate postgraduate (M.Sc.) students in advanced botanical sciences.\nUltimately, my efforts bridge the gap between plant taxonomy, ecological conservation, and modern pharmacological science.",
       "research_interests": "Phytochemistry, Pharmacology, Molecular docking, Chemoinformatics, ADMET studies",
       "academic_journey": "PhD in Applied Botany (Phytochemistry and Pharmacology), Department of Applied Botany, Kuvempu University; MSc in Botany, Davangere University (2022); BSc in Chemistry, Botany, Zoology, A. V. Kamalamma College for Women, Davangere (2020)",
       "photo_url": "../assets/img/students/ab-jasmine-a.png",
@@ -22,7 +22,8 @@
       ],
       "supervisor": "Dr.Raja Naika",
       "orcid": "0009-0009-9501-7262",
-      "linkedin_url": "https://www.linkedin.com/in/jasmine-a-8b37341a1"
+      "linkedin_url": "https://www.linkedin.com/in/jasmine-a-8b37341a1",
+      "research_topic": "Phytochemical characterization, Pharmacological potential, and  profiling of Actinodaphne malabarica N.P.Balakar"
     },
     {
       "id": "narasimha-tb",
@@ -30,9 +31,9 @@
       "name": "Mr. Narasimha Basamma",
       "department_id": "applied-botany",
       "programme": "PhD candidate",
-      "biography": "My research focuses on phytochemistry, pharmacological evaluation, and in silico molecular docking of medicinal plants.\n\nThe study aims to identify bioactive compounds using phytochemical analysis.\n\nPharmacological studies will evaluate the potential biological activities of plant extracts.\n\nMolecular docking will investigate the interactions between bioactive compounds and selected protein targets.",
+      "biography": "My research focuses on phytochemistry, pharmacological evaluation, and in silico molecular docking of medicinal plants.\nThe study aims to identify bioactive compounds using phytochemical analysis.\nPharmacological studies will evaluate the potential biological activities of plant extracts.\nMolecular docking will investigate the interactions between bioactive compounds and selected protein targets.",
       "research_interests": "Medicinal plants, phytochemistry and pharmacology",
-      "academic_journey": "Bsc in CBG(Chemistry, Botany, Geology) Govt Science College in Davangere University.; MSc in Applied Botany in IDSG College, kuvempu University.",
+      "academic_journey": "Bsc in CBG(Chemistry, Botany, Geology) Govt Science College in Davangere University.\nMSc in Applied Botany in IDSG College, kuvempu University.",
       "photo_url": "../assets/img/students/ab-narasimha-tb.png",
       "publications": [],
       "last_name": "Basamma",
@@ -41,14 +42,14 @@
       "teaches": true,
       "research_summary": "Phytochemistry and pharmacology",
       "modules_taught": [
-        "Developmental Biology and Molecular Biology",
         "Developmental biology and medicinal plants and Moliculer biology"
       ],
       "supervisor": "Dr. Raja Naika",
       "orcid": "0009-0007-0999-6966",
       "social_links": {
         "instagram": "https://www.instagram.com/___roar__army?obrf=MW5kNGdmbXRhanc2cw=="
-      }
+      },
+      "research_topic": "Phytochemistry and pharmacology"
     },
     {
       "id": "venkatesh",
@@ -67,10 +68,11 @@
       "teaches": true,
       "research_summary": "Diversity distribution and molecular phylogeny of genus Nothopegia in central western Ghats, Karnataka",
       "modules_taught": [
-        "Molecular Taxonomy and Biogeography"
+        "Molecular Taxonomy and Bio geography"
       ],
       "supervisor": "Dr. Shrishail H C",
-      "orcid": ""
+      "orcid": "0009-0007-1190-5226",
+      "research_topic": "Diversity distribution and molecular phylogeny of genus Nothopegia in central western Ghats, Karnataka"
     },
     {
       "id": "apoorva-p",
@@ -103,7 +105,8 @@
       "modules_taught": [
         "Plant morphogenesis"
       ],
-      "supervisor": "Dr.Raja Naika"
+      "supervisor": "Dr.Raja Naika",
+      "research_topic": "“Phytochemical Profiling and Pharmacological Evaluation of Vepris bilocularis (Wight & Arn.)Engl. from Western Ghats region of Karnataka,India”"
     },
     {
       "id": "shrinidhi-k-t-bhandari",
@@ -112,8 +115,8 @@
       "department_id": "biochemistry",
       "department": "Biochemistry",
       "email": "bhandarikt92@gmail.com",
-      "teaches": true,
-      "biography": "I am a researcher interested in Phytochemistry and Nanobiotechnology.\n\nMy research focuses on the extraction and identification of bioactive compounds from medicinal plants.\n\nI am interested in the green synthesis of nanoparticles using plant extracts.\n\nMy work explores the antioxidant, antimicrobial, and therapeutic properties of plant-based nanoparticles.\n\nThe ultimate aim is to develop eco-friendly and sustainable approaches for biomedical and pharmaceutical applications.",
+      "teaches": false,
+      "biography": "I am a researcher interested in Phytochemistry and Nanobiotechnology.\nMy research focuses on the extraction and identification of bioactive compounds from medicinal plants.\nI am interested in the green synthesis of nanoparticles using plant extracts.\nMy work explores the antioxidant, antimicrobial, and therapeutic properties of plant-based nanoparticles.\nThe ultimate aim is to develop eco-friendly and sustainable approaches for biomedical and pharmaceutical applications.",
       "research_interests": "Phytochemistry and nanobiotechnology",
       "academic_journey": "Bsc in Botany, chemistry, zoology (2019) Msc in biochemistry (2021) in davanagere university",
       "research_summary": "Extraction of biochemical compounds and biological pharmacological assays",
@@ -124,7 +127,8 @@
       "orcid": "0009-0002-0863-2435",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "Extraction of biochemical compounds and biological pharmacological assays"
     },
     {
       "id": "nehakumari-chandrashekhar",
@@ -147,7 +151,9 @@
       "scholar_url": "https://scholar.google.com/citations?user=7iLnL8kAAAAJ&hl=en",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "Green synthesis of nanoparticle and its applications",
+      "biography": "filled by their own"
     },
     {
       "id": "prathibha-s-konkar",
@@ -157,21 +163,22 @@
       "department": "Biochemistry",
       "email": "prathibhaskonkar@gmail.com",
       "teaches": true,
-      "biography": "My work focuses on the phyto conjugated polymers with biomedical applications",
-      "research_interests": "Biopolymer, tissue engineering, nanoparticals. Phytochemistry",
-      "academic_journey": "PhD in Biochemistry, Kuvempu university, (2026) pursuing, Msc in Biochemistry, Kuvempu university (2021), BSc in Biochemistry, Sahyadri science college, shivamogga (2019).",
+      "biography": "filled by their own",
+      "research_interests": "Phytochemistry, Biopolymers, Tissue engineering, Nanoparticles",
+      "academic_journey": "MSc in Biochemistry, Kuvempu University (2021); BSc in Biochemistry, Sahyadri Science College, Shivamogga (2019)",
       "research_summary": "Synthesis and characterization of phytoconjugated polymer from viscum angulatum for biomedical applications",
       "modules_taught": [
         "Molecular Biology",
         "Nutrition Biochemistry",
         "Bioanalytical Techniques"
       ],
-      "supervisor": "Dr. Varunakumara J B, Prof. S E Neelagud",
+      "supervisor": "Dr. Varunakumara J B,  Prof. S E Neelagud",
       "orcid": "0009-0005-5205-3774",
       "linkedin_url": "https://www.linkedin.com/in/prathibha-s-prathibha-b710b6226?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "Phytochemistry, biopolymer, tissue engineering"
     },
     {
       "id": "rithu-r-revankar",
@@ -180,10 +187,10 @@
       "department_id": "biochemistry",
       "department": "Biochemistry",
       "email": "rithurevankar@gmail.com",
-      "teaches": true,
+      "teaches": false,
       "biography": "My work focus on The application of Green synthesis of metal oxide nanoparticles and there application in drug delivery",
       "research_interests": "Nanotechnology, Biopolymers,",
-      "academic_journey": "MSc in Biochemistry (2023),St.Aloysius, Mangalore; BSc in Biochemistry, Botany and Microbiology, S.R.N.M.N college of Applied Sciences, Shimoga (2021).",
+      "academic_journey": "MSc in Biochemistry (2023),St.Aloysius, Mangalore; BSc in Biochemistry, Botany and Microbiology,  S.R.N.M.N college of Applied Sciences, Shimoga (2021).",
       "research_summary": "Green synthesis of metal nanoparticles and drug delivery studies",
       "modules_taught": [
         "Nanotechnology",
@@ -194,7 +201,8 @@
       "linkedin_url": "https://www.linkedin.com/in/rithu-r-revankar-541a63237/",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "Green synthesis of metal nanoparticles and drug delivery studies"
     },
     {
       "id": "gagana-s-sathish-kumar",
@@ -204,16 +212,17 @@
       "department": "Biochemistry",
       "email": "gagana07bw@gmail.com",
       "teaches": false,
-      "biography": "I am a researcher specializing in molecular entomology, protein biochemistry, and translational omics. My research focuses on parasitoid wasps, particularly Trichogramma species, and the molecular mechanisms involved in host–parasitoid interactions.\n\nMy work involves the identification and characterization of venom-associated and host-immunosuppressive molecules using transcriptomics, proteomics. I also have experience in recombinant protein expression, Ni–NTA affinity purification, buffer exchange, and functional evaluation of bioactive proteins, including serpins.\n\nThe broader objective of my research is to identify novel molecules with potential applications in sustainable biological pest management and biomedical research. I am particularly interested in the immunomodulatory, wound-healing, and therapeutic potential of parasitoid-derived proteins, as well as polydnaviruses, venom evolution, and the integration of insect molecular biology with translational science.",
+      "biography": "added through QR",
       "research_interests": "Proteomics, Metabolomics, Transcriptomics, General therapy, Drug discovery, Structural Biology, Cancer Biology, multiomics integration with reference to cancer, drug discovery, immunology and protein engineering",
-      "academic_journey": "PhD in Biochemistry, Kuvempu University Shimoga; Msc in Biochemistry, Dr.Manmohan Singh Bengaluru City University, Bengaluru; Bsc in Biochemistry, Zoology, Microbiology, Maharani Lakshmi Ammani college for women",
+      "academic_journey": "Added through QR",
       "research_summary": "Cloning, expression and Functional Characterization of Immune suppressive genes from Trichogramma chilonis",
-      "supervisor": "Prof.Niranjana P",
+      "supervisor": "Dr. Niranjana P",
       "orcid": "0009-0009-5040-8075",
       "linkedin_url": "https://www.linkedin.com/in/gagana-s-41b9a8238?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "added through QR"
     },
     {
       "id": "shilpa-shivakumar",
@@ -230,7 +239,9 @@
       "orcid": "0009-0007-6968-2686",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "Endophytic Fungi",
+      "biography": "filled by their own"
     },
     {
       "id": "aishwarya-b-l-beeranakallu-lakshmikantha",
@@ -240,7 +251,7 @@
       "department": "Biotechnology",
       "email": "aishukanth01@gmail.com",
       "teaches": false,
-      "biography": "Aishwarya B L Research Scholar in Biotechnology at Kuvempu University Shivamogga\n\nMy work focuses on phytochemistry and Pharmacological Evaluation of medicinal plants",
+      "biography": "Aishwarya B L Research Scholar in Biotechnology at Kuvempu University Shivamogga \nMy work focuses on  phytochemistry and Pharmacological Evaluation of medicinal plants",
       "research_interests": "Phytochemistry, Pharmacological evaluation, Hepatoprotective and cancer study",
       "academic_journey": "Research Scholar in Biotechnology, Kuvempu University (2025–present); MSc in Biotechnology, Kuvempu University (2024); BSc in Chemistry, Zoology and Biotechnology, Tumkur University (2022)",
       "research_summary": "Phytochemical and pharmacological evaluation of medicinal plants",
@@ -250,7 +261,8 @@
       "linkedin_url": "https://linkedin.com/in/aishwarya-b-l-aishukanth-716769337",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "Phytochemical and pharmacological evaluation of medicinal plants"
     },
     {
       "id": "sangeetha-k-v-gowda",
@@ -269,7 +281,8 @@
       "linkedin_url": "https://www.linkedin.com/in/sangeetha-kv-gowda-71243b228",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "In vitro regeneration, phytochemical and pharmacological investigation of cryptolepis bhuchanani roem and schult."
     },
     {
       "id": "pooja-s-j-shettihalli-jagadeesh",
@@ -288,7 +301,8 @@
       "linkedin_url": "https://www.linkedin.com/in/pooja-sj-b68b6234b",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "Metabolic Profiling and Pharmacological Screeing of Actinomycetes from the Central Western Ghats of Karnataka"
     },
     {
       "id": "shushma-h-l",
@@ -298,15 +312,16 @@
       "department": "Business Administration",
       "email": "shushmakademanehl@gmail.com",
       "teaches": false,
-      "biography": "I am a full-time PhD scholar in Marketing at Kuvempu University, Karnataka.\n\nMy research interests include Consumer Behaviour, Artificial Intelligence, and Digital Marketing.\n\nI am passionate about learning, teaching, research, and exploring innovative ideas.\n\nMy goal is to create meaningful research and contribute to the advancement of marketing and technology.",
-      "research_interests": "Digital marketing, perception, consumer engagement, purchase behaviour, matrix factorization in marketing.",
-      "academic_journey": "MBA, Justice K. S. Hegde Institute of Management, Nitte University (2023); BBA, NES College, Kuvempu University (2018)",
+      "biography": "I am a full-time PhD scholar in Marketing at Kuvempu University, Karnataka.  \nMy research interests include Consumer Behaviour, Artificial Intelligence, and Digital Marketing.  \nI am passionate about learning, teaching, research, and exploring innovative ideas.  \nMy goal is to create meaningful research and contribute to the advancement of marketing and technology.",
+      "research_interests": "Digital marketing, perception,  consumer engagement, purchase behaviour, matrix factorization in marketing.",
+      "academic_journey": "MBA in JUSTICE  K.S HEGIDE INSTITUTION OF MANAGEMENT STUDIES,Nitte(2023) BBA IN KUVEMPU UNIVERSITY (2018)",
       "research_summary": "Matrix factorization on personalisation, engagement and purchasing behavior of consumer: A study.",
       "supervisor": "Dr HN Ramesh",
       "orcid": "0009-0000-0560-1313",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "Matrix factorization on personalisation, engagement and purchasing behavior of consumer: A study."
     },
     {
       "id": "teenakumari-b-n-keremane",
@@ -334,7 +349,8 @@
       "linkedin_url": "https://www.linkedin.com/in/teena-b-n-4a423b316/",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "Management of employee engagement in healthcare industry: select corporate hospitals in Karnataka"
     },
     {
       "id": "shilpa-b-c",
@@ -353,7 +369,8 @@
       ],
       "published": true,
       "programme": "PhD candidate (Research Fellow)",
-      "publications": []
+      "publications": [],
+      "research_topic": "A study on impact of celebrity endorsement of FMCG products on consumer buying behavior"
     },
     {
       "id": "sneha-m-a-anthony",
@@ -400,7 +417,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/students/chm-chandana-hp.png"
+      "photo_url": "../assets/img/students/chm-chandana-hp.png",
+      "research_topic": "Synthesis of some new nitrogen containing heterocyclic compound and their biological interest"
     },
     {
       "id": "kavana-s",
@@ -420,7 +438,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/students/chm-kavana-s.png"
+      "photo_url": "../assets/img/students/chm-kavana-s.png",
+      "research_topic": "Synthesis of heterocyclic derivatives containing N/O and their applications"
     },
     {
       "id": "sangeetha-kempayya",
@@ -442,7 +461,8 @@
       "orcid": "0009-0008-7316-2680",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "An Economic performance of state public enterprises in Karnataka Special refernce to KSDL Bengaluru"
     },
     {
       "id": "parameshwara-s-k-naik",
@@ -467,7 +487,9 @@
       "linkedin_url": "https://www.linkedin.com/in/parameshwara-naik-s-k-2b4429190/",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "Rural Connectivity and Agricultural Development: A Study on PMGSY in Shivamogga District of Karnataka State.",
+      "biography": "filled by their own"
     },
     {
       "id": "madhu-j-krishnappa",
@@ -502,11 +524,12 @@
       "research_interests": "Physical education games and sports",
       "academic_journey": "PhD in physical education",
       "research_summary": "AN ANALYTICAL STUDY ON PERCEPTIONS PRACTICE AND BARRIERS FOR INCLUSIVE PHYSICAL EDUCATION IN SCHOOLS",
-      "supervisor": "Professor Dr. Gajanana prabhu. b",
+      "supervisor": "Professor  Dr. Gajanana prabhu. b",
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/students/pe-basavaraja-magalda.png"
+      "photo_url": "../assets/img/students/pe-basavaraja-magalda.png",
+      "research_topic": "AN ANALYTICAL STUDY ON PERCEPTIONS PRACTICE AND BARRIERS FOR INCLUSIVE PHYSICAL EDUCATION IN SCHOOLS"
     },
     {
       "id": "vasudha-s-s",
@@ -518,7 +541,7 @@
       "teaches": true,
       "biography": "Track and field is considered the mother of all sports, where performance is a complex interaction of body structure and physical capacities. Success in sprints, jumps, throws and middle-distance events is not by chance but determined by specific morphological and fitness profiles. Hence, deciphering these variables is essential for talent identification and training optimization.",
       "research_interests": "Sports and physical education, Human morphology, physical fitness , psychology",
-      "academic_journey": "PhD in physical education and sports (Female track and field athlete) Kuvempu University karnataka (2024);Master of physical education, kuvempu University (2022) Bachelors of physical education Kuvempu University (2020)",
+      "academic_journey": "PhD in physical education and sports  (Female track and field athlete) Kuvempu University karnataka (2024);Master of physical education, kuvempu University (2022) Bachelors of physical education Kuvempu University (2020)",
       "research_summary": "DECEPHERING: AN ANALYSIS OF MORPHOLOGICAL, PHYSICAL FITNESS VARIABLES AND SPORTS PERFORMANCE ABILITY OF TRACK AND FIELD ATHLETES",
       "modules_taught": [
         "Sports training",
@@ -530,7 +553,8 @@
       "published": true,
       "programme": "PhD candidate (Research Fellow)",
       "publications": [],
-      "photo_url": "../assets/img/students/pe-vasudha-ss.png"
+      "photo_url": "../assets/img/students/pe-vasudha-ss.png",
+      "research_topic": "DECEPHERING: AN ANALYSIS OF MORPHOLOGICAL, PHYSICAL FITNESS VARIABLES AND SPORTS PERFORMANCE ABILITY OF TRACK AND FIELD ATHLETES"
     },
     {
       "id": "doreobanna-b",
@@ -550,7 +574,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/faculty/en-doreobanna-e.png"
+      "photo_url": "../assets/img/faculty/en-doreobanna-e.png",
+      "research_topic": "The portrayal of masculinity in selected contemporary Indian fiction and autobiographies"
     },
     {
       "id": "aditya-j",
@@ -602,7 +627,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/faculty/en-jayadrata.png"
+      "photo_url": "../assets/img/faculty/en-jayadrata.png",
+      "research_topic": "History as narratives representations of Islamic cultures in selected literary and visible texts"
     },
     {
       "id": "pratibha-t-bhagawad",
@@ -769,7 +795,7 @@
       "name": "Ms. Bhavani M. H.",
       "department_id": "industrial-chemistry",
       "department": "Industrial Chemistry",
-      "biography": "Profile information will be added here.",
+      "biography": "to be sent through mail",
       "research_interests": "Heterocyclic synthesis",
       "published": true,
       "programme": "PhD candidate",
@@ -785,7 +811,8 @@
         "Chemical Bond Theories"
       ],
       "supervisor": "Dr. Itte Pushpavathi",
-      "orcid": "0009-0009-5684-3782"
+      "orcid": "0009-0009-5684-3782",
+      "research_topic": "Heterocyclic Synthesis"
     },
     {
       "id": "ic-supraja-r-prasad",
@@ -810,7 +837,8 @@
       ],
       "supervisor": "Dr. Itte Pushpavathi",
       "orcid": "0009-0008-9101-4569",
-      "scholar_url": "https://scholar.google.com/citations?user=MrBmQPwAAAAJ&hl=en"
+      "scholar_url": "https://scholar.google.com/citations?user=MrBmQPwAAAAJ&hl=en",
+      "research_topic": "Development of multicomponent reactions for the synthesis of novel heterocycles with biological interest"
     },
     {
       "id": "ic-anusha-hy",
@@ -855,7 +883,8 @@
         "Morderen litrature",
         "folklore litrature"
       ],
-      "supervisor": "Pro. Vasanth Kumar T"
+      "supervisor": "Pro. Vasanth Kumar T",
+      "research_topic": "Kavirajamarga : Adhunikateya Anusandhanagalu"
     },
     {
       "id": "kn-maruthi-manjappa-chelavadhi",
@@ -867,7 +896,7 @@
       "teaches": true,
       "biography": "We are kannada department",
       "research_interests": "FOLKLORE",
-      "academic_journey": "MA in Kannada (2024); BA (2022)",
+      "academic_journey": "MA IN KANNADA(2024)",
       "research_summary": "ಜನಪದ ಮಹಾಕಾವ್ಯಗಳಲ್ಲಿ ಶ್ರಮಣ ತಾತ್ವಿಕತೆ",
       "modules_taught": [
         "Modern Kannada Literature and Folklore"
@@ -877,7 +906,8 @@
       "published": true,
       "programme": "PhD candidate (Research Fellow)",
       "publications": [],
-      "photo_url": "../assets/img/faculty/kn-maruthi-manjappa-chelavadhi.png"
+      "photo_url": "../assets/img/faculty/kn-maruthi-manjappa-chelavadhi.png",
+      "research_topic": "ಜನಪದ ಮಹಾಕಾವ್ಯಗಳಲ್ಲಿ ಶ್ರಮಣ ತಾತ್ವಿಕತೆ"
     },
     {
       "id": "kn-ravikumara-d",
@@ -911,14 +941,15 @@
         "Literature"
       ],
       "supervisor": "Prof. Vasantha Kumar T",
-      "orcid": "0009-0002-7679-3513"
+      "orcid": "0009-0002-7679-3513",
+      "research_topic": "Dalitha bandaya natakagalalli shrama samskruthiya nelegalu"
     },
     {
       "id": "kn-rangaswamy-hg",
       "name": "Mr. Rangaswamy H. G.",
       "department_id": "kannada",
       "department": "Kannada",
-      "biography": "we are Kannada department",
+      "biography": "Kannada",
       "research_interests": "ಆಧುನಿಕ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಮತ್ತು ಜನಪದ ಅಧ್ಯಯನ",
       "published": true,
       "programme": "PhD candidate",
@@ -927,21 +958,21 @@
       "last_name": "G.",
       "email": "rangaswamyhg9@gmail.com",
       "teaches": true,
-      "academic_journey": "MA in Kannada (2023)",
+      "academic_journey": "MA Kannada",
       "research_summary": "ಕನ್ನಡ ಜನಪದ ಕಥೆಗಳ ಸಾಧಂತಿಕ ಅಧ್ಯಯನ ದಕ್ಷಿಣ ಕರ್ನಾಟಕ ಕಥೆಗಳನ್ನು ಅನುಲಕ್ಷಿಸಿ",
       "modules_taught": [
-        "ಆಧುನಿಕ ಕನ್ನಡ ಸಾಹಿತ್ಯ",
-        "ಜನಪದ ಸಾಹಿತ್ಯ"
+        "ಆಧುನಿಕ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಜನಪದ"
       ],
       "supervisor": "Dr. S.M MUTHAIAH",
-      "orcid": "0009-0008-0970-8458"
+      "orcid": "0009-0008-0970-8458",
+      "research_topic": "ಕನ್ನಡ ಜನಪದ ಕಥೆಗಳ ಸಾಧಂತಿಕ ಅಧ್ಯಯನ ದಕ್ಷಿಣ ಕರ್ನಾಟಕ ಕಥೆಗಳನ್ನು ಅನುಲಕ್ಷಿಸಿ"
     },
     {
       "id": "kn-gagana-j",
       "name": "Ms. Gagana J.",
       "department_id": "kannada",
       "department": "Kannada",
-      "biography": "Profile information will be added here.",
+      "biography": "Through QR",
       "research_interests": "Modern literature, Cinema, Folklore",
       "published": true,
       "programme": "PhD candidate",
@@ -951,7 +982,9 @@
       "email": "gaganaj991@gmail.com",
       "teaches": false,
       "supervisor": "Dr. Prashanth Naik G",
-      "orcid": "0009-0007-7245-4043"
+      "orcid": "0009-0007-7245-4043",
+      "academic_journey": "Added through QR",
+      "research_topic": "Through QR"
     },
     {
       "id": "kn-kavana-k",
@@ -970,7 +1003,8 @@
       "academic_journey": "MA in Kannada, Kuvempu University (2023); BA in Kannada, Economics, History, Sri JCBM College, Sringeri (2021)",
       "research_summary": "Vyasaraya Ballalara kathana sahithyadhalli Mumbai jagathu",
       "supervisor": "Prof. Vasanth Kumar T",
-      "orcid": "0009-0004-0413-4388"
+      "orcid": "0009-0004-0413-4388",
+      "research_topic": "Vyasaraya Ballalara kathana sahithyadhalli Mumbai jagathu"
     },
     {
       "id": "kn-ashik",
@@ -995,7 +1029,8 @@
         "ನಾಟಕ ಸಾಹಿತ್ಯ"
       ],
       "supervisor": "ಡಾ.ಜಿ. ಪ್ರಶಾಂತ ನಾಯಕ",
-      "orcid": "0009-0004-2993-0874"
+      "orcid": "0009-0004-2993-0874",
+      "research_topic": "ಪ್ರಗತಿಶೀಲ ಕಾದಂಬರಿಗಳಲ್ಲಿ ಮಹಿಳೆ: ಪ್ರತಿರೋಧದ ನೆಲೆಗಳು"
     },
     {
       "id": "kn-shilpakala-mathod",
@@ -1018,7 +1053,8 @@
         "Adhunika Kannada Sahithya"
       ],
       "supervisor": "Prof. Nellikatte S Siddesh",
-      "orcid": "0009-0009-6336-6118"
+      "orcid": "0009-0009-6336-6118",
+      "research_topic": "Samskruthika Nayaka karibasaweshwaraajjayya"
     },
     {
       "id": "kn-sudeepa-m",
@@ -1026,7 +1062,7 @@
       "department_id": "kannada",
       "department": "Kannada",
       "biography": "ಸಾಂಗತ್ಯ ಕಾವ್ಯಗಳ ಮೇಲೆ ಅಧ್ಯಯನ ಮಾಡುತೇನೆ ಅದರಲ್ಲಿ ಚರಿತ್ರೆ ಮತ್ತು ಪುರಾಣ ಮುಖಾಮುಖಿ ನೋಡುವುದು ಮಧ್ಯಾಕಾಲಿನ ಕನ್ನಡ ಸಾಹಿತ್ಯ ನನ್ನ ಕ್ಷೇತ್ರ",
-      "research_interests": "Information to be added.",
+      "research_interests": "Yes",
       "published": true,
       "programme": "PhD candidate",
       "photo_url": "../assets/img/students/kn-sudeepa-m.png",
@@ -1034,9 +1070,10 @@
       "last_name": "Murthyappa",
       "email": "msudeep056@gmail.com",
       "teaches": false,
-      "academic_journey": "M A in kannada Kuvempu university",
+      "academic_journey": "M A in  kannada Kuvempu university",
       "research_summary": "ಸಾಂಗತ್ಯಕಾವ್ಯಗಳಲ್ಲಿ ಚರಿತ್ರೆ ಮತ್ತು ಪುರಾಣ",
-      "supervisor": "Dr.. Mohana H S"
+      "supervisor": "Dr.. Mohana H S",
+      "research_topic": "ಸಾಂಗತ್ಯಕಾವ್ಯಗಳಲ್ಲಿ ಚರಿತ್ರೆ ಮತ್ತು ಪುರಾಣ"
     },
     {
       "id": "kn-harish-mn",
@@ -1058,7 +1095,8 @@
         "Modren literature",
         "Foklore"
       ],
-      "supervisor": "S M Muthaiha"
+      "supervisor": "S M Muthaiha",
+      "research_topic": "Kannada janapada kaavygalu: Saiddhantika Adhyayana"
     },
     {
       "id": "kn-narasimha-murthy-r",
@@ -1077,7 +1115,7 @@
       "name": "Mr. Shridhara S.",
       "department_id": "kannada",
       "department": "Kannada",
-      "biography": "I have an interest in study on kannada literature and culture as well as in field of medieval literature. I have participated in state and national level seminars related to literature and presented research papers",
+      "biography": "I have an interest in study on kannada literature and culture as well as in field of medieval literature.  I have participated in state and national level seminars related to literature and presented research papers",
       "research_interests": "Medieval literature, Kannada sahitya, Modern literature",
       "published": true,
       "programme": "PhD candidate",
@@ -1089,7 +1127,8 @@
       "academic_journey": "MA in Kannada, Kuvempu University (2020); BA in History, Economics and Kannada, SJM College (2018)",
       "research_summary": "Hariharana Ragalegalalli Jnana matthu adikaradha swaroopa",
       "supervisor": "Prof. Shiavanada Kelaginamani",
-      "orcid": "0009-0004-6396-5368"
+      "orcid": "0009-0004-6396-5368",
+      "research_topic": "Hariharana Ragalegalalli Jnana matthu adikaradha swaroopa"
     },
     {
       "id": "kn-raghu-sk",
@@ -1104,12 +1143,10 @@
       "publications": [],
       "last_name": "Shivani",
       "email": "raghuskkannada24@gmail.com",
-      "teaches": true,
-      "academic_journey": "MA in Kannada, Kuvempu University (2022); BA in Kannada, History & Sociology, Govt. First Grade College, Ajjampura (2020)",
+      "teaches": false,
+      "academic_journey": "PhD",
       "research_summary": "ಮಂಟೇಸ್ವಾಮಿ ಮತ್ತು ಮಲೆ ಮಾದೇಶ್ವರ ಜನಪದ ಮಹಾಕಾವ್ಯಗಳು : ಸಾಂಸ್ಕೃತಿಕ ಸಂಕಥನಗಳು",
       "modules_taught": [
-        "Folk",
-        "Medieval Kannada Literature",
         "Kannada Folk literature",
         "Medival kannada literature and samskruti study"
       ],
@@ -1117,15 +1154,16 @@
       "email_aliases": [
         "raghuskkannada01@gmail.com"
       ],
-      "orcid": "0009-0004-1822-531X"
+      "orcid": "0009-0004-1822-531X",
+      "research_topic": "ಮಂಟೇಸ್ವಾಮಿ ಮತ್ತು ಮಲೆ ಮಾದೇಶ್ವರ ಜನಪದ ಮಹಾಕಾವ್ಯಗಳು : ಸಾಂಸ್ಕೃತಿಕ ಸಂಕಥನಗಳು"
     },
     {
       "id": "kn-obalesha-t",
       "name": "Mr. Obalesha T. Thippaiah",
       "department_id": "kannada",
       "department": "Kannada",
-      "biography": "Literature, computer skill, sports",
-      "research_interests": "Chitradurga jilleya janapada kalegalu",
+      "biography": "We are Kannada department",
+      "research_interests": "Adunika Kannada sahitya",
       "published": true,
       "programme": "PhD candidate",
       "photo_url": "../assets/img/students/kn-obalesha-t.png",
@@ -1133,15 +1171,14 @@
       "last_name": "Thippaiah",
       "email": "tobalesha@gmail.com",
       "teaches": true,
-      "academic_journey": "MA in kannada (2022)Bed, B A in kannada sociology history (2016) HCBM first grade collage jagalur",
+      "academic_journey": "MA in Kannada (2022); BA (2016)",
       "research_summary": "Chitradurga jilleya janapada kalegalu",
       "modules_taught": [
-        "Janapada Sahitya",
-        "Modern literature",
-        "folklore literature"
+        "Janapada Sahitya"
       ],
-      "supervisor": "Prof. Nellikatte S Siddesh",
-      "orcid": "0009-0002-0704-5650"
+      "supervisor": "Pro Nellikatte S Siddesh",
+      "orcid": "0009-0002-0704-5650",
+      "research_topic": "Chitradurga jilleya janapada kalegalu"
     },
     {
       "id": "mahanth-rudrappa-avalageri",
@@ -1177,7 +1214,8 @@
       "published": true,
       "programme": "PhD candidate (Research Fellow)",
       "publications": [],
-      "photo_url": "../assets/img/students/mt-manaswini-bs.png"
+      "photo_url": "../assets/img/students/mt-manaswini-bs.png",
+      "research_topic": "Cosmological and physical implications of extended theories of gravity"
     },
     {
       "id": "kirankumara-c-m",
@@ -1196,7 +1234,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/students/mt-kiran kumar.png"
+      "photo_url": "../assets/img/students/mt-kiran kumar.png",
+      "research_topic": "Fluid Flow and Heat Transfer Analysis Over a Stretching/Shrinking Sheet"
     },
     {
       "id": "gowthami-g",
@@ -1218,7 +1257,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/students/mt-gowthami-g.png"
+      "photo_url": "../assets/img/students/mt-gowthami-g.png",
+      "research_topic": "PhD topic: Wavelet transformation technique to solve non-linear differential equations which represents real world applications."
     },
     {
       "id": "raghu-g-k",
@@ -1241,7 +1281,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/students/mt-raghu-gk.png"
+      "photo_url": "../assets/img/students/mt-raghu-gk.png",
+      "research_topic": "mathematical modelling and solutions for fin based  heat transfer problems in the presence of various nanofluids"
     },
     {
       "id": "bhumika-g-p",
@@ -1261,7 +1302,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/students/mt-bhoomika.png"
+      "photo_url": "../assets/img/students/mt-bhoomika.png",
+      "research_topic": "A Wavelet Based Analysis of Heat Transfer Due to Forced Convection in Various Fin Problems"
     },
     {
       "id": "deepak-h",
@@ -1280,7 +1322,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/students/mt-deepak.png"
+      "photo_url": "../assets/img/students/mt-deepak.png",
+      "research_topic": "Solutions of Fluid Flow and Heat Transfer Problems Using Reformulated Similarity Transformations"
     },
     {
       "id": "bharath-m",
@@ -1299,7 +1342,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/students/mt-bharath-m.png"
+      "photo_url": "../assets/img/students/mt-bharath-m.png",
+      "research_topic": "PhD topic: Numerical and Semi Analytical Solution Approach to Analyse the Heat Transfer and Thermal Efficiency of Fins in Different Operating Conditions."
     },
     {
       "id": "mohan-naik-d",
@@ -1311,14 +1355,15 @@
       "teaches": false,
       "biography": "My research interests focus on mathematical modelling and the development of wavelet-based analytical and computational techniques for solving nonlinear differential equations arising in fluid flow and heat transfer problems. The research involves formulating mathematical models for different thermal systems, particularly heat transfer in various fin structures, and developing efficient wavelet-based numerical and semi-analytical methods to obtain approximate solutions. The study aims to investigate the behaviour of complex physical systems and improve the accuracy and efficiency of mathematical solution techniques.",
       "research_interests": "Fluid Dynamics, Wavelet Transformation, Flow and Heat transfer",
-      "academic_journey": "MSc in Mathematics, Kuvempu University (2022); BSc in Mathematics, Physics and Electronics, Government First Grade College, Shikaripura (2020)",
+      "academic_journey": "M.Sc in Mathematics, Kuvempu University(2022);\nB.Sc in Mathematics Physics and Electronics (2020);",
       "research_summary": "Mathematical Modelling and Wavelet-Based Solution Approaches for the Analysis of Flow and Heat Transfer Problems",
       "supervisor": "Proj.B.J. Gireesha",
       "orcid": "0009-0003-1548-7763",
       "published": true,
       "programme": "PhD candidate (Research Fellow)",
       "publications": [],
-      "photo_url": "../assets/img/students/mt-mohannaik-d.png"
+      "photo_url": "../assets/img/students/mt-mohannaik-d.png",
+      "research_topic": "Mathematical Modelling and Wavelet-Based Solution Approaches for the Analysis of Flow and Heat Transfer Problems"
     },
     {
       "id": "thunga-s",
@@ -1330,7 +1375,7 @@
       "teaches": false,
       "biography": "My research focuses on cosmology and modified theories of gravity. My interests also include compact objects, stellar structures, and gravitational phenomena.",
       "research_interests": "Modified gravity, Cosmic Acceleration, Dynamical Systems, Cosmographic Analysis, Stellar Objects.",
-      "academic_journey": "MSc in Mathematics, University of Mysore(2024), Bsc in Physics, Chemistry, Mathematicls, Tumkur University (2022).",
+      "academic_journey": "MSc in Mathematics, University of Mysore(2024),  Bsc in Physics, Chemistry, Mathematicls, Tumkur University (2022).",
       "research_summary": "Cosmographic kinematics and Stellar Structures in madified theories of gravity",
       "supervisor": "Prof. Venkatesha",
       "email_aliases": [
@@ -1340,7 +1385,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/students/mt-thunga-s.png"
+      "photo_url": "../assets/img/students/mt-thunga-s.png",
+      "research_topic": "Cosmographic kinematics and Stellar Structures in madified theories of gravity"
     },
     {
       "id": "shilpashree-s-l",
@@ -1362,7 +1408,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/students/mt-shilpeshree-sl.png"
+      "photo_url": "../assets/img/students/mt-shilpeshree-sl.png",
+      "research_topic": "Theoretical and mathematical analysis of boundary layer flow with heat and mass transfer using selected geometry"
     },
     {
       "id": "harshitha-s-r",
@@ -1383,7 +1430,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/students/mt-harshitha-sr.png"
+      "photo_url": "../assets/img/students/mt-harshitha-sr.png",
+      "research_topic": "Astrophysical Objects in spacetime geometry"
     },
     {
       "id": "manikanta-u-l",
@@ -1403,7 +1451,8 @@
       "published": true,
       "programme": "PhD candidate",
       "publications": [],
-      "photo_url": "../assets/img/students/mt-manikanta.png"
+      "photo_url": "../assets/img/students/mt-manikanta.png",
+      "research_topic": "Similarity Transformations Framework to analyse Flow and Heat Transfer in Various Fluids Across Different Structural Domains"
     },
     {
       "id": "pruthviraj-d",
@@ -1514,10 +1563,10 @@
       "department_id": "physics",
       "department": "Physics",
       "email": "vedaht224@gmail.com",
-      "teaches": true,
+      "teaches": false,
       "biography": "I am passionate about my scientific research and teaching with innovative methods in education",
       "research_interests": "Nano composites doped with PVA based polymers",
-      "academic_journey": "MSc in Physics, Kuvempu University (2021); BSc in Physics, Mathematics and Chemistry, IDSG College (2019)",
+      "academic_journey": "Msc in 2021,Bsc in 2019,BEd in 2024",
       "research_summary": "Synthesis of metal oxide nanoparticles doped with PVA based polymers",
       "modules_taught": [
         "Physics"
@@ -1526,7 +1575,8 @@
       "orcid": "0009-0001-7542-3273",
       "published": true,
       "programme": "PhD candidate (Research Fellow)",
-      "publications": []
+      "publications": [],
+      "research_topic": "Synthesis of metal oxide nanoparticles doped with PVA based polymers"
     },
     {
       "id": "varna-p-kamath",
@@ -1536,7 +1586,7 @@
       "department": "Political Science",
       "email": "varnapkamath@gmail.com",
       "teaches": false,
-      "biography": "My work focuses on why democratic debate in India so often produces controversy rather than informed participation. Also, the study explores the impact of colonial consciousness on Democratic Speech and Political Rhetoric in India, showing how political ideologies (shaped by colonial descriptions of India) continue to govern public debate. Alongside, guides master's student in designing and carrying out projects.",
+      "biography": "My work focuses on why democratic debate in India so often produces controversy rather than informed participation. Also, the study explores the impact of colonial consciousness on Democratic Speech and Political Rhetoric in India, showing how political ideologies (shaped by colonial descriptions of India)  continue to govern public debate. Alongside, guides master's student in designing and carrying out projects.",
       "research_interests": "Democratic Speech, Political Rhetoric, Colonial Consciousness, Election Controveries, Public Reasoning",
       "academic_journey": "MA in Political Science, Kuvempu University (2022), BA in History, Economics and Political Science, GFGC Thirthahalli (2020)",
       "research_summary": "Democratic Speech, Political Rhetoric and Colonial Consciousness - A Critical Analysis of India",
@@ -1544,7 +1594,8 @@
       "orcid": "0009-0001-1688-0458",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "Democratic Speech, Political Rhetoric and Colonial Consciousness - A Critical Analysis of India"
     },
     {
       "id": "manoharanaik-kumaranaik",
@@ -1554,15 +1605,19 @@
       "department": "Political Science",
       "email": "manoharamanoharanaikk@gmail.com",
       "teaches": false,
-      "biography": "My research study focus on lambaani case study",
-      "research_interests": "Action knowledge, lambani community",
+      "biography": "filled by their own",
+      "research_interests": "Photography",
       "academic_journey": "MA in Political Science, Kuvempu University (2024); BA in History, Economics, Political Science, Sahyadri Arts College (2023)",
       "research_summary": "ಲಂಬಾಣಿ ಸಮುದಾಯದ ಅಸ್ಮಿತೆ, ವೈಶಿಷ್ಟತೆ ,ಸಾಮಾಜೀಕರಣ: ಒಂದು ವಿಶ್ಲೇಷಣಾತ್ಮಕ ಅಧ್ಯಯನ.",
       "supervisor": "Dr. A Shanmukha",
       "orcid": "0009-0000-1649-6432",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "modules_taught": [
+        "Current phd student"
+      ],
+      "research_topic": "Political Sociology"
     },
     {
       "id": "keerthi-d",
@@ -1596,7 +1651,7 @@
       "teaches": false,
       "biography": "My research focuses on organic farming, green jobs and sustainable rural development, with particular interest in the social and economic dimensions of rural livelihoods. I am interested in understanding the role of organic farming in generating employment opportunities, improving farmers' livelihoods and promoting environmental sustainability. My work explores the challenges faced by farmers, their experiences and the contribution of sustainable agricultural practices to rural development, particularly in Shivamogga district of Karnataka. I am also interested in sociological research, rural development and understanding the relationship between society, environment and sustainable livelihoods.",
       "research_interests": "Rural development, sociology of education, environmental sociology",
-      "academic_journey": "MA in Sociology, Kuvempu University (2024); BA in Arts, GFGC, Shiralkoppa (2022)",
+      "academic_journey": "MA in sociology, Kuvempu university 2024",
       "research_summary": "ORGANIC FARMING AS A GREEN JOB IN SUSTAINABLE RURAL DEVELOPMENT : A SOCIOLOGICAL STUDY",
       "supervisor": "Prof. Anjanappa B H",
       "email_aliases": [
@@ -1605,7 +1660,8 @@
       "orcid": "0009-0001-8067-8457",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "ORGANIC FARMING AS A GREEN JOB IN SUSTAINABLE RURAL DEVELOPMENT : A SOCIOLOGICAL STUDY"
     },
     {
       "id": "siddeshi-hanumanthappa",
@@ -1622,7 +1678,9 @@
       "orcid": "0009-0009-6053-7719",
       "published": true,
       "programme": "PhD candidate",
-      "publications": []
+      "publications": [],
+      "research_topic": "ಕರ್ನಾಟಕದ ಸುಡುಗಾಡು ಸಿದ್ಧರು : ಒಂದು ಸಮಾಜಶಾಸ್ತ್ರೀಯ ಅಧ್ಯಯನ",
+      "biography": "filled later"
     },
     {
       "id": "jagadeesha-kondajji",
@@ -2047,6 +2105,25 @@
       "programme": "PhD candidate",
       "supervisor": "Prof. Hina Kousar",
       "teaches": true
+    },
+    {
+      "id": "sourabh-giri-b-u",
+      "name": "Sourabh Giri B U",
+      "last_name": "B U",
+      "department_id": "biotechnology",
+      "department": "Biotechnology",
+      "programme": "PhD candidate",
+      "published": true,
+      "publications": [],
+      "research_interests": "1. Ayurvedic Pharmaceutical Research\n2. Herbal Medicine Development\n3. Nutraceutical Innovation\n4. Phytochemistry\n5. Botanical Standardization\n6. Evidence-Based Natural Healthcare\n7. Herbal and Ayurvedic Formulation Development\n8. Analytical Method Development and Validation\n9. HPTLC / TLC & Phytochemical Analysis\n10. Product Standardization and Specification Development\n11. Quality Control and Quality Assurance (QC/QA)\n12. GMP, ISO and Audit Readiness\n13. Regulatory Compliance & Documentation\n14. Clinical Trial Coordination\n15. Technology Transfer and Scale-up\n16. Product Stability and Standardization\n17. Quality Risk Assessment\n18. Medicinal Plant Research\n19. Process Optimization and Continual Improvement\n20. Biotechnology and Botanical Ingredient Research\n21. Herbal Product Commercialization\n22. Scientific Writing and Technical Documentations",
+      "academic_journey": "MSc (2023), BSc (2019) Kuvempu University",
+      "supervisor": "Senior Professor V Krishna",
+      "research_topic": "Tissue Culture, Taxonomy, Pharmacology",
+      "biography": "Researcher | Head – Research & Development, Quality Control and Clinical Trials Coordination\nVALYOU PRODUCTS PRIVATE LIMITED, Shivamogga, Karnataka, India also researcher and industry professional with expertise in Ayurvedic pharmaceutical research, herbal and nutraceutical product development, botanical standardization, phytochemistry, and quality assurance. He currently serves as Head – Research & Development, Quality Control and Clinical Trials Coordination at VALYOU PRODUCTS PRIVATE LIMITED, Shivamogga, Karnataka.\nHis research focuses on the scientific development, standardization, and commercialization of Ayurvedic, herbal, and nutraceutical formulations. His work spans formulation design and development, pilot-scale studies, technology transfer, analytical method development and validation using TLC/HPTLC, phytochemical profiling, stability evaluation, and quality control of botanical raw materials and finished products.\nWith over three years of leadership experience in R&D and quality control, Mr. Giri has led product development from concept through commercialization for domestic and international markets. He coordinates multidisciplinary teams and cross-functional activities across R&D, quality control, production, quality assurance, regulatory affairs, and marketing, with a strong emphasis on GMP, ISO, and applicable regulatory compliance.\nHe holds a Master of Science in Biotechnology from Kuvempu University, Shankaraghatta (2021–2022), and a Bachelor of Science in Biotechnology, Botany, and Chemistry from Sahyadri Science College, Shivamogga (2017–2020). Since April 2025, he has also served as Editor-in-Chief of VALYOU SPEAKS, where he leads editorial planning, scientific communication, and knowledge dissemination.\nMr. Giri’s professional vision is to translate traditional Ayurvedic knowledge into scientifically validated, analytically standardized, regulatory-compliant, and market-ready natural healthcare products that contribute to public health and societal well-being.\nResearch Interests\nAyurvedic and herbal formulation development\nBotanical drug standardization and quality assurance\nPhytochemistry and natural product analysis\nTLC/HPTLC analytical method development and validation\nNutraceutical and functional product innovation\nPilot-scale development, technology transfer, and commercialization\nGMP, ISO, and regulatory compliance in herbal pharmaceutical manufacturing\nClinical-trial coordination and evidence-based product development\nScientific communication and editorial leadership\nAwards and Honours\nResearcher of the Year 2026 — In recognition of outstanding contributions to Ayurvedic pharmaceutical research, herbal product development, botanical standardization, and quality-driven innovation.\nYoung Scientist of the Year 2026 — In recognition of exceptional research potential, scientific leadership, and contributions to the development and commercialization of evidence-based Ayurvedic, herbal, and nutraceutical products.\nKalam Medal of Excellence in Translational Innovation — In recognition of excellence in translating traditional Ayurvedic knowledge and botanical research into innovative, quality-assured, regulatory-compliant, and socially relevant healthcare solutions. The Kalam Medal of Excellence in Translational Innovation is associated with recognition of contributions that translate biomedical and scientific advances into practical healthcare applications.",
+      "orcid": "0009-0004-5089-1902",
+      "linkedin_url": "https://www.linkedin.com/in/sourabh-giri-b-u-7565141a6?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "teaches": false,
+      "email": "sourabhgiribu@gmail.com"
     }
   ],
   "updated": "2026-11-03"

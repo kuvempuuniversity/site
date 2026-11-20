@@ -1,20 +1,24 @@
 {
-  "manifest_sha256": "ab2b3542f927765acc5b5892a285e13d1d330059dea4bf2774b4f78dc27e8c0d",
-  "applied_at": "2026-11-05T03:00:32+00:00",
-  "retrieved_at": "2026-11-05T02:43:02+00:00",
-  "old_publication_count": 158,
-  "new_publication_count": 723,
-  "new_record_ids": 565,
-  "faculty_checked": 148,
-  "profiles_with_eligible_works": 38,
-  "profiles_with_no_public_works": 76,
-  "profiles_failed": 34,
-  "unique_dois": 463,
+  "review_blobs": {
+    "data/orcid-refresh-review/publications.proposed.json": "b105fe1c9da48d2c36c0234f7018fe3ad1cc9a11",
+    "data/orcid-refresh-review/publication-sync-status.json": "7a1456c3efbe0d240c1bce74b296736183cb877b"
+  },
+  "applied_at": "2026-11-20T14:51:45+00:00",
+  "retrieved_at": "2026-11-20T11:23:29+00:00",
+  "old_publication_count": 723,
+  "new_publication_count": 978,
+  "new_record_ids": 261,
+  "faculty_checked": 159,
+  "profiles_with_eligible_works": 48,
+  "profiles_with_no_public_works": 79,
+  "profiles_failed": 32,
+  "unique_dois": 674,
   "warnings": [
     "Review possible duplicate: Coconut’s Bud Rot by Phytophthora palmivora: A Destructive Disease",
     "Review possible duplicate: Cyanoxanthomycin",
     "Review possible duplicate: Effect of exposure to sublethal concentrations of sodium cyanide on the carbohydrate metabolism of the indian major carp labeo rohita (hamilton, 1822)",
-    "Review possible duplicate: Integrating Multiple Theories: A Holistic Approach to Knowledge Acquisition for Senior Citizen Teachers"
+    "Review possible duplicate: Integrating Multiple Theories: A Holistic Approach to Knowledge Acquisition for Senior Citizen Teachers",
+    "Review possible duplicate: Preface"
   ],
   "profile_results": [
     {
@@ -79,6 +83,15 @@
       "eligible_records": null,
       "display_records": 0,
       "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "ashok-r-lamani",
+      "database_name": "Ashok R Lamani",
+      "department_id": "physics",
+      "status": "success",
+      "eligible_records": 40,
+      "display_records": 38,
+      "message": ""
     },
     {
       "id": "balachandra-madiwal",
@@ -189,6 +202,15 @@
       "message": ""
     },
     {
+      "id": "devidas-gaibanna-byalollikar",
+      "database_name": "Devidas Gaibanna Byalollikar",
+      "department_id": "physics",
+      "status": "success",
+      "eligible_records": 2,
+      "display_records": 2,
+      "message": ""
+    },
+    {
       "id": "dhanyakumari",
       "database_name": "Ms. Dhanyakumari Y",
       "department_id": "microbiology",
@@ -282,10 +304,10 @@
       "id": "ic-adarsh-gowda-n",
       "database_name": "Adarsh Gowda N",
       "department_id": "industrial-chemistry",
-      "status": "failed",
-      "eligible_records": null,
-      "display_records": 0,
-      "message": "Invalid ORCID identifier/checksum"
+      "status": "success",
+      "eligible_records": 8,
+      "display_records": 8,
+      "message": ""
     },
     {
       "id": "ic-anusha-hy",
@@ -310,8 +332,8 @@
       "database_name": "Kumaraswamy BE",
       "department_id": "industrial-chemistry",
       "status": "success",
-      "eligible_records": 215,
-      "display_records": 214,
+      "eligible_records": 513,
+      "display_records": 350,
       "message": ""
     },
     {
@@ -336,10 +358,10 @@
       "id": "ic-vinay-kumar-e",
       "database_name": "Vinay Kumar E",
       "department_id": "industrial-chemistry",
-      "status": "failed",
-      "eligible_records": null,
-      "display_records": 0,
-      "message": "Invalid ORCID identifier/checksum"
+      "status": "success",
+      "eligible_records": 26,
+      "display_records": 17,
+      "message": ""
     },
     {
       "id": "ic-vinod-bm",
@@ -349,6 +371,15 @@
       "eligible_records": null,
       "display_records": 0,
       "message": "Invalid ORCID identifier/checksum"
+    },
+    {
+      "id": "ic-vinoda-b-m",
+      "database_name": "Vinoda B. M.",
+      "department_id": "industrial-chemistry",
+      "status": "success",
+      "eligible_records": 1,
+      "display_records": 1,
+      "message": ""
     },
     {
       "id": "jagannath-k-dange",
@@ -534,10 +565,10 @@
       "id": "kumaraswamy-hm",
       "database_name": "Kumaraswamy HM",
       "department_id": "biotechnology",
-      "status": "failed",
-      "eligible_records": null,
-      "display_records": 0,
-      "message": "Invalid ORCID identifier/checksum"
+      "status": "success",
+      "eligible_records": 37,
+      "display_records": 22,
+      "message": ""
     },
     {
       "id": "lakshmi-hosurappa",
@@ -571,8 +602,8 @@
       "database_name": "Dr. Madhusudhana N.",
       "department_id": "environmental-science",
       "status": "success",
-      "eligible_records": 4,
-      "display_records": 4,
+      "eligible_records": 5,
+      "display_records": 5,
       "message": ""
     },
     {
@@ -696,6 +727,24 @@
       "id": "parameshwara-s-k-naik",
       "database_name": "Mr. Parameshwara S. K. Naik",
       "department_id": "economics",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "paveendra-j",
+      "database_name": "Paveendra J.",
+      "department_id": "chemistry",
+      "status": "success",
+      "eligible_records": 4,
+      "display_records": 4,
+      "message": ""
+    },
+    {
+      "id": "pradeepa-m",
+      "database_name": "Pradeepa M.",
+      "department_id": "physics",
       "status": "no_public_publications",
       "eligible_records": 0,
       "display_records": 0,
@@ -831,9 +880,9 @@
       "id": "ravikumar-s",
       "database_name": "Dr. Ravi S. Kumar",
       "department_id": "biotechnology",
-      "status": "no_public_publications",
-      "eligible_records": 0,
-      "display_records": 0,
+      "status": "success",
+      "eligible_records": 25,
+      "display_records": 25,
       "message": ""
     },
     {
@@ -918,6 +967,15 @@
       "message": ""
     },
     {
+      "id": "sandeep-dongre",
+      "database_name": "Sandeep Dongre",
+      "department_id": "physics",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
       "id": "sandeep-telkar",
       "database_name": "Dr. Sandeep Telkar",
       "department_id": "biotechnology",
@@ -996,6 +1054,15 @@
       "status": "no_public_publications",
       "eligible_records": 0,
       "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "sharath-kumar-b",
+      "database_name": "Sharath Kumar B.",
+      "department_id": "chemistry",
+      "status": "success",
+      "eligible_records": 24,
+      "display_records": 14,
       "message": ""
     },
     {
@@ -1323,6 +1390,24 @@
       "message": ""
     },
     {
+      "id": "yadav-d-bodke",
+      "database_name": "Yadav D. Bodke",
+      "department_id": "chemistry",
+      "status": "success",
+      "eligible_records": 2,
+      "display_records": 2,
+      "message": ""
+    },
+    {
+      "id": "yathisha-r-o",
+      "database_name": "Yathisha R. O.",
+      "department_id": "chemistry",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
       "id": "yeshwant-narayana-rao",
       "database_name": "Dr. Yeshwant Narayana Rao",
       "department_id": "business-administration",
@@ -1345,15 +1430,45 @@
       "database_name": "Prof. Yogendra Kambalagere",
       "department_id": "environmental-science",
       "status": "success",
-      "eligible_records": 37,
-      "display_records": 29,
+      "eligible_records": 38,
+      "display_records": 30,
       "message": ""
+    },
+    {
+      "id": "zo-bhargavi-h",
+      "database_name": "Bhargavi H.",
+      "department_id": "applied-zoology",
+      "status": "no_public_publications",
+      "eligible_records": 0,
+      "display_records": 0,
+      "message": ""
+    },
+    {
+      "id": "zo-chandrakala",
+      "database_name": "Chandrakala",
+      "department_id": "applied-zoology",
+      "status": "failed",
+      "eligible_records": null,
+      "display_records": 0,
+      "message": "Invalid ORCID identifier/checksum"
     }
   ],
   "output_blobs": {
-    "data/publications.json": "13e00689d6c4f962c5f278b2f32f0a577b0efa4a",
-    "data/publication-sync-status.json": "55e83633c93baff8d46af0af7696b03f9ce60f4d"
+    "data/publications.json": "b105fe1c9da48d2c36c0234f7018fe3ad1cc9a11",
+    "data/publication-sync-status.json": "7a1456c3efbe0d240c1bce74b296736183cb877b"
   },
+  "history": [
+    {
+      "applied_at": "2026-11-05T03:00:32+00:00",
+      "retrieved_at": "2026-11-05T02:43:02+00:00",
+      "new_publication_count": 723,
+      "faculty_checked": 148,
+      "profiles_with_eligible_works": 38,
+      "profiles_with_no_public_works": 76,
+      "profiles_failed": 34,
+      "unique_dois": 463
+    }
+  ],
   "notes": [
     "Fresh ORCID records and their matching status are published together.",
     "All names, portraits, identifiers, profile roles and Scholar metrics are unchanged.",

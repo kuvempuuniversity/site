@@ -1,18 +1,77 @@
 {
-  "manifest_sha256": "c3fc17d301be91b1dec6aeffe710afc473ad3bfe71f5aede1249a3673059c830",
-  "applied_at": "2026-11-05T03:18:44+00:00",
-  "retrieved_at": "2026-11-05T03:03:32+00:00",
-  "publications": 723,
-  "unique_dois": 463,
-  "matched_published": 454,
-  "not_found": 3,
-  "failed": 6,
-  "without_doi": 260,
+  "review_blobs": {
+    "data/citation-refresh-review/citation-metrics.proposed.json": "6c15fcda93ba6b52857973da7d9b8b192999693e",
+    "data/citation-refresh-review/citation-audit-status.json": "283c40c41c5dade9676ed81eb4fe2c0969ae9fed"
+  },
+  "applied_at": "2026-11-20T15:33:59+00:00",
+  "retrieved_at": "2026-11-20T15:13:25+00:00",
+  "publications": 978,
+  "unique_dois": 674,
+  "matched_published": 657,
+  "not_found": 10,
+  "failed": 7,
+  "without_doi": 304,
   "exceptions": [
     {
       "doi": "10.2139/ssrn.3977795",
       "status": "failed",
       "message": "Returned DOI does not match; review required",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.22034/abec.2023.702329",
+      "status": "not_found",
+      "message": "No exact DOI record returned.",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.22034/abec.2023.705133",
+      "status": "not_found",
+      "message": "No exact DOI record returned.",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.22034/abec.2023.705725",
+      "status": "not_found",
+      "message": "No exact DOI record returned.",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.22034/abec.2023.706505",
+      "status": "not_found",
+      "message": "No exact DOI record returned.",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.22034/abec.2023.708678",
+      "status": "not_found",
+      "message": "No exact DOI record returned.",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.22034/abec.2024.714093",
+      "status": "not_found",
+      "message": "No exact DOI record returned.",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.22034/abec.2025.721574",
+      "status": "not_found",
+      "message": "No exact DOI record returned.",
       "previous_count_retained": false,
       "retained_count": null,
       "retained_retrieved_at": null
@@ -42,7 +101,7 @@
       "retained_retrieved_at": null
     },
     {
-      "doi": "10.4172/jcsb.1000101",
+      "doi": "10.5281/zenodo.19329851",
       "status": "failed",
       "message": "Returned DOI does not match; review required",
       "previous_count_retained": false,
@@ -50,7 +109,15 @@
       "retained_retrieved_at": null
     },
     {
-      "doi": "10.5281/zenodo.19329851",
+      "doi": "10.5281/zenodo.19814583",
+      "status": "failed",
+      "message": "Returned DOI does not match; review required",
+      "previous_count_retained": false,
+      "retained_count": null,
+      "retained_retrieved_at": null
+    },
+    {
+      "doi": "10.5281/zenodo.20095247",
       "status": "failed",
       "message": "Returned DOI does not match; review required",
       "previous_count_retained": false,
@@ -82,7 +149,19 @@
       "retained_retrieved_at": null
     }
   ],
-  "output_blob": "bd39ccf063f6f79ccf42eaf9eaa444a63c733de7",
+  "output_blob": "9f1af575ab127a6ee42617ed880b7a3163b38831",
+  "history": [
+    {
+      "applied_at": "2026-11-05T03:18:44+00:00",
+      "retrieved_at": "2026-11-05T03:03:32+00:00",
+      "publications": 723,
+      "unique_dois": 463,
+      "matched_published": 454,
+      "not_found": 3,
+      "failed": 6,
+      "without_doi": 260
+    }
+  ],
   "notes": [
     "Successful DOI-matched OpenAlex counts are published.",
     "For unsuccessful lookups, valid prior counts retain their original retrieval dates and latest lookup status is marked unavailable. Otherwise no count is assigned.",

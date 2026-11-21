@@ -1,0 +1,66 @@
+name: Publish reviewed Scholar metrics refresh
+on:
+  workflow_dispatch:
+    inputs:
+      faculty_proposed_blob:
+        description: 'Approved blob ID of data/citation-refresh-review/faculty.proposed.json'
+        required: true
+        default: 'f96f163de25d7e52d14a73d2bcf81b34320e4ea6'
+      scholar_status_blob:
+        description: 'Approved blob ID of data/citation-refresh-review/scholar-sync-status.json'
+        required: true
+        default: '1acb4369e267a4f227556fd48ecbcc73c4b257f1'
+      hold_ids:
+        description: 'Comma-separated profile IDs to hold back for review (keep previous metrics)'
+        required: false
+        default: 'sowmya-gr,santhosh-k-hanumanthappa'
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: publish-scholar-refresh
+  cancel-in-progress: false
+jobs:
+  apply:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate approved inputs and merge only successful Scholar metrics
+        env:
+          PROPOSED_BLOB: ${{ inputs.faculty_proposed_blob }}
+          STATUS_BLOB: ${{ inputs.scholar_status_blob }}
+          HOLD_IDS: ${{ inputs.hold_ids }}
+        run: |
+          python -m py_compile scripts/apply_scholar_refresh.py
+          python scripts/apply_scholar_refresh.py --proposed-blob "$PROPOSED_BLOB" --status-blob "$STATUS_BLOB" --hold "$HOLD_IDS"
+      - name: Validate published data and unchanged records
+        run: |
+          python -m json.tool data/faculty.json > /dev/null
+          python -m json.tool data/scholar-refresh-apply-status.json > /dev/null
+          node --check assets/js/faculty.js
+          git diff --exit-code -- data/publications.json data/citation-metrics.json data/research-students.json data/student-publications.json data/environmental-scholar-citations.json
+          git diff --name-only | sort
+      - name: Commit validated Scholar metrics
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/faculty.json data/scholar-refresh-apply-status.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Publish validated Scholar metrics refresh"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Request GitHub Pages rebuild
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

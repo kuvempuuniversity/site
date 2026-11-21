@@ -1,0 +1,180 @@
+{
+  "batch_retrieved_at": "2026-11-20T15:42:34+00:00",
+  "unique_profiles": 51,
+  "departments_with_profiles": 22,
+  "minimum_profiles_to_rank": 3,
+  "researchers": [
+    {
+      "id": "ic-kumaraswamy-be",
+      "name": "Kumaraswamy BE",
+      "department": "Industrial Chemistry",
+      "author_id": "tvVdZQkAAAAJ",
+      "citations": 13282,
+      "h_index": 63
+    },
+    {
+      "id": "dileep-kumar",
+      "name": "Dr. Dileep Kumar",
+      "department": "Social Work",
+      "author_id": "L8aP5VwAAAAJ",
+      "citations": 5749,
+      "h_index": 33
+    },
+    {
+      "id": "yadav-d-bodke",
+      "name": "Yadav D. Bodke",
+      "department": "Chemistry",
+      "author_id": "EaMAasgAAAAJ",
+      "citations": 2422,
+      "h_index": 29
+    },
+    {
+      "id": "thippeswamy-b",
+      "name": "Prof. Thippeswamy Basaiah",
+      "department": "Microbiology",
+      "author_id": "cImYsjoAAAAJ",
+      "citations": 1746,
+      "h_index": 21
+    },
+    {
+      "id": "shashiraj-kn",
+      "name": "Dr. Shashiraj K. N.",
+      "department": "Applied Botany",
+      "author_id": "N2-ArOsAAAAJ",
+      "citations": 1459,
+      "h_index": 21
+    }
+  ],
+  "ranked_departments": [
+    {
+      "department": "Industrial Chemistry",
+      "profiles": 4,
+      "sum": 13894,
+      "mean": 3473.5
+    },
+    {
+      "department": "Chemistry",
+      "profiles": 5,
+      "sum": 4190,
+      "mean": 838.0
+    },
+    {
+      "department": "Environmental Science",
+      "profiles": 5,
+      "sum": 4124,
+      "mean": 824.8
+    }
+  ],
+  "coverage": [
+    {
+      "department": "Chemistry",
+      "profiles": 5,
+      "mean": 838.0
+    },
+    {
+      "department": "Environmental Science",
+      "profiles": 5,
+      "mean": 824.8
+    },
+    {
+      "department": "Industrial Chemistry",
+      "profiles": 4,
+      "mean": 3473.5
+    },
+    {
+      "department": "Microbiology",
+      "profiles": 4,
+      "mean": 815.0
+    },
+    {
+      "department": "Biotechnology",
+      "profiles": 4,
+      "mean": 610.0
+    },
+    {
+      "department": "Physics",
+      "profiles": 4,
+      "mean": 527.0
+    },
+    {
+      "department": "Applied Botany",
+      "profiles": 3,
+      "mean": 508.0
+    },
+    {
+      "department": "Wildlife Management",
+      "profiles": 3,
+      "mean": 229.66666666666666
+    },
+    {
+      "department": "Applied Zoology",
+      "profiles": 3,
+      "mean": 179.33333333333334
+    },
+    {
+      "department": "Biochemistry",
+      "profiles": 3,
+      "mean": 178.66666666666666
+    },
+    {
+      "department": "Computer Science",
+      "profiles": 2,
+      "mean": 466.0
+    },
+    {
+      "department": "Business Administration",
+      "profiles": 2,
+      "mean": 119.0
+    },
+    {
+      "department": "Social Work",
+      "profiles": 1,
+      "mean": 5749.0
+    },
+    {
+      "department": "Education",
+      "profiles": 1,
+      "mean": 179.0
+    },
+    {
+      "department": "Economics",
+      "profiles": 1,
+      "mean": 125.0
+    },
+    {
+      "department": "Applied Geology",
+      "profiles": 1,
+      "mean": 56.0
+    },
+    {
+      "department": "Political Science",
+      "profiles": 1,
+      "mean": 35.0
+    },
+    {
+      "department": "Tourism Administration",
+      "profiles": 1,
+      "mean": 20.0
+    },
+    {
+      "department": "Food Technology",
+      "profiles": 1,
+      "mean": 19.0
+    },
+    {
+      "department": "Journalism and Mass Communication",
+      "profiles": 1,
+      "mean": 17.0
+    },
+    {
+      "department": "English",
+      "profiles": 1,
+      "mean": 1.0
+    },
+    {
+      "department": "Physical Education",
+      "profiles": 1,
+      "mean": 1.0
+    }
+  ]
+}

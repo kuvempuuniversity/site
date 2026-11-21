@@ -1,0 +1,49 @@
+name: Publish research showcase draft
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: publish-research-showcase
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build showcase from cached Scholar metrics
+        run: |
+          python -m py_compile scripts/build_research_showcase.py
+          python scripts/build_research_showcase.py
+          cp data/research-showcase-review/research-showcase.proposed.html research-showcase-draft.html
+      - name: Validate output and unchanged data
+        run: |
+          python -m json.tool data/research-showcase-review/research-showcase-summary.json > /dev/null
+          grep -q 'noindex' research-showcase-draft.html
+          git diff --exit-code -- data/faculty.json data/publications.json data/citation-metrics.json
+          git status --short
+      - name: Commit showcase page
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research-showcase-draft.html data/research-showcase-review/research-showcase.proposed.html data/research-showcase-review/research-showcase-summary.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Publish research showcase draft from cached Scholar metrics"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Request GitHub Pages rebuild
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

@@ -5,6 +5,7 @@
 <script id="home-reveal-trial">
 (()=>{
 const ENABLE_HOME_REVEALS = true;
+const HOME_MOTION_STRENGTH = 4;
 function init(){
 if(!ENABLE_HOME_REVEALS)return;
 const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -19,21 +20,21 @@ const style=document.createElement('style');
 style.id='home-scroll-photo-styles';
 style.textContent=`
 .home-photo-bg{position:relative;isolation:isolate;overflow:hidden!important}
-.home-photo-bg::before{content:'';position:absolute;inset:-48px 0;z-index:-1;pointer-events:none;background:inherit;background-size:cover;transform:translate3d(0,var(--home-photo-y,0px),0)}
+.home-photo-bg::before{content:'';position:absolute;inset:-${36*HOME_MOTION_STRENGTH+16}px 0;z-index:-1;pointer-events:none;background:inherit;background-size:cover;transform:translate3d(0,var(--home-photo-y,0px),0)}
 body>main>.hero.home-photo-bg>.hero-grid{position:relative;z-index:1}
 body>main>.hero .landscape.home-photo-frame{overflow:hidden}
-.home-photo-frame>img{transform:translate3d(0,var(--home-photo-y,0px),0) scale(1.18)}
+.home-photo-frame>img{transform:translate3d(0,var(--home-photo-y,0px),0) scale(var(--home-photo-scale,1.18))}
 @media(max-width:760px){body>main>.hero.home-photo-bg::before{display:none}}
 @media(prefers-reduced-motion:reduce){.home-photo-bg::before{display:none}.home-photo-frame>img{transform:none!important}}
 `;
 document.head.append(style);
 const layers=[];
-document.querySelectorAll('main>.hero, #discovery, footer#footer').forEach(frame=>{frame.classList.add('home-photo-bg');layers.push({frame,amount:36,image:false})});
-document.querySelectorAll('main>.hero .landscape, #life .campus-art').forEach(frame=>{frame.classList.add('home-photo-frame');layers.push({frame,amount:20,image:true})});
+document.querySelectorAll('main>.hero, #discovery, footer#footer').forEach(frame=>{frame.classList.add('home-photo-bg');layers.push({frame,amount:36*HOME_MOTION_STRENGTH,image:false})});
+document.querySelectorAll('main>.hero .landscape, #life .campus-art').forEach(frame=>{frame.classList.add('home-photo-frame');layers.push({frame,amount:20*HOME_MOTION_STRENGTH,image:true})});
 let raf=0,stopped=false;
-function update(){raf=0;if(stopped||reduced.matches)return;const height=window.innerHeight;const updates=layers.map(layer=>{const rect=layer.frame.getBoundingClientRect();if(!rect.height||rect.bottom<0||rect.top>height)return null;const progress=Math.max(-1,Math.min(1,(height/2-rect.top-rect.height/2)/((height+rect.height)/2)));const amount=layer.image?Math.min(layer.amount,rect.height*.07):layer.amount;return {frame:layer.frame,y:(progress*amount).toFixed(2)}});updates.forEach(item=>{if(item)item.frame.style.setProperty('--home-photo-y',item.y+'px')})}
+function update(){raf=0;if(stopped||reduced.matches)return;const height=window.innerHeight;const updates=layers.map(layer=>{const rect=layer.frame.getBoundingClientRect();if(!rect.height||rect.bottom<0||rect.top>height)return null;const progress=Math.max(-1,Math.min(1,(height/2-rect.top-rect.height/2)/((height+rect.height)/2)));const amount=layer.image?Math.min(layer.amount,rect.height*.07*HOME_MOTION_STRENGTH):layer.amount;return {frame:layer.frame,y:(progress*amount).toFixed(2),scale:layer.image?(1+2*amount/rect.height+.04).toFixed(4):null}});updates.forEach(item=>{if(item){item.frame.style.setProperty('--home-photo-y',item.y+'px');if(item.scale)item.frame.style.setProperty('--home-photo-scale',item.scale)}})}
 function schedule(){if(!raf&&!stopped)raf=requestAnimationFrame(update)}
-function stop(){stopped=true;if(raf)cancelAnimationFrame(raf);raf=0;window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);if(observer)observer.disconnect();active.forEach(animation=>animation.cancel());active.clear();layers.forEach(({frame})=>{frame.classList.remove('home-photo-bg','home-photo-frame');frame.style.removeProperty('--home-photo-y')});style.remove()}
+function stop(){stopped=true;if(raf)cancelAnimationFrame(raf);raf=0;window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);if(observer)observer.disconnect();active.forEach(animation=>animation.cancel());active.clear();layers.forEach(({frame})=>{frame.classList.remove('home-photo-bg','home-photo-frame');frame.style.removeProperty('--home-photo-y');frame.style.removeProperty('--home-photo-scale')});style.remove()}
 window.addEventListener('scroll',schedule,{passive:true});
 window.addEventListener('resize',schedule,{passive:true});
 window.addEventListener('load',schedule,{once:true});
